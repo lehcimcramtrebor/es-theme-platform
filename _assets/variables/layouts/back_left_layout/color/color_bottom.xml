@@ -1,0 +1,10 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<x.back_left.color>ffffff</x.back_left.color>
+<x.back_left.colorEnd>ffffff00</x.back_left.colorEnd>
+<x.back_left.gradientType>vertical</x.back_left.gradientType>
+
+</variables>
+</theme>

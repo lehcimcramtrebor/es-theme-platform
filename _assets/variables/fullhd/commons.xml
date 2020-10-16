@@ -1,0 +1,29 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<x.md_name.fontSize>0.022</x.md_name.fontSize>
+
+<theme.screen.ratio>fullhd</theme.screen.ratio>
+
+<x.systeminfo.pos>0 0.78</x.systeminfo.pos>
+<x.systeminfo.size>1 0.25</x.systeminfo.size>
+<x.systeminfo.fontSize>0.036</x.systeminfo.fontSize>
+
+<x.carousel.pos>0.295 0.295</x.carousel.pos>
+<x.carousel.size>0.41 0.56</x.carousel.size>
+
+<x.logostatic.pos>0.5 0.14</x.logostatic.pos>
+<x.logostatic.maxSize>0.41 0.25</x.logostatic.maxSize>
+
+<x.marquee.pos>0.5 0.14</x.marquee.pos>
+<x.marquee.maxSize>0.4 0.20</x.marquee.maxSize>
+
+
+
+
+</variables>
+
+
+
+</theme>

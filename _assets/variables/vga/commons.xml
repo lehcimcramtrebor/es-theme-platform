@@ -1,0 +1,32 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<x.md_name.fontSize>0.016</x.md_name.fontSize>
+
+<theme.screen.ratio>vga</theme.screen.ratio>
+
+<layout.vga.settings>vga</layout.vga.settings>
+
+
+<x.systeminfo.pos>0 0.72</x.systeminfo.pos>
+<x.systeminfo.size>1 0.25</x.systeminfo.size>
+<x.systeminfo.fontSize>0.03</x.systeminfo.fontSize>
+
+<x.carousel.pos>0.295 0.358</x.carousel.pos>
+<x.carousel.size>0.41 0.395</x.carousel.size>
+
+<x.logostatic.pos>0.5 0.17</x.logostatic.pos>
+<x.logostatic.maxSize>0.41 0.25</x.logostatic.maxSize>
+
+<x.marquee.pos>0.5 0.17</x.marquee.pos>
+<x.marquee.maxSize>0.4 0.20</x.marquee.maxSize>
+
+
+
+
+</variables>
+
+
+	
+</theme>

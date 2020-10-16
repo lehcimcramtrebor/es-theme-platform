@@ -1,2 +1,2 @@
 # es-theme-platform
-Hyper customizable an storyboarded theme for Retrobat / Batocera
+Hyper customizable and storyboarded theme for Retrobat / Batocera

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+<!---------- Arcade view ---------->
+
+	<view name="grid">
+
+    <image name="md_marquee">
+		<visible>false</visible>
+	</image>
+
+    <image name="logostatic, logostatic2" extra="true">
+		<visible>true</visible>
+	</image>
+		
+    <imagegrid name="gamegrid">
+		<pos>${x.arcade_grid.pos}</pos>
+		<size>${x.arcade_grid.size}</size>
+		<autoLayout>${x.arcade_grid.autoLayout}</autoLayout>
+		<scrollDirection>vertical</scrollDirection>
+		<scrollLoop>true</scrollLoop>		
+		<centerSelection>true</centerSelection>
+		<margin>0 0</margin>
+		<padding>0.01 0.01 0.01 0.01</padding>
+		<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+		<animateSelection>false</animateSelection>
+		<imageSource>${x.arcade_grid.imageSource}</imageSource>
+        <scrollSound>./_assets/scroll.wav</scrollSound>		
+        <zIndex>900</zIndex>
+    </imagegrid>
+
+    <gridtile name="default">
+		<backgroundColor>FFFFFF00</backgroundColor>
+		<selectionMode>image</selectionMode>
+		<padding>5 5</padding>
+		<imageColor>ffffff60</imageColor>
+		<reflexion>0 0</reflexion>	  
+    </gridtile>
+	
+    <gridtile name="selected">
+		<backgroundCenterColor>00000000</backgroundCenterColor>
+		<imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+	
+    <text name="gridtile">
+		<color>00000000</color>
+		<glowColor>00000000</glowColor>
+		<backgroundColor>00000000</backgroundColor>
+		<fontSize>0</fontSize>
+		<fontPath>./_assets/adventure.otf</fontPath>		 	  
+		<alignment>center</alignment>
+		<size>0 0</size>
+    </text>
+
+    <text name="gridtile_selected">
+		<glowColor>00000000</glowColor>
+		<glowSize>2</glowSize>
+    </text>
+
+    <ninepatch name="gridtile.background:selected">
+		<animateColor>0000ff25</animateColor>
+    </ninepatch>
+
+    <image name="md_thumbnail">
+		<pos>${x.arcade.md_thumbnail.pos}</pos>
+		<maxSize>0.08 0.23</maxSize>
+		<origin>1 1</origin>
+		<reflexion>0 0</reflexion>
+		<zIndex>20</zIndex>
+	</image>
+
+    <image name="md_line0, md_line, md_line2">
+		<visible>false</visible>
+	</image>
+
+	<text name="md_description, md_publisher">	
+		<visible>false</visible>
+		</text>
+
+	<datetime name="md_releasedate">
+		<visible>false</visible>
+    </datetime>
+
+	<video name="md_video">
+		<showSnapshotDelay>yes</showSnapshotDelay>	
+		<showSnapshotNoVideo>yes</showSnapshotNoVideo>
+	</video>
+
+	<rating name="md_rating">
+		<pos>${x.arcade.md_rating.pos}</pos>
+		<zIndex>20</zIndex>	
+    </rating>
+	
+	</view>
+		
+</theme>

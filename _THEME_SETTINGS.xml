@@ -1,0 +1,88 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables> 
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------>																														
+												<!-- GENERAL SETTINGS: -->																											
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------>																													
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!-- BACKGROUNDS VIDEO EFFECT CRT: -->																																											
+<general.crt.visible>yes</general.crt.visible>						<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- SCANLINES BACKGROUNDS EFFECT: -->																																										
+<general.scanlines.visible>yes</general.scanlines.visible>			<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- FOCUS BACKGROUNDS VIDEO EFFECT: -->																																														
+<general.focus.visible>yes</general.focus.visible>					<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- BACKGROUNDS BOTTOM DARKENING -->
+<general.background.darkening>yes</general.background.darkening>	<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- CONTROLLER VISIBILITY -->
+<general.controller.visible>yes</general.controller.visible>		<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- LOGO BACK LIGHT VISIBILITY -->
+<general.logo_light.visible>yes</general.logo_light.visible>		<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- HELP VISIBILITY -->									
+<layout.help.color>no</layout.help.color>						<!-- "no" by default, can be turned off by "yes" -->
+
+<!-- SNAP FRAME CRT EFFECT -->
+<general.crt_frame.visible>yes</general.crt_frame.visible>			<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- GAMELISTS BACK METADATAS FRAME -->
+<general.backmetadata.visible>yes</general.backmetadata.visible>	<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- DETAILED VIEW SCREENSHOT BEHIND GAMELIST -->
+<general.md_image.visible>yes</general.md_image.visible>			<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- SCRAPED VIEWS PREFERED HEADER -->
+<general.svp_header.visible>marquee</general.svp_header.visible>	<!-- "marquee" (by default) for game marquee or "logo" for system logo -->
+
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------> 
+											<!-- ANIMATION ON/OFF SETTINGS: -->																											
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------> 
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+<!-- BACKGROUNDS ALL VIEWS SCROLL LOOP EFFECT: -->
+<animation.background>yes</animation.background>					<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- SYSTEMVIEW LEFT ILLUSTRATION LOOP EFFECT: -->
+<animation.left>yes</animation.left>								<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- SYSTEMVIEW LEFT2 ILLUSTRATION LOOP EFFECT: -->
+<animation.left2>yes</animation.left2>								<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- SYSTEMVIEW RIGHT ILLUSTRATION LOOP EFFECT: -->
+<animation.right>yes</animation.right>								<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- SYSTEMVIEW RIGHT2 ILLUSTRATION LOOP EFFECT: -->
+<animation.right2>yes</animation.right2>							<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- GAMELISTVIEW LEFT ILLUSTRATION LOOP EFFECT: -->
+<animation.gamelist.left>yes</animation.gamelist.left>				<!-- "no" by default, can be turned off by "yes" -->
+
+<!-- GAMELISTVIEW LEFT2 ILLUSTRATION LOOP EFFECT: -->
+<animation.gamelist.left2>yes</animation.gamelist.left2>				<!-- "no" by default, can be turned off by "yes" -->
+
+<!-- GAMELISTVIEW RIGHT ILLUSTRATION LOOP EFFECT: -->
+<animation.gamelist.right>yes</animation.gamelist.right>				<!-- "no" by default, can be turned off by "yes" -->
+
+<!-- GAMELISTVIEW RIGHT2 ILLUSTRATION LOOP EFFECT: -->
+<animation.gamelist.right2>yes</animation.gamelist.right2>			<!-- "no" by default, can be turned off by "yes" -->
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------>																																											
+
+</variables>
+</theme>

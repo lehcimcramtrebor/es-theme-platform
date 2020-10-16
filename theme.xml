@@ -1,0 +1,1449 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Theme: Platform
+version: 1.0
+author: Lehcim Cram Trebor
+-->
+
+<theme defaultView="video">
+
+	<formatVersion>7</formatVersion>
+
+<!---------- Default Language EN ---------->
+
+	<variables>
+  
+		<lang.screenratio>System format</lang.screenratio>
+		<lang.169>Full HD</lang.169>
+		<lang.43>VGA</lang.43>
+		<lang.storyboards>Animations</lang.storyboards>
+		<lang.on>Yes, i love it !</lang.on>
+		<lang.off>No, i am going to throw up !!</lang.off>
+		<lang.classic>Classic</lang.classic>
+		<lang.arcade_boxes>Arcade carousel</lang.arcade_boxes>
+		<lang.arcade_marquees>Arcade marquees</lang.arcade_marquees>
+
+	</variables>
+
+<!---------- Screen Variables Subsets ---------->
+
+	<subset name="screen ratio" displayName="${lang.screenratio}">
+
+		<include name="169" displayName="${lang.169}">./_assets/variables/fullhd/commons.xml</include>
+		<include name="43" displayName="${lang.43}">./_assets/variables/vga/commons.xml</include>
+
+	</subset>
+	
+<!---------- Technical Default Variables ---------->
+
+	<variables>
+  
+		<!-- Default snap format -->
+		<layout.snap.ratio>4x3</layout.snap.ratio>
+
+		<!-- Default frame -->
+		<frame.style>default</frame.style>
+
+		<!-- Background default variables -->
+
+		<x.background.color>ffffff</x.background.color>
+		<x.background.colorEnd>000000</x.background.colorEnd>
+		<x.background.gamelist.color>909090</x.background.gamelist.color>
+		<x.background.gamelist.colorEnd>030303</x.background.gamelist.colorEnd>
+		<x.background.maxSize>99 1</x.background.maxSize>
+		
+		<!-- Left illustration default variables -->
+		<x.left.maxSize>0.5 0.6</x.left.maxSize>
+		<x.left.pos>0.15 0.59</x.left.pos>
+		<x.left.origin>0.5 0.5</x.left.origin>
+		<x.left.zIndex>9</x.left.zIndex>
+		<x.left.color>ffffff</x.left.color>
+		<x.left.colorEnd>ffffff</x.left.colorEnd>
+		<x.left.gradientType>vertical</x.left.gradientType>
+		<x.left.reflexion>0 0</x.left.reflexion>
+
+		<!-- Left2 illustration default variables -->
+		<x.left2.maxSize>0.5 0.6</x.left2.maxSize>
+		<x.left2.pos>0.15 0.59</x.left2.pos>
+		<x.left2.origin>0.5 0.5</x.left2.origin>
+		<x.left2.zIndex>9</x.left2.zIndex>
+		<x.left2.color>ffffff</x.left2.color>
+		<x.left2.colorEnd>ffffff</x.left2.colorEnd>
+		<x.left2.gradientType>vertical</x.left2.gradientType>
+		<x.left2.reflexion>0 0</x.left2.reflexion>
+
+		<!-- Right illustration default variables -->		
+		<x.right.maxSize>0.5 0.6</x.right.maxSize>
+		<x.right.pos>0.85 0.59</x.right.pos>
+		<x.right.origin>0.5 0.5</x.right.origin>
+		<x.right.zIndex>9</x.right.zIndex>
+		<x.right.color>ffffff</x.right.color>
+		<x.right.colorEnd>ffffff</x.right.colorEnd>
+		<x.right.gradientType>vertical</x.right.gradientType>
+		<x.right.reflexion>0 0</x.right.reflexion>
+
+		<!-- Right2 illustration default variables -->		
+		<x.right2.maxSize>0.5 0.6</x.right2.maxSize>
+		<x.right2.pos>0.85 0.59</x.right2.pos>
+		<x.right2.origin>0.5 0.5</x.right2.origin>
+		<x.right2.zIndex>9</x.right2.zIndex>
+		<x.right2.color>ffffff</x.right2.color>
+		<x.right2.colorEnd>ffffff</x.right2.colorEnd>
+		<x.right2.gradientType>vertical</x.right2.gradientType>
+		<x.right2.reflexion>0 0</x.right2.reflexion>
+
+		<!-- Left back illustration default variables -->		
+		<x.back_left.origin>0.5 0.5</x.back_left.origin>
+		<x.back_left.color>909090</x.back_left.color>
+		<x.back_left.colorEnd>909090</x.back_left.colorEnd>
+		<x.back_left.gradientType>horizontal</x.back_left.gradientType>
+		<x.back_left.reflexion>0 0</x.back_left.reflexion>
+		<x.back_left.flip>false</x.back_left.flip>
+
+		<!-- Right back illustration default variables -->		
+		<x.back_right.origin>0.5 0.5</x.back_right.origin>
+		<x.back_right.color>909090</x.back_right.color>
+		<x.back_right.colorEnd>909090</x.back_right.colorEnd>
+		<x.back_right.gradientType>horizontal</x.back_right.gradientType>
+		<x.back_right.reflexion>0 0</x.back_right.reflexion>
+		<x.back_right.flip>false</x.back_right.flip>
+
+		<!-- Center back illustration default variables -->		
+		<x.back_center.origin>0.5 0.5</x.back_center.origin>
+		<x.back_center.color>909090</x.back_center.color>
+		<x.back_center.colorEnd>909090</x.back_center.colorEnd>
+		<x.back_center.gradientType>horizontal</x.back_center.gradientType>
+		<x.back_center.reflexion>0 0</x.back_center.reflexion>
+		<x.back_center.flip>false</x.back_center.flip>
+		
+		<!-- Visible default variables -->
+		<x.background.visible>true</x.background.visible>
+		<x.loop.visible>false</x.loop.visible>
+		<x.md_image.visible>true</x.md_image.visible>
+		<x.crt.visible>true</x.crt.visible>
+		<x.scanlines.visible>true</x.scanlines.visible>
+		<x.focus.visible>true</x.focus.visible>
+		<x.controller.visible>true</x.controller.visible>
+		<x.logo_light.visible>true</x.logo_light.visible>
+		<x.crt_frame.visible>true</x.crt_frame.visible>
+		<x.backmetadata.visible>true</x.backmetadata.visible>
+		<x.logostatic.system.visible>true</x.logostatic.system.visible>
+		<x.logostatic.basic.visible>true</x.logostatic.basic.visible>
+		<x.logostatic.detailed_video_grid.visible>false</x.logostatic.detailed_video_grid.visible>
+		<x.md_marquee.visible>true</x.md_marquee.visible>
+		<x.arcade_grid.imageSource>marquee</x.arcade_grid.imageSource>
+		<x.left.visible>true</x.left.visible>
+		<x.left2.visible>true</x.left2.visible>
+		<x.right.visible>true</x.right.visible>
+		<x.right2.visible>true</x.right2.visible>
+		<x.back_left.visible>true</x.back_left.visible>
+		<x.back_right.visible>true</x.back_right.visible>
+		<x.back_center.visible>true</x.back_center.visible>
+
+		<!---------- Help variables ---------->
+		<x.help.color>fef6f3</x.help.color>
+
+	</variables>
+
+
+<!---------- Systems layout---------->
+
+	<include>./_CONFIGURABLE_THEMES/${system.theme}/_LAYOUT_SETTINGS.xml</include>
+	<include>./_CONFIGURABLE_THEMES/${system.theme}_alt/_LAYOUT_SETTINGS.xml</include>
+	<include>./_CONFIGURABLE_THEMES/${system.theme}/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
+	<include>./_CONFIGURABLE_THEMES/${system.theme}_alt/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
+	
+<!---------- Illustrations variables ---------->
+
+	<!-- Left -->
+	<include>./_assets/variables/layouts/left_layout/zindex/zindex_${x.left.zIndex}.xml</include>
+	<include>./_assets/variables/layouts/left_layout/sizepos/${theme.screen.ratio}/${layout.snap.ratio}/${layout.left.sizepos}.xml</include>
+	<include>./_assets/variables/layouts/left_layout/sizepos/${layout.left.size}_10_overwrite_${layout.left.size.overwrite}.xml</include>
+	<include>./_assets/variables/layouts/left_layout/shift/shift_${layout.left.shift}.xml</include>
+	<include>./_assets/variables/layouts/left_layout/color/color_${layout.left.color}.xml</include>
+	<include>./_assets/variables/layouts/left_layout/flip/${layout.left.flip}.xml</include>
+	<include>./_assets/variables/layouts/left_layout/visible/${layout.left.visible}.xml</include>
+	<include>./_assets/_theme_complement/left_x_advanced_${layout.left.x.advanced}.xml</include>
+	<include>./_assets/_theme_complement/left_y_advanced_${layout.left.y.advanced}.xml</include>
+
+	<!-- Left2 -->
+	<include>./_assets/variables/layouts/left2_layout/zindex/zindex_${x.left2.zIndex}.xml</include>
+	<include>./_assets/variables/layouts/left2_layout/sizepos/${theme.screen.ratio}/${layout.snap.ratio}/${layout.left2.sizepos}.xml</include>
+	<include>./_assets/variables/layouts/left2_layout/sizepos/${layout.left2.size}_10_overwrite_${layout.left2.size.overwrite}.xml</include>
+	<include>./_assets/variables/layouts/left2_layout/shift/shift_${layout.left2.shift}.xml</include>
+	<include>./_assets/variables/layouts/left2_layout/color/color_${layout.left2.color}.xml</include>
+	<include>./_assets/variables/layouts/left2_layout/flip/${layout.left2.flip}.xml</include>
+	<include>./_assets/variables/layouts/left2_layout/visible/${layout.left2.visible}.xml</include>
+	<include>./_assets/_theme_complement/left2_x_advanced_${layout.left2.x.advanced}.xml</include>
+	<include>./_assets/_theme_complement/left2_y_advanced_${layout.left2.y.advanced}.xml</include>
+
+	<!-- Right -->
+	<include>./_assets/variables/layouts/right_layout/zindex/zindex_${layout.right.index}.xml</include>
+	<include>./_assets/variables/layouts/right_layout/sizepos/${theme.screen.ratio}/${layout.snap.ratio}/${layout.right.sizepos}.xml</include>
+	<include>./_assets/variables/layouts/right_layout/sizepos/${layout.right.size}_10_overwrite_${layout.right.size.overwrite}.xml</include>
+	<include>./_assets/variables/layouts/right_layout/shift/shift_${layout.right.shift}.xml</include>
+	<include>./_assets/variables/layouts/right_layout/color/color_${layout.right.color}.xml</include>
+	<include>./_assets/variables/layouts/right_layout/flip/${layout.right.flip}.xml</include>
+	<include>./_assets/variables/layouts/right_layout/visible/${layout.right.visible}.xml</include>
+	<include>./_assets/_theme_complement/right_x_advanced_${layout.right.x.advanced}.xml</include>
+	<include>./_assets/_theme_complement/right_y_advanced_${layout.right.y.advanced}.xml</include>
+
+	<!-- Right2 -->
+	<include>./_assets/variables/layouts/right2_layout/zindex/zindex_${layout.right2.index}.xml</include>
+	<include>./_assets/variables/layouts/right2_layout/sizepos/${theme.screen.ratio}/${layout.snap.ratio}/${layout.right2.sizepos}.xml</include>
+	<include>./_assets/variables/layouts/right2_layout/sizepos/${layout.right2.size}_10_overwrite_${layout.right2.size.overwrite}.xml</include>
+	<include>./_assets/variables/layouts/right2_layout/shift/shift_${layout.right2.shift}.xml</include>
+	<include>./_assets/variables/layouts/right2_layout/color/color_${layout.right2.color}.xml</include>
+	<include>./_assets/variables/layouts/right2_layout/flip/${layout.right2.flip}.xml</include>
+	<include>./_assets/variables/layouts/right2_layout/visible/${layout.right2.visible}.xml</include>
+	<include>./_assets/_theme_complement/right2_x_advanced_${layout.right2.x.advanced}.xml</include>
+	<include>./_assets/_theme_complement/right2_y_advanced_${layout.right2.y.advanced}.xml</include>
+
+	<!-- Back LEFT -->
+	<include>./_assets/variables/layouts/back_left_layout/shift/shift_${layout.back_left.shift}.xml</include>
+	<include>./_assets/variables/layouts/back_left_layout/color/color_${layout.back_left.color}.xml</include>
+	<include>./_assets/variables/layouts/back_left_layout/flip/${layout.back_left.flip}.xml</include>
+	<include>./_assets/variables/layouts/back_left_layout/visible/${layout.back_left.visible}.xml</include>
+
+	<!-- Back CENTER -->
+	<include>./_assets/variables/layouts/back_center_layout/shift/shift_${layout.back_center.shift}.xml</include>
+	<include>./_assets/variables/layouts/back_center_layout/color/color_${layout.back_center.color}.xml</include>
+	<include>./_assets/variables/layouts/back_center_layout/flip/${layout.back_center.flip}.xml</include>
+	<include>./_assets/variables/layouts/back_center_layout/visible/${layout.back_center.visible}.xml</include>
+
+	<!-- Back RIGHT -->
+	<include>./_assets/variables/layouts/back_right_layout/shift/shift_${layout.back_right.shift}.xml</include>
+	<include>./_assets/variables/layouts/back_right_layout/color/color_${layout.back_right.color}.xml</include>
+	<include>./_assets/variables/layouts/back_right_layout/flip/${layout.back_right.flip}.xml</include>
+	<include>./_assets/variables/layouts/back_right_layout/visible/${layout.back_right.visible}.xml</include>
+
+	<!-- Loop Background -->
+	<include>./_assets/variables/layouts/loop_layout/loop_${layout.loop.background}.xml</include>
+
+	<!-- Gamegrid padding -->
+	<include>./_assets/variables/layouts/padding/${layout.gamegrid.padding}.xml</include>
+
+
+<!---------- Include different frames variables  ---------->
+
+	<include>./_assets/variables/${theme.screen.ratio}/${layout.snap.ratio}.xml</include>
+
+
+<!---------- Include General Settings variables  ---------->
+
+	<include>./_THEME_SETTINGS.xml</include>
+
+
+<!---------- Include specific Settings variables  ---------->
+
+	<include>./_CONFIGURABLE_THEMES/${system.theme}/specifics/_SYSTEM_THEME_SETTINGS.xml</include>
+	<include>./_CONFIGURABLE_THEMES/${system.theme}_alt/specifics/_SYSTEM_THEME_SETTINGS.xml</include>
+	<include>./_assets/variables/specifics/${system.theme}.xml</include>
+
+<!----------- Variables Path for General and Specifics Settings ---------->
+	
+	<include>./_assets/variables/general/focus_${general.focus.visible}.xml</include>
+	<include>./_assets/variables/general/background_darkening_${general.background.darkening}.xml</include>
+	<include>./_assets/variables/general/scanlines_${general.scanlines.visible}.xml</include>
+	<include>./_assets/variables/general/crt_${general.crt.visible}.xml</include>
+	<include>./_assets/variables/general/controller_${general.controller.visible}.xml</include>
+	<include>./_assets/variables/general/logo_light_${general.logo_light.visible}.xml</include>
+	<include>./_assets/variables/general/crt_frame_${general.crt_frame.visible}.xml</include>
+	<include>./_assets/variables/general/backmetadata_${general.backmetadata.visible}.xml</include>
+	<include>./_assets/variables/general/md_image_${general.md_image.visible}.xml</include>
+	<include>./_assets/variables/general/svp_header_${general.svp_header.visible}.xml</include>
+	<include>./_assets/variables/general/help_${layout.help.color}.xml</include>
+	
+<!---------- Variable Background animation zoom ---------->
+
+	<include>./_assets/variables/background/background_animation_${animation.background}.xml</include>
+	<include>./_assets/variables/background/background_animation_system_${animation.system.background}.xml</include>
+
+
+<!---------- HELP ---------->
+
+	<view name="menu, system, basic, detailed, video, grid">
+	
+	<helpsystem name="help">
+		<textColor>${x.help.color}</textColor>
+		<iconColor>${x.help.color}</iconColor>
+		<fontSize>0.016</fontSize>
+		<origin>0 1</origin>
+		<pos>0.009 0.991</pos>
+    </helpsystem>	
+	
+	</view>
+
+<!---------- SYSTEM ---------->
+
+	<view name="system">
+
+	<sound name="bgsound">		
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/music/music.mp3</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/music/music.ogg</path>
+	</sound>
+		
+	<image name="static_background" extra="true">
+		<path>./_assets/logos/${system.theme}.png</path>
+		<path>./_assets/logos/${system.theme}.svg</path>
+		<path>./_assets/logos/${system.theme}-${lang}.png</path>
+		<path>./_assets/logos/${system.theme}-${lang}.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo.svg</path>
+		<tile>false</tile>
+		<origin>0.5 0</origin>
+		<pos>0.5 0</pos>
+		<maxSize>1 0.7</maxSize>
+		<color>ffffff30</color>
+		<reflexion>0.80 0</reflexion>
+		<zIndex>0</zIndex>
+	</image>
+
+    <image name="static_background" region="eu" extra="true"></image>
+	
+	<image name="static_background" region="us" extra="true">
+		<path>./_assets/logos/us/${system.theme}.png</path>
+		<path>./_assets/logos/us/${system.theme}.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_us.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_us.svg</path>
+	</image>
+		
+	<image name="static_background" region="jp" extra="true">
+		<path>./_assets/logos/jp/${system.theme}.png</path>
+		<path>./_assets/logos/jp/${system.theme}.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_jp.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_jp.svg</path>
+	</image>
+	
+<!---------- Carousel --------->
+
+	<carousel name="systemcarousel">
+		<type>vertical</type>      
+		<size>${x.carousel.size}</size>
+		<pos>${x.carousel.pos}</pos>
+		<!-- pos by screen ratio subset -->
+		<logoAlignment>center</logoAlignment>
+		<color>00000000</color>
+		<colorEnd>00000000</colorEnd>
+		<gradientType>vertical</gradientType>
+		<logoScale>2.2</logoScale>
+		<logoSize>0.15 0.07</logoSize>
+		<maxLogoCount>3</maxLogoCount>
+		<systemInfoDelay>0</systemInfoDelay>
+		<defaultTransition>instant</defaultTransition>
+		<zIndex>18</zIndex>
+        <scrollSound>./_assets/scroll.wav</scrollSound>
+	</carousel>
+
+<!----------- Logos carousel ---------->
+
+    <image name="logo">
+		<linearSmooth>true</linearSmooth>
+		<!-- try png -->
+		<path>./_assets/logos/${system.theme}.png</path>
+		<path>./_assets/logos/${system.theme}.svg</path>
+		<path>./_assets/logos/${system.theme}-${lang}.png</path>
+		<path>./_assets/logos/${system.theme}-${lang}.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo.svg</path>
+	</image>
+
+    <image name="logo" region="eu"></image>
+	
+	<image name="logo" region="us">
+		<path>./_assets/logos/us/${system.theme}.png</path>
+		<path>./_assets/logos/us/${system.theme}.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_us.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_us.svg</path>
+	</image>
+		
+	<image name="logo" region="jp">
+		<path>./_assets/logos/jp/${system.theme}.png</path>
+		<path>./_assets/logos/jp/${system.theme}.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_jp.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_jp.svg</path>
+	</image>
+
+
+
+<!---------- Number of games ----------->
+	
+	<text name="systemInfo">
+        <fontPath>./_assets/adventure.otf</fontPath>
+		<fontSize>${x.systeminfo.fontSize}</fontSize>
+		<pos>${x.systeminfo.pos}</pos>
+		<size>${x.systeminfo.size}</size>
+		<backgroundColor>00000000</backgroundColor>
+		<color>ffffff</color>
+		<glowColor>606060</glowColor>
+		<glowOffset>1</glowOffset>
+		<glowSize>1</glowSize>
+		<reflexion>0.20 0</reflexion>
+		<zIndex>99</zIndex>
+		
+	</text>
+
+<!---------- Focus background effect ---------->
+
+	<video name="focus" extra="true">
+		<path>./_assets/focus.mp4</path>
+		<delay>1</delay>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<color>ffffff40</color>
+		<zIndex>2</zIndex>
+		<visible>${x.focus.visible}</visible>
+	</video>
+
+<!---------- Snaps video ----------->	
+
+	<video name="backgroundvideo" extra="true">
+		<path>{random}</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/snap/snap.mp4</path>                 		
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/snap/snap.mp4</path>                 		
+		<origin>0 0</origin>
+		<pos>${x.snap.pos}</pos>
+		<size>${x.snap.size}</size>
+		<delay>0.5</delay>
+		<effect>none</effect>		
+		<default>./_assets/noise.mp4</default>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<color>ffffff</color>
+		<zIndex>19</zIndex>
+	
+    </video>
+
+<!---------- Controllers ---------->
+
+	<image name="controller" extra="true">
+		<linearSmooth>true</linearSmooth>	
+		<path>./_assets/controllers/${system.theme}.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_controller/controller.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_controller/controller.png</path>
+		<maxSize>0.18 0.25</maxSize>
+		<pos>${x.controller.pos}</pos>
+		<origin>1 1</origin>
+		<color>FFFFFF</color>
+		<zIndex>100</zIndex>
+		<visible>${x.controller.visible}</visible>
+	
+	</image>
+
+    <image name="controller" extra="true" region="eu"></image>
+
+	<image name="controller" extra="true" region="us">
+		<path>./_assets/controllers/us/${system.theme}.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_controller/controller_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_controller/controller_us.png</path>		
+	</image>
+		
+	<image name="controller" extra="true" region="jp">
+		<path>./_assets/controllers/jp/${system.theme}.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_controller/controller_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_controller/controller_jp.png</path>		
+	</image>
+
+
+
+    <image name="logostatic, logostatic2" extra="true">
+		<visible>${x.logostatic.system.visible}</visible>
+	</image>
+
+	<image name="easter_egg" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_easter_egg/egg.png</path>
+		<pos>0.35 2</pos>
+		<maxSize>0.25 0.25</maxSize>
+		<origin>0.5 1</origin>
+		<zIndex>1000</zIndex>
+	</image>
+
+	<image name="easter_egg_left" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_easter_egg/egg.png</path>
+		<pos>-1 0.35</pos>
+		<rotation>90</rotation>
+		<maxSize>0.25 0.25</maxSize>
+		<origin>0 0.5</origin>
+		<zIndex>1000</zIndex>
+	</image>
+
+	<image name="easter_egg_up" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_easter_egg/egg.png</path>
+		<flipY>true</flipY>
+		<pos>0.65 -1</pos>
+		<maxSize>0.25 0.25</maxSize>
+		<origin>0.5 0</origin>
+		<zIndex>1000</zIndex>
+	</image>
+
+	<image name="easter_egg_right" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_easter_egg/egg.png</path>
+		<pos>2 0.65</pos>
+		<rotation>-90</rotation>
+		<maxSize>0.25 0.25</maxSize>
+		<origin>1 0.5</origin>
+		<zIndex>1000</zIndex>
+	</image>
+
+	<image name="label" extra="true">
+		<path>./_assets/labels/label_${layout.label.style}.png</path>
+		<path>./_assets/labels/label_${layout.label.style}_${layout.label.direction}.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/${layout.label.style}_label/label.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/${layout.label.style}_label/label_${layout.label.direction}.png</path>
+		<pos>-1 -1</pos>
+		<maxSize>99 0.5</maxSize>
+		<origin>0.5 0.5</origin>
+		<zIndex>1500</zIndex>
+		<visible>false</visible>
+		<x>${x.label.x}</x>
+		<y>${x.label.y}</y>
+	</image>
+
+	<text name="label_text" extra="true">
+		<fontPath>./_assets/monicacomic.ttf</fontPath>
+		<pos>-1 -1</pos>		
+		<fontSize>0.016</fontSize>
+		<fontColor>101010</fontColor>
+		<forceUpperCase>true</forceUpperCase>
+		<text>${x.label.text}</text>
+		<pos>-1 -1</pos>
+		<origin>0.44 0.575</origin>
+		<zIndex>1501</zIndex>
+		<visible>false</visible>
+		<x>${x.label.x}</x>
+		<y>${x.label.y}</y>
+	</text>
+	
+  	</view>
+
+
+<!---------- BASIC ----------->
+
+	<view name="basic">
+
+    <image name="logostatic, logostatic2" extra="true">
+		<visible>${x.logostatic.basic.visible}</visible>
+	</image>
+	
+  	</view>
+
+	
+	
+	
+	
+<!---------- SYSTEM, BASIC---------->
+
+		<view name="system, basic">
+		
+<!----------- Right Illustration ----------->
+
+	<image name="rightillustration_ghost2" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/right/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/right/art.png</path>
+		<maxSize>${x.right.maxSize}</maxSize>
+		<pos>${x.right.pos}</pos>
+		<origin>${x.right.origin}</origin>
+		<zIndex>${x.right.zIndex}</zIndex>
+		<color>${x.right.color}</color>
+		<colorEnd>${x.right.colorEnd}</colorEnd>
+		<gradientType>${x.right.gradientType}</gradientType>
+		<reflexion>${x.right.reflexion}</reflexion>
+		<flipX>${x.right.flip}</flipX>
+		<visible>false</visible>		
+	</image>
+		
+	<image name="rightillustration_ghost1" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/right/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/right/art.png</path>
+		<maxSize>${x.right.maxSize}</maxSize>
+		<pos>${x.right.pos}</pos>
+		<origin>${x.right.origin}</origin>
+		<zIndex>${x.right.zIndex}</zIndex>
+		<color>${x.right.color}</color>
+		<colorEnd>${x.right.colorEnd}</colorEnd>
+		<gradientType>${x.right.gradientType}</gradientType>
+		<reflexion>${x.right.reflexion}</reflexion>
+		<flipX>${x.right.flip}</flipX>
+		<visible>false</visible>		
+	</image>
+
+	<image name="rightillustration" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/right/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/right/art.png</path>
+		<maxSize>${x.right.maxSize}</maxSize>
+		<pos>${x.right.pos}</pos>
+		<origin>${x.right.origin}</origin>
+		<zIndex>${x.right.zIndex}</zIndex>
+		<color>${x.right.color}</color>
+		<colorEnd>${x.right.colorEnd}</colorEnd>
+		<gradientType>${x.right.gradientType}</gradientType>
+		<reflexion>${x.right.reflexion}</reflexion>
+		<flipX>${x.right.flip}</flipX>
+		<visible>${x.right.visible}</visible>		
+	</image>
+
+    <image name="rightillustration_ghost2, rightillustration_ghost1, rightillustration" region="eu" extra="true"></image>
+
+    <image name="rightillustration_ghost2, rightillustration_ghost1, rightillustration" region="us" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/right/art_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/right/art_us.png</path>
+	</image>
+
+    <image name="rightillustration_ghost2, rightillustration_ghost1, rightillustration" region="jp" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/right/art_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/right/art_jp.png</path>
+	</image>
+			
+		
+<!----------- Right Illustration 2 ----------->
+
+	<image name="rightillustration2_ghost2" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/right2/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/right2/art.png</path>
+		<maxSize>${x.right2.maxSize}</maxSize>
+		<pos>${x.right2.pos}</pos>
+		<origin>${x.right2.origin}</origin>
+		<zIndex>${x.right2.zIndex}</zIndex>
+		<color>${x.right2.color}</color>
+		<colorEnd>${x.right2.colorEnd}</colorEnd>
+		<gradientType>${x.right2.gradientType}</gradientType>
+		<reflexion>${x.right2.reflexion}</reflexion>
+		<flipX>${x.right2.flip}</flipX>
+		<visible>visible</visible>		
+	</image>
+
+	<image name="rightillustration2_ghost1" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/right2/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/right2/art.png</path>
+		<maxSize>${x.right2.maxSize}</maxSize>
+		<pos>${x.right2.pos}</pos>
+		<origin>${x.right2.origin}</origin>
+		<zIndex>${x.right2.zIndex}</zIndex>
+		<color>${x.right2.color}</color>
+		<colorEnd>${x.right2.colorEnd}</colorEnd>
+		<gradientType>${x.right2.gradientType}</gradientType>
+		<reflexion>${x.right2.reflexion}</reflexion>
+		<flipX>${x.right2.flip}</flipX>
+		<visible>visible</visible>		
+	</image>
+
+	<image name="rightillustration2" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/right2/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/right2/art.png</path>
+		<maxSize>${x.right2.maxSize}</maxSize>
+		<pos>${x.right2.pos}</pos>
+		<origin>${x.right2.origin}</origin>
+		<zIndex>${x.right2.zIndex}</zIndex>
+		<color>${x.right2.color}</color>
+		<colorEnd>${x.right2.colorEnd}</colorEnd>
+		<gradientType>${x.right2.gradientType}</gradientType>
+		<reflexion>${x.right2.reflexion}</reflexion>
+		<flipX>${x.right2.flip}</flipX>
+		<visible>${x.right2.visible}</visible>		
+	</image>
+
+    <image name="rightillustration2_ghost2, rightillustration2_ghost1, rightillustration2" region="eu" extra="true"></image>
+
+    <image name="rightillustration2_ghost2, rightillustration2_ghost1, rightillustration2" region="us" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/right2/art_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/right2/art_us.png</path>
+	</image>
+
+    <image name="rightillustration2_ghost2, rightillustration2_ghost1, rightillustration2" region="jp" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/right2/art_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/right2/art_jp.png</path>
+	</image>
+	
+	</view>
+		
+		
+		
+<!---------- SYSTEM, BASIC, DETAILED ,VIDEO, GRID ---------->
+  
+	<view name="system, basic, detailed, video, grid">
+
+<!----------- Static Logos ----------->
+
+    <image name="logostatic, logostatic2" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<reflexion>0.2 0.0</reflexion>	  
+		<origin>0.5 0.5</origin>
+		<pos>${x.logostatic.pos}</pos>
+		<maxSize>${x.logostatic.maxSize}</maxSize>
+		<color>ffffff</color>
+		<zIndex>11</zIndex>
+		<!-- try png -->
+		<path>./_assets/logos/${system.theme}.png</path>
+		<path>./_assets/logos/${system.theme}.svg</path>
+		<path>./_assets/logos/${system.theme}-${lang}.png</path>
+		<path>./_assets/logos/${system.theme}-${lang}.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo.svg</path>
+		
+	</image>
+
+	<image name="logostatic2" extra="true">
+		<zIndex>25</zIndex>
+		<reflexion>0 0</reflexion>	  
+		
+	</image>
+	
+    <image name="logostatic, logostatic2" extra="true" region="eu"></image>
+	
+	<image name="logostatic, logostatic2" extra="true" region="us">
+		<path>./_assets/logos/us/${system.theme}.png</path>
+		<path>./_assets/logos/us/${system.theme}.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_us.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_us.svg</path>
+	</image>
+		
+	<image name="logostatic, logostatic2" extra="true" region="jp">
+		<path>./_assets/logos/jp/${system.theme}.png</path>
+		<path>./_assets/logos/jp/${system.theme}.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_logo/logo_jp.svg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_logo/logo_jp.svg</path>
+	</image>
+
+
+	
+<!----------- Left Illustration ----------->
+
+	<image name="leftillustration_ghost2" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left/art.png</path>
+		<maxSize>${x.left.maxSize}</maxSize>
+		<pos>${x.left.pos}</pos>
+		<origin>${x.left.origin}</origin>
+		<zIndex>${x.left.zIndex}</zIndex>
+		<color>${x.left.color}</color>
+		<colorEnd>${x.left.colorEnd}</colorEnd>
+		<gradientType>${x.left.gradientType}</gradientType>
+		<reflexion>${x.left.reflexion}</reflexion>
+		<flipX>${x.left.flip}</flipX>
+		<visible>false</visible>
+	</image>
+
+	<image name="leftillustration_ghost1" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left/art.png</path>
+		<maxSize>${x.left.maxSize}</maxSize>
+		<pos>${x.left.pos}</pos>
+		<origin>${x.left.origin}</origin>
+		<zIndex>${x.left.zIndex}</zIndex>
+		<color>${x.left.color}</color>
+		<colorEnd>${x.left.colorEnd}</colorEnd>
+		<gradientType>${x.left.gradientType}</gradientType>
+		<reflexion>${x.left.reflexion}</reflexion>
+		<flipX>${x.left.flip}</flipX>
+		<visible>false</visible>
+	</image>
+	
+	<image name="leftillustration" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left/art.png</path>
+		<maxSize>${x.left.maxSize}</maxSize>
+		<pos>${x.left.pos}</pos>
+		<origin>${x.left.origin}</origin>
+		<zIndex>${x.left.zIndex}</zIndex>
+		<color>${x.left.color}</color>
+		<colorEnd>${x.left.colorEnd}</colorEnd>
+		<gradientType>${x.left.gradientType}</gradientType>
+		<reflexion>${x.left.reflexion}</reflexion>
+		<flipX>${x.left.flip}</flipX>
+		<visible>${x.left.visible}</visible>
+	</image>
+
+    <image name="leftillustration_ghost2, leftillustration_ghost1, leftillustration" region="eu" extra="true"></image>
+
+    <image name="leftillustration_ghost2, leftillustration_ghost1, leftillustration" region="us" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left/art_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left/art_us.png</path>
+	</image>
+
+    <image name="leftillustration_ghost2, leftillustration_ghost1, leftillustration" region="jp" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left/art_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left/art_jp.png</path>
+	</image>
+
+
+<!----------- Left Illustration 2----------->
+
+	<image name="leftillustration2_ghost2" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left2/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left2/art.png</path>
+		<maxSize>${x.left2.maxSize}</maxSize>
+		<pos>${x.left2.pos}</pos>
+		<origin>${x.left2.origin}</origin>
+		<zIndex>${x.left2.zIndex}</zIndex>
+		<color>${x.left2.color}</color>
+		<colorEnd>${x.left2.colorEnd}</colorEnd>
+		<gradientType>${x.left2.gradientType}</gradientType>
+		<reflexion>${x.left2.reflexion}</reflexion>
+		<flipX>${x.left2.flip}</flipX>	
+		<visible>false</visible>
+	</image>
+
+	<image name="leftillustration2_ghost1" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left2/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left2/art.png</path>
+		<maxSize>${x.left2.maxSize}</maxSize>
+		<pos>${x.left2.pos}</pos>
+		<origin>${x.left2.origin}</origin>
+		<zIndex>${x.left2.zIndex}</zIndex>
+		<color>${x.left2.color}</color>
+		<colorEnd>${x.left2.colorEnd}</colorEnd>
+		<gradientType>${x.left2.gradientType}</gradientType>
+		<reflexion>${x.left2.reflexion}</reflexion>
+		<flipX>${x.left2.flip}</flipX>	
+		<visible>false</visible>
+	</image>
+
+	<image name="leftillustration2" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left2/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left2/art.png</path>
+		<maxSize>${x.left2.maxSize}</maxSize>
+		<pos>${x.left2.pos}</pos>
+		<origin>${x.left2.origin}</origin>
+		<zIndex>${x.left2.zIndex}</zIndex>
+		<color>${x.left2.color}</color>
+		<colorEnd>${x.left2.colorEnd}</colorEnd>
+		<gradientType>${x.left2.gradientType}</gradientType>
+		<reflexion>${x.left2.reflexion}</reflexion>
+		<flipX>${x.left2.flip}</flipX>	
+		<visible>${x.left2.visible}</visible>
+	</image>
+
+    <image name="leftillustration2_ghost2, leftillustration2_ghost1, leftillustration2" region="eu" extra="true"></image>
+
+    <image name="leftillustration2_ghost2, leftillustration2_ghost1, leftillustration2" region="us" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left2/art_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left2/art_us.png</path>
+	</image>
+
+    <image name="leftillustration2_ghost2, leftillustration2_ghost1, leftillustration2" region="jp" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left2/art_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left2/art_jp.png</path>
+	</image>
+
+	
+<!----------- Back Left Illustration ----------->
+
+	<image name="backleftillustration" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/back_left/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/back_left/art.png</path>
+		<maxSize>99 1</maxSize>
+		<pos>0.2 0.5</pos>
+		<zIndex>7</zIndex>
+		<origin>${x.back_left.origin}</origin>
+		<color>${x.back_left.color}</color>
+		<colorEnd>${x.back_left.colorEnd}</colorEnd>
+		<gradientType>${x.back_left.gradientType}</gradientType>
+		<reflexion>${x.back_left.reflexion}</reflexion>
+		<flipX>${x.back_left.flip}</flipX>
+		<visible>${x.back_left.visible}</visible>		
+	</image>
+
+    <image name="backleftillustration" region="eu" extra="true"></image>
+
+    <image name="backleftillustration" region="us" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/back_left/art_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/back_left/art_us.png</path>
+	</image>
+
+    <image name="backleftillustration" region="jp" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/back_left/art_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/back_left/art_jp.png</path>
+	</image>
+
+<!----------- Back Center Illustration ----------->
+
+	<image name="backcenterillustration" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/back_center/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/back_center/art.png</path>
+		<maxSize>99 1</maxSize>
+		<pos>0.5 0.5</pos>
+		<zIndex>5</zIndex>
+		<origin>${x.back_center.origin}</origin>
+		<color>${x.back_center.color}</color>
+		<colorEnd>${x.back_center.colorEnd}</colorEnd>
+		<gradientType>${x.back_center.gradientType}</gradientType>
+		<reflexion>${x.back_center.reflexion}</reflexion>
+		<flipX>${x.back_center.flip}</flipX>
+		<visible>${x.back_center.visible}</visible>
+	</image>
+
+    <image name="backcenterillustration" region="eu" extra="true"></image>
+
+    <image name="backcenterillustration" region="us" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/back_center/art_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/back_center/art_us.png</path>
+	</image>
+
+    <image name="backcenterillustration" region="jp" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/back_center/art_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/back_center/art_jp.png</path>
+	</image>
+
+<!----------- Back Right Illustration ----------->
+
+	<image name="backrightillustration" extra="true">
+		<linearSmooth>true</linearSmooth>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/back_right/art.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/back_right/art.png</path>
+		<maxSize>99 1</maxSize>
+		<pos>0.8 0.5</pos>
+		<zIndex>6</zIndex>
+		<origin>${x.back_right.origin}</origin>
+		<color>${x.back_right.color}</color>
+		<colorEnd>${x.back_right.colorEnd}</colorEnd>
+		<gradientType>${x.back_right.gradientType}</gradientType>
+		<reflexion>${x.back_right.reflexion}</reflexion>
+		<flipX>${x.back_right.flip}</flipX>
+		<visible>${x.back_right.visible}</visible>
+	
+	</image>
+
+    <image name="backrightillustration" region="eu" extra="true"></image>
+
+    <image name="backrightillustration" region="us" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/back_right/art_us.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/back_right/art_us.png</path>
+	</image>
+
+    <image name="backrightillustration" region="jp" extra="true">
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/back_right/art_jp.png</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/back_right/art_jp.png</path>
+	</image>
+
+			
+	<image name="background" extra="true">
+		<path>./_assets/backgrounds/under_construction.jpg</path>
+		<path>./_assets/backgrounds/${system.theme}.jpg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_background/background.jpg</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_background/background.jpg</path>
+		<tile>false</tile>
+		<origin>0.5 0</origin>
+		<pos>0.5 0</pos>
+		<maxSize>${x.background.maxSize}</maxSize>
+		<color>${x.background.color}</color>
+		<colorEnd>${x.background.colorEnd}</colorEnd>
+		<gradientType>vertical</gradientType>
+		<zIndex>1</zIndex>
+		<visible>${x.background.visible}</visible>
+	</image>
+
+	<video name="loop" extra="true">
+		<path>./_assets/default_loop.mp4</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_loop/loop.mp4</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_loop/loop.mp4</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.5</pos>
+		<maxSize>2 1</maxSize>
+		<color>${x.background.color}</color>
+		<zIndex>1</zIndex>
+		<visible>${x.loop.visible}</visible>
+	</video>
+	
+	<image name="frame" extra="true">
+		<path>./_assets/frame_${frame.style}_${theme.screen.ratio}_${layout.snap.ratio}.png</path>
+		<pos>0.5 0.5</pos>
+		<size>1 1</size>
+		<origin>0.5 0.5</origin>
+		<color>FFFFFF</color>
+		<zIndex>22</zIndex>
+	</image>
+
+	<image name="back_frame" extra="true">
+		<path>./_assets/white.png</path>
+		<pos>${x.snap.pos}</pos>
+		<size>${x.snap.size}</size>
+		<origin>0 0</origin>
+		<color>070707</color>
+		<zIndex>15</zIndex>
+	</image>
+
+	<image name="back_light" extra="true">
+		<path>./_assets/light.png</path>
+		<pos>${x.snap.pos}</pos>
+		<size>${x.snap.size}</size>
+		<origin>0 0</origin>
+		<color>404040</color>
+		<zIndex>17</zIndex>
+	</image>
+	
+    <video name="crt" extra="true">
+		<path>./_assets/crt.mp4</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<color>A0A0A005</color>
+		<zIndex>3</zIndex>
+		<visible>${x.crt.visible}</visible>
+    </video>	
+
+	<image name="scanlines" extra="true">
+		<path>./_assets/scanlines.png</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<tile>true</tile>
+		<zIndex>4</zIndex>
+		<visible>${x.scanlines.visible}</visible>
+	</image>
+
+	<image name="logo_light" extra="true">
+		<path>./_assets/${theme.screen.ratio}_logo_light.png</path>
+		<size>1 1</size>
+		<pos>0.5 0.5</pos>
+		<origin>0.5 0.5</origin>
+		<color>ffffff</color>
+		<colorEnd>ffffff99</colorEnd>
+		<gradientType>vertical</gradientType>
+		<zIndex>8</zIndex>
+		<visible>${x.logo_light.visible}</visible>
+	</image>
+	
+    <image name="crt_frame" extra="true">
+		<pos>${x.snap.pos}</pos>
+		<size>${x.snap.size}</size>
+		<path>./_assets/crt.png</path>
+		<color>FFFFFF90</color>
+		<tile>true</tile>
+		<zIndex>21</zIndex>
+		<visible>${x.crt_frame.visible}</visible>
+    </image>
+	
+	</view>
+  
+
+
+
+
+
+
+<!---------- BASIC, DETAILED, VIDEO, GRID ---------->
+
+	<view name="basic, detailed, video, grid">
+	
+  
+	<image name="background" extra="true">
+		<color>${x.background.gamelist.color}</color>
+		<colorEnd>${x.background.gamelist.colorEnd}</colorEnd>
+	</image>
+
+	<text name="md_name">
+        <fontPath>./_assets/adventure.otf</fontPath>
+		<fontSize>${x.md_name.fontSize}</fontSize>
+		<pos>${x.md_name.pos}</pos>
+		<size>${x.md_name.size}</size>
+		<origin>0.5 0.5</origin>
+		<backgroundColor>00000000</backgroundColor>
+		<color>ffffff</color>
+		<glowColor>606060</glowColor>
+		<glowOffset>1</glowOffset>		
+		<glowSize>1</glowSize>
+		<reflexion>0.20 0</reflexion>
+		<zIndex>8</zIndex>
+		<alignment>right</alignment>
+		</text>
+	
+	</view>
+
+
+
+
+
+<!---------- DETAILED ,VIDEO, GRID ---------->
+  
+	<view name="detailed, video, grid">	
+	
+	<image name="backmetadata" extra="true">
+	<path>./_assets/backmetadata.png</path>
+	<color>ffffff</color>
+	<size>${x.backmetadata.size}</size>
+	<pos>${x.backmetadata.pos}</pos>
+	<origin>1 0</origin>
+	<zIndex>50</zIndex>
+	<visible>${x.backmetadata.visible}</visible>
+		
+	</image>
+
+    <image name="md_marquee">
+		<color>ffffff</color>
+		<colorEnd>ffffff99</colorEnd>
+		<gradientType>horizontal</gradientType>
+		<linearSmooth>true</linearSmooth>
+		<reflexion>0.2 0.0</reflexion>	  		
+		<origin>0.5 0.5</origin>
+		<maxSize>${x.marquee.maxSize}</maxSize>
+		<pos>${x.marquee.pos}</pos>
+		<visible>${x.md_marquee.visible}</visible>
+		<zIndex>14</zIndex>
+		
+	</image>
+
+    <image name="md_thumbnail">
+		<linearSmooth>true</linearSmooth>
+		<reflexion>0.2 0.0</reflexion>	  		
+		<origin>0.5 0.5</origin>
+		<maxSize>${x.md_thumbnail.maxSize}</maxSize>
+		<pos>${x.md_thumbnail.pos}</pos>
+		<zIndex>100</zIndex>
+		
+	</image>
+
+    <image name="logostatic, logostatic2" extra="true">
+		<visible>${x.logostatic.detailed_video_grid.visible}</visible>
+	</image>
+
+	<image name="md_line0" extra="true">
+		<path>./_assets/white.png</path>
+		<color>ffffff</color>
+		<colorEnd>ffffff00</colorEnd>
+		<gradientType>vertical</gradientType>
+		<origin>0.5 0.5</origin>
+		<pos>${x.md_line0.pos}</pos>
+		<size>${x.md_line0.size}</size>
+        <zIndex>900</zIndex>
+		
+	</image>
+	
+	<image name="md_line" extra="true">
+		<path>./_assets/white.png</path>
+		<color>ffffff</color>
+		<colorEnd>ffffff00</colorEnd>
+		<gradientType>vertical</gradientType>
+		<origin>0.5 0.5</origin>
+		<pos>${x.md_line.pos}</pos>
+		<size>${x.md_line.size}</size>
+        <zIndex>900</zIndex>
+		
+	</image>
+
+	<image name="md_line2" extra="true">
+		<path>./_assets/white.png</path>
+		<color>ffffff00</color>
+		<colorEnd>ffffff</colorEnd>
+		<gradientType>vertical</gradientType>
+		<origin>0.5 1</origin>
+		<pos>${x.md_line2.pos}</pos>
+		<size>${x.md_line2.size}</size>
+        <zIndex>900</zIndex>
+	
+	</image>
+		
+	 <text name="md_description">
+ 		<origin>0.5 1</origin>	 
+		<color>ffffff</color>
+		<glowColor>101010</glowColor>		
+		<glowSize>1</glowSize>
+        <fontPath>./_assets/adventure.otf</fontPath>		 
+		<alignment>center</alignment>
+        <fontSize>0.025</fontSize>
+		<lineSpacing>1.1</lineSpacing>
+        <pos>${x.md_description.pos}</pos>
+        <size>${x.md_description.size}</size>		
+        <zIndex>900</zIndex>
+		
+    </text>
+
+	<rating name="md_rating">
+		<pos>${x.md_rating.pos}</pos>
+		<size>1 0.01296296</size>
+		<zIndex>2000</zIndex>	
+		<filledPath>./_assets/ledr.png</filledPath>	
+		<unfilledPath>./_assets/ledg.png</unfilledPath>
+        <zIndex>900</zIndex>
+	
+    </rating>
+
+	<datetime name="md_releasedate">
+		<origin>0.5 0.5</origin>
+		<color>ffffff</color>
+		<pos>${x.md_releasedate.pos}</pos>
+		<size>0.12 0.020</size>
+        <fontPath>./_assets/adventure.otf</fontPath>		 
+		<fontSize>0.032</fontSize>
+		<alignment>center</alignment>
+		<zIndex>900</zIndex>
+	
+     </datetime>
+
+	<text name="md_publisher">
+		<origin>0.5 0.5</origin>
+		<color>ffffff</color>      
+		<glowColor>101010</glowColor>	
+		<glowSize>1</glowSize>		
+		<pos>${x.md_developer.pos}</pos>
+		<size>${x.md_developer.size}</size>
+        <fontPath>./_assets/adventure.otf</fontPath>		 
+		<fontSize>0.022</fontSize>
+		<alignment>center</alignment>
+		<zIndex>900</zIndex>
+
+      </text>
+	  
+	</view>
+
+
+
+
+<!---------- VIDEO, GRID ---------->
+
+	<view name="video, grid">
+
+	<video name="md_video">
+		<origin>0 0</origin>
+		<pos>${x.snap.pos}</pos>
+		<size>${x.snap.size}</size>
+		<delay>1</delay>
+		<effect>none</effect>		
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<color>ffffff</color>
+		<zIndex>19</zIndex>
+
+	</video>
+
+	</view>
+
+
+
+
+
+
+
+<!---------- BASIC, DETAILED, VIDEO ---------->
+
+	<view name="basic, detailed, video">
+	
+	<textlist name="gamelist">
+		<origin>0 0</origin>
+		<pos>${x.snap.pos}</pos>
+		<size>${x.snap.size}</size>
+        <selectedColor>ffffff</selectedColor>
+		<primaryColor>ffffff</primaryColor>
+        <secondaryColor>ffffff</secondaryColor>
+        <selectorColor>bb0b0b</selectorColor>	  		
+        <fontPath>./_assets/adventure.otf</fontPath>
+        <fontSize>0.025</fontSize>
+        <alignment>center</alignment>
+		<horizontalMargin>0.01</horizontalMargin>
+        <forceUppercase>false</forceUppercase>
+        <scrollSound>./_assets/scroll.wav</scrollSound>
+		<zIndex>18</zIndex>
+		<lines>9</lines>
+    </textlist>	  
+	
+	</view>
+
+
+
+
+
+
+
+<!---------- DETAILED ---------->
+
+	<view name="detailed">
+
+	<image name="md_image">
+		<pos>${x.snap.pos}</pos>
+		<size>${x.snap.size}</size>
+		<color>90909070</color>
+		<colorEnd>90909020</colorEnd>
+		<gradientType>vertical</gradientType>
+		<origin>0 0</origin>
+		<zIndex>16</zIndex>
+		<visible>${x.md_image.visible}</visible>
+	</image>
+	
+	</view>
+	
+	
+	
+	
+	
+	
+<!---------- GRID ---------->
+
+	<view name="grid">
+	
+    <imagegrid name="gamegrid">
+		<pos>${x.snap.pos}</pos>
+		<size>${x.snap.size}</size>
+		<autoLayout>${x.grid.autoLayout}</autoLayout>
+		<margin>0 0</margin>
+		<padding>${x.gamegrid.padding}</padding>
+		<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+		<animateSelection>false</animateSelection>
+        <zIndex>18</zIndex>
+    </imagegrid>
+
+    <gridtile name="default">
+		<backgroundColor>FFFFFF00</backgroundColor>
+		<backgroundCornerSize>9 9</backgroundCornerSize>
+		<selectionMode>image</selectionMode>
+		<padding>5 5</padding>
+		<imageColor>ffffff80</imageColor>
+		<reflexion>0.10 0.0</reflexion>	  
+    </gridtile>
+	
+    <gridtile name="selected">
+		<backgroundCenterColor>FFFFFF50</backgroundCenterColor>
+		<imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+	
+    <text name="gridtile">
+		<color>D0D0D0</color>
+		<backgroundColor>00000000</backgroundColor>
+		<fontSize>0.016</fontSize>
+		<fontPath>./_assets/adventure.otf</fontPath>		 	  
+		<alignment>center</alignment>
+		<size>0.8 0.24</size>
+    </text>
+
+    <text name="gridtile_selected">
+		<glowColor>101010</glowColor>
+		<glowSize>2</glowSize>
+    </text>
+
+    <ninepatch name="gridtile.background:selected">
+		<animateColor>bb0b0b</animateColor>
+		<animateColorTime>350</animateColorTime>
+    </ninepatch>	
+	
+	</view>
+
+<!---------- GRID SUBSETS ---------->
+
+	<subset name="grid_view" displayName="${lang.grid_view}">
+
+		<include name="classic" displayName="${lang.classic}"/>
+		<include name="arcade_marquees" displayName="${lang.arcade_marquees}">./_assets/_theme_complement/grid_arcade.xml</include>
+		<include name="arcade_boxes" displayName="${lang.arcade_boxes}">./_assets/_theme_complement/grid_boxes.xml</include>
+
+	</subset>
+
+	
+<!---------- SCREEN ---------->
+
+	<view name="screen">
+	
+	<text name="clock">
+		<color>00000000</color>
+	</text>
+
+	<controllerActivity name="controllerActivity">
+		<pos>0.001 0.001</pos>
+		<size>0.056666667 0.01666667</size>
+		<itemSpacing>0.003</itemSpacing>
+		<imagePath>./_assets/gamepad.svg</imagePath>
+		<color>FFFFFF80</color>
+		<activityColor>A0A0FFC0</activityColor>
+		<hotkeyColor>FFA0A0C0</hotkeyColor>
+		<zIndex>900</zIndex>
+	</controllerActivity>
+
+	<batteryIndicator name="batteryIndicator">
+		<pos>0.955 0.0001</pos>
+		<size>0.01666667 0.01666667</size>
+		<incharge>./_assets/battery/incharge.svg</incharge>
+		<full>./_assets/battery/full.svg</full>
+		<at75>./_assets/battery/75.svg</at75>
+		<at50>./_assets/battery/50.svg</at50>
+		<at25>./_assets/battery/25.svg</at25>
+		<empty>./_assets/battery/empty.svg</empty>
+		<color>FFFFFFA0</color>
+		<zIndex>900</zIndex>
+	</batteryIndicator>
+
+	</view>
+
+
+
+
+
+<!--------- MENU ---------->
+
+  <view name="menu">
+
+    <menuText name="menutitle">
+		<fontPath>./_assets/roundedledboard.ttf</fontPath>
+		<fontSize>0.016</fontSize>
+		<color>ffb347</color>
+    </menuText>
+
+    <menuText name="menufooter">
+		<fontPath>./_assets/roundedledboard.ttf</fontPath>
+		<fontSize>0.012</fontSize>
+		<color>ffb347</color>
+    </menuText>
+
+    <menuText name="menutext">
+		<fontPath>./_assets/roundedledboard.ttf</fontPath>
+		<fontSize>0.014</fontSize>
+		<color>ffb347</color>
+		<separatorColor>ffb347</separatorColor>
+		<selectorColor>505050</selectorColor>
+		<selectedColor>ffb347</selectedColor>		
+    </menuText>
+	
+    <menuTextSmall name="menutextsmall">
+		<fontPath>./_assets/roundedledboard.ttf</fontPath>
+		<fontSize>0.011</fontSize>
+		<color>ffb347</color>
+	</menuTextSmall>
+
+    <menuBackground name="menubg">
+		<color>303030</color>
+		<cornerSize>16 16</cornerSize>
+	</menuBackground>
+	
+  </view>
+
+<!---------- STORYBOARDS --------->
+
+	<subset name="storyboards" displayName="${lang.storyboards}">
+
+		<include name="on" displayName="${lang.on}">./_assets/_theme_complement/storyboards_subset.xml</include>
+		<include name="off" displayName="${lang.off}">./nope.xml</include>
+
+	</subset>
+
+
+
+</theme>

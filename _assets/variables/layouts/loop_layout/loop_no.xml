@@ -1,0 +1,9 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<x.background.visible>true</x.background.visible>
+<x.loop.visible>false</x.loop.visible>
+
+</variables>
+</theme>

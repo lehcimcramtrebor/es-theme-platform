@@ -1,0 +1,30 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+	<image name="label" extra="true">
+	<visible>true</visible>
+		<storyboard>
+        		<animation property="scale" to="1.025" begin="0" autoreverse="true" duration="120" repeat="60" mode="easyOut"/>
+        		<animation property="maxSize" from="0 0" to="0 0" begin="0" duration="2100" mode="easyOut"/>
+        		<animation property="maxSize" from="0 0" to="0.5 0.5" begin="2100" duration="300" mode="bump"/>
+        		<animation property="maxSize" from="0.5 0.5" to="0.5 0.5" begin="2400" duration="4550" mode="linear"/>
+        		<animation property="maxSize" from="0.5 0.5" to="0 0" begin="6950" duration="150" mode="EasyInQuint"/>
+		</storyboard>
+			</image>
+
+	<text name="label_text" extra="true">
+	<visible>true</visible>
+		<storyboard>
+        		<animation property="opacity" from="0" to="0" begin="0" duration="1800" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" begin="2500" duration="300" mode="linear"/>
+        		<animation property="opacity" from="1" to="1" begin="2800" duration="4000" mode="linear"/>
+        		<animation property="color" to="00000000" begin="6800" duration="300" duration="forever" mode="linear"/>
+        		<animation property="x" to="-1" begin="7100" duration="1000" duration="forever" mode="linear"/>
+		</storyboard>
+			</text>
+	</view>
+
+	
+</theme>

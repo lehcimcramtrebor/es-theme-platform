@@ -1,0 +1,30 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+	<image name="background" extra="true">
+
+		<storyboard>
+        		<animation property="opacity" from="0" to="0" begin="0" duration="300" mode="linear"/> 
+        		<animation property="opacity" from="0" to="1" begin="300" duration="150" mode="linear"/> 
+				<animation property="w" from="0" begin="150" duration="300" mode="easyOut"/>
+		</storyboard>
+		
+	</image>
+
+	</view>
+
+	<view name="basi, detailed, video, grid">
+
+    <image name="background" extra="true">
+
+		<storyboard>
+         		<animation property="opacity" from="0" to="1" begin="0" duration="300" mode="linear"/>        		
+		</storyboard>
+		
+	</image>
+
+	</view>
+	
+</theme>

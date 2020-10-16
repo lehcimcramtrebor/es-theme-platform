@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	<include>./../storyboards/storyboard.xml</include>
+
+<!----------- Animation ON/OFF settings ---------->
+
+<!------------ SystemView ---------->
+
+	<include>./../storyboards/background/animation_${animation.background}.xml</include>
+	
+
+	<include>./../storyboards/left_illustration/${animation.left.property}/${animation.left.origin}/animation_${animation.left}.xml</include>
+	<include>./../storyboards/left_illustration/${animation.left.property}/${animation.left.origin}/animation_${animation.left}_${layout.left.shift}.xml</include>
+	<include>./../storyboards/left_illustration/${animation.left.property}/${animation.left.origin}/animation_${animation.system.left}.xml</include>
+	<include>./../storyboards/left_illustration/${animation.left.property}/${animation.left.origin}/animation_${animation.system.left}_${layout.left.shift}.xml</include>
+
+
+	<include>./../storyboards/right_illustration/${animation.right.property}/${animation.right.origin}/animation_${animation.right}.xml</include>
+	<include>./../storyboards/right_illustration/${animation.right.property}/${animation.right.origin}/animation_${animation.right}_${layout.right.shift}.xml</include>
+	<include>./../storyboards/right_illustration/${animation.right.property}/${animation.right.origin}/animation_${animation.system.right}.xml</include>
+	<include>./../storyboards/right_illustration/${animation.right.property}/${animation.right.origin}/animation_${animation.system.right}_${layout.right.shift}.xml</include>
+
+	<include>./../storyboards/left2_illustration/${animation.left2.property}/${animation.left2.origin}/animation_${animation.left2}.xml</include>
+	<include>./../storyboards/left2_illustration/${animation.left2.property}/${animation.left2.origin}/animation_${animation.left2}_${layout.left2.shift}.xml</include>
+	<include>./../storyboards/left2_illustration/${animation.left2.property}/${animation.left2.origin}/animation_${animation.system.left2}.xml</include>
+	<include>./../storyboards/left2_illustration/${animation.left2.property}/${animation.left2.origin}/animation_${animation.system.left2}_${layout.left2.shift}.xml</include>
+
+
+	<include>./../storyboards/right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_${animation.right2}.xml</include>
+	<include>./../storyboards/right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_${animation.right2}_${layout.right2.shift}.xml</include>
+	<include>./../storyboards/right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_${animation.system.right2}.xml</include>
+	<include>./../storyboards/right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_${animation.system.right2}_${layout.right2.shift}.xml</include>
+
+
+	
+	
+<!------------ GamelistView ---------->
+
+	<include>./../storyboards/background/animation_system_${animation.system.background}.xml</include>
+
+	
+	<include>./../storyboards/left_illustration/${animation.left.property}/${animation.left.origin}/animation_in_gamelist_${animation.gamelist.left}.xml</include>
+	<include>./../storyboards/left_illustration/${animation.left.property}/${animation.left.origin}/animation_in_gamelist_${animation.gamelist.left}_${layout.left.shift}.xml</include>
+	<include>./../storyboards/left_illustration/${animation.left.property}/${animation.left.origin}/animation_in_gamelist_${animation.gamelist.system.left}.xml</include>
+	<include>./../storyboards/left_illustration/${animation.left.property}/${animation.left.origin}/animation_in_gamelist_${animation.gamelist.system.left}_${layout.left.shift}.xml</include>
+
+
+	<include>./../storyboards/right_illustration/${animation.right.property}/${animation.right.origin}/animation_in_gamelist_${animation.gamelist.right}.xml</include>
+	<include>./../storyboards/right_illustration/${animation.right.property}/${animation.right.origin}/animation_in_gamelist_${animation.gamelist.right}_${layout.right.shift}.xml</include>
+	<include>./../storyboards/right_illustration/${animation.right.property}/${animation.right.origin}/animation_in_gamelist_${animation.gamelist.system.right}.xml</include>
+	<include>./../storyboards/right_illustration/${animation.right.property}/${animation.right.origin}/animation_in_gamelist_${animation.gamelist.system.right}_${layout.right.shift}.xml</include>	
+
+
+	<include>./../storyboards/left2_illustration/${animation.left2.property}/${animation.left2.origin}/animation_in_gamelist_${animation.gamelist.left2}.xml</include>
+	<include>./../storyboards/left2_illustration/${animation.left2.property}/${animation.left2.origin}/animation_in_gamelist_${animation.gamelist.left2}_${layout.left2.shift}.xml</include>
+	<include>./../storyboards/left2_illustration/${animation.left2.property}/${animation.left2.origin}/animation_in_gamelist_${animation.gamelist.system.left2}.xml</include>
+	<include>./../storyboards/left2_illustration/${animation.left2.property}/${animation.left2.origin}/animation_in_gamelist_${animation.gamelist.system.left2}_${layout.left2.shift}.xml</include>
+
+
+	<include>./../storyboards/right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_in_gamelist_${animation.gamelist.right2}.xml</include>
+	<include>./../storyboards/right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_in_gamelist_${animation.gamelist.right2}_${layout.right2.shift}.xml</include>
+	<include>./../storyboards/right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_in_gamelist_${animation.gamelist.system.right2}.xml</include>
+	<include>./../storyboards/right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_in_gamelist_${animation.gamelist.system.right2}_${layout.right2.shift}.xml</include>
+
+
+
+
+<!---------- Label Display ---------->
+
+	<include>./../storyboards/label/label_${display.label}.xml</include>
+		
+</theme>

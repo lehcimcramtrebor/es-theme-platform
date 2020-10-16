@@ -1,0 +1,14 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+
+<x.background.color>ffffff</x.background.color>
+<x.background.colorEnd>000000</x.background.colorEnd>
+
+<x.background.gamelist.color>909090</x.background.gamelist.color>
+<x.background.gamelist.colorEnd>030303</x.background.gamelist.colorEnd>
+
+
+</variables>
+</theme>

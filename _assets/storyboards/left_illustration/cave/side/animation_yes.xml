@@ -1,0 +1,19 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+	<image name="leftillustration" extra="true">
+
+		<storyboard>
+        		<animation property="x" from="-0.5" begin="0" duration="1800" mode="linear"/>
+        		<animation property="y" to="1" begin="2800" autoreverse="true" duration="7200" repeat="forever" mode="easyIn"/>
+        		<animation property="color" to="202020" begin="2800" autoreverse="true" duration="7200" repeat="forever" mode="easyIn"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+		
+	</image>
+
+	</view>
+	
+</theme>

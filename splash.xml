@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+
+	<view name="splash">
+	
+	<splash name="splash">
+		<backgroundColor>303030FF</backgroundColor>
+	</splash>
+
+	<image name="background">
+		<path>./_assets/splash/background.jpg</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.5</pos>
+		<maxSize>1 1</maxSize>
+		<zIndex>1</zIndex>
+	</image>
+
+	<text name="label">
+		<color>FFFFFFFF</color>
+		<alignment>center</alignment>
+		<fontPath>./_assets/adventure.otf</fontPath>
+		<pos>0 0.94</pos>
+		<fontSize>0.024</fontSize>
+		<glowSize>1</glowSize>
+		<glowColor>101010</glowColor>
+		<glowOffset>0</glowOffset>
+		<zIndex>9</zIndex>
+	</text>
+
+	</view>
+
+</theme>

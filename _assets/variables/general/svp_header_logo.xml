@@ -1,0 +1,14 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+
+<x.logostatic.system.visible>true</x.logostatic.system.visible>
+<x.logostatic.basic.visible>true</x.logostatic.basic.visible>
+<x.logostatic.detailed_video_grid.visible>true</x.logostatic.detailed_video_grid.visible>
+<x.md_marquee.visible>false</x.md_marquee.visible>
+<x.retrobat_logo.visible>false</x.retrobat_logo.visible>
+
+
+</variables>
+</theme>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system, basic, detailed, video, grid">
+	<image name="leftillustration2_ghost2, leftillustration2_ghost1, leftillustration2" extra="true">
+		<y>${x.left2.y}</y>
+	</image>
+	</view>
+</theme>

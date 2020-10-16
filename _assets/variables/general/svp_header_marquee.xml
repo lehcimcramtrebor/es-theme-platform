@@ -1,0 +1,13 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+
+<x.logostatic.system.visible>true</x.logostatic.system.visible>
+<x.logostatic.basic.visible>true</x.logostatic.basic.visible>
+<x.logostatic.detailed_video_grid.visible>false</x.logostatic.detailed_video_grid.visible>
+<x.md_marquee.visible>true</x.md_marquee.visible>
+
+
+</variables>
+</theme>

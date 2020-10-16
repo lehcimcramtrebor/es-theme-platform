@@ -1,0 +1,10 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<x.right.color>ffffff</x.right.color>
+<x.right.colorEnd>ffffff50</x.right.colorEnd>
+<x.right.gradientType>horizontal</x.right.gradientType>
+
+</variables>
+</theme>

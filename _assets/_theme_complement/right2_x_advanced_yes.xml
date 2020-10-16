@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system, basic">
+	<image name="rightillustration2_ghost2, rightillustration2_ghost1, rightillustration2" extra="true">
+		<x>${x.right2.x}</x>
+	</image>
+	</view>
+</theme>

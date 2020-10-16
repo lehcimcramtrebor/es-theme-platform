@@ -1,0 +1,51 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<x.grid.autoLayout>4 2</x.grid.autoLayout>
+
+
+<x.snap.pos>0.23 0.353</x.snap.pos>
+<x.snap.size>0.552 0.405</x.snap.size>
+
+<x.controller.pos>0.83 0.84</x.controller.pos>
+
+<x.backmetadata.pos>1.09 0</x.backmetadata.pos>
+<x.backmetadata.size>0.28 1</x.backmetadata.size>
+
+<x.md_thumbnail.pos>0.905 0.24</x.md_thumbnail.pos>
+<x.md_thumbnail.maxSize>0.16 0.426</x.md_thumbnail.maxSize>
+
+<x.md_name.pos>0.5 0.86</x.md_name.pos>
+<x.md_name.size>0.57 0.1</x.md_name.size>
+
+<x.md_releasedate.pos>0.905 0.505</x.md_releasedate.pos>
+
+<x.md_developer.pos>0.905 0.543</x.md_developer.pos>
+<x.md_developer.size>0.24 0.020</x.md_developer.size>
+
+<x.md_line0.pos>0.905 0.48</x.md_line0.pos>
+<x.md_line0.size>0.175 0.002</x.md_line0.size>
+
+<x.md_line.pos>0.905 0.57</x.md_line.pos>
+<x.md_line.size>0.175 0.002</x.md_line.size>
+
+<x.md_line2.pos>0.905 0.95</x.md_line2.pos>
+<x.md_line2.size>0.175 0.002</x.md_line2.size>
+
+<x.md_description.pos>0.905 0.95</x.md_description.pos>
+<x.md_description.size>0.175 0.38</x.md_description.size>
+
+<x.md_rating.pos>0.885 0.975</x.md_rating.pos>
+
+<x.arcade_grid.pos>0.81 0</x.arcade_grid.pos>
+<x.arcade_grid.size>0.19 1</x.arcade_grid.size>
+
+<x.arcade_grid.autoLayout>1 5</x.arcade_grid.autoLayout>
+
+<x.arcade.md_thumbnail.pos>0.77 0.73</x.arcade.md_thumbnail.pos>
+
+<x.arcade.md_rating.pos>0.705 0.735</x.arcade.md_rating.pos>
+
+</variables>
+</theme>

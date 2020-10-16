@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+<!---------- Arcade view ---------->
+<include>./grid_arcade.xml</include>
+
+	<view name="grid">
+
+    <image name="md_marquee">
+		<visible>true</visible>
+	</image>
+
+    <image name="md_thumbnail">
+		<visible>false</visible>
+	</image>
+	
+    <image name="logostatic, logostatic2" extra="true">
+		<visible>false</visible>
+	</image>
+		
+		<imagegrid name="gamegrid">
+		<autoLayout>1 3</autoLayout>
+		<imageSource>thumbnail</imageSource>
+    </imagegrid>
+
+    <ninepatch name="gridtile.background:selected">
+		<animateColor>00000000</animateColor>
+    </ninepatch>
+
+	</view>
+		
+</theme>

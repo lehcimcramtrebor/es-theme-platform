@@ -1,0 +1,10 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<x.back_center.color>ffffff</x.back_center.color>
+<x.back_center.colorEnd>ffffff</x.back_center.colorEnd>
+<x.back_center.reflexion>0.20 0</x.back_center.reflexion>
+
+</variables>
+</theme>
