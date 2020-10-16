@@ -4,10 +4,10 @@
 
 
 <x.background.color>ffffff</x.background.color>
-<x.background.colorEnd>000000</x.background.colorEnd>
+<x.background.colorEnd>606060</x.background.colorEnd>
 
-<x.background.gamelist.color>909090</x.background.gamelist.color>
-<x.background.gamelist.colorEnd>030303</x.background.gamelist.colorEnd>
+<x.background.gamelist.color>ffffff</x.background.gamelist.color>
+<x.background.gamelist.colorEnd>202020</x.background.gamelist.colorEnd>
 
 
 </variables>
