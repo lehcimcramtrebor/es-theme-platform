@@ -22,6 +22,8 @@ author: Lehcim Cram Trebor
 		<lang.classic>Classic</lang.classic>
 		<lang.arcade_boxes>Arcade carousel</lang.arcade_boxes>
 		<lang.arcade_marquees>Arcade marquees</lang.arcade_marquees>
+		<lang.screeneffect>Screen effect</lang.screeneffect>
+		<lang.grid_view>Grid style</lang.grid_view>
 
 	</variables>
 
@@ -33,7 +35,8 @@ author: Lehcim Cram Trebor
 		<include name="43" displayName="${lang.43}">./_assets/variables/vga/commons.xml</include>
 
 	</subset>
-	
+
+
 <!---------- Technical Default Variables ---------->
 
 	<variables>
@@ -43,6 +46,9 @@ author: Lehcim Cram Trebor
 
 		<!-- Default frame -->
 		<frame.style>default</frame.style>
+
+		<!-- Default crt zIndex -->
+		<x.crt.zIndex>3</x.crt.zIndex>
 
 		<!-- Background default variables -->
 
@@ -259,7 +265,21 @@ author: Lehcim Cram Trebor
 	<include>./_assets/variables/background/background_animation_${animation.background}.xml</include>
 	<include>./_assets/variables/background/background_animation_system_${animation.system.background}.xml</include>
 
+<!---------- Screen effect Subsets ---------->
 
+	<subset name="screen effect" displayName="${lang.screeneffect}">
+
+		<include name="no" displayName="${lang.no}"/>
+		<include name="scanlines" displayName="${lang.scanlines}">./_assets/variables/screen/scanlines.xml</include>
+		<include name="scanlines fine" displayName="${lang.scanlinesfine}">./_assets/variables/screen/scanlines_fine.xml</include>
+		<include name="vertical scanlines" displayName="${lang.verticalscanlines}">./_assets/variables/screen/vertical_scanlines.xml</include>
+		<include name="vertical scanlines fine" displayName="${lang.verticalscanlinesfine}">./_assets/variables/screen/vertical_scanlines_fine.xml</include>
+		<include name="phosphore" displayName="${lang.phosphore}">./_assets/variables/screen/phosphore.xml</include>
+		<include name="phosphore+" displayName="${lang.phosphore+}">./_assets/variables/screen/phosphore+.xml</include>
+		<include name="crt" displayName="${lang.phosphore+}">./_assets/variables/screen/crt.xml</include>
+
+	</subset>	
+	
 <!---------- HELP ---------->
 
 	<view name="menu, system, basic, detailed, video, grid">
@@ -517,6 +537,8 @@ author: Lehcim Cram Trebor
 		<pos>-1 -1</pos>		
 		<fontSize>0.016</fontSize>
 		<fontColor>101010</fontColor>
+		<glowColor>30303002</glowColor>
+		<glowSize>1</glowSize>
 		<forceUpperCase>true</forceUpperCase>
 		<text>${x.label.text}</text>
 		<pos>-1 -1</pos>
@@ -1009,13 +1031,14 @@ author: Lehcim Cram Trebor
 		<size>1 1</size>
 		<pos>0 0</pos>
 		<origin>0 0</origin>
-		<color>A0A0A005</color>
-		<zIndex>3</zIndex>
+		<color>A0A0A003</color>
+		<zIndex>${x.crt.zIndex}</zIndex>
 		<visible>${x.crt.visible}</visible>
     </video>	
 
 	<image name="scanlines" extra="true">
 		<path>./_assets/scanlines.png</path>
+		<color>FFFFFF80</color>
 		<size>1 1</size>
 		<pos>0 0</pos>
 		<origin>0 0</origin>
@@ -1367,6 +1390,15 @@ author: Lehcim Cram Trebor
 		<color>00000000</color>
 	</text>
 
+    <image name="scanlines_screen" extra="true">
+		<pos>0 0</pos>
+		<size>1 1</size>
+		<path>${x.scanlines_screen.path}</path>
+		<color>FFFFFF80</color>
+		<tile>true</tile>
+		<zIndex>3000</zIndex>
+    </image>
+	
 	<controllerActivity name="controllerActivity">
 		<pos>0.001 0.001</pos>
 		<size>0.056666667 0.01666667</size>
@@ -1419,7 +1451,7 @@ author: Lehcim Cram Trebor
 		<color>ffb347</color>
 		<separatorColor>ffb347</separatorColor>
 		<selectorColor>505050</selectorColor>
-		<selectedColor>ffb347</selectedColor>		
+		<selectedColor>b3ff47</selectedColor>		
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
@@ -1435,6 +1467,8 @@ author: Lehcim Cram Trebor
 	
   </view>
 
+
+	
 <!---------- STORYBOARDS --------->
 
 	<subset name="storyboards" displayName="${lang.storyboards}">

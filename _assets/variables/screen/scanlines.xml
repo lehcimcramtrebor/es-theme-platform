@@ -1,0 +1,17 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<x.crt.zIndex>5000</x.crt.zIndex>
+<x.crt_frame.visible>false</x.crt_frame.visible>
+<x.scanlines.visible>false</x.scanlines.visible>
+<x.scanlines_screen.path>./_assets/scanlines.png</x.scanlines_screen.path>
+
+
+
+
+</variables>
+
+
+	
+</theme>
