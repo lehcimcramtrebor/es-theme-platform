@@ -265,7 +265,6 @@ author: Lehcim Cram Trebor
 	<include>./_assets/variables/general/backmetadata_${general.backmetadata.visible}.xml</include>
 	<include>./_assets/variables/general/md_image_${general.md_image.visible}.xml</include>
 	<include>./_assets/variables/general/svp_header_${general.svp_header.visible}.xml</include>
-	<include>./_assets/variables/general/help_${layout.help.color}.xml</include>
 	
 <!---------- Variable Background animation zoom ---------->
 
@@ -1494,14 +1493,22 @@ author: Lehcim Cram Trebor
     <menuTextSmall name="menutextsmall">
 		<fontPath>./_assets/roundedledboard.ttf</fontPath>
 		<fontSize>0.011</fontSize>
-		<color>ffb347</color>
+		<color>ffffff</color>
 	</menuTextSmall>
 
     <menuBackground name="menubg">
 		<color>293133</color>
 		<cornerSize>16 16</cornerSize>
 	</menuBackground>
-	
+
+    <menuGroup name="menugroup">
+		<fontPath>./_assets/roundedledboard.ttf</fontPath>
+		<fontSize>0.012</fontSize>
+		<color>ffffff</color>
+		<separatorColor>ffb347af</separatorColor>
+		<backgroundColor>00000000</backgroundColor>
+		<lineSpacing>3</lineSpacing>
+		</menuGroup>	
   </view>
 
 
