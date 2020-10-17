@@ -1486,8 +1486,8 @@ author: Lehcim Cram Trebor
 		<fontPath>./_assets/roundedledboard.ttf</fontPath>
 		<fontSize>0.014</fontSize>
 		<color>ffb347</color>
-		<separatorColor>ffb347</separatorColor>
-		<selectorColor>505050</selectorColor>
+		<separatorColor>ffb347af</separatorColor>
+		<selectorColor>00000000</selectorColor>
 		<selectedColor>b3ff47</selectedColor>		
     </menuText>
 	
@@ -1498,7 +1498,7 @@ author: Lehcim Cram Trebor
 	</menuTextSmall>
 
     <menuBackground name="menubg">
-		<color>303030</color>
+		<color>293133</color>
 		<cornerSize>16 16</cornerSize>
 	</menuBackground>
 	
