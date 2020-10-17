@@ -15,8 +15,6 @@
 <!------------------------------------------------------------------------------------------------------------------------------------------------>
 
 
-<!-- BACKGROUNDS VIDEO EFFECT CRT: --DESACTIVED>																																										
-<general.crt.visible>yes</general.crt.visible>						<!-- "yes" by default, can be turned off by "no" -->
 
 <!-- SCANLINES BACKGROUNDS EFFECT: --DESACTIVED>																																										
 <general.scanlines.visible>yes</general.scanlines.visible>			<!-- "yes" by default, can be turned off by "no" -->

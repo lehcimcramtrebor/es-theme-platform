@@ -10,8 +10,6 @@
 <!------------------------------------------------------------------------------------------------------------------------------------------------>																													
 <!------------------------------------------------------------------------------------------------------------------------------------------------>
 
-<!-- BACKGROUNDS VIDEO EFFECT CRT: -->																																											
-<general.crt.visible>yes</general.crt.visible>						<!-- "yes" by default, can be turned off by "no" -->
 
 <!-- SCANLINES BACKGROUNDS EFFECT: -->																																										
 <general.scanlines.visible>yes</general.scanlines.visible>			<!-- "yes" by default, can be turned off by "no" -->
@@ -29,7 +27,7 @@
 <general.logo_light.visible>yes</general.logo_light.visible>		<!-- "yes" by default, can be turned off by "no" -->
 
 <!-- HELP VISIBILITY -->									
-<layout.help.color>no</layout.help.color>						<!-- "no" by default, can be turned off by "yes" -->
+<layout.help.color>no</layout.help.color>							<!-- "no" by default, can be turned off by "yes" -->
 
 <!-- SNAP FRAME CRT EFFECT -->
 <general.crt_frame.visible>yes</general.crt_frame.visible>			<!-- "yes" by default, can be turned off by "no" -->

@@ -24,6 +24,7 @@ author: Lehcim Cram Trebor
 		<lang.arcade_marquees>Arcade marquees</lang.arcade_marquees>
 		<lang.screeneffect>Screen effect</lang.screeneffect>
 		<lang.grid_view>Grid style</lang.grid_view>
+		<lang.screencrt>CRT twinkle effect</lang.screencrt>
 
 	</variables>
 
@@ -279,7 +280,14 @@ author: Lehcim Cram Trebor
 		<include name="crt" displayName="${lang.phosphore+}">./_assets/variables/screen/crt.xml</include>
 
 	</subset>	
-	
+
+	<subset name="crt screen" displayName="${lang.screencrt}">
+
+		<include name="yes" displayName="${lang.yes}">./_assets/variables/general/crt_yes.xml
+		<include name="no" displayName="${lang.no}">./_assets/variables/general/crt_no.xml</include>
+
+
+	</subset>	
 <!---------- HELP ---------->
 
 	<view name="menu, system, basic, detailed, video, grid">
