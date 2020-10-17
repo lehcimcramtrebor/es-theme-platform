@@ -283,7 +283,7 @@ author: Lehcim Cram Trebor
 
 	<subset name="crt screen" displayName="${lang.screencrt}">
 
-		<include name="yes" displayName="${lang.yes}">./_assets/variables/general/crt_yes.xml
+		<include name="yes" displayName="${lang.yes}">./_assets/variables/general/crt_yes.xml</include>
 		<include name="no" displayName="${lang.no}">./_assets/variables/general/crt_no.xml</include>
 
 
