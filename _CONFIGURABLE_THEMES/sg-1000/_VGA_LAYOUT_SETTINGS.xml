@@ -36,7 +36,7 @@
 <!-----------------------LEFT----------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--LEFT illustration SHIFTING: -->																																									
+<!--LEFT illustration SHIFTING: --DESACTIVED>																																									
 <layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--LEFT illustration LAYOUT: --DESACTIVED>																																									
@@ -63,9 +63,9 @@
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.left.size.overwrite>yes</layout.left.size.overwrite>
+	<layout.left.size.overwrite>no</layout.left.size.overwrite>
 	
-			<layout.left.size>6</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.left.size>7</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
 <!-------------------------VISIBLE------------------------------>
 
