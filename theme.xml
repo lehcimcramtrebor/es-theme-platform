@@ -25,6 +25,10 @@ author: Lehcim Cram Trebor
 		<lang.screeneffect>Screen effect</lang.screeneffect>
 		<lang.grid_view>Grid style</lang.grid_view>
 		<lang.screencrt>CRT twinkle effect</lang.screencrt>
+		<lang.focus>Focus on elements</lang.focus>
+		<lang.soft>Soft</lang.soft>
+		<lang.strong>Strong</lang.strong>
+		<lang.help>Display help</lang.help>
 
 	</variables>
 
@@ -58,6 +62,10 @@ author: Lehcim Cram Trebor
 		<x.background.gamelist.color>909090</x.background.gamelist.color>
 		<x.background.gamelist.colorEnd>030303</x.background.gamelist.colorEnd>
 		<x.background.maxSize>99 1</x.background.maxSize>
+
+		<!-- Focus default variables -->
+
+		<x.focus.color>ffffff40</x.focus.color>
 		
 		<!-- Left illustration default variables -->
 		<x.left.maxSize>0.5 0.6</x.left.maxSize>
@@ -249,10 +257,8 @@ author: Lehcim Cram Trebor
 
 <!----------- Variables Path for General and Specifics Settings ---------->
 	
-	<include>./_assets/variables/general/focus_${general.focus.visible}.xml</include>
 	<include>./_assets/variables/general/background_darkening_${general.background.darkening}.xml</include>
 	<include>./_assets/variables/general/scanlines_${general.scanlines.visible}.xml</include>
-	<include>./_assets/variables/general/crt_${general.crt.visible}.xml</include>
 	<include>./_assets/variables/general/controller_${general.controller.visible}.xml</include>
 	<include>./_assets/variables/general/logo_light_${general.logo_light.visible}.xml</include>
 	<include>./_assets/variables/general/crt_frame_${general.crt_frame.visible}.xml</include>
@@ -281,13 +287,35 @@ author: Lehcim Cram Trebor
 
 	</subset>	
 
+<!---------- Screen CRT Twinkle Subsets ---------->
+
 	<subset name="crt screen" displayName="${lang.screencrt}">
 
 		<include name="yes" displayName="${lang.yes}">./_assets/variables/general/crt_yes.xml</include>
 		<include name="no" displayName="${lang.no}">./_assets/variables/general/crt_no.xml</include>
 
+	</subset>	
+
+<!---------- Focus Subsets ---------->
+
+	<subset name="focus" displayName="${lang.focus}">
+
+		<include name="soft" displayName="${lang.soft}">./_assets/variables/general/focus_soft.xml</include>
+		<include name="strong" displayName="${lang.strong}">./_assets/variables/general/focus_strong.xml</include>
+		<include name="no" displayName="${lang.no}">./_assets/variables/general/focus_no.xml</include>
 
 	</subset>	
+
+<!---------- Help Subsets ---------->
+
+	<subset name="help" displayName="${lang.help}">
+
+		<include name="no" displayName="${lang.no}">./_assets/variables/general/help_no.xml</include>
+		<include name="yes" displayName="${lang.yes}"/>
+
+	</subset>	
+	
+	
 <!---------- HELP ---------->
 
 	<view name="menu, system, basic, detailed, video, grid">
@@ -298,6 +326,7 @@ author: Lehcim Cram Trebor
 		<fontSize>0.016</fontSize>
 		<origin>0 1</origin>
 		<pos>0.009 0.991</pos>
+		<fontPath>./_assets/Adventure.otf</fontPath>
     </helpsystem>	
 	
 	</view>
@@ -431,7 +460,7 @@ author: Lehcim Cram Trebor
 		<size>1 1</size>
 		<pos>0 0</pos>
 		<origin>0 0</origin>
-		<color>ffffff40</color>
+		<color>${x.focus.color}</color>
 		<zIndex>2</zIndex>
 		<visible>${x.focus.visible}</visible>
 	</video>

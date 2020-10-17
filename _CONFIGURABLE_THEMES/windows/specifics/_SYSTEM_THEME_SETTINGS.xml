@@ -19,9 +19,6 @@
 <!-- SCANLINES BACKGROUNDS EFFECT: --DESACTIVED>																																										
 <general.scanlines.visible>yes</general.scanlines.visible>			<!-- "yes" by default, can be turned off by "no" -->
 
-<!-- FOCUS BACKGROUNDS VIDEO EFFECT: --DESACTIVED>																																														
-<general.focus.visible>yes</general.focus.visible>					<!-- "yes" by default, can be turned off by "no" -->
-
 <!-- BACKGROUNDS BOTTOM DARKENING --DESACTIVED>
 <general.background.darkening>yes</general.background.darkening>	<!-- "yes" by default, can be turned off by "no" -->
 

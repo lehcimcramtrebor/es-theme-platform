@@ -1,0 +1,12 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+
+<x.focus.visible>true</x.focus.visible>
+<x.focus.color>ffffff40</x.focus.color>
+<x.background.gamelist.color>999999</x.background.gamelist.color>
+
+
+</variables>
+</theme>

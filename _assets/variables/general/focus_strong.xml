@@ -4,6 +4,8 @@
 
 
 <x.focus.visible>true</x.focus.visible>
+<x.focus.color>ffffff80</x.focus.color>
+<x.background.gamelist.color>808080</x.background.gamelist.color>
 
 
 </variables>

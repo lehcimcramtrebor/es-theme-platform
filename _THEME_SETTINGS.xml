@@ -14,9 +14,6 @@
 <!-- SCANLINES BACKGROUNDS EFFECT: -->																																										
 <general.scanlines.visible>yes</general.scanlines.visible>			<!-- "yes" by default, can be turned off by "no" -->
 
-<!-- FOCUS BACKGROUNDS VIDEO EFFECT: -->																																														
-<general.focus.visible>yes</general.focus.visible>					<!-- "yes" by default, can be turned off by "no" -->
-
 <!-- BACKGROUNDS BOTTOM DARKENING -->
 <general.background.darkening>yes</general.background.darkening>	<!-- "yes" by default, can be turned off by "no" -->
 
@@ -25,9 +22,6 @@
 
 <!-- LOGO BACK LIGHT VISIBILITY -->
 <general.logo_light.visible>yes</general.logo_light.visible>		<!-- "yes" by default, can be turned off by "no" -->
-
-<!-- HELP VISIBILITY -->									
-<layout.help.color>no</layout.help.color>							<!-- "no" by default, can be turned off by "yes" -->
 
 <!-- SNAP FRAME CRT EFFECT -->
 <general.crt_frame.visible>yes</general.crt_frame.visible>			<!-- "yes" by default, can be turned off by "no" -->
