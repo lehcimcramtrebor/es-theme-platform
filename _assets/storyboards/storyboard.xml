@@ -45,7 +45,7 @@
 
 		<storyboard repeatAt="2701">
         		<animation property="x" from="2" begin="0" duration="1800" mode="easeOut"/>
-        		<animation property="scale" to="0.95" begin="1800" duration="900" mode="easeIn"/>
+        		<animation property="scale" to="0.95" begin="1800" duration="400" mode="easeIn"/>
         		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
         		<animation property="rotation" to="-5" begin="6000" duration="100" mode="easeIn"/>				
         		<animation property="rotation" to="5" begin="6100" duration="100" mode="easeIn"/>				
