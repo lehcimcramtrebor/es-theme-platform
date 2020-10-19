@@ -29,6 +29,7 @@ author: Lehcim Cram Trebor
 		<lang.soft>Soft</lang.soft>
 		<lang.strong>Strong</lang.strong>
 		<lang.help>Display help</lang.help>
+		<lang.labels>Display labels (only animated)</lang.labels>
 
 	</variables>
 
@@ -1519,6 +1520,15 @@ author: Lehcim Cram Trebor
 
 		<include name="on" displayName="${lang.on}">./_assets/_theme_complement/storyboards_subset.xml</include>
 		<include name="off" displayName="${lang.off}">./nope.xml</include>
+
+	</subset>
+
+<!---------- LABELS --------->
+
+	<subset name="labels" displayName="${lang.labels}">
+
+		<include name="yes" displayName="${lang.yes}"/>
+		<include name="no" displayName="${lang.no}">./_assets/_theme_complement/label_no.xml</include>
 
 	</subset>
 

@@ -1,0 +1,414 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables> 
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------> 
+<!------------------------------------------------ LAYOUT VGA SETTINGS: (OVERWRITE ARTWORKS SETTINGS FOR VGA SCREEN RATIO) --------------------------------------------------------------------->																											
+<!----------------------------- Some settings are desactivated by default, to activate a setting, detete "DESACTIVED" beetween "--" and ">" ---------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------ GAMEGRID PADDING ---------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<!-- Gamegrid Padding: --DESACTIVED>
+<layout.gamegrid.padding>right+</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------- ILLUSTRATIONS VGA SETTINGS ---------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+<!-------------------------------------------------------------->
+<!-----------------------LEFT----------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--LEFT illustration SHIFTING: --DESACTIVED>																																									
+<layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+
+<!--LEFT illustration LAYOUT: --DESACTIVED>																																									
+<layout.left.sizepos>square</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+
+<!--LEFT illustration INDEX: -->																																									
+<x.left.zIndex>behind</x.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
+
+
+
+	<!--ADVANCED USERS OUT OF FRAME POSITIONNING-->				<!-- ADVANCED USERS FINE POSITIONNING BY OVERWRITING POSITION <pos> BY <x> an <y> FUNCTIONS.  -->
+
+	<!---------------------HORIZONTAL----------------->
+
+	<layout.left.x.advanced>no</layout.left.x.advanced>			
+
+			<x.left.x>0.5</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+
+	<!---------------------VERTICAL------------------->
+	
+	<layout.left.y.advanced>no</layout.left.y.advanced>
+
+			<x.left.y>0.5</x.left.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+
+	<!---------------------SIZE----------------------->
+	
+	<layout.left.size.overwrite>no</layout.left.size.overwrite>
+	
+			<layout.left.size>7</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+
+<!-------------------------VISIBLE------------------------------>
+
+<layout.left.visible>yes</layout.left.visible>					<!-- VISIBLE: visible by default, you can delete an illustration on VGA Display to save space.
+
+
+
+
+
+<!-------------------------------------------------------------->
+<!-----------------------LEFT 2--------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--LEFT2 illustration SHIFTING: --DESACTIVED>																																									
+<layout.left2.shift>55</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+
+<!--LEFT2 illustration LAYOUT: --DESACTIVED>																																									
+<layout.left2.sizepos>square</layout.left2.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+
+<!--LEFT2 illustration INDEX: --DESACTIVED>																																									
+<x.left2.zIndex>behind</x.left2.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
+
+
+
+	<!--ADVANCED USERS OUT OF FRAME POSITIONNING-->				<!-- ADVANCED USERS FINE POSITIONNING BY OVERWRITING POSITION <pos> BY <x> an <y> FUNCTIONS.  -->
+
+	<!---------------------HORIZONTAL----------------->
+
+	<layout.left2.x.advanced>no</layout.left2.x.advanced>			
+
+			<x.left2.x>0.5</x.left2.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+
+	<!---------------------VERTICAL------------------->
+	
+	<layout.left2.y.advanced>yes</layout.left2.y.advanced>
+
+			<x.left2.y>0.7</x.left2.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+
+	<!---------------------SIZE----------------------->
+	
+	<layout.left2.size.overwrite>no</layout.left2.size.overwrite>
+	
+			<layout.left2.size>7</layout.left2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+
+<!-------------------------VISIBLE------------------------------>
+
+<layout.left2.visible>yes</layout.left2.visible>				<!-- VISIBLE: visible by default, you can delete an illustration on VGA Display to save space.
+
+
+
+
+
+
+<!-------------------------------------------------------------->
+<!-----------------------RIGHT---------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--RIGHT illustration SHIFTING: --DESACTIVED>																																									
+<layout.right.shift>55</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+
+<!--RIGHT illustration LAYOUT: --DESACTIVED>																																									
+<layout.right.sizepos>square</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+
+<!--RIGHT illustration INDEX: --DESACTIVED>																																									
+<x.right.zIndex>behind</x.right.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
+
+
+
+	<!--ADVANCED USERS OUT OF FRAME POSITIONNING-->				<!-- ADVANCED USERS FINE POSITIONNING BY OVERWRITING POSITION <pos> BY <x> an <y> FUNCTIONS.  -->
+
+	<!---------------------HORIZONTAL----------------->
+
+	<layout.right.x.advanced>no</layout.right.x.advanced>			
+
+			<x.right.x>0.5</x.right.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+
+	<!---------------------VERTICAL------------------->
+	
+	<layout.right.y.advanced>no</layout.right.y.advanced>
+
+			<x.right.y>0.5</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+
+	<!---------------------SIZE----------------------->
+	
+	<layout.right.size.overwrite>no</layout.right.size.overwrite>
+	
+			<layout.right.size>7</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+
+<!-------------------------VISIBLE------------------------------>
+
+<layout.right.visible>yes</layout.right.visible>				<!-- VISIBLE: visible by default, you can delete an illustration on VGA Display to save space.
+
+
+
+
+
+
+<!-------------------------------------------------------------->
+<!-----------------------RIGHT 2-------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--RIGHT2 illustration SHIFTING: --DESACTIVED>																																									
+<layout.right2.shift>55</layout.right2.shift>					<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+
+<!--RIGHT2 illustration LAYOUT: --DESACTIVED>																																									
+<layout.right2.sizepos>square</layout.right2.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+
+<!--RIGHT2 illustration INDEX: --DESACTIVED>																																									
+<x.right2.zIndex>behind</x.right2.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
+
+
+
+	<!--ADVANCED USERS OUT OF FRAME POSITIONNING-->				<!-- ADVANCED USERS FINE POSITIONNING BY OVERWRITING POSITION <pos> BY <x> an <y> FUNCTIONS.  -->
+
+	<!---------------------HORIZONTAL----------------->
+
+	<layout.right2.x.advanced>no</layout.right2.x.advanced>			
+
+			<x.right2.x>0.5</x.right2.x>						<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+
+	<!---------------------VERTICAL------------------->
+	
+	<layout.right2.y.advanced>no</layout.right2.y.advanced>
+
+			<x.right2.y>0.5</x.right2.y>						<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+
+	<!---------------------SIZE----------------------->
+	
+	<layout.right2.size.overwrite>no</layout.right2.size.overwrite>
+	
+			<layout.right2.size>7</layout.right2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+
+<!-------------------------VISIBLE------------------------------>
+
+<layout.right2.visible>yes</layout.right2.visible>				<!-- VISIBLE: visible by default, you can delete an illustration on VGA Display to save space.
+
+
+
+
+
+
+<!-------------------------------------------------------------->
+<!----------------------BACK LEFT------------------------------>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--BACK LEFT illustration: --DESACTIVED>																																									
+<layout.back_left.shift>55</layout.back_left.shift>				<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
+
+
+<layout.back_left.visible>yes</layout.back_left.visible>		<!-- VISIBLE: visible by default, you can delete an illustration on VGA Display to save space.
+
+
+
+
+
+<!-------------------------------------------------------------->
+<!----------------------BACK CENTER----------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--BACK CENTER illustration: --DESACTIVED>																																									
+<layout.back_center.shift>55</layout.back_center.shift>			<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
+
+
+<layout.back_center.visible>yes</layout.back_center.visible>	<!-- VISIBLE: visible by default, you can delete an illustration on VGA Display to save space.
+
+
+
+
+
+<!-------------------------------------------------------------->
+<!----------------------BACK RIGHT------------------------------>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--BACK RIGHT illustration: --DESACTIVED>																																									
+<layout.back_right.shift>55</layout.back_right.shift>			<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
+
+
+<layout.back_right.visible>yes</layout.back_right.visible>		<!-- VISIBLE: visible by default, you can delete an illustration on VGA Display to save space.
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------LABEL VGA POSITIONNING------------------------------------------------------------------------------------------------>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!---->
+<x.label.x>0.115</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+
+<!----DESACTIVED>
+<x.label.y>0.5</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
+
+
+
+
+
+
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------> 
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------- DOCUMENTATION: ------------------------------------------------------------------------------------------------------->																													
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------> 
+<!--
+	Snaps frame RATIO:
+	
+		-"4x3" 			for 4/3 video snaps.
+		-"16x9" 		for 16/9 video snaps.
+		-"3x2"			for 3/2 video snaps.
+		-"10x9"			for 10/9 video snaps.
+		
+	Illustration INDEX:
+	
+		-"behind" 		to place behind snap frame.
+		-"front" 		to place in front of snap frame.
+
+
+	Illustration LAYOUTS:
+	
+		-"square" 		centered in space square between frame and border, limited by frame heigh or border.
+
+		-"horizontal"	centered in free space between frame and border, limited by frame heigh and limited by half screen width.
+
+		-"vertical"		centered in free space between frame and border, limited width by frame border and limited heigh by bottom screen.
+
+		-"high" 		screen heigh centered, can fill entire screen heigh but limited width by frame border.
+		
+		-"big" 			screen heigh centered, placed to cover max 10% of frame, can fill entire screen heigh, but limited in with.
+
+		-"max"			centered in free space between frame and border, fill entire heigh of screen, unlimited width.
+
+		-"portrait"		centered in free space between frame and border, no limited witdh, fill 90% (fullhd) and 95% (vga) of screen heigh,
+						but start at screen bottom with default shifting.
+
+		-"half" 		centered on screen border, limited witdh by frame border, can fill entire screen heigh.
+
+	Illustration COLOR:
+	
+		-"default" 		for normal display.
+		-"reflexion" 	for use reflection.
+		-"bottom" 		for bottom transparency.
+		-"side" 		for interior side transparency.
+		-"side-soft"	for interior side soft transparency.
+		-"transparent"	for soft transparency on all illustration.
+		-"translucid"	for hard transparency on all illustration.
+		-"fade"			for soft fading image.
+
+	Illustration FLIP:
+	
+		-"yes"			for flip illustration on y axis.
+		-"no"			does'nt affect illustration.
+
+	Illustration ANIMATION:
+	
+		-Choose between different styles of forever loop animation for your illustrations, nothing else to explain, try.
+
+		-Note: "transparent" and "translucid" colors are not compatible with "ghost" animation, works but transparenry disappears.
+
+	Illustration ORIGIN:
+	
+		-Choose where does your illustration come from.
+
+	Illustration SHIFTING:
+		
+		-This is shifting adjustments from selected layout position.
+	
+		-Use 2 numbers:
+		
+			-First number is horizontal from left to right.
+			-Second number is vertical from up to down.
+			-Do not use "0", just "1", "2", "3", "4", "5", "6", "7", "8", "9".
+
+		-Ajust position like example:
+
+				-------------------------
+				(11)		1		 (91)	
+							2				
+							3				
+							4				
+											
+				1 2 3 4 	5	 6 7 8 9	
+											
+							6				
+							7				
+							8				
+				(19)		9		 (99)	
+				-------------------------
+				
+		-For examples:
+		
+			-"55" is default center.
+			
+			-"11" is max left 	(1) and up 	(1).
+			-"91" is max right 	(9) and up 	(1).
+			-"19" is max left	(1) and down(9).	
+			-"99" is max right 	(9) and down(9).
+			-"15", "25", "35", "45", "55", "65", "75", "85" and "95" are middle y axis fixed but move from left to right.
+			-"51", "52", "53", "54", "55", "56", "57", "58" and "59" are middle x axis fixed but move from top to bottom.
+
+
+	ADVANCED USERS OUT OF FRAME POSITIONNING:
+	
+	To understand how it works, let me explain how the SHIFTING function works: first when you select an illustration LAYOUT (portrait, max etc..)
+	illustration is sized and placed inside a zone i have defined to respect a certain style, these styles use <maxSize> property, with different
+	settings, for example "square" limit the image width to maintain image between video frame and limit the image heigh to maintain image between
+	top and bottom video frame borders. Another example, "max" limit image heigh to screen heigh but have no width limitation.
+
+	Default SHIFTING is 55, that's mean the center of illustration is point that i have choosed for define position of the image. When you modify
+	SHIFTING you don't modify the position but this point of illustration, it's the method i have choosed to limit the position of illustration
+	around the different layout zones.
+	
+	If you active the "ADVANCED USERS OUT OF FRAME POSITIONNING" variable (you must for this delete the "DESACTIVED" word between "--" and ">" and
+	choose "yes"), this overwrite position settings i have created but you must continue to use "LAYOUT" to choose different illustrations sizes.
+	There is two variables, "X" and "Y", from "0" to "1" with no decimals limitation you can place your image anywhere on screen from left to right
+	and top to bottom.
+	
+	-"0" is left (x) and top (y).
+	-"0.5" is center on both axes.
+	-"1" is right (x) and bottom (y).
+	
+	SHIFTING is always active but works from the position you have choose, so for example if you want to place an illustration in precise upper left corner
+	you should choose "99" SHIFTING to place the illustration origin points in upper left illustration corner and choose "0" for x axis and 0 for y axis.
+	
+	Now as you know SHIFTING are preconfigured <origin> settings, you should understand that's the opposite of the side or corner you want to select, because
+	if i want to shift image to top i need to select bottom origin point of image.
+	
+	I hope you are satisfied with these explains, now you can work with best theming customize experience and don't forget you can activate and edit "SHIFTING"
+	variables in "_vga.xml" files if you are not satisfied by "_ARTWORKS_SETTINGS.xml" on 4:3 screen.
+
+	IMPORTANT , note if you use advanced positionning in this file, this will not affect VGA mode, you must configure shifting or advanced positionning for vga mode in "_vga.xml".
+	
+	Lechim.
+	
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+</variables>
+</theme>

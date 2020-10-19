@@ -1,0 +1,16 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+	<image name="label" extra="true">
+	<visible>false</visible>
+	</image>
+
+	<text name="label_text" extra="true">
+	<visible>false</visible>
+	</text>
+	</view>
+
+	
+</theme>
