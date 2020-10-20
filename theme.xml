@@ -1526,6 +1526,8 @@ author: Lehcim Cram Trebor
 
 	</subset>
 
+<!---------- ADVANCED USERS OVERWRITE SPECIFICS --------->
 
+	<include>./_CONFIGURABLE_THEMES/${system.theme}/advanced_custom.xml</include>
 
 </theme>
