@@ -6,7 +6,7 @@
 
 <theme.screen.ratio>vga</theme.screen.ratio>
 
-<layout.vga.settings>vga</layout.vga.settings>
+<layout.vga.settings>VGA</layout.vga.settings>
 
 
 <x.systeminfo.pos>0 0.72</x.systeminfo.pos>

@@ -6,6 +6,8 @@
 
 <theme.screen.ratio>fullhd</theme.screen.ratio>
 
+<layout.fullhd.settings>FULLHD</layout.fullhd.settings>
+
 <x.systeminfo.pos>0 0.78</x.systeminfo.pos>
 <x.systeminfo.size>1 0.25</x.systeminfo.size>
 <x.systeminfo.fontSize>0.03</x.systeminfo.fontSize>
