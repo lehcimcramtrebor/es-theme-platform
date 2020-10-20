@@ -17,8 +17,6 @@ author: Lehcim Cram Trebor
 		<lang.169>Full HD</lang.169>
 		<lang.43>VGA</lang.43>
 		<lang.storyboards>Animations</lang.storyboards>
-		<lang.on>Yes, i love it !</lang.on>
-		<lang.off>No, i am going to throw up !!</lang.off>
 		<lang.classic>Classic</lang.classic>
 		<lang.arcade_boxes>Arcade carousel</lang.arcade_boxes>
 		<lang.arcade_marquees>Arcade marquees</lang.arcade_marquees>
@@ -29,7 +27,7 @@ author: Lehcim Cram Trebor
 		<lang.soft>Soft</lang.soft>
 		<lang.strong>Strong</lang.strong>
 		<lang.help>Display help</lang.help>
-		<lang.labels>Display labels (only animated)</lang.labels>
+		<lang.labels>Display labels</lang.labels>
 
 	</variables>
 
@@ -1516,12 +1514,8 @@ author: Lehcim Cram Trebor
 	
 <!---------- STORYBOARDS --------->
 
-	<subset name="storyboards" displayName="${lang.storyboards}">
+	<include>./_assets/_theme_complement/storyboards_subset.xml</include>
 
-		<include name="on" displayName="${lang.on}">./_assets/_theme_complement/storyboards_subset.xml</include>
-		<include name="off" displayName="${lang.off}">./nope.xml</include>
-
-	</subset>
 
 <!---------- LABELS --------->
 

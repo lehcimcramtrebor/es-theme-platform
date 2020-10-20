@@ -45,11 +45,11 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
 <x.left.zIndex>front</x.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
-<layout.left.sizepos>max</layout.left.sizepos>					<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
-<layout.left.shift>65</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.left.sizepos>portrait</layout.left.sizepos>					<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<layout.left.shift>35</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left.color>default</layout.left.color>					<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
-<layout.left.flip>no</layout.left.flip>							<!-- FLIP:		"yes" or "no", flip image horizontally. -->																																														
-<animation.left.property>ghost</animation.left.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
+<layout.left.flip>yes</layout.left.flip>							<!-- FLIP:		"yes" or "no", flip image horizontally. -->																																														
+<animation.left.property>roundtrip</animation.left.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
 <animation.left.origin>side</animation.left.origin>				<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
 
 
@@ -71,7 +71,7 @@
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.left.size.overwrite>yes</layout.left.size.overwrite>
+	<layout.left.size.overwrite>no</layout.left.size.overwrite>
 	
 			<layout.left.size>7</layout.left.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
@@ -81,11 +81,11 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
 <x.left2.zIndex>front</x.left2.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
-<layout.left2.sizepos>portrait</layout.left2.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
-<layout.left2.shift>55</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.left2.sizepos>vertical</layout.left2.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<layout.left2.shift>66</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left2.color>default</layout.left2.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.left2.flip>no</layout.left2.flip>						<!-- FLIP:		"yes" or "no", flip image horizontally. -->																																														
-<animation.left2.property>bump</animation.left2.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
+<animation.left2.property>ghost</animation.left2.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
 <animation.left2.origin>down</animation.left2.origin>			<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
 
 
@@ -101,9 +101,9 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.left2.y.advanced>no</layout.left2.y.advanced>
+	<layout.left2.y.advanced>yes</layout.left2.y.advanced>
 
-			<x.left2.y>0.5</x.left2.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.left2.y>0.535</x.left2.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
