@@ -1,0 +1,46 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables> 
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------> 
+<!------------------------------------------------------------------------------------------------------------------------------------------------>																														
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------------------- THEME SYSTEM SETTINGS: -------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+<!----------------------------- This is settings file for one themed folder, does'nt affect all theme, just this one ----------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+<!----------------- Settings are desactivated by default, to activate a setting, detete "DESACTIVED" beetween "--" and ">" ----------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------>																														
+<!------------------------------------------------------------------------------------------------------------------------------------------------> 
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+<!-- SCANLINES BACKGROUNDS EFFECT: --DESACTIVED>																																										
+<general.scanlines.visible>yes</general.scanlines.visible>			<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- BACKGROUNDS BOTTOM DARKENING --DESACTIVED>
+<general.background.darkening>yes</general.background.darkening>	<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- CONTROLLER VISIBILITY -->
+<general.controller.visible>no</general.controller.visible>		<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- LOGO BACK LIGHT VISIBILITY --DESACTIVED>
+<general.logo_light.visible>yes</general.logo_light.visible>		<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- SNAP FRAME CRT EFFECT --DESACTIVED>
+<general.crt_frame.visible>yes</general.crt_frame.visible>			<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- GAMELISTS BACK METADATAS FRAME --DESACTIVED>
+<general.backmetadata.visible>yes</general.backmetadata.visible>	<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- DETAILED VIEW SCREENSHOT BEHIND GAMELIST --DESACTIVED>
+<general.md_image.visible>yes</general.md_image.visible>			<!-- "yes" by default, can be turned off by "no" -->
+
+<!-- SCRAPED VIEWS PREFERED HEADER --DESACTIVED>
+<general.svp_header.visible>marquee</general.svp_header.visible>	<!-- "marquee" (by default) or "logo" for game marquee or system logo -->
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+
+</variables>
+</theme>
