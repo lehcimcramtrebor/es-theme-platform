@@ -469,8 +469,8 @@ author: Lehcim Cram Trebor
 		<path>{random}</path>
 		<path>./_CONFIGURABLE_THEMES/${system.theme}/snap/snap.mp4</path>                 		
 		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/snap/snap.mp4</path>                 		
-		<origin>0 0</origin>
-		<pos>${x.snap.pos}</pos>
+		<origin>0.5 0.5</origin>
+		<pos>${x.snapcenter.pos}</pos>
 		<size>${x.snap.size}</size>
 		<delay>0.5</delay>
 		<effect>none</effect>		
@@ -1284,8 +1284,8 @@ author: Lehcim Cram Trebor
 	<view name="video, grid">
 
 	<video name="md_video">
-		<origin>0 0</origin>
-		<pos>${x.snap.pos}</pos>
+		<origin>0.5 0.5</origin>
+		<pos>${x.snapcenter.pos}</pos>
 		<size>${x.snap.size}</size>
 		<delay>1</delay>
 		<effect>none</effect>		
@@ -1339,12 +1339,12 @@ author: Lehcim Cram Trebor
 	<view name="detailed">
 
 	<image name="md_image">
-		<pos>${x.snap.pos}</pos>
+		<pos>${x.snapcenter.pos}</pos>
 		<size>${x.snap.size}</size>
 		<color>90909070</color>
 		<colorEnd>90909020</colorEnd>
 		<gradientType>vertical</gradientType>
-		<origin>0 0</origin>
+		<origin>0.5 0.5</origin>
 		<zIndex>16</zIndex>
 		<visible>${x.md_image.visible}</visible>
 	</image>
