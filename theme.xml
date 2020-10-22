@@ -1528,7 +1528,7 @@ author: Lehcim Cram Trebor
 
 <!---------- ADVANCED USERS OVERWRITE SPECIFICS --------->
 
-	<include>./_CONFIGURABLE_THEMES/${system.theme}/specifics/_ADVANCED_CUSTOM.xml</include>
-	<include>./_CONFIGURABLE_THEMES/${system.theme}/specifics/_${layout.vga.settings}_ADVANCED_CUSTOM.xml</include>
+	<include>./_CONFIGURABLE_THEMES/${system.theme}/specifics/${system.theme}_advanced/_ADVANCED_CUSTOM.xml</include>
+	<include>./_CONFIGURABLE_THEMES/${system.theme}/specifics/${system.theme}_advanced/_${layout.vga.settings}_ADVANCED_CUSTOM.xml</include>
 
 </theme>
