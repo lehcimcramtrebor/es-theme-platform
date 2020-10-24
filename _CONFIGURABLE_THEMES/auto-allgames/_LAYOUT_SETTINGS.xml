@@ -23,7 +23,7 @@
 <!-- Gamegrid Padding: -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.gamegrid.padding>default</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
+<layout.gamegrid.padding>right</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
 
 <!-- LOOP video background -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -46,7 +46,7 @@
 																																									
 <x.left.zIndex>front</x.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.left.sizepos>portrait</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
-<layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.left.shift>65</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left.color>default</layout.left.color>					<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.left.flip>no</layout.left.flip>							<!-- FLIP:		"yes" or "no", flip image horizontally. -->																																														
 <animation.left.property>ghost</animation.left.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
@@ -117,12 +117,12 @@
 <!--RIGHT illustration: ---------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.right.index>behind</layout.right.index>					<!-- INDEX:		"behind", "front", see below. -->																				
-<layout.right.sizepos>horizontal</layout.right.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<layout.right.index>front</layout.right.index>					<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.right.sizepos>portrait</layout.right.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.right.shift>55</layout.right.shift>						<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.right.color>default</layout.right.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.right.flip>no</layout.right.flip>						<!-- FLIP:		"yes" or "no", flip image horizontally. -->
-<animation.right.property>neon</animation.right.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
+<animation.right.property>crazy</animation.right.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
 <animation.right.origin>side</animation.right.origin>			<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
 
 
@@ -138,9 +138,9 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.right.y.advanced>no</layout.right.y.advanced>
+	<layout.right.y.advanced>yes</layout.right.y.advanced>
 
-			<x.right.y>0.5</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.right.y>0.58</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
@@ -225,7 +225,7 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 
-<display.label>no</display.label>								<!-- DISPLAY: "no" by default, can be turned off by "yes" -->
+<display.label>yes</display.label>								<!-- DISPLAY: "no" by default, can be turned off by "yes" -->
 
 <layout.label.style>rounded</layout.label.style>				<!-- STYLE: "rounded", "comic", "cloud", "circle", "xplose", "electric", "nintendo" . -->
 
@@ -240,10 +240,8 @@
 
 <!------- Visual limit ------>
 <x.label.text>
-
-Access and play
-all your games.
-
+Before i used
+other frontends.
 </x.label.text>
 <!--------------------------->
  
