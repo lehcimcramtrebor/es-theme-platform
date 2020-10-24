@@ -36,7 +36,7 @@
 <!-----------------------LEFT----------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--LEFT illustration SHIFTING: --DESACTIVED>																																									
+<!--LEFT illustration SHIFTING: -->																																									
 <layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--LEFT illustration LAYOUT: --DESACTIVED>																																									
@@ -51,9 +51,9 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.left.x.advanced>no</layout.left.x.advanced>			
+	<layout.left.x.advanced>yes</layout.left.x.advanced>			
 
-			<x.left.x>0.5</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.left.x>0.15</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
@@ -144,13 +144,13 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.right.y.advanced>no</layout.right.y.advanced>
+	<layout.right.y.advanced>yes</layout.right.y.advanced>
 
-			<x.right.y>0.5</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.right.y>0.55</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.right.size.overwrite>no</layout.right.size.overwrite>
+	<layout.right.size.overwrite>yes</layout.right.size.overwrite>
 	
 			<layout.right.size>7</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 

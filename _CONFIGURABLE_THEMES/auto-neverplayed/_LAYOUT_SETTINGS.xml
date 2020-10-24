@@ -31,7 +31,7 @@
 <layout.loop.background>yes</layout.loop.background>				<!-- LOOP: 		"No" (default) or "yes", activate default loop background, you can put your loop.mp4 file in "custom_loop" folder, and your video
 																				will replace it and will affect by the same color variables. -->
 
-
+<layout.loop.choice>1</layout.loop.choice>						<!-- CHOICE:	"1" to "9" or "custom" for select 9 preinstalled retrowave loops or your custom loop.
 
 
 

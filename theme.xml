@@ -298,9 +298,9 @@ author: Lehcim Cram Trebor
 
 	<subset name="focus" displayName="${lang.focus}">
 
+		<include name="no" displayName="${lang.no}">./_assets/variables/general/focus_no.xml</include>
 		<include name="soft" displayName="${lang.soft}">./_assets/variables/general/focus_soft.xml</include>
 		<include name="strong" displayName="${lang.strong}">./_assets/variables/general/focus_strong.xml</include>
-		<include name="no" displayName="${lang.no}">./_assets/variables/general/focus_no.xml</include>
 
 	</subset>	
 
@@ -751,7 +751,7 @@ author: Lehcim Cram Trebor
 		<pos>${x.logostatic.pos}</pos>
 		<maxSize>${x.logostatic.maxSize}</maxSize>
 		<color>ffffff</color>
-		<zIndex>11</zIndex>
+		<zIndex>8</zIndex>
 		<!-- try png -->
 		<path>./_assets/logos/${system.theme}.png</path>
 		<path>./_assets/logos/${system.theme}.svg</path>
@@ -1027,9 +1027,9 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<video name="loop" extra="true">
-		<path>./_assets/default_loop.mp4</path>
-		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_loop/loop.mp4</path>
-		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_loop/loop.mp4</path>
+		<path>./_assets/default_loops/${layout.loop.choice}.mp4</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}/${layout.loop.choice}_loop/loop.mp4</path>
+		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/${layout.loop.choice}_loop/loop.mp4</path>
 		<effect>none</effect>		
 		<origin>0.5 0.5</origin>
 		<pos>0.5 0.5</pos>
