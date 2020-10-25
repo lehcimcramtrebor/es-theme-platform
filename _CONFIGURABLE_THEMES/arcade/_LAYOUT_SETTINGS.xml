@@ -23,7 +23,7 @@
 <!-- Gamegrid Padding: -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.gamegrid.padding>right+</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
+<layout.gamegrid.padding>right-</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
 
 <!-- LOOP video background -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->

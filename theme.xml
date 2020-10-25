@@ -1188,7 +1188,6 @@ author: Lehcim Cram Trebor
 		<maxSize>${x.md_thumbnail.maxSize}</maxSize>
 		<pos>${x.md_thumbnail.pos}</pos>
 		<zIndex>100</zIndex>
-		
 	</image>
 
     <image name="logostatic, logostatic2" extra="true">
