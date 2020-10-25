@@ -191,9 +191,9 @@
 <!--BACK LEFT illustration: ------------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.back_left.shift>55</layout.back_left.shift>				<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
-<layout.back_left.color>fade</layout.back_left.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
-<layout.back_left.flip>no</layout.back_left.flip>				<!-- FLIP:		"yes" or "no", flip image horizontally. -->
+<layout.back_left.shift>45</layout.back_left.shift>				<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
+<layout.back_left.color>default</layout.back_left.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
+<layout.back_left.flip>yes</layout.back_left.flip>				<!-- FLIP:		"yes" or "no", flip image horizontally. -->
 
 
 
@@ -202,8 +202,8 @@
 <!--BACK CENTER illustration: ---------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.back_center.shift>55</layout.back_center.shift>			<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
-<layout.back_center.color>fade</layout.back_center.color>		<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
+<layout.back_center.shift>35</layout.back_center.shift>			<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
+<layout.back_center.color>bottom</layout.back_center.color>	<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
 <layout.back_center.flip>no</layout.back_center.flip>			<!-- FLIP:		"yes" or "no", flip image horizontally. -->
 
 
@@ -213,9 +213,9 @@
 <!--BACK RIGHT illustration: ----------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.back_right.shift>55</layout.back_right.shift>			<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
-<layout.back_right.color>fade</layout.back_right.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
-<layout.back_right.flip>yes</layout.back_right.flip>			<!-- FLIP:		"yes" or "no", flip image horizontally. -->
+<layout.back_right.shift>85</layout.back_right.shift>			<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
+<layout.back_right.color>default</layout.back_right.color>		<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
+<layout.back_right.flip>yes</layout.back_right.flip>				<!-- FLIP:		"yes" or "no", flip image horizontally. -->
 
 
 

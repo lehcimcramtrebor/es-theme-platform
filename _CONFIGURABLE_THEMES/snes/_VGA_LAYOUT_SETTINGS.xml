@@ -39,7 +39,7 @@
 <!--LEFT illustration SHIFTING: --DESACTIVED>																																									
 <layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
-<!--LEFT illustration LAYOUT: -->																																									
+<!--LEFT illustration LAYOUT: --DESACTIVED>																																									
 <layout.left.sizepos>max</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--LEFT illustration INDEX: --DESACTIVED>																																									
