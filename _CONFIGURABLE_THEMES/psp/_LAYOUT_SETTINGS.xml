@@ -231,7 +231,7 @@
 
 <layout.label.direction>up</layout.label.direction>				<!-- DIRECTION: Where the lyrics come from. -->
 
-<x.label.x>0.15</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<x.label.x>0.1</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
 <x.label.y>0.8</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
 

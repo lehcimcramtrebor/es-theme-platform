@@ -18,12 +18,12 @@
 <!-- Snaps frame ratio: -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.snap.ratio>16x9</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9" -->																									
+<layout.snap.ratio>4x3</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9" -->																									
 
 <!-- Gamegrid Padding: -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.gamegrid.padding>default</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
+<layout.gamegrid.padding>right-</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
 
 <!-- LOOP video background -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -31,7 +31,7 @@
 <layout.loop.background>yes</layout.loop.background>				<!-- LOOP: 		"No" (default) or "yes", activate default loop background, you can put your loop.mp4 file in "custom_loop" folder, and your video
 																				will replace it and will affect by the same color variables. -->
 
-<layout.loop.choice>1</layout.loop.choice>						<!-- CHOICE:	"1" to "9" or "custom" for select 9 preinstalled retrowave loops or your custom loop.
+<layout.loop.choice>8</layout.loop.choice>						<!-- CHOICE:	"1" to "9" or "custom" for select 9 preinstalled retrowave loops or your custom loop.
 
 
 
@@ -46,7 +46,7 @@
 																																									
 <x.left.zIndex>front</x.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.left.sizepos>portrait</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
-<layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.left.shift>65</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left.color>default</layout.left.color>					<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.left.flip>no</layout.left.flip>							<!-- FLIP:		"yes" or "no", flip image horizontally. -->																																														
 <animation.left.property>ghost</animation.left.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
@@ -61,7 +61,7 @@
 
 	<layout.left.x.advanced>no</layout.left.x.advanced>			
 
-			<x.left.x>0.5</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.left.x>0.15</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
@@ -118,11 +118,11 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
 <layout.right.index>behind</layout.right.index>					<!-- INDEX:		"behind", "front", see below. -->																				
-<layout.right.sizepos>horizontal</layout.right.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<layout.right.sizepos>square</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.right.shift>55</layout.right.shift>						<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.right.color>default</layout.right.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.right.flip>no</layout.right.flip>						<!-- FLIP:		"yes" or "no", flip image horizontally. -->
-<animation.right.property>neon</animation.right.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
+<animation.right.property>roll</animation.right.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
 <animation.right.origin>side</animation.right.origin>			<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
 
 
@@ -229,20 +229,20 @@
 
 <layout.label.style>rounded</layout.label.style>				<!-- STYLE: "rounded", "comic", "cloud", "circle", "xplose", "electric", "nintendo" . -->
 
-<layout.label.direction>up</layout.label.direction>				<!-- DIRECTION: Where the lyrics come from. -->
+<layout.label.direction>down</layout.label.direction>				<!-- DIRECTION: Where the lyrics come from. -->
 
-<x.label.x>0.15</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<x.label.x>0.25</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
-<x.label.y>0.7</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
+<x.label.y>0.3</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
 
 
 <!-- TEXT: Maximum 4 lines, formated like below, 30 characters/line max ------------------------------------------------------------------------------------------------------------------------>
 
 <!------- Visual limit ------>
 <x.label.text>
-
-Access and play
-all your games.
+Access, discover and
+play all games you
+have never played.
 
 </x.label.text>
 <!--------------------------->

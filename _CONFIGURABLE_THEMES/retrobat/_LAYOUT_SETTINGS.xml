@@ -28,10 +28,10 @@
 <!-- LOOP video background -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.loop.background>no</layout.loop.background>				<!-- LOOP: 		"No" (default) or "yes", activate default loop background, you can put your loop.mp4 file in "custom_loop" folder, and your video
+<layout.loop.background>yes</layout.loop.background>				<!-- LOOP: 		"No" (default) or "yes", activate default loop background, you can put your loop.mp4 file in "custom_loop" folder, and your video
 																				will replace it and will affect by the same color variables. -->
 
-<layout.loop.choice>1</layout.loop.choice>						<!-- CHOICE:	"1" to "9" or "custom" for select 9 preinstalled retrowave loops or your custom loop.
+<layout.loop.choice>2</layout.loop.choice>						<!-- CHOICE:	"1" to "9" or "custom" for select 9 preinstalled retrowave loops or your custom loop.
 
 
 
@@ -229,11 +229,11 @@
 
 <layout.label.style>rounded</layout.label.style>				<!-- STYLE: "rounded", "comic", "cloud", "circle", "xplose", "electric", "nintendo" . -->
 
-<layout.label.direction>up</layout.label.direction>				<!-- DIRECTION: Where the lyrics come from. -->
+<layout.label.direction>down</layout.label.direction>				<!-- DIRECTION: Where the lyrics come from. -->
 
-<x.label.x>0.15</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<x.label.x>0.3</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
-<x.label.y>0.7</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
+<x.label.y>0.18</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
 
 
 <!-- TEXT: Maximum 4 lines, formated like below, 30 characters/line max ------------------------------------------------------------------------------------------------------------------------>

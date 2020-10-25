@@ -229,11 +229,11 @@
 
 <layout.label.style>rounded</layout.label.style>				<!-- STYLE: "rounded", "comic", "cloud", "circle", "xplose", "electric", "nintendo" . -->
 
-<layout.label.direction>up</layout.label.direction>				<!-- DIRECTION: Where the lyrics come from. -->
+<layout.label.direction>down</layout.label.direction>				<!-- DIRECTION: Where the lyrics come from. -->
 
-<x.label.x>0.15</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<x.label.x>0.35</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
-<x.label.y>0.7</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
+<x.label.y>0.15</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
 
 
 <!-- TEXT: Maximum 4 lines, formated like below, 30 characters/line max ------------------------------------------------------------------------------------------------------------------------>
