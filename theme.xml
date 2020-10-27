@@ -153,6 +153,8 @@ author: Lehcim Cram Trebor
 		<x.back_left.visible>true</x.back_left.visible>
 		<x.back_right.visible>true</x.back_right.visible>
 		<x.back_center.visible>true</x.back_center.visible>
+		<layout.covers_right.visible>boxes</layout.covers_right.visible>
+		<layout.covers_left.visible>boxes</layout.covers_left.visible>
 
 		<!---------- Help variables ---------->
 		<x.help.color>fef6f3</x.help.color>
@@ -404,7 +406,7 @@ author: Lehcim Cram Trebor
 
     <image name="logo">
 		<linearSmooth>true</linearSmooth>
-		<!-- try png -->
+		<path>./_assets/default_logo.svg</path>		
 		<path>./_assets/logos/${system.theme}.png</path>
 		<path>./_assets/logos/${system.theme}.svg</path>
 		<path>./_assets/logos/${system.theme}-${lang}.png</path>
@@ -490,6 +492,7 @@ author: Lehcim Cram Trebor
 
 	<image name="controller" extra="true">
 		<linearSmooth>true</linearSmooth>	
+		<path>./_assets/default_controller.png</path>
 		<path>./_assets/controllers/${system.theme}.png</path>
 		<path>./_CONFIGURABLE_THEMES/${system.theme}/custom_controller/controller.png</path>
 		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/custom_controller/controller.png</path>
@@ -752,7 +755,7 @@ author: Lehcim Cram Trebor
 		<maxSize>${x.logostatic.maxSize}</maxSize>
 		<color>ffffff</color>
 		<zIndex>8</zIndex>
-		<!-- try png -->
+		<path>./_assets/default_logo.svg</path>
 		<path>./_assets/logos/${system.theme}.png</path>
 		<path>./_assets/logos/${system.theme}.svg</path>
 		<path>./_assets/logos/${system.theme}-${lang}.png</path>
@@ -828,6 +831,7 @@ author: Lehcim Cram Trebor
 	
 	<image name="leftillustration" extra="true">
 		<linearSmooth>true</linearSmooth>
+		<path>./assets/left_default.png</path>
 		<path>./_CONFIGURABLE_THEMES/${system.theme}/illustrations/left/art.png</path>
 		<path>./_CONFIGURABLE_THEMES/${system.theme}_alt/illustrations/left/art.png</path>
 		<maxSize>${x.left.maxSize}</maxSize>
@@ -1533,9 +1537,15 @@ author: Lehcim Cram Trebor
 
 	</subset>
 
+<!---------- Covers ---------->
+
+	<include>./_assets/_theme_complement/covers/left/covers_${theme.screen.ratio}_${layout.snap.ratio}_${layout.covers_left.visible}.xml</include>
+	<include>./_assets/_theme_complement/covers/right/covers_${theme.screen.ratio}_${layout.snap.ratio}_${layout.covers_right.visible}.xml</include>
+	
 <!---------- ADVANCED USERS OVERWRITE SPECIFICS --------->
 
 	<include>./_CONFIGURABLE_THEMES/${system.theme}/specifics/${system.theme}_advanced/_ADVANCED_CUSTOM.xml</include>
 	<include>./_CONFIGURABLE_THEMES/${system.theme}/specifics/${system.theme}_advanced/_${layout.vga.settings}_ADVANCED_CUSTOM.xml</include>
+	<include>./test.xml</include>
 
 </theme>
