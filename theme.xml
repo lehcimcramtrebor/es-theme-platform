@@ -168,6 +168,10 @@ author: Lehcim Cram Trebor
 	<include>./${system.theme}_alt/_LAYOUT_SETTINGS.xml</include>
 	<include>./${system.theme}/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
 	<include>./${system.theme}_alt/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
+
+<!---------- Snaps overlay 16x9 overwrite ---------->
+
+	<include>./_assets/variables/overlay_${layout.snap.overlay}.xml</include>
 	
 <!---------- Illustrations variables ---------->
 
@@ -1541,6 +1545,11 @@ author: Lehcim Cram Trebor
 
 	<include>./_assets/_theme_complement/covers/left/covers_${theme.screen.ratio}_${layout.snap.ratio}_${layout.covers_left.visible}.xml</include>
 	<include>./_assets/_theme_complement/covers/right/covers_${theme.screen.ratio}_${layout.snap.ratio}_${layout.covers_right.visible}.xml</include>
+
+<!---------- Snaps overlay theme complement ---------->
+
+	<include>./_assets/_theme_complement/overlay/overlay_${layout.snap.overlay}.xml</include>
+	<include>./_assets/_theme_complement/overlay/overlay_${theme.screen.ratio}_${layout.snap.overlay}.xml</include>
 	
 <!---------- ADVANCED USERS OVERWRITE SPECIFICS --------->
 

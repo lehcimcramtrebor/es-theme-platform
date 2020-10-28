@@ -3,7 +3,8 @@
 
 <view name="basic, detailed, video, grid">
 <image name="bezel" extra="true">
-<path>./bezel.png</path>
+<path>./../../default_overlay.png</path>
+<path>./../../../${system.theme}/custom_overlay/overlay.png</path>
 <size>${x.snap.size}</size>
 <pos>${x.snapcenter.pos}</pos>
 <origin>0.5 0.5</origin>

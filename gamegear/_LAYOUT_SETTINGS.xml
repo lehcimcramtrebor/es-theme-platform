@@ -20,6 +20,11 @@
 
 <layout.snap.ratio>10x9</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9" -->																									
 
+<!-- Overlayed frame in gamelist for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps): -->																																								
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<layout.snap.overlay>no</layout.snap.overlay>					<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps.																						
+
 <!-- Gamegrid Padding: -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
