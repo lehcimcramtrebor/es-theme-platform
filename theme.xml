@@ -171,7 +171,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Snaps overlay 16x9 overwrite ---------->
 
-	<include>./_assets/variables/overlay_${layout.snap.overlay}.xml</include>
+	<include>./_assets/variables/overlay/overlay_${layout.snap.overlay}.xml</include>
 	
 <!---------- Illustrations variables ---------->
 

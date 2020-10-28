@@ -20,10 +20,25 @@
 
 <layout.snap.ratio>10x9</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9" -->																									
 
-<!-- Overlayed frame in gamelist for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps): -->																																								
+
+<!-- Overlayed frame in gamelist for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps. -->: -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.snap.overlay>no</layout.snap.overlay>					<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps.																						
+<layout.snap.overlay>no</layout.snap.overlay>					<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
+
+<!-- ADVANCED USER OVERLAYED SNAPS SETTINGS FOR SPECIFICS COLLECTION LIKE VERTICAL GAMES FOR EXAMPLE  OR OTHER RATIOS-->
+
+<!-- Horizontal size -->
+<x.snap.horizontal>0.42</x.snap.horizontal>						<!-- HOR. SIZE:		"0.42" by default for 4/3 system overlays like snes, megadrive.. "1" is entire screen width. -->
+
+<!-- Gamegrid horizontal position -->
+<pos.gamegrid.horizontal>0.3</pos.gamegrid.horizontal>			<!-- HOR. POS.:		"0.30" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
+
+<!--  Box art horizontal position -->
+<pos.thumbnail.horizontal>0.69</pos.thumbnail.horizontal>		<!-- HOR THUMB POS:	"0.69" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
+
+<!--  Rating horizontal position -->
+<pos.rating.horizontal>0.63</pos.rating.horizontal>				<!-- HOR RATE POS:	"0.63" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
 
 <!-- Gamegrid Padding: -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -38,12 +53,12 @@
 
 <layout.loop.choice>1</layout.loop.choice>						<!-- CHOICE:	"1" to "9" or "custom" for select 9 preinstalled retrowave loops or your custom loop.
 
-<!-- Animated covers (Left side): -->
+<!-- Animated covers (Left side): HIDE LEFT ILLUSTRATIONS IN SYSTEMVIEW BUT NOT IN GAMELIST -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <layout.covers_left.visible>no</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
-<!-- Animated covers (Right side): -->
+<!-- Animated covers (Right side): HIDE RIGHT  ILLUSTRATIONS -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <layout.covers_right.visible>no</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
