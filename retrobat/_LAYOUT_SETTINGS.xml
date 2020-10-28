@@ -87,7 +87,7 @@
 	
 	<layout.left.size.overwrite>no</layout.left.size.overwrite>
 	
-			<layout.left.size>1</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.left.size>1</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh). -->
 
 
 <!-------------------------------------------------------------->																																														
@@ -123,7 +123,7 @@
 	
 	<layout.left2.size.overwrite>no</layout.left2.size.overwrite>
 	
-			<layout.left2.size>1</layout.left2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.left2.size>1</layout.left2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh). -->
 
 
 
@@ -160,7 +160,7 @@
 	
 	<layout.right.size.overwrite>no</layout.right.size.overwrite>
 	
-			<layout.right.size>1</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.right.size>1</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh). -->
 
 
 
@@ -197,7 +197,7 @@
 	
 	<layout.right2.size.overwrite>no</layout.right2.size.overwrite>
 	
-			<layout.right2.size>1</layout.right2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.right2.size>1</layout.right2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh). -->
 
 
 
@@ -208,6 +208,7 @@
 <layout.back_left.shift>55</layout.back_left.shift>				<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
 <layout.back_left.color>fade</layout.back_left.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
 <layout.back_left.flip>no</layout.back_left.flip>				<!-- FLIP:		"yes" or "no", flip image horizontally. -->
+<animation.back_left.choice>yes</animation.back_left.choice>	<!-- ANIMATION:	"yes" by default, can be turned "off", run non mofifiable animation of background illustrations. -->
 
 
 
@@ -219,6 +220,7 @@
 <layout.back_center.shift>55</layout.back_center.shift>			<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
 <layout.back_center.color>fade</layout.back_center.color>		<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
 <layout.back_center.flip>no</layout.back_center.flip>			<!-- FLIP:		"yes" or "no", flip image horizontally. -->
+<animation.back_center.choice>yes</animation.back_center.choice><!-- ANIMATION:	"yes" by default, can be turned "off", run non mofifiable animation of background illustrations. -->
 
 
 
@@ -230,6 +232,7 @@
 <layout.back_right.shift>55</layout.back_right.shift>			<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
 <layout.back_right.color>fade</layout.back_right.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
 <layout.back_right.flip>yes</layout.back_right.flip>			<!-- FLIP:		"yes" or "no", flip image horizontally. -->
+<animation.back_right.choice>yes</animation.back_right.choice>	<!-- ANIMATION:	"yes" by default, can be turned "off", run non mofifiable animation of background illustrations. -->
 
 
 

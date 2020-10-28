@@ -34,6 +34,9 @@
 	<include>./../storyboards/right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_${animation.system.right2}.xml</include>
 	<include>./../storyboards/right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_${animation.system.right2}_${layout.right2.shift}.xml</include>
 
+	<include>./../storyboards/back_left/back_left_${animation.back_left.choice}.xml</include>
+	<include>./../storyboards/back_center/back_center_${animation.back_center.choice}.xml</include>
+	<include>./../storyboards/back_right/back_right_${animation.back_right.choice}.xml</include>
 
 	
 	
