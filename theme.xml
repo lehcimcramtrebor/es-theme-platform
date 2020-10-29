@@ -1515,7 +1515,7 @@ author: Lehcim Cram Trebor
 		<fontSize>0.014</fontSize>
 		<color>ffb347</color>
 		<separatorColor>ffb347af</separatorColor>
-		<selectorColor>00000000</selectorColor>
+		<selectorColor>202020</selectorColor>
 		<selectedColor>b3ff47</selectedColor>		
     </menuText>
 	
