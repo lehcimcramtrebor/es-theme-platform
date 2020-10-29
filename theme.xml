@@ -355,8 +355,12 @@ author: Lehcim Cram Trebor
 		<path>./_assets/logos/${system.theme}-${lang}.svg</path>
 		<path>./${system.theme}/custom_logo/logo.png</path>
 		<path>./${system.theme}/custom_logo/logo.svg</path>
+		<path>./${system.theme}/custom_logo/logo-${lang}.png</path>
+		<path>./${system.theme}/custom_logo/logo-${lang}.svg</path>
 		<path>./${system.theme}_alt/custom_logo/logo.png</path>
 		<path>./${system.theme}_alt/custom_logo/logo.svg</path>
+		<path>./${system.theme}_alt/custom_logo/logo-${lang}.png</path>
+		<path>./${system.theme}_alt/custom_logo/logo-${lang}.svg</path>
 		<tile>false</tile>
 		<origin>0.5 0</origin>
 		<pos>0.5 0</pos>
@@ -417,8 +421,12 @@ author: Lehcim Cram Trebor
 		<path>./_assets/logos/${system.theme}-${lang}.svg</path>
 		<path>./${system.theme}/custom_logo/logo.png</path>
 		<path>./${system.theme}/custom_logo/logo.svg</path>
+		<path>./${system.theme}/custom_logo/logo-${lang}.png</path>
+		<path>./${system.theme}/custom_logo/logo-${lang}.svg</path>
 		<path>./${system.theme}_alt/custom_logo/logo.png</path>
 		<path>./${system.theme}_alt/custom_logo/logo.svg</path>
+		<path>./${system.theme}_alt/custom_logo/logo-${lang}.png</path>
+		<path>./${system.theme}_alt/custom_logo/logo-${lang}.svg</path>
 	</image>
 
     <image name="logo" region="eu"></image>
@@ -766,9 +774,12 @@ author: Lehcim Cram Trebor
 		<path>./_assets/logos/${system.theme}-${lang}.svg</path>
 		<path>./${system.theme}/custom_logo/logo.png</path>
 		<path>./${system.theme}/custom_logo/logo.svg</path>
+		<path>./${system.theme}/custom_logo/logo-${lang}.png</path>
+		<path>./${system.theme}/custom_logo/logo-${lang}.svg</path>
 		<path>./${system.theme}_alt/custom_logo/logo.png</path>
 		<path>./${system.theme}_alt/custom_logo/logo.svg</path>
-		
+		<path>./${system.theme}_alt/custom_logo/logo-${lang}.png</path>
+		<path>./${system.theme}_alt/custom_logo/logo-${lang}.svg</path>		
 	</image>
 
 	<image name="logostatic2" extra="true">
