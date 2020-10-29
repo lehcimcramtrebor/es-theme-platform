@@ -1565,6 +1565,9 @@ author: Lehcim Cram Trebor
 
 	<include>./_assets/_theme_complement/overlay/overlay_${layout.snap.overlay}.xml</include>
 	<include>./_assets/_theme_complement/overlay/overlay_${theme.screen.ratio}_${layout.snap.overlay}.xml</include>
+
+	<include>./_assets/_theme_complement/overlay/overlay_system_${layout.extend.overlay}_${layout.snap.overlay}.xml</include>
+	<include>./_assets/_theme_complement/overlay/overlay_system_${layout.extend.overlay}_${theme.screen.ratio}_${layout.snap.overlay}.xml</include>
 	
 <!---------- ADVANCED USERS OVERWRITE SPECIFICS --------->
 

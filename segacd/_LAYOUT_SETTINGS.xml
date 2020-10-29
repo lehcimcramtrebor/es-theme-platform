@@ -26,6 +26,8 @@
 
 <layout.snap.overlay>no</layout.snap.overlay>					<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
 
+<layout.extend.overlay>no</layout.extend.overlay>				<!-- EXTEND:		"no" by default or "yes", extend overlay to systemview for use random video. -->
+
 <!-- ADVANCED USER OVERLAYED SNAPS SETTINGS FOR SPECIFICS COLLECTION LIKE VERTICAL GAMES FOR EXAMPLE  OR OTHER RATIOS-->
 
 <!-- Horizontal size -->

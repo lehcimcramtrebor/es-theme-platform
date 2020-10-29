@@ -1,0 +1,18 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+<image name="bezel" extra="true">
+<path>./../../default_overlay.png</path>
+<path>./../../../${system.theme}/custom_overlay/overlay.png</path>
+<size>${x.snap.size}</size>
+<pos>${x.snapcenter.pos}</pos>
+<origin>0.5 0.5</origin>
+<zIndex>20</zIndex>
+</image>
+<video name="backgroundvideo" extra="true">
+<size>${x.snap.horizontal} 0.55</size>
+</video>
+</view>
+
+</theme>
