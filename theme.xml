@@ -538,6 +538,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<image name="easter_egg" extra="true">
+		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
 		<pos>0.35 2</pos>
 		<maxSize>0.25 0.25</maxSize>
@@ -546,6 +547,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<image name="easter_egg_left" extra="true">
+		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
 		<pos>-1 0.35</pos>
 		<rotation>90</rotation>
@@ -555,6 +557,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<image name="easter_egg_up" extra="true">
+		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
 		<flipY>true</flipY>
 		<pos>0.65 -1</pos>
@@ -564,6 +567,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<image name="easter_egg_right" extra="true">
+		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
 		<pos>2 0.65</pos>
 		<rotation>-90</rotation>
