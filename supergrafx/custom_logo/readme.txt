@@ -1,4 +1,4 @@
-Here you can place your own logo.
+Here you can place your own logo. Can be named "logo-fr.png", "logo-fr.svg" or  "logo-us.png", "logo-us.svg" etc.. for custom collections logo for example.
 
 Just name it
 
