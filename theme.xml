@@ -1089,6 +1089,15 @@ author: Lehcim Cram Trebor
 		<zIndex>22</zIndex>
 	</image>
 
+	<image name="frame_color" extra="true">
+		<path>./_assets/frame_color_${frame.style}_${theme.screen.ratio}_${layout.snap.ratio}.png</path>
+		<pos>0.5 0.5</pos>
+		<size>1 1</size>
+		<origin>0.5 0.5</origin>
+		<color>${x.frame.color}</color>
+		<zIndex>22</zIndex>
+	</image>
+
 	<image name="back_frame" extra="true">
 		<path>./_assets/white.png</path>
 		<pos>${x.snap.pos}</pos>

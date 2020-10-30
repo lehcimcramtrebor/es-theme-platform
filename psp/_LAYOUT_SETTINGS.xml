@@ -21,6 +21,12 @@
 <layout.snap.ratio>16x9</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9" -->																									
 
 
+<!-- Snaps frame color: https://htmlcolorcodes.com  if you want to pick colors. -->																																								
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
+
+
 <!-- Overlayed frame in gamelist for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps. -->: -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
