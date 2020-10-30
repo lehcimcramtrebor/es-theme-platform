@@ -13,21 +13,21 @@ author: Lehcim Cram Trebor
 
 	<variables>
   
-		<lang.screenratio>System format</lang.screenratio>
-		<lang.169>Full HD</lang.169>
-		<lang.43>VGA</lang.43>
-		<lang.storyboards>Animations</lang.storyboards>
-		<lang.classic>Classic</lang.classic>
-		<lang.arcade_boxes>Arcade carousel</lang.arcade_boxes>
-		<lang.arcade_marquees>Arcade marquees</lang.arcade_marquees>
-		<lang.screeneffect>Screen effect</lang.screeneffect>
-		<lang.grid_view>Grid style</lang.grid_view>
-		<lang.screencrt>CRT twinkle effect</lang.screencrt>
-		<lang.focus>Focus on elements</lang.focus>
-		<lang.soft>Soft</lang.soft>
-		<lang.strong>Strong</lang.strong>
-		<lang.help>Display help</lang.help>
-		<lang.labels>Display labels</lang.labels>
+		<lang.screenratio>screen format</lang.screenratio>
+		<lang.169>wide screen ( 16:9 )</lang.169>
+		<lang.43>vga screen ( 4:3 )</lang.43>
+		<lang.storyboards>animations</lang.storyboards>
+		<lang.classic>in frame grid</lang.classic>
+		<lang.arcade_boxes>arcade ( boxes )</lang.arcade_boxes>
+		<lang.arcade_marquees>arcade ( marquees )</lang.arcade_marquees>
+		<lang.screeneffect>static screen effect</lang.screeneffect>
+		<lang.grid_view>grid style ( Only in grid view )</lang.grid_view>
+		<lang.screencrt>crt video twinkle effect</lang.screencrt>
+		<lang.focus>focus on elements ( darkens the background )</lang.focus>
+		<lang.soft>soft</lang.soft>
+		<lang.strong>strong</lang.strong>
+		<lang.help>display help</lang.help>
+		<lang.labels>display descriptions</lang.labels>
 
 	</variables>
 
