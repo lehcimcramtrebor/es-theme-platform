@@ -1207,16 +1207,25 @@ author: Lehcim Cram Trebor
 	<view name="detailed, video, grid">	
 	
 	<image name="backmetadata" extra="true">
-	<path>./_assets/backmetadata.png</path>
-	<color>ffffff</color>
-	<size>${x.backmetadata.size}</size>
-	<pos>${x.backmetadata.pos}</pos>
-	<origin>1 0</origin>
-	<zIndex>50</zIndex>
-	<visible>${x.backmetadata.visible}</visible>
-		
+		<path>./_assets/backmetadata.png</path>
+		<color>ffffff</color>
+		<size>${x.backmetadata.size}</size>
+		<pos>${x.backmetadata.pos}</pos>
+		<origin>1 0</origin>
+		<zIndex>50</zIndex>
+		<visible>${x.backmetadata.visible}</visible>		
 	</image>
 
+	<image name="backmetadata_color" extra="true">
+		<path>./_assets/backmetadata_color.png</path>
+		<color>${x.frame.color}</color>
+		<size>${x.backmetadata.size}</size>
+		<pos>${x.backmetadata.pos}</pos>
+		<origin>1 0</origin>
+		<zIndex>50</zIndex>
+		<visible>${x.backmetadata.visible}</visible>		
+	</image>
+	
     <image name="md_marquee">
 		<color>ffffff</color>
 		<colorEnd>ffffff99</colorEnd>
@@ -1252,8 +1261,18 @@ author: Lehcim Cram Trebor
 		<origin>0.5 0.5</origin>
 		<pos>${x.md_line0.pos}</pos>
 		<size>${x.md_line0.size}</size>
-        <zIndex>900</zIndex>
-		
+        <zIndex>900</zIndex>		
+	</image>
+
+	<image name="md_line0_color" extra="true">
+		<path>./_assets/white.png</path>
+		<color>${x.frame.color}</color>
+		<colorEnd>${x.frame.color}</colorEnd>
+		<gradientType>vertical</gradientType>
+		<origin>0.5 0.5</origin>
+		<pos>${x.md_line0.pos}</pos>
+		<size>${x.md_line0.size}</size>
+        <zIndex>900</zIndex>		
 	</image>
 	
 	<image name="md_line" extra="true">
@@ -1264,10 +1283,20 @@ author: Lehcim Cram Trebor
 		<origin>0.5 0.5</origin>
 		<pos>${x.md_line.pos}</pos>
 		<size>${x.md_line.size}</size>
-        <zIndex>900</zIndex>
-		
+        <zIndex>900</zIndex>		
 	</image>
 
+	<image name="md_line_color" extra="true">
+		<path>./_assets/white.png</path>
+		<color>${x.frame.color}</color>
+		<colorEnd>${x.frame.color}</colorEnd>
+		<gradientType>vertical</gradientType>
+		<origin>0.5 0.5</origin>
+		<pos>${x.md_line.pos}</pos>
+		<size>${x.md_line.size}</size>
+        <zIndex>900</zIndex>		
+	</image>
+	
 	<image name="md_line2" extra="true">
 		<path>./_assets/white.png</path>
 		<color>ffffff00</color>
@@ -1276,10 +1305,20 @@ author: Lehcim Cram Trebor
 		<origin>0.5 1</origin>
 		<pos>${x.md_line2.pos}</pos>
 		<size>${x.md_line2.size}</size>
-        <zIndex>900</zIndex>
-	
+        <zIndex>900</zIndex>	
 	</image>
-		
+
+	<image name="md_line2_color" extra="true">
+		<path>./_assets/white.png</path>
+		<color>${x.frame.color}</color>
+		<colorEnd>${x.frame.color}</colorEnd>
+		<gradientType>vertical</gradientType>
+		<origin>0.5 1</origin>
+		<pos>${x.md_line2.pos}</pos>
+		<size>${x.md_line2.size}</size>
+        <zIndex>900</zIndex>	
+	</image>
+	
 	 <text name="md_description">
  		<origin>0.5 1</origin>	 
 		<color>ffffff</color>
@@ -1291,8 +1330,7 @@ author: Lehcim Cram Trebor
 		<lineSpacing>1.33</lineSpacing>
         <pos>${x.md_description.pos}</pos>
         <size>${x.md_description.size}</size>		
-        <zIndex>900</zIndex>
-		
+        <zIndex>900</zIndex>		
     </text>
 
 	<rating name="md_rating">
@@ -1301,8 +1339,7 @@ author: Lehcim Cram Trebor
 		<zIndex>2000</zIndex>	
 		<filledPath>./_assets/ledr.png</filledPath>	
 		<unfilledPath>./_assets/ledg.png</unfilledPath>
-        <zIndex>900</zIndex>
-	
+        <zIndex>900</zIndex>	
     </rating>
 
 	<datetime name="md_releasedate">

@@ -71,7 +71,7 @@
 		
 	</image>
 
-	<image name="backmetadata" extra="true">
+	<image name="backmetadata, backmetadata_color" extra="true">
 
 		<storyboard>
         		<animation property="x" from="1.5" begin="0" duration="1000" mode="linear"/>

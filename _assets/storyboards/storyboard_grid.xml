@@ -62,7 +62,7 @@
 		
 	</image>
 
-	<image name="backmetadata" extra="true">
+	<image name="backmetadata, backmetadata_color" extra="true">
 
 		<storyboard>
         		<animation property="x" from="1.5" begin="0" duration="1000" mode="linear"/>
@@ -99,7 +99,7 @@
 		
 	</text>
 	
-	<image name="md_line0" extra="true">
+	<image name="md_line0, md_line0_color" extra="true">
 
 		<storyboard>
         		<animation property="x" from="1.5" begin="0" duration="1100" mode="linear"/>
@@ -108,7 +108,7 @@
 		
 	</image>
 	
-	<image name="md_line" extra="true">
+	<image name="md_line, md_line_color" extra="true">
 
 		<storyboard>
         		<animation property="x" from="1.5" begin="0" duration="1250" mode="linear"/>
@@ -117,7 +117,7 @@
 		
 	</image>
 
-	<image name="md_line2" extra="true">
+	<image name="md_line2, md_line2_color" extra="true">
 
 		<storyboard>
         		<animation property="x" from="1.5" begin="0" duration="1350" mode="linear"/>
