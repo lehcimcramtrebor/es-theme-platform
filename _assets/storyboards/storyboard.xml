@@ -11,6 +11,15 @@
 
 		<view name="system">
 
+	<text name="system_full_name" extra="true">
+
+		<storyboard>
+        		<animation property="scale" from="1" to="1" begin="0" duration="450" mode="linear"/> 
+        		<animation property="opacity" from="1" to="0" begin="300" duration="150" mode="linear"/> 
+		</storyboard>
+
+	</text>
+	
 	<image name="background" extra="true">
 
 		<storyboard>
