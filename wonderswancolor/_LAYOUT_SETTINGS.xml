@@ -37,7 +37,7 @@
 <!-- ADVANCED USER OVERLAYED SNAPS SETTINGS FOR SPECIFICS COLLECTION LIKE VERTICAL GAMES FOR EXAMPLE  OR OTHER RATIOS-->
 
 <!-- Horizontal size -->
-<x.snap.horizontal>0.42</x.snap.horizontal>						<!-- HOR. SIZE:		"0.42" by default for 4/3 system overlays like snes, megadrive.. "1" is entire screen width. -->
+<x.snap.horizontal>0.405</x.snap.horizontal>					<!-- HOR. SIZE:		"0.405" by default for 4/3 system overlays like snes, megadrive.. "1" is entire screen width. -->
 
 <!-- Gamegrid horizontal position -->
 <pos.gamegrid.horizontal>0.3</pos.gamegrid.horizontal>			<!-- HOR. POS.:		"0.30" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
