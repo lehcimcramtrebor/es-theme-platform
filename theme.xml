@@ -176,7 +176,7 @@ author: Lehcim Cram Trebor
 <!---------- Illustrations variables ---------->
 
 	<!-- Left -->
-	<include>./_assets/variables/layouts/left_layout/zindex/zindex_${x.left.zIndex}.xml</include>
+	<include>./_assets/variables/layouts/left_layout/zindex/zindex_${layout.left.zIndex}.xml</include>
 	<include>./_assets/variables/layouts/left_layout/sizepos/${theme.screen.ratio}/${layout.snap.ratio}/${layout.left.sizepos}.xml</include>
 	<include>./_assets/variables/layouts/left_layout/sizepos/${layout.left.size}_10_overwrite_${layout.left.size.overwrite}.xml</include>
 	<include>./_assets/variables/layouts/left_layout/shift/shift_${layout.left.shift}.xml</include>
@@ -187,7 +187,7 @@ author: Lehcim Cram Trebor
 	<include>./_assets/_theme_complement/left_y_advanced_${layout.left.y.advanced}.xml</include>
 
 	<!-- Left2 -->
-	<include>./_assets/variables/layouts/left2_layout/zindex/zindex_${x.left2.zIndex}.xml</include>
+	<include>./_assets/variables/layouts/left2_layout/zindex/zindex_${layout.left2.zIndex}.xml</include>
 	<include>./_assets/variables/layouts/left2_layout/sizepos/${theme.screen.ratio}/${layout.snap.ratio}/${layout.left2.sizepos}.xml</include>
 	<include>./_assets/variables/layouts/left2_layout/sizepos/${layout.left2.size}_10_overwrite_${layout.left2.size.overwrite}.xml</include>
 	<include>./_assets/variables/layouts/left2_layout/shift/shift_${layout.left2.shift}.xml</include>
@@ -198,7 +198,7 @@ author: Lehcim Cram Trebor
 	<include>./_assets/_theme_complement/left2_y_advanced_${layout.left2.y.advanced}.xml</include>
 
 	<!-- Right -->
-	<include>./_assets/variables/layouts/right_layout/zindex/zindex_${layout.right.index}.xml</include>
+	<include>./_assets/variables/layouts/right_layout/zindex/zindex_${layout.right.zIndex}.xml</include>
 	<include>./_assets/variables/layouts/right_layout/sizepos/${theme.screen.ratio}/${layout.snap.ratio}/${layout.right.sizepos}.xml</include>
 	<include>./_assets/variables/layouts/right_layout/sizepos/${layout.right.size}_10_overwrite_${layout.right.size.overwrite}.xml</include>
 	<include>./_assets/variables/layouts/right_layout/shift/shift_${layout.right.shift}.xml</include>
@@ -209,7 +209,7 @@ author: Lehcim Cram Trebor
 	<include>./_assets/_theme_complement/right_y_advanced_${layout.right.y.advanced}.xml</include>
 
 	<!-- Right2 -->
-	<include>./_assets/variables/layouts/right2_layout/zindex/zindex_${layout.right2.index}.xml</include>
+	<include>./_assets/variables/layouts/right2_layout/zindex/zindex_${layout.right2.zIndex}.xml</include>
 	<include>./_assets/variables/layouts/right2_layout/sizepos/${theme.screen.ratio}/${layout.snap.ratio}/${layout.right2.sizepos}.xml</include>
 	<include>./_assets/variables/layouts/right2_layout/sizepos/${layout.right2.size}_10_overwrite_${layout.right2.size.overwrite}.xml</include>
 	<include>./_assets/variables/layouts/right2_layout/shift/shift_${layout.right2.shift}.xml</include>

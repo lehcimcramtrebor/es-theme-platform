@@ -80,7 +80,7 @@
 <!--LEFT illustration: ----------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<x.left.zIndex>front</x.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.left.zIndex>front</layout.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.left.sizepos>portrait</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.left.shift>65</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left.color>default</layout.left.color>					<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
@@ -116,7 +116,7 @@
 <!--LEFT2 illustration: ---------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<x.left2.zIndex>front</x.left2.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.left2.zIndex>front</layout.left2.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.left2.sizepos>portrait</layout.left2.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.left2.shift>55</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left2.color>default</layout.left2.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
@@ -153,7 +153,7 @@
 <!--RIGHT illustration: ---------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.right.index>front</layout.right.index>					<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.right.zIndex>front</layout.right.zIndex>					<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.right.sizepos>portrait</layout.right.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.right.shift>55</layout.right.shift>						<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.right.color>default</layout.right.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
@@ -190,7 +190,7 @@
 <!--RIGHT2 illustration: --------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.right2.index>front</layout.right2.index>				<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.right2.zIndex>front</layout.right2.zIndex>				<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.right2.sizepos>portrait</layout.right2.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.right2.shift>55</layout.right2.shift>					<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.right2.color>default</layout.right2.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			

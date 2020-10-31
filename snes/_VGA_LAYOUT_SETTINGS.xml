@@ -43,7 +43,7 @@
 <layout.left.sizepos>max</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--LEFT illustration INDEX: --DESACTIVED>																																									
-<x.left.zIndex>behind</x.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.left.zIndex>behind</layout.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
 
 
 
@@ -86,7 +86,7 @@
 <layout.left2.sizepos>portrait</layout.left2.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--LEFT2 illustration INDEX: --DESACTIVED>																																									
-<x.left2.zIndex>behind</x.left2.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.left2.zIndex>behind</layout.left2.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
 
 
 
@@ -130,7 +130,7 @@
 <layout.right.sizepos>square</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--RIGHT illustration INDEX: --DESACTIVED>																																									
-<x.right.zIndex>behind</x.right.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.right.zIndex>behind</layout.right.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
 
 
 
@@ -174,7 +174,7 @@
 <layout.right2.sizepos>square</layout.right2.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--RIGHT2 illustration INDEX: --DESACTIVED>																																									
-<x.right2.zIndex>behind</x.right2.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.right2.zIndex>behind</layout.right2.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
 
 
 
