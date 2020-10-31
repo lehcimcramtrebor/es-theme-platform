@@ -34,6 +34,8 @@
 
 <layout.extend.overlay>yes</layout.extend.overlay>				<!-- EXTEND:		"no" by default or "yes", extend overlay to systemview for use random video. -->
 
+
+
 <!-- ADVANCED USER OVERLAYED SNAPS SETTINGS FOR SPECIFICS COLLECTION LIKE VERTICAL GAMES FOR EXAMPLE  OR OTHER RATIOS-->
 
 <!-- Horizontal size -->
