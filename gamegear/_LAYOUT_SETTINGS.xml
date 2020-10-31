@@ -27,7 +27,7 @@
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
 
-<!-- Overlayed frame in gamelist for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps. -->: -->																																								
+<!-- Overlayed frame in gamelist for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <layout.snap.overlay>no</layout.snap.overlay>					<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
