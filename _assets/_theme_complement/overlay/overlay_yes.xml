@@ -14,13 +14,13 @@
 
 <view name="video, grid">
 <video name="md_video" extra="true">
-<size>${x.snap.horizontal} 0.55</size>	
+<size>${x.snap.horizontal} 0.535</size>	
 </video>
 </view>
 
 <view name="detailed">
 <image name="md_image" extra="true">
-<size>${x.snap.horizontal} 0.55</size>	
+<size>${x.snap.horizontal} 0.535</size>	
 </image>
 
 </view>
@@ -28,13 +28,13 @@
 <textlist name="gamelist">
 <origin>0.5 0.5</origin>
 <pos>${x.snapcenter.pos}</pos>
-<size>${x.snap.horizontal} 0.55</size>
+<size>${x.snap.horizontal} 0.535</size>
 </textlist>	  
 </view>
 
 <view name="grid">
 <imagegrid name="gamegrid" ifSubset="grid_view:classic">
-<size>${x.snap.horizontal} 0.55</size>
+<size>${x.snap.horizontal} 0.535</size>
 <autoLayout>3 2</autoLayout>
 <pos>${pos.gamegrid.horizontal} 0.30</pos>
 </imagegrid>
