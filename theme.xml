@@ -1100,18 +1100,18 @@ author: Lehcim Cram Trebor
 
 	<image name="back_frame" extra="true">
 		<path>./_assets/white.png</path>
-		<pos>${x.snap.pos}</pos>
-		<size>${x.snap.size}</size>
-		<origin>0 0</origin>
+		<pos>${x.snapcenter.pos}</pos>
+		<size>${x.back.size}</size>
+		<origin>0.5 0.5</origin>
 		<color>070707</color>
 		<zIndex>15</zIndex>
 	</image>
 
 	<image name="back_light" extra="true">
 		<path>./_assets/light.png</path>
-		<pos>${x.snap.pos}</pos>
-		<size>${x.snap.size}</size>
-		<origin>0 0</origin>
+		<pos>${x.snapcenter.pos}</pos>
+		<size>${x.back.size}</size>
+		<origin>0.5 0.5</origin>
 		<color>404040</color>
 		<zIndex>17</zIndex>
 	</image>
@@ -1150,8 +1150,9 @@ author: Lehcim Cram Trebor
 	</image>
 	
     <image name="crt_frame" extra="true">
-		<pos>${x.snap.pos}</pos>
-		<size>${x.snap.size}</size>
+		<pos>${x.snapcenter.pos}</pos>
+		<size>${x.back.size}</size>
+		<origin>0.5 0.5.</origin>
 		<path>./_assets/crt.png</path>
 		<color>FFFFFF90</color>
 		<tile>true</tile>
@@ -1403,8 +1404,8 @@ author: Lehcim Cram Trebor
 	<view name="basic, detailed, video">
 	
 	<textlist name="gamelist">
-		<origin>0 0</origin>
-		<pos>${x.snap.pos}</pos>
+		<origin>0.5 0.5</origin>
+		<pos>${x.snapcenter.pos}</pos>
 		<size>${x.snap.size}</size>
         <selectedColor>ffffff</selectedColor>
 		<primaryColor>ffffff</primaryColor>

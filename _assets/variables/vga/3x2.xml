@@ -5,10 +5,12 @@
 <x.grid.autoLayout>3 2</x.grid.autoLayout>
 
 
-<x.snap.pos>0.27 0.34</x.snap.pos>
-<x.snap.size>0.46 0.42</x.snap.size>
+<x.snap.pos>0.27 0.355</x.snap.pos>
+<x.snap.size>0.454 0.41</x.snap.size>
 
-<x.snapcenter.pos>0.5 0.55</x.snapcenter.pos>
+<x.back.size>0.46 0.42</x.back.size>
+
+<x.snapcenter.pos>0.5 0.557</x.snapcenter.pos>
 
 <x.controller.pos>0.77 0.84</x.controller.pos>
 

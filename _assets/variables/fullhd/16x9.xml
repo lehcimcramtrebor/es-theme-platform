@@ -5,8 +5,10 @@
 <x.grid.autoLayout>4 2</x.grid.autoLayout>
 
 
-<x.snap.pos>0.2175 0.30</x.snap.pos>
-<x.snap.size>0.565 0.55</x.snap.size>
+<x.snap.pos>0.2175 0.3075</x.snap.pos>
+<x.snap.size>0.55 0.535</x.snap.size>
+
+<x.back.size>0.565 0.55</x.back.size>
 
 <x.snapcenter.pos>0.5 0.575</x.snapcenter.pos>
 
