@@ -23,6 +23,8 @@
 <!-- Snaps frame color: https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
+<frame.skin>colored</frame.skin>								<!-- SKIN:		"colored" by default. -->
+
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
 
@@ -32,9 +34,9 @@
 <!-- OVERLAYED FRAME IN GAMELIST for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.snap.overlay>no</layout.snap.overlay>				<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
+<layout.snap.overlay>no</layout.snap.overlay>					<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
 
-<layout.extend.overlay>no</layout.extend.overlay>			<!-- EXTEND:		"no" by default or "yes", extend overlay to systemview for use random video. -->
+<layout.extend.overlay>no</layout.extend.overlay>				<!-- EXTEND:		"no" by default or "yes", extend overlay to systemview for use random video. -->
 
 
 
@@ -43,42 +45,42 @@
 <!--------------- SNAP SIZE --------------->
 
 <!-- Horizontal size -->
-<x.snap.horizontal>0.405</x.snap.horizontal>					<!-- HOR. SIZE:		"0.405" by default for 4/3 system overlays like snes, megadrive.. "1" is entire screen width. -->
+<x.snap.horizontal>0.405</x.snap.horizontal>						<!-- HOR. SIZE:		"0.405" by default for 4/3 system overlays like snes, megadrive.. "1" is entire screen width. -->
 
 <!-- Vertical size ( Don't forget to edit "_VGA_LAYOUT_SETTINGS" -->
 
-<x.snap.vertical>0.535</x.snap.vertical>						<!-- VERT. SIZE:	"0.535" by default for 4/3 system overlays like snes, megadrive.. "1" is entire screen heigh. -->
+<x.snap.vertical>0.535</x.snap.vertical>							<!-- VERT. SIZE:	"0.535" by default for 4/3 system overlays like snes, megadrive.. "1" is entire screen heigh. -->
 
 <!--------------- GAMEGRID POSITION, BECAUSE GAMEGRID HAVE UPPER LEFT ORIGIN ---------------->
 
 <!-- Gamegrid horizontal position -->
-<pos.gamegrid.horizontal>0.3</pos.gamegrid.horizontal>		<!-- HOR. POS.:		"0.30" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
+<pos.gamegrid.horizontal>0.3</pos.gamegrid.horizontal>			<!-- HOR. POS.:		"0.30" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
 
 <!-- Gamegrid vertical position ( Don't forget to edit "_VGA_LAYOUT_SETTINGS" -->
 
-<pos.gamegrid.vertical>0.3075</pos.gamegrid.vertical>		<!-- VERT. POS.:	"0.3075" by default for 4/3 system overlays like snes, megadrive.. "0" is upper border screen, "1" is bottom border screen. -->
+<pos.gamegrid.vertical>0.3075</pos.gamegrid.vertical>			<!-- VERT. POS.:	"0.3075" by default for 4/3 system overlays like snes, megadrive.. "0" is upper border screen, "1" is bottom border screen. -->
 
 <!--------------- ARCADE VIEWS THUMBNAIL AND RATING POSITION --------------->
 
 <!--  Box art horizontal position -->
-<pos.thumbnail.horizontal>0.69</pos.thumbnail.horizontal>	<!-- HOR THUMB POS:	"0.69" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
+<pos.thumbnail.horizontal>0.69</pos.thumbnail.horizontal>		<!-- HOR THUMB POS:	"0.69" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
 
 <!--  Box art vertical position -->
-<pos.thumbnail.vertical>0.81</pos.thumbnail.vertical>		<!-- VERT THUMB POS:"0.81" by default for 4/3 system overlays like snes, megadrive.. "0" is upper border screen, "1" is bottom border screen. -->
+<pos.thumbnail.vertical>0.81</pos.thumbnail.vertical>			<!-- VERT THUMB POS:"0.81" by default for 4/3 system overlays like snes, megadrive.. "0" is upper border screen, "1" is bottom border screen. -->
 
 
 
 <!--  Rating horizontal position -->
-<pos.rating.horizontal>0.63</pos.rating.horizontal>			<!-- HOR RATE POS:	"0.63" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
+<pos.rating.horizontal>0.63</pos.rating.horizontal>				<!-- HOR RATE POS:	"0.63" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
 
 <!--  Rating vertical position -->
-<pos.rating.vertical>0.82</pos.rating.vertical>				<!-- HOR RATE POS:	"0.82" by default for 4/3 system overlays like snes, megadrive.. "0" is upper border screen, "1" is bottom border screen. -->
+<pos.rating.vertical>0.82</pos.rating.vertical>					<!-- HOR RATE POS:	"0.82" by default for 4/3 system overlays like snes, megadrive.. "0" is upper border screen, "1" is bottom border screen. -->
 
 <!--------------- GAMELIST LINES and FONT SIZE --------------->
 
-<x.gamelist.lines>9</x.gamelist.lines>						<!-- LINES:			"9" by default, can be reduce for smaller snap sizes. -->	
+<x.gamelist.lines>9</x.gamelist.lines>							<!-- LINES:			"9" by default, can be reduce for smaller snap sizes. -->	
 
-<x.gamelist.fontSize>0.025</x.gamelist.fontSize>			<!-- FONT SIZE:		"0.025" by default, can be reduce for smaller snap sizes. --> 
+<x.gamelist.fontSize>0.025</x.gamelist.fontSize>				<!-- FONT SIZE:		"0.025" by default, can be reduce for smaller snap sizes. --> 
 
 
 
@@ -123,7 +125,7 @@
 <!--LEFT illustration: ----------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.left.zIndex>front</layout.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.left.zIndex>front</layout.left.zIndex> 					<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.left.sizepos>portrait</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left.color>default</layout.left.color>					<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
@@ -152,14 +154,14 @@
 	
 	<layout.left.size.overwrite>no</layout.left.size.overwrite>
 	
-			<layout.left.size>1</layout.left.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh). -->
+			<layout.left.size>1</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh). -->
 
 
 <!-------------------------------------------------------------->																																														
 <!--LEFT2 illustration: ---------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.left2.zIndex>front</layout.left2.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.left2.zIndex>front</layout.left2.zIndex> 				<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.left2.sizepos>portrait</layout.left2.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.left2.shift>55</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left2.color>default</layout.left2.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
@@ -196,7 +198,7 @@
 <!--RIGHT illustration: ---------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.right.zIndex>behind</layout.right.zIndex>					<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.right.zIndex>behind</layout.right.zIndex>				<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.right.sizepos>horizontal</layout.right.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.right.shift>55</layout.right.shift>						<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.right.color>default</layout.right.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			

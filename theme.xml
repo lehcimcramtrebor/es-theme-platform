@@ -49,7 +49,7 @@ author: Lehcim Cram Trebor
 		<layout.snap.ratio>4x3</layout.snap.ratio>
 
 		<!-- Default frame -->
-		<frame.style>default</frame.style>
+		<frame.skin>colored</frame.skin>
 
 		<!-- Default crt zIndex -->
 		<x.crt.zIndex>3</x.crt.zIndex>
@@ -1085,7 +1085,7 @@ author: Lehcim Cram Trebor
 	</video>
 	
 	<image name="frame" extra="true">
-		<path>./_assets/frames/${frame.style}/frame_${theme.screen.ratio}_${layout.snap.ratio}.png</path>
+		<path>./_assets/frames/base/frame_${theme.screen.ratio}_${layout.snap.ratio}.png</path>
 		<pos>0.5 0.5</pos>
 		<size>1 1</size>
 		<origin>0.5 0.5</origin>
@@ -1093,8 +1093,8 @@ author: Lehcim Cram Trebor
 		<zIndex>22</zIndex>
 	</image>
 
-	<image name="frame_color" extra="true">
-		<path>./_assets/frames/${frame.style}/frame_color_${theme.screen.ratio}_${layout.snap.ratio}.png</path>
+	<image name="frame_skin" extra="true">
+		<path>./_assets/frames/${frame.skin}/frame_${theme.screen.ratio}_${layout.snap.ratio}.png</path>
 		<pos>0.5 0.5</pos>
 		<size>1 1</size>
 		<origin>0.5 0.5</origin>
