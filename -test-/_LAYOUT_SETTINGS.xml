@@ -18,13 +18,13 @@
 <!-- Snaps frame ratio: -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.snap.ratio>4x3</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9" -->																									
+<layout.snap.ratio>10x9</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9" -->																									
 
 
 <!-- Snaps frame color: https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>trinitron</frame.skin>								<!-- SKIN:		"colored" by default or "trinitron" (color must be "ffffff"). -->
+<frame.skin>switch</frame.skin>								<!-- SKIN:		"colored" by default or "trinitron" (color must be "ffffff"). -->
 
 <x.frame.color>ffffff</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
