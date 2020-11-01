@@ -14,13 +14,13 @@
 
 <view name="video, grid">
 <video name="md_video" extra="true">
-<size>${x.snap.horizontal} 0.535</size>	
+<size>${x.snap.horizontal} ${x.snap.vertical}</size>	
 </video>
 </view>
 
 <view name="detailed">
 <image name="md_image" extra="true">
-<size>${x.snap.horizontal} 0.535</size>	
+<size>${x.snap.horizontal} ${x.snap.vertical}</size>	
 </image>
 
 </view>
@@ -28,21 +28,21 @@
 <textlist name="gamelist">
 <origin>0.5 0.5</origin>
 <pos>${x.snapcenter.pos}</pos>
-<size>${x.snap.horizontal} 0.535</size>
+<size>${x.snap.horizontal} ${x.snap.vertical}</size>
 </textlist>	  
 </view>
 
 <view name="grid">
 <imagegrid name="gamegrid" ifSubset="grid_view:classic">
-<size>${x.snap.horizontal} 0.535</size>
+<size>${x.snap.horizontal} ${x.snap.vertical}</size>
 <autoLayout>3 2</autoLayout>
-<pos>${pos.gamegrid.horizontal} 0.30</pos>
+<pos>${pos.gamegrid.horizontal} ${pos.gamegrid.vertical}</pos>
 </imagegrid>
 <image name="md_thumbnail" ifSubset="grid_view:arcade_marquees|arcade_boxes">
-<pos>${pos.thumbnail.horizontal} 0.81</pos>
+<pos>${pos.thumbnail.horizontal} ${pos.thumbnail.vertical}</pos>
 </image>
 <rating name="md_rating" ifSubset="grid_view:arcade_marquees|arcade_boxes">
-<pos>${pos.rating.horizontal} 0.82</pos>
+<pos>${pos.rating.horizontal} ${pos.rating.vertical}</pos>
 </rating>
 </view>
 	

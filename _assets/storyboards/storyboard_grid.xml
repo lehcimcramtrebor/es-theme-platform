@@ -37,30 +37,6 @@
 		</storyboard>
 		
 	</image>
-	
-	<image name="backleftillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
-	</image>
-
-	<image name="backcenterillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
-	</image>
-
-	<image name="backrightillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
-	</image>
 
 	<image name="backmetadata, backmetadata_color" extra="true">
 
@@ -196,31 +172,6 @@
 		</storyboard>
 		
 	</image>
-	
-	<image name="backleftillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
-	</image>
-
-	<image name="backcenterillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
-	</image>
-
-	<image name="backrightillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
-	</image>
-
 	  
 		</view>
 

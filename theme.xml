@@ -54,6 +54,10 @@ author: Lehcim Cram Trebor
 		<!-- Default crt zIndex -->
 		<x.crt.zIndex>3</x.crt.zIndex>
 
+		<!-- Default gamelist lines and font size -->
+		<x.gamelist.lines>9</x.gamelist.lines>
+		<x.gamelist.fontSize>0.025</x.gamelist.fontSize>
+		
 		<!-- Background default variables -->
 
 		<x.background.color>ffffff</x.background.color>
@@ -1412,13 +1416,13 @@ author: Lehcim Cram Trebor
         <secondaryColor>ffffff</secondaryColor>
         <selectorColor>bb0b0b</selectorColor>	  		
         <fontPath>./_assets/adventure.otf</fontPath>
-        <fontSize>0.025</fontSize>
+        <fontSize>${x.gamelist.fontSize}</fontSize>
         <alignment>center</alignment>
 		<horizontalMargin>0.01</horizontalMargin>
         <forceUppercase>false</forceUppercase>
         <scrollSound>./_assets/scroll.wav</scrollSound>
 		<zIndex>18</zIndex>
-		<lines>9</lines>
+		<lines>${x.gamelist.lines}</lines>
     </textlist>	  
 	
 	</view>

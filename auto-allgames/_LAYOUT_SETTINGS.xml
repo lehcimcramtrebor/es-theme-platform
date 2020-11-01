@@ -27,29 +27,63 @@
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
 
-<!-- Overlayed frame in gamelist for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps. -->																																								
+
+
+
+<!-- OVERLAYED FRAME IN GAMELIST for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.snap.overlay>yes</layout.snap.overlay>					<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
+<layout.snap.overlay>yes</layout.snap.overlay>				<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
 
-<layout.extend.overlay>no</layout.extend.overlay>				<!-- EXTEND:		"no" by default or "yes", extend overlay to systemview for use random video. -->
+<layout.extend.overlay>yes</layout.extend.overlay>			<!-- EXTEND:		"no" by default or "yes", extend overlay to systemview for use random video. -->
 
 
 
 <!-- ADVANCED USER OVERLAYED SNAPS SETTINGS FOR SPECIFICS COLLECTION LIKE VERTICAL GAMES FOR EXAMPLE  OR OTHER RATIOS-->
 
+<!--------------- SNAP SIZE --------------->
+
 <!-- Horizontal size -->
 <x.snap.horizontal>0.405</x.snap.horizontal>					<!-- HOR. SIZE:		"0.405" by default for 4/3 system overlays like snes, megadrive.. "1" is entire screen width. -->
 
+<!-- Vertical size ( Don't forget to edit "_VGA_LAYOUT_SETTINGS" -->
+
+<x.snap.vertical>0.535</x.snap.vertical>						<!-- VERT. SIZE:	"0.535" by default for 4/3 system overlays like snes, megadrive.. "1" is entire screen heigh. -->
+
+<!--------------- GAMEGRID POSITION, BECAUSE GAMEGRID HAVE UPPER LEFT ORIGIN ---------------->
+
 <!-- Gamegrid horizontal position -->
-<pos.gamegrid.horizontal>0.3</pos.gamegrid.horizontal>			<!-- HOR. POS.:		"0.30" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
+<pos.gamegrid.horizontal>0.3</pos.gamegrid.horizontal>		<!-- HOR. POS.:		"0.30" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
+
+<!-- Gamegrid vertical position ( Don't forget to edit "_VGA_LAYOUT_SETTINGS" -->
+
+<pos.gamegrid.vertical>0.3075</pos.gamegrid.vertical>		<!-- VERT. POS.:	"0.3075" by default for 4/3 system overlays like snes, megadrive.. "0" is upper border screen, "1" is bottom border screen. -->
+
+<!--------------- ARCADE VIEWS THUMBNAIL AND RATING POSITION --------------->
 
 <!--  Box art horizontal position -->
-<pos.thumbnail.horizontal>0.69</pos.thumbnail.horizontal>		<!-- HOR THUMB POS:	"0.69" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
+<pos.thumbnail.horizontal>0.69</pos.thumbnail.horizontal>	<!-- HOR THUMB POS:	"0.69" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
+
+<!--  Box art vertical position -->
+<pos.thumbnail.vertical>0.81</pos.thumbnail.vertical>		<!-- VERT THUMB POS:"0.81" by default for 4/3 system overlays like snes, megadrive.. "0" is upper border screen, "1" is bottom border screen. -->
+
+
 
 <!--  Rating horizontal position -->
-<pos.rating.horizontal>0.63</pos.rating.horizontal>				<!-- HOR RATE POS:	"0.63" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
+<pos.rating.horizontal>0.63</pos.rating.horizontal>			<!-- HOR RATE POS:	"0.63" by default for 4/3 system overlays like snes, megadrive.. "0" is left border screen, "1" is right border screen. -->
 
+<!--  Rating vertical position -->
+<pos.rating.vertical>0.82</pos.rating.vertical>				<!-- HOR RATE POS:	"0.82" by default for 4/3 system overlays like snes, megadrive.. "0" is upper border screen, "1" is bottom border screen. -->
+
+<!--------------- GAMELIST LINES and FONT SIZE --------------->
+
+<x.gamelist.lines>9</x.gamelist.lines>						<!-- LINES:			"9" by default, can be reduce for smaller snap sizes. -->	
+
+<x.gamelist.fontSize>0.025</x.gamelist.fontSize>			<!-- FONT SIZE:		"0.025" by default, can be reduce for smaller snap sizes. --> 
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- Gamegrid Padding: -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 

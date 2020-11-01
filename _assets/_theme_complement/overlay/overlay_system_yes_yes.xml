@@ -11,7 +11,7 @@
 <zIndex>20</zIndex>
 </image>
 <video name="backgroundvideo" extra="true">
-<size>${x.snap.horizontal} 0.535</size>
+<size>${x.snap.horizontal} ${x.snap.vertical}</size>
 </video>
 </view>
 

@@ -8,9 +8,8 @@
 
 	<image name="backrightillustration" extra="true">
 
-		<storyboard repeatAt="3001">
+		<storyboard repeatAt="3000">
         		<animation property="opacity" from="0" to="1" begin="0" duration="3000" mode="easeIn"/>
-        		<animation property="opacity" to="0.9" begin="3001" autoreverse="true" duration="75" repeat="220" mode="easiIn"/>				
         		<animation property="x" from="0.5" begin="0" duration="3000" mode="easyOut"/>				
         		<animation property="x" to="1" begin="3000" duration="30000" autoreverse="true" mode="easyInOut"/>
         		<animation property="w" to="0" begin="3000" duration="25" repeat="2" autoreverse="true" mode="easyInOut"/>							
@@ -37,4 +36,36 @@
 	
 	</view>
 
+	<view name="basic, detailed, video, grid">
+
+	<image name="backrightillustration" extra="true">
+
+		<storyboard repeatAt="350">
+        		<animation property="opacity" from="0" to="1" begin="0" duration="350" mode="easeIn"/>
+        		<animation property="x" from="0.5" begin="0" duration="350" mode="easyOut"/>				
+        		<animation property="x" to="1" begin="350" duration="31375" autoreverse="true" mode="easyInOut"/>
+        		<animation property="w" to="0" begin="3000" duration="25" repeat="2" autoreverse="true" mode="easyInOut"/>							
+        		<animation property="w" to="0" begin="33000" duration="25" autoreverse="true" mode="easyInOut"/>				
+        		<animation property="w" to="0" begin="48000" duration="25" repeat="2" autoreverse="true" mode="easyInOut"/>				
+        		<animation property="w" to="0" begin="62850" duration="25" autoreverse="true" mode="easyInOut"/>	
+        		<animation property="color" to="ff000099" begin="15000" duration="10" autoreverse="true" mode="easyInOut"/>				
+        		<animation property="color" to="00ff0099" begin="15020" duration="10" autoreverse="true" mode="easyInOut"/>				
+        		<animation property="color" to="0000ff99" begin="15040" duration="10" autoreverse="true" mode="easyInOut"/>	
+        		<animation property="color" to="ffffff" begin="15060" duration="50" mode="easyInOut"/>
+        		<animation property="color" to="ff000099" begin="45000" duration="10" autoreverse="true" mode="easyInOut"/>				
+        		<animation property="color" to="00ff0099" begin="45020" duration="10" autoreverse="true" mode="easyInOut"/>				
+        		<animation property="color" to="0000ff99" begin="45040" duration="10" autoreverse="true" mode="easyInOut"/>	
+        		<animation property="color" to="ffffff" begin="45060" duration="50" mode="easyInOut"/>
+        		<animation property="rotation" from="-0.25" to="0.25" begin="13000" duration="10" autoreverse="true" repeat="2" mode="easyInOut"/>
+        		<animation property="rotation" to="0" begin="13040" duration="20" mode="easyInOut"/>				
+        		<animation property="scale" to="0" begin="6700" duration="10" autoreverse="true" repeat="10" mode="easyInOut"/>
+        		<animation property="scale" to="0" begin="24500" duration="10" autoreverse="true" repeat="10" mode="easyInOut"/>
+        		<animation property="scale" to="0" begin="36000" duration="10" autoreverse="true" repeat="10" mode="easyInOut"/>
+        		<animation property="scale" to="0" begin="54000" duration="10" autoreverse="true" repeat="10" mode="easyInOut"/>
+				</storyboard>
+		
+	</image>
+	
+	</view>
+	
 </theme>

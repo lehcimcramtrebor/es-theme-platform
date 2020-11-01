@@ -83,33 +83,6 @@
 		
 	</image>
 
-	<image name="backleftillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" from="0" to="1" begin="0" duration="3000" mode="easeIn"/>
-        		<animation property="opacity" to="0.9" begin="3001" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>				
-		</storyboard>
-		
-	</image>
-
-	<image name="backcenterillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" from="0" to="1" begin="0" duration="3000" mode="easeIn"/>
-        		<animation property="opacity" to="0.9" begin="3001" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>
-		</storyboard>
-		
-	</image>
-
-	<image name="backrightillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" from="0" to="1" begin="0" duration="3000" mode="easeIn"/>
-        		<animation property="opacity" to="0.9" begin="3001" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>				
-		</storyboard>
-		
-	</image>
-	
     <image name="logostatic" extra="true">
 
 		<storyboard>
@@ -236,30 +209,6 @@
         		<animation property="w" to="1.01" duration="5" autoreverse="true" repeat="forever" mode="linear"/>
         		<animation property="scale" to="1.1" duration="5000" autoreverse="true" repeat="forever" mode="linear"/>
         		<animation property="y" to="0.55" duration="5000" autoreverse="true" repeat="forever" mode="linear"/>
-		</storyboard>
-		
-	</image>
-	
-	<image name="backleftillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
-	</image>
-
-	<image name="backcenterillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
-	</image>
-
-	<image name="backrightillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
 		</storyboard>
 		
 	</image>
@@ -398,29 +347,7 @@
 		</storyboard>
 		
 	</image>
-	
-	<image name="backleftillustration" extra="true">
 
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
-	</image>
-
-	<image name="backcenterillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
-	</image>
-
-	<image name="backrightillustration" extra="true">
-
-		<storyboard>
-        		<animation property="opacity" to="0.9" begin="0" autoreverse="true" duration="75" repeat="forever" mode="easiIn"/>	
-		</storyboard>
-		
 	</image>
 
 	  
