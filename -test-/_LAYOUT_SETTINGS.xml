@@ -24,9 +24,9 @@
 <!-- Snaps frame color: https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>colored</frame.skin>								<!-- SKIN:		"colored" by default. -->
+<frame.skin>trinitron</frame.skin>								<!-- SKIN:		"colored" by default or "trinitron" (color must be "ffffff"). -->
 
-<x.frame.color>ffff00</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
+<x.frame.color>ffffff</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
 
 

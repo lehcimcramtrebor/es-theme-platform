@@ -361,5 +361,7 @@
 		<include name="arcade_boxes" displayName="${lang.arcade_boxes}">./storyboard_grid_arcade.xml</include>
 
 	</subset>
+
+	<include>./${frame.skin}.xml</include>
 	
 </theme>
