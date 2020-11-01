@@ -164,9 +164,9 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.right.x.advanced>no</layout.right.x.advanced>			
+	<layout.right.x.advanced>yes</layout.right.x.advanced>			
 
-			<x.right.x>0.5</x.right.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.right.x>0.864</x.right.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
