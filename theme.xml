@@ -565,6 +565,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<image name="easter_egg" extra="true">
+		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
 		<pos>0.35 2</pos>
@@ -574,6 +575,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<image name="easter_egg_left" extra="true">
+		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
 		<pos>-1 0.35</pos>
@@ -584,6 +586,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<image name="easter_egg_up" extra="true">
+		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
 		<flipY>true</flipY>
@@ -594,6 +597,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<image name="easter_egg_right" extra="true">
+		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
 		<pos>2 0.65</pos>
@@ -604,6 +608,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<image name="label" extra="true">
+		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/labels/label_${layout.label.style}.png</path>
 		<path>./_assets/labels/label_${layout.label.style}_${layout.label.direction}.png</path>
 		<path>./${system.theme}/${layout.label.style}_label/label.png</path>
@@ -1090,6 +1095,7 @@ author: Lehcim Cram Trebor
 	</video>
 	
 	<image name="frame" extra="true">
+		<linearSmooth>true</linearSmooth>
 		<path>./_assets/frames/base/frame_${layout.snap.ratio}.png</path>
 		<pos>0.5 0.5</pos>
 		<size>${x.frame.size}</size>
@@ -1099,6 +1105,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<image name="frame_skin" extra="true">
+		<linearSmooth>true</linearSmooth>
 		<path>./_assets/frames/${frame.skin}/frame_${layout.snap.ratio}.png</path>
 		<pos>0.5 0.5</pos>
 		<size>${x.frame.size}</size>
