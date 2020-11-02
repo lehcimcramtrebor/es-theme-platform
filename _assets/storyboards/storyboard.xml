@@ -362,6 +362,6 @@
 
 	</subset>
 
-	<include>./${frame.skin}.xml</include>
+	<include>./skins/${frame.skin}.xml</include>
 	
 </theme>

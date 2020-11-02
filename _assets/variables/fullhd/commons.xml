@@ -2,6 +2,8 @@
 <formatVersion>7</formatVersion>
 <variables>
 
+<x.frame.size>1 1</x.frame.size>
+
 <x.md_name.fontSize>0.022</x.md_name.fontSize>
 
 <theme.screen.ratio>fullhd</theme.screen.ratio>

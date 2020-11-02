@@ -176,6 +176,11 @@ author: Lehcim Cram Trebor
 <!---------- Snaps overlay 16x9 overwrite ---------->
 
 	<include>./_assets/variables/overlay/overlay_${layout.snap.overlay}.xml</include>
+
+
+<!---------- Overwrite skin format ---------->
+
+	<include>./_assets/variables/skins/${frame.skin}.xml</include>
 	
 <!---------- Illustrations variables ---------->
 
@@ -1085,18 +1090,18 @@ author: Lehcim Cram Trebor
 	</video>
 	
 	<image name="frame" extra="true">
-		<path>./_assets/frames/base/frame_${theme.screen.ratio}_${layout.snap.ratio}.png</path>
+		<path>./_assets/frames/base/frame_${layout.snap.ratio}.png</path>
 		<pos>0.5 0.5</pos>
-		<size>1 1</size>
+		<size>${x.frame.size}</size>
 		<origin>0.5 0.5</origin>
 		<color>FFFFFF</color>
 		<zIndex>22</zIndex>
 	</image>
 
 	<image name="frame_skin" extra="true">
-		<path>./_assets/frames/${frame.skin}/frame_${theme.screen.ratio}_${layout.snap.ratio}.png</path>
+		<path>./_assets/frames/${frame.skin}/frame_${layout.snap.ratio}.png</path>
 		<pos>0.5 0.5</pos>
-		<size>1 1</size>
+		<size>${x.frame.size}</size>
 		<origin>0.5 0.5</origin>
 		<color>${x.frame.color}</color>
 		<zIndex>22</zIndex>
