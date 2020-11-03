@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+<!---------- Arcade view ---------->
+
+<view name="grid">
+<image name="md_line0, md_line0_color, md_line, md_line_color, md_line2, md_line2_color" ifSubset="grid_view:arcade_marquees|arcade_boxes">
+<visible>false</visible>
+</image>
+</view>
+		
+</theme>

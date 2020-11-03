@@ -1,0 +1,27 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<layout.snap.overlay>no</layout.snap.overlay>																				
+<layout.extend.overlay>no</layout.extend.overlay>
+<x.frame.color>ffffff</x.frame.color>
+
+</variables>
+
+<variables ifSubset="screen ratio:169">
+
+<x.snap.pos>0.30 0.3075</x.snap.pos>
+<x.snap.size>0.392 0.535</x.snap.size>
+<x.snapcenter.pos>0.50 0.575</x.snapcenter.pos>
+
+</variables>
+
+<variables ifSubset="screen ratio:43">
+
+<x.snap.pos>0.30 0.355</x.snap.pos>
+<x.snap.size>0.392 0.4</x.snap.size>
+<x.snapcenter.pos>0.5 0.555</x.snapcenter.pos>
+
+</variables>
+
+</theme>

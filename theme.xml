@@ -50,6 +50,7 @@ author: Lehcim Cram Trebor
 
 		<!-- Default frame -->
 		<frame.skin>colored</frame.skin>
+		<x.frame.pos>0.5 0.5</x.frame.pos>
 
 		<!-- Default crt zIndex -->
 		<x.crt.zIndex>3</x.crt.zIndex>
@@ -159,6 +160,7 @@ author: Lehcim Cram Trebor
 		<x.back_center.visible>true</x.back_center.visible>
 		<layout.covers_right.visible>boxes</layout.covers_right.visible>
 		<layout.covers_left.visible>boxes</layout.covers_left.visible>
+		<x.md_lines.visible>true</x.md_lines.visible>
 
 		<!---------- Help variables ---------->
 		<x.help.color>fef6f3</x.help.color>
@@ -180,7 +182,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Overwrite skin format ---------->
 
-	<include>./_assets/variables/skins/${frame.skin}.xml</include>
+	<include>./_assets/variables/skins/${frame.skin}_ratio.xml</include>
 	
 <!---------- Illustrations variables ---------->
 
@@ -285,6 +287,10 @@ author: Lehcim Cram Trebor
 	<include>./_assets/variables/background/background_animation_${animation.background}.xml</include>
 	<include>./_assets/variables/background/background_animation_system_${animation.system.background}.xml</include>
 
+<!---------- Overwrite skin snap size ---------->
+
+	<include>./_assets/variables/skins/${frame.skin}_settings.xml</include>
+	
 <!---------- Screen effect Subsets ---------->
 
 	<subset name="screen effect" displayName="${lang.screeneffect}">
@@ -1107,7 +1113,7 @@ author: Lehcim Cram Trebor
 	<image name="frame_skin" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./_assets/frames/${frame.skin}/frame_${layout.snap.ratio}.png</path>
-		<pos>0.5 0.5</pos>
+		<pos>${x.frame.pos}</pos>
 		<size>${x.frame.size}</size>
 		<origin>0.5 0.5</origin>
 		<color>${x.frame.color}</color>
@@ -1270,6 +1276,10 @@ author: Lehcim Cram Trebor
 		<visible>${x.logostatic.detailed_video_grid.visible}</visible>
 	</image>
 
+	<image name="md_line0, md_line0_color, md_line, md_line_color, md_line2, md_line2_color" extra="true">
+		<visible>${x.md_lines.visible}</visible>
+	</image>
+	
 	<image name="md_line0" extra="true">
 		<path>./_assets/white.png</path>
 		<color>ffffff</color>
@@ -1655,5 +1665,9 @@ author: Lehcim Cram Trebor
 	<include>./${system.theme}/specifics/${system.theme}_advanced/_ADVANCED_CUSTOM.xml</include>
 	<include>./${system.theme}/specifics/${system.theme}_advanced/_${layout.vga.settings}_ADVANCED_CUSTOM.xml</include>
 	<include>./test.xml</include>
+
+<!---------- SKIN LINES FIX ---------->
+
+	<include>./_assets/_theme_complement/skins_lines_fix/yes.xml</include>
 
 </theme>

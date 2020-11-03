@@ -24,9 +24,9 @@
 <!-- Snaps frame color: https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>arcade</frame.skin>								<!-- SKIN:		"colored" by default, "gaming", "trinitron", "switch", "arcade" (color must be "ffffff" for non colored skins). -->
+<frame.skin>gameboy</frame.skin>							<!-- SKIN:		"colored" by default, "gaming", "trinitron", "switch", "gameboy"  . -->
 
-<x.frame.color>ffffff</x.frame.color>						<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
+<x.frame.color>00000000</x.frame.color>						<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
 
 
@@ -35,9 +35,9 @@
 <!-- OVERLAYED FRAME IN GAMELIST for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.snap.overlay>no</layout.snap.overlay>					<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
+<layout.snap.overlay>yes</layout.snap.overlay>					<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
 
-<layout.extend.overlay>no</layout.extend.overlay>				<!-- EXTEND:		"no" by default or "yes", extend overlay to systemview for use random video. -->
+<layout.extend.overlay>yes</layout.extend.overlay>				<!-- EXTEND:		"no" by default or "yes", extend overlay to systemview for use random video. -->
 
 
 
