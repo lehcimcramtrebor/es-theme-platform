@@ -106,7 +106,7 @@
 <!-- Animated covers (Right side): HIDE RIGHT  ILLUSTRATIONS -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_right.visible>marquees</layout.covers_right.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_right.visible>boxes</layout.covers_right.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 
 
