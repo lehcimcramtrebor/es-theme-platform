@@ -17,8 +17,11 @@
 <x.logostatic.pos>0.5 0.09</x.logostatic.pos>
 <x.logostatic.maxSize>0.41 0.17</x.logostatic.maxSize>
 
-<x.marquee.pos>0.5 0.12</x.marquee.pos>
-<x.marquee.maxSize>0.4 0.20</x.marquee.maxSize>
+<x.marquee.pos>0.5 0.09</x.marquee.pos>
+<x.marquee.maxSize>0.4 0.17</x.marquee.maxSize>
+
+<x.marquee.pos>0.5 0.09</x.marquee.pos>
+<x.marquee.maxSize>0.4 0.17</x.marquee.maxSize>
 
 <x.backmetadata.pos>1.04 0</x.backmetadata.pos>
 <x.backmetadata.size>0.28 1</x.backmetadata.size>
