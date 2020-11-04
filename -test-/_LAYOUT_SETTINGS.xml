@@ -24,7 +24,7 @@
 <!-- Snaps frame color: https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>trinitron</frame.skin>							<!-- SKIN:		"colored" by default, "gaming", "trinitron", "switch", "gameboy"  . -->
+<frame.skin>trinitron</frame.skin>							<!-- SKIN:		"colored" by default, "gaming", "trinitron", "switch", "gameboy", "gamegear"  . -->
 
 <x.frame.color>00000000</x.frame.color>						<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
@@ -102,12 +102,12 @@
 <!-- Animated covers (Left side): HIDE LEFT ILLUSTRATIONS IN SYSTEMVIEW BUT NOT IN GAMELIST -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_left.visible>no</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_left.visible>boxes</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 <!-- Animated covers (Right side): HIDE RIGHT  ILLUSTRATIONS -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_right.visible>no</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_right.visible>marquees</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 
 

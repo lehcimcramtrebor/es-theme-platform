@@ -5,6 +5,8 @@
 <layout.snap.overlay>no</layout.snap.overlay>																				
 <layout.extend.overlay>no</layout.extend.overlay>
 <x.frame.color>ffffff</x.frame.color>
+<skin.covers.fix>3x2</skin.covers.fix>
+
 </variables>
 
 <variables ifSubset="screen ratio:169">

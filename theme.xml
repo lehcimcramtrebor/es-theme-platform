@@ -1652,6 +1652,9 @@ author: Lehcim Cram Trebor
 	<include>./_assets/_theme_complement/covers/left/covers_${theme.screen.ratio}_${layout.snap.ratio}_${layout.covers_left.visible}.xml</include>
 	<include>./_assets/_theme_complement/covers/right/covers_${theme.screen.ratio}_${layout.snap.ratio}_${layout.covers_right.visible}.xml</include>
 
+	<include>./_assets/_theme_complement/covers/left/covers_${theme.screen.ratio}_${skin.covers.fix}_${layout.covers_left.visible}.xml</include>
+	<include>./_assets/_theme_complement/covers/right/covers_${theme.screen.ratio}_${skin.covers.fix}_${layout.covers_right.visible}.xml</include>
+	
 <!---------- Snaps overlay theme complement ---------->
 
 	<include>./_assets/_theme_complement/overlay/overlay_${layout.snap.overlay}.xml</include>
@@ -1668,6 +1671,7 @@ author: Lehcim Cram Trebor
 
 <!---------- SKIN LINES FIX ---------->
 
-	<include>./_assets/_theme_complement/skins_lines_fix/yes.xml</include>
+	<include>./_assets/_theme_complement/skins_fix/yes.xml</include>
+
 
 </theme>
