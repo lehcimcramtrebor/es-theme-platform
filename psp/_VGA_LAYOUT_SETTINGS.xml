@@ -68,7 +68,7 @@
 <!--LEFT illustration LAYOUT: --DESACTIVED>																																									
 <layout.left.sizepos>square</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
-<!--LEFT illustration INDEX: --DESACTIVED>																																									
+<!--LEFT illustration INDEX: -->																																									
 <layout.left.zIndex>behind</layout.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
 
 
@@ -106,7 +106,7 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <!--LEFT2 illustration SHIFTING: -->																																									
-<layout.left2.shift>55</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.left2.shift>95</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--LEFT2 illustration LAYOUT: --DESACTIVED>																																									
 <layout.left2.sizepos>square</layout.left2.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
@@ -150,12 +150,12 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <!--RIGHT illustration SHIFTING: -->																																									
-<layout.right.shift>55</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.right.shift>45</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--RIGHT illustration LAYOUT: --DESACTIVED>																																									
 <layout.right.sizepos>square</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
-<!--RIGHT illustration INDEX: --DESACTIVED>																																									
+<!--RIGHT illustration INDEX: -->																																									
 <layout.right.zIndex>behind</layout.right.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
 
 
@@ -170,7 +170,7 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.right.y.advanced>yes</layout.right.y.advanced>
+	<layout.right.y.advanced>no</layout.right.y.advanced>
 
 			<x.right.y>0.79</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
@@ -194,7 +194,7 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <!--RIGHT2 illustration SHIFTING: -->																																									
-<layout.right2.shift>35</layout.right2.shift>					<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.right2.shift>15</layout.right2.shift>					<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--RIGHT2 illustration LAYOUT: --DESACTIVED>																																									
 <layout.right2.sizepos>square</layout.right2.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
@@ -214,9 +214,9 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.right2.y.advanced>no</layout.right2.y.advanced>
+	<layout.right2.y.advanced>yes</layout.right2.y.advanced>
 
-			<x.right2.y>0.5</x.right2.y>						<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.right2.y>0.79</x.right2.y>						<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	

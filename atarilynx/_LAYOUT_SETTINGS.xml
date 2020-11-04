@@ -24,7 +24,7 @@
 <!-- Snaps frame color: https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>colored</frame.skin>								<!-- SKIN:		"colored" by default, "gaming", "trinitron", "switch", "gameboy", "gamegear"  . -->
+<frame.skin>lynx</frame.skin>								<!-- SKIN:		"colored" by default, "gaming", "trinitron", "switch", "gameboy", "gamegear", "lynx", "psp", "amiga"  . -->
 
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
@@ -199,7 +199,7 @@
 <!--RIGHT illustration: ---------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.right.zIndex>vertical</layout.right.zIndex>					<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.right.zIndex>front</layout.right.zIndex>					<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.right.sizepos>horizontal</layout.right.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.right.shift>51</layout.right.shift>						<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.right.color>default</layout.right.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			

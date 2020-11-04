@@ -2,8 +2,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 
-<layout.snap.overlay>no</layout.snap.overlay>																				
-<layout.extend.overlay>no</layout.extend.overlay>
+
 <x.frame.color>ffffff</x.frame.color>
 
 </variables>

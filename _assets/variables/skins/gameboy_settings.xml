@@ -12,9 +12,9 @@
 <variables ifSubset="screen ratio:169">
 
 <x.snapcenter.pos>0.50 0.5725</x.snapcenter.pos>
-<x.snap.pos>0.325 0.3075</x.snap.pos>
+<x.snap.pos>0.333 0.325</x.snap.pos>
 <x.snap.size>0.34 0.52</x.snap.size>
-<x.controller.pos>0.8 0.95</x.controller.pos>
+<x.controller.pos>0.8 0.99</x.controller.pos>
 
 <x.logostatic.pos>0.5 0.115</x.logostatic.pos>
 <x.logostatic.maxSize>0.41 0.21</x.logostatic.maxSize>
@@ -63,9 +63,9 @@
 <variables ifSubset="screen ratio:43">
 
 <x.snapcenter.pos>0.5 0.557</x.snapcenter.pos>
-<x.snap.pos>0.325 0.35</x.snap.pos>
-<x.snap.size>0.339 0.4</x.snap.size>
-<x.controller.pos>0.8 0.84</x.controller.pos>
+<x.snap.pos>0.333 0.355</x.snap.pos>
+<x.snap.size>0.34 0.4</x.snap.size>
+<x.controller.pos>0.8 0.87</x.controller.pos>
 
 <x.logostatic.pos>0.5 0.17</x.logostatic.pos>
 <x.logostatic.maxSize>0.41 0.25</x.logostatic.maxSize>

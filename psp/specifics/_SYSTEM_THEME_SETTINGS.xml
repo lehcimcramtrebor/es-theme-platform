@@ -22,8 +22,8 @@
 <!-- BACKGROUNDS BOTTOM DARKENING --DESACTIVED>
 <general.background.darkening>yes</general.background.darkening>	<!-- "yes" by default, can be turned off by "no" -->
 
-<!-- CONTROLLER VISIBILITY --DESACTIVED>
-<general.controller.visible>yes</general.controller.visible>		<!-- "yes" by default, can be turned off by "no" -->
+<!-- CONTROLLER VISIBILITY -->
+<general.controller.visible>no</general.controller.visible>		<!-- "yes" by default, can be turned off by "no" -->
 
 <!-- LOGO BACK LIGHT VISIBILITY --DESACTIVED>
 <general.logo_light.visible>yes</general.logo_light.visible>		<!-- "yes" by default, can be turned off by "no" -->
