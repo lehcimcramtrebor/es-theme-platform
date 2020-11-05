@@ -360,8 +360,8 @@ author: Lehcim Cram Trebor
 		<fontSize>0.03</fontSize>
 		<origin>0 0</origin>
 		<alignment>center</alignment>
-		<pos>${x.systeminfo.pos}</pos>
-		<size>${x.systeminfo.size}</size>
+		<pos>${x.fullname.pos}</pos>
+		<size>${x.fullname.size}</size>
 		<backgroundColor>00000000</backgroundColor>
 		<color>ffffff</color>
 		<glowColor>606060</glowColor>
@@ -495,12 +495,17 @@ author: Lehcim Cram Trebor
 		<color>ffffff</color>
 		<glowColor>606060</glowColor>
 		<glowOffset>1</glowOffset>
-		<glowSize>1</glowSize>
+		<glowSize>2</glowSize>
 		<reflexion>0.20 0</reflexion>
-		<zIndex>99</zIndex>
-		
+		<zIndex>99</zIndex>		
 	</text>
 
+	<text name="systemInfo" ifSubset="screen ratio:169">
+		<glowColor>303030</glowColor>
+		<glowOffset>0</glowOffset>
+		<reflexion>0 0</reflexion>
+	</text>
+	
 <!---------- Focus background effect ---------->
 
 	<video name="focus" extra="true">

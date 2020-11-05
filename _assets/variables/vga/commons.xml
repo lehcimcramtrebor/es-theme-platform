@@ -11,6 +11,9 @@
 <layout.vga.settings>VGA</layout.vga.settings>
 
 
+<x.fullname.pos>0 0.74</x.fullname.pos>
+<x.fullname.size>1 0.25</x.fullname.size>
+
 <x.systeminfo.pos>0 0.74</x.systeminfo.pos>
 <x.systeminfo.size>1 0.25</x.systeminfo.size>
 <x.systeminfo.fontSize>0.03</x.systeminfo.fontSize>
