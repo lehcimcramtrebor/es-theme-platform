@@ -24,7 +24,7 @@
 <!-- Snaps frame color: https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>gamegear</frame.skin>								<!-- SKIN:		"colored" by default, "gaming", "trinitron", "switch", "gameboy", "gamegear", "lynx", "psp", "amiga"  . -->
+<frame.skin>gamegear</frame.skin>								<!-- SKIN:		"colored" by default, "gaming", "trinitron", "switch", "gameboy", "gamegear", "lynx", "psp", "amiga", "amiga2"  . -->
 
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
