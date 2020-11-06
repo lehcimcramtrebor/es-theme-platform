@@ -1,0 +1,52 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<layout.snap.overlay>no</layout.snap.overlay>																				
+<layout.extend.overlay>no</layout.extend.overlay>
+<x.frame.color>ffffff</x.frame.color>
+<skin.covers.fix>16x9</skin.covers.fix>
+
+</variables>
+
+<variables ifSubset="screen ratio:169">
+
+<x.snap.pos>0.225 0.32</x.snap.pos>
+<x.snap.size>0.548 0.524</x.snap.size>
+<x.snapcenter.pos>0.501 0.573</x.snapcenter.pos>
+
+<x.controller.pos>0.81 0.99</x.controller.pos>
+
+<x.logostatic.pos>0.5 0.11</x.logostatic.pos>
+<x.logostatic.maxSize>0.41 0.20</x.logostatic.maxSize>
+
+<x.marquee.pos>0.5 0.11</x.marquee.pos>
+<x.marquee.maxSize>0.4 0.20</x.marquee.maxSize>
+
+<x.arcade.md_thumbnail.pos>0.77 0.8</x.arcade.md_thumbnail.pos>
+
+<x.arcade.md_rating.pos>0.715 0.81</x.arcade.md_rating.pos>
+
+</variables>
+
+<variables ifSubset="screen ratio:43">
+
+<x.snap.pos>0.225 0.36</x.snap.pos>
+<x.snap.size>0.548 0.388</x.snap.size>
+<x.snapcenter.pos>0.501 0.554</x.snapcenter.pos>
+
+<x.controller.pos>0.81 0.87</x.controller.pos>
+
+<x.logostatic.pos>0.5 0.17</x.logostatic.pos>
+<x.logostatic.maxSize>0.41 0.25</x.logostatic.maxSize>
+
+<x.marquee.pos>0.5 0.17</x.marquee.pos>
+<x.marquee.maxSize>0.4 0.20</x.marquee.maxSize>
+
+<x.arcade.md_thumbnail.pos>0.77 0.725</x.arcade.md_thumbnail.pos>
+
+<x.arcade.md_rating.pos>0.705 0.73</x.arcade.md_rating.pos>
+
+</variables>
+
+</theme>
