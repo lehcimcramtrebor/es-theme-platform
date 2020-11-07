@@ -168,6 +168,9 @@ author: Lehcim Cram Trebor
 		<!---------- Help variables ---------->
 		<x.help.color>fef6f3</x.help.color>
 
+		<!---------- Others variables ---------->
+		<x.md_marquee.zindex>14</x.md_marquee.zindex>
+		
 	</variables>
 
 
@@ -1277,7 +1280,7 @@ author: Lehcim Cram Trebor
 		<maxSize>${x.marquee.maxSize}</maxSize>
 		<pos>${x.marquee.pos}</pos>
 		<visible>${x.md_marquee.visible}</visible>
-		<zIndex>14</zIndex>
+		<zIndex>${x.md_marquee.zindex}</zIndex>
 		
 	</image>
 
