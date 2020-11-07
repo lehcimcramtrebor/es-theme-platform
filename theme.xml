@@ -357,7 +357,7 @@ author: Lehcim Cram Trebor
 	<text name="system_full_name" extra="true">
 		<text>${system.fullName}</text>
         <fontPath>./_assets/adventure.otf</fontPath>
-		<fontSize>0.03</fontSize>
+		<fontSize>0.022</fontSize>
 		<origin>0 0</origin>
 		<alignment>center</alignment>
 		<pos>${x.fullname.pos}</pos>
