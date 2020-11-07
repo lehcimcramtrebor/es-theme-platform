@@ -28,6 +28,9 @@ author: Lehcim Cram Trebor
 		<lang.strong>strong</lang.strong>
 		<lang.help>display help</lang.help>
 		<lang.labels>display descriptions</lang.labels>
+		<lang.skins>skins</lang.skins>
+		<lang.themed>themed (default)</lang.themed>
+		<lang.colored>colored</lang.colored>
 
 	</variables>
 
@@ -270,6 +273,16 @@ author: Lehcim Cram Trebor
 	<include>./${system.theme}/specifics/_SYSTEM_THEME_SETTINGS.xml</include>
 	<include>./${system.theme}_alt/specifics/_SYSTEM_THEME_SETTINGS.xml</include>
 	<include>./_assets/variables/specifics/${system.theme}.xml</include>
+
+<!---------- Subsets skins ---------->
+
+	<subset name="skins" displayName="${lang.skins}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="themed" displayName="${lang.themed}"/>
+		<include name="colored" displayName="${lang.colored}">./_assets/variables/skins/_colored.xml</include>
+		<include name="no" displayName="${lang.no}">./_assets/variables/skins/_no.xml</include>
+
+	</subset>
 
 <!----------- Variables Path for General and Specifics Settings ---------->
 	
@@ -1534,7 +1547,7 @@ author: Lehcim Cram Trebor
 
 <!---------- GRID SUBSETS ---------->
 
-	<subset name="grid_view" displayName="${lang.grid_view}">
+	<subset name="grid_view" displayName="${lang.grid_view}" appliesTo="grid">
 
 		<include name="classic" displayName="${lang.classic}"/>
 		<include name="arcade_marquees" displayName="${lang.arcade_marquees}">./_assets/_theme_complement/grid_arcade.xml</include>
