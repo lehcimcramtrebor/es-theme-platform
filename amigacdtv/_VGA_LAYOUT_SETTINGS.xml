@@ -170,9 +170,9 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.right.y.advanced>no</layout.right.y.advanced>
+	<layout.right.y.advanced>yes</layout.right.y.advanced>
 
-			<x.right.y>0.5</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.right.y>0.58</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
@@ -214,15 +214,15 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.right2.y.advanced>no</layout.right2.y.advanced>
+	<layout.right2.y.advanced>yes</layout.right2.y.advanced>
 
-			<x.right2.y>0.5</x.right2.y>						<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.right2.y>0.4</x.right2.y>						<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.right2.size.overwrite>no</layout.right2.size.overwrite>
+	<layout.right2.size.overwrite>yes</layout.right2.size.overwrite>
 	
-			<layout.right2.size>7</layout.right2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.right2.size>3</layout.right2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
 <!-------------------------VISIBLE------------------------------>
 
