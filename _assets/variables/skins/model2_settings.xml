@@ -1,0 +1,117 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<layout.snap.overlay>no</layout.snap.overlay>																				
+<layout.extend.overlay>no</layout.extend.overlay>
+<x.frame.color>ffffff</x.frame.color>
+<skin.covers.fix>3x2</skin.covers.fix>
+<x.md_marquee.zindex>25</x.md_marquee.zindex>
+
+</variables>
+
+<variables ifSubset="screen ratio:169">
+
+<x.snap.pos>0.305 0.3075</x.snap.pos>
+<x.snap.size>0.389 0.53</x.snap.size>
+<x.snapcenter.pos>0.4995 0.5765</x.snapcenter.pos>
+<x.controller.pos>0.77 0.99</x.controller.pos>
+
+<x.logostatic.pos>0.5 0.135</x.logostatic.pos>
+<x.logostatic.maxSize>0.24 0.07</x.logostatic.maxSize>
+
+<x.marquee.pos>0.5 0.135</x.marquee.pos>
+<x.marquee.maxSize>0.24 0.07</x.marquee.maxSize>
+
+<x.backmetadata.pos>1.04 0</x.backmetadata.pos>
+<x.backmetadata.size>0.28 1</x.backmetadata.size>
+
+<x.md_thumbnail.pos>0.881 0.24</x.md_thumbnail.pos>
+<x.md_thumbnail.maxSize>0.22 0.426</x.md_thumbnail.maxSize>
+
+<x.md_name.pos>0.5 0.952</x.md_name.pos>
+<x.md_name.size>0.457 0.0.06</x.md_name.size>
+
+<x.md_releasedate.pos>0.881 0.505</x.md_releasedate.pos>
+
+<x.md_developer.pos>0.881 0.543</x.md_developer.pos>
+<x.md_developer.size>0.22 0.020</x.md_developer.size>
+
+<x.md_line0.pos>0.881 0.48</x.md_line0.pos>
+<x.md_line0.size>0.22 0.002</x.md_line0.size>
+
+<x.md_line.pos>0.881 0.57</x.md_line.pos>
+<x.md_line.size>0.22 0.002</x.md_line.size>
+
+<x.md_line2.pos>0.881 0.95</x.md_line2.pos>
+<x.md_line2.size>0.22 0.002</x.md_line2.size>
+
+<x.md_description.pos>0.881 0.95</x.md_description.pos>
+<x.md_description.size>0.22 0.38</x.md_description.size>
+
+<x.md_rating.pos>0.861 0.975</x.md_rating.pos>
+
+<x.arcade_grid.pos>0.76 0</x.arcade_grid.pos>
+<x.arcade_grid.size>0.24 1</x.arcade_grid.size>
+
+
+<x.arcade.md_thumbnail.pos>0.69 0.8</x.arcade.md_thumbnail.pos>
+
+<x.arcade.md_rating.pos>0.635 0.81</x.arcade.md_rating.pos>
+
+</variables>
+
+<variables ifSubset="screen ratio:43">
+
+<x.snap.pos>0.305 0.355</x.snap.pos>
+<x.snap.size>0.389 0.395</x.snap.size>
+<x.snapcenter.pos>0.4995 0.5565</x.snapcenter.pos>
+<x.controller.pos>0.77 0.86</x.controller.pos>
+
+<x.logostatic.pos>0.5 0.21</x.logostatic.pos>
+<x.logostatic.maxSize>0.24 0.12</x.logostatic.maxSize>
+
+<x.marquee.pos>0.5 0.21</x.marquee.pos>
+<x.marquee.maxSize>0.24 0.12</x.marquee.maxSize>
+
+<x.backmetadata.pos>1.04 0</x.backmetadata.pos>
+<x.backmetadata.size>0.28 1</x.backmetadata.size>
+
+<x.md_thumbnail.pos>0.881 0.24</x.md_thumbnail.pos>
+<x.md_thumbnail.maxSize>0.22 0.426</x.md_thumbnail.maxSize>
+
+<x.md_name.pos>0.5 0.952</x.md_name.pos>
+<x.md_name.size>0.459 0.1</x.md_name.size>
+
+<x.md_releasedate.pos>0.881 0.505</x.md_releasedate.pos>
+
+<x.md_developer.pos>0.881 0.543</x.md_developer.pos>
+<x.md_developer.size>0.22 0.020</x.md_developer.size>
+
+<x.md_line0.pos>0.881 0.48</x.md_line0.pos>
+<x.md_line0.size>0.22 0.002</x.md_line0.size>
+
+<x.md_line.pos>0.881 0.57</x.md_line.pos>
+<x.md_line.size>0.22 0.002</x.md_line.size>
+
+<x.md_line2.pos>0.881 0.95</x.md_line2.pos>
+<x.md_line2.size>0.22 0.002</x.md_line2.size>
+
+<x.md_description.pos>0.881 0.95</x.md_description.pos>
+<x.md_description.size>0.22 0.38</x.md_description.size>
+
+<x.md_rating.pos>0.861 0.975</x.md_rating.pos>
+
+<x.arcade_grid.pos>0.76 0</x.arcade_grid.pos>
+<x.arcade_grid.size>0.24 1</x.arcade_grid.size>
+
+
+<x.arcade.md_thumbnail.pos>0.69 0.72</x.arcade.md_thumbnail.pos>
+
+<x.arcade.md_rating.pos>0.625 0.725</x.arcade.md_rating.pos>
+
+</variables>
+
+
+
+</theme>
