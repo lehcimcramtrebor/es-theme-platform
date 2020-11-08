@@ -23,7 +23,7 @@
 <!-- Snaps frame color: https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>amiga2</frame.skin>								<!-- SKIN:		"colored" by default, "gaming", "trinitron", "trinitron2", "tv43", "retro", "1080p", "crt", "amstrad", "philips43", "philips169", "4k", "switch", "naomi", "model", "atomis", "gameboy", "gamegear", "lynx", "wonderswan", "wonderswancolor", "psp", "amiga", "amiga2", "commodore",  . -->
+<frame.skin>amiga2</frame.skin>								<!-- SKIN:		"colored" by default, "gaming", "trinitron", "trinitron2", "tv43", "retro", "1080p", "crt", "amstrad", "philips43", "philips169", "4k", "switch", "naomi", "model2", "model3", "hikaru", "chihiro", "atomis", "gameboy", "gamegear", "lynx", "wonderswan", "wonderswancolor", "psp", "amiga", "amiga2", "commodore",  . -->
 
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
