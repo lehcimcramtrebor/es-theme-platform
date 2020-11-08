@@ -1272,7 +1272,7 @@ author: Lehcim Cram Trebor
 	
     <image name="md_marquee">
 		<color>ffffff</color>
-		<colorEnd>ffffff99</colorEnd>
+		<colorEnd>ffffff</colorEnd>
 		<gradientType>horizontal</gradientType>
 		<linearSmooth>true</linearSmooth>
 		<reflexion>0.2 0.0</reflexion>	  		
