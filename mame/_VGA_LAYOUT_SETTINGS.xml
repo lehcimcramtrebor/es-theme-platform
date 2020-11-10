@@ -62,11 +62,11 @@
 <!-----------------------LEFT----------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--LEFT illustration SHIFTING: --DESACTIVED>																																									
-<layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<!--LEFT illustration SHIFTING: -->																																									
+<layout.left.shift>75</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
-<!--LEFT illustration LAYOUT: --DESACTIVED>																																									
-<layout.left.sizepos>square</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<!--LEFT illustration LAYOUT: -->																																									
+<layout.left.sizepos>portrait</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--LEFT illustration INDEX: --DESACTIVED>																																									
 <layout.left.zIndex>behind</layout.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
@@ -152,8 +152,8 @@
 <!--RIGHT illustration SHIFTING: --DESACTIVED>																																									
 <layout.right.shift>55</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
-<!--RIGHT illustration LAYOUT: --DESACTIVED>																																									
-<layout.right.sizepos>square</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<!--RIGHT illustration LAYOUT: -->																																									
+<layout.right.sizepos>portrait</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--RIGHT illustration INDEX: --DESACTIVED>																																									
 <layout.right.zIndex>behind</layout.right.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
@@ -278,11 +278,11 @@
 <!------------------------------------------------------------------------LABEL VGA POSITIONNING------------------------------------------------------------------------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!----DESACTIVED>
-<x.label.x>0.115</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<!---->
+<x.label.x>0.41</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
-<!----DESACTIVED>
-<x.label.y>0.5</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
+<!---->
+<x.label.y>0.35</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
 
 
 
