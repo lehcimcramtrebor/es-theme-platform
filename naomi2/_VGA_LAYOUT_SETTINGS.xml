@@ -68,7 +68,7 @@
 <!--LEFT illustration LAYOUT: --DESACTIVED>																																									
 <layout.left.sizepos>square</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
-<!--LEFT illustration INDEX: --DESACTIVED>																																									
+<!--LEFT illustration INDEX: -->																																									
 <layout.left.zIndex>behind</layout.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
 
 

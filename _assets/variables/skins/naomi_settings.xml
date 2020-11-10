@@ -18,7 +18,7 @@
 <x.controller.pos>0.77 0.99</x.controller.pos>
 
 <x.logostatic.pos>0.5 0.105</x.logostatic.pos>
-<x.logostatic.maxSize>0.36 0.15</x.logostatic.maxSize>
+<x.logostatic.maxSize>0.3 0.15</x.logostatic.maxSize>
 
 <x.marquee.pos>0.5 0.105</x.marquee.pos>
 <x.marquee.maxSize>0.36 0.15</x.marquee.maxSize>
