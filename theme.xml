@@ -30,7 +30,7 @@ author: Lehcim Cram Trebor
 		<lang.labels>display descriptions</lang.labels>
 		<lang.skins>skins</lang.skins>
 		<lang.themed>themed (default)</lang.themed>
-		<lang.colored>colored</lang.colored>
+		<lang.colored>custom colors (optional)</lang.colored>
 
 	</variables>
 
@@ -282,8 +282,8 @@ author: Lehcim Cram Trebor
 	<subset name="skins" displayName="${lang.skins}" appliesTo="system,basic,detailed,video,grid">
 
 		<include name="themed" displayName="${lang.themed}"/>
-		<include name="colored" displayName="${lang.colored}">./_assets/variables/skins/_colored.xml</include>
 		<include name="no" displayName="${lang.no}">./_assets/variables/skins/_no.xml</include>
+		<include name="colored" displayName="${lang.colored}">./_assets/variables/skins/_colored.xml</include>
 
 	</subset>
 
