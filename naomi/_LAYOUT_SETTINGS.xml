@@ -131,7 +131,7 @@
 <layout.left.color>default</layout.left.color>					<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.left.flip>no</layout.left.flip>							<!-- FLIP:		"yes" or "no", flip image horizontally. -->																																														
 <animation.left.property>ghost</animation.left.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "cd", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
-<animation.left.origin>side</animation.left.origin>				<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
+<animation.left.origin>down</animation.left.origin>				<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
 
 
 <!-------------------------------------------------------------->																																														
