@@ -65,8 +65,8 @@
 <!--LEFT illustration SHIFTING: --DESACTIVED>																																									
 <layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
-<!--LEFT illustration LAYOUT: --DESACTIVED>																																									
-<layout.left.sizepos>square</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<!--LEFT illustration LAYOUT: -->																																									
+<layout.left.sizepos>portrait</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--LEFT illustration INDEX: --DESACTIVED>																																									
 <layout.left.zIndex>behind</layout.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
@@ -77,9 +77,9 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.left.x.advanced>no</layout.left.x.advanced>			
+	<layout.left.x.advanced>yes</layout.left.x.advanced>			
 
-			<x.left.x>0.5</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.left.x>0.12</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
