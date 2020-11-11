@@ -35,6 +35,8 @@ author: Lehcim Cram Trebor
 		<lang.preconfigured>pre-configured by theme</lang.preconfigured>
 		<lang.controller>display controller</lang.controller>
 		<lang.covers>display covers on right</lang.covers>
+		<lang.background>background</lang.background>
+		<lang.backgroundAnimation>scroll background animation</lang.backgroundAnimation>
 
 	</variables>
 
@@ -73,6 +75,7 @@ author: Lehcim Cram Trebor
 		<x.background.gamelist.color>909090</x.background.gamelist.color>
 		<x.background.gamelist.colorEnd>030303</x.background.gamelist.colorEnd>
 		<x.background.maxSize>99 1</x.background.maxSize>
+		<x.background.tile>false</x.background.tile>
 
 		<!-- Focus default variables -->
 
@@ -185,6 +188,35 @@ author: Lehcim Cram Trebor
 	<include>./${system.theme}/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
 	<include>./${system.theme}_alt/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
 
+<!---------- Subset backgrounds ---------->
+
+	<subset name="Background" displayName="${lang.background}" appliesTo="system,basic,detailed,video,grid">
+
+
+	<include name="preconfigured" displayName="${lang.preconfigured}"/>
+	<include name="01A-Full Abstract City">./_assets/backgrounds/full/full_abstract_city.xml</include>
+	<include name="02A-Outrun Landscape">./_assets/backgrounds/full/outrun_landscape.xml</include>
+	<include name="02B-Outrun Mountains">./_assets/backgrounds/full/outrun_mountains.xml</include>
+	<include name="02C-Outrun Sunset">./_assets/backgrounds/full/outrun_sunset.xml</include>
+	<include name="02D-Outrun Valley">./_assets/backgrounds/full/outrun_valley.xml</include>
+	<include name="03A-Sunset Palm">./_assets/backgrounds/full/retrowave_sunset.xml</include>
+	<include name="03B-Sunset Road">./_assets/backgrounds/full/sunset_road.xml</include>
+	<include name="03C-Sunset Beach">./_assets/backgrounds/full/sunset_beach.xml</include>
+	<include name="04A-Synthwave Evening Ride">./_assets/backgrounds/full/synthwave_evening_ride.xml</include>
+	<include name="04B-Synthwave Vapor City">./_assets/backgrounds/full/synthwave_vapor_city.xml</include>
+	<include name="04C-Synthwave Vapor Pyramid">./_assets/backgrounds/full/synthwave_vapor_pyramid.xml</include>
+
+
+
+
+	<include name="Tile-Retrogame-01">./_assets/backgrounds/tiles/retrogame_01.xml</include>
+	<include name="Tile-Retrogame-02">./_assets/backgrounds/tiles/retrogame_02.xml</include>
+	<include name="Tile-Retrogame-03">./_assets/backgrounds/tiles/retrogame_03.xml</include>
+	<include name="Tile-Retrogame-04">./_assets/backgrounds/tiles/retrogame_04.xml</include>
+	<include name="Tile-Retrogame-05">./_assets/backgrounds/tiles/retrogame_05.xml</include>
+
+	</subset>
+	
 <!---------- Subsets loops ---------->
 
 	<subset name="loops" displayName="${lang.loops}" appliesTo="system,basic,detailed,video,grid">
@@ -309,6 +341,15 @@ author: Lehcim Cram Trebor
 	<include>./${system.theme}_alt/specifics/_SYSTEM_THEME_SETTINGS.xml</include>
 	<include>./_assets/variables/specifics/${system.theme}.xml</include>
 
+<!---------- Subsets background animation ---------->
+
+	<subset name="backgroundAnimation" displayName="${lang.backgroundAnimation}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="no" displayName="${lang.no}">./_assets/variables/background/subset_animation_no.xml</include>
+		<include name="yes" displayName="${lang.yes}">./_assets/variables/background/subset_animation_yes.xml</include>
+	</subset>
+
 <!---------- Subsets loops ---------->
 
 	<subset name="controller" displayName="${lang.controller}" appliesTo="system,basic,detailed,video,grid">
@@ -316,6 +357,7 @@ author: Lehcim Cram Trebor
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="no" displayName="${lang.no}">./_assets/variables/controller/no.xml</include>
 	</subset>
+
 		
 <!---------- Subsets skins ---------->
 
@@ -1135,11 +1177,13 @@ author: Lehcim Cram Trebor
 
 			
 	<image name="background" extra="true">
-		<path>./_assets/backgrounds/under_construction.jpg</path>
-		<path>./_assets/backgrounds/${system.theme}.jpg</path>
+		<path>./_assets/backgrounds/classic/under_construction.jpg</path>
+		<path>./_assets/backgrounds/classic/${system.theme}.jpg</path>
 		<path>./${system.theme}/custom_background/background.jpg</path>
 		<path>./${system.theme}_alt/custom_background/background.jpg</path>
-		<tile>false</tile>
+		<path>./_assets/backgrounds/full/${extra.background.choice}.jpg</path>
+		<path>./_assets/backgrounds/tiles/${extra.background.choice}.jpg</path>
+		<tile>${x.background.tile}</tile>
 		<origin>0.5 0</origin>
 		<pos>0.5 0</pos>
 		<maxSize>${x.background.maxSize}</maxSize>
@@ -1754,5 +1798,6 @@ author: Lehcim Cram Trebor
 		<include name="9" displayName="${lang.9}">./_assets/_theme_complement/loops/custom.xml</include>
 
 	</subset>
-	
+
+			
 </theme>
