@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+<!---------- loops fix ---------->
+
+	<view name="basic, detailed, video, grid">
+
+	<video name="loop" extra="true">
+		<path>./../../default_loops/${layout.loop.choice}.mp4</path>
+	</video>
+	
+	</view>
+		
+</theme>

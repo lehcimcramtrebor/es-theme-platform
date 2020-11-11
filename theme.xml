@@ -31,6 +31,8 @@ author: Lehcim Cram Trebor
 		<lang.skins>skins</lang.skins>
 		<lang.themed>themed (default)</lang.themed>
 		<lang.colored>custom colors (optional)</lang.colored>
+		<lang.loops>loop background</lang.loops>
+		<lang.preconfigured>pre-configured by theme</lang.preconfigured>
 
 	</variables>
 
@@ -181,6 +183,23 @@ author: Lehcim Cram Trebor
 	<include>./${system.theme}/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
 	<include>./${system.theme}_alt/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
 
+<!---------- Subsets loops ---------->
+
+	<subset name="loops" displayName="${lang.loops}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="1" displayName="${lang.1}">./_assets/variables/loops/1.xml</include>
+		<include name="2" displayName="${lang.2}">./_assets/variables/loops/2.xml</include>
+		<include name="3" displayName="${lang.3}">./_assets/variables/loops/3.xml</include>
+		<include name="4" displayName="${lang.4}">./_assets/variables/loops/4.xml</include>
+		<include name="5" displayName="${lang.5}">./_assets/variables/loops/5.xml</include>
+		<include name="6" displayName="${lang.6}">./_assets/variables/loops/6.xml</include>
+		<include name="7" displayName="${lang.7}">./_assets/variables/loops/7.xml</include>
+		<include name="8" displayName="${lang.8}">./_assets/variables/loops/8.xml</include>
+		<include name="9" displayName="${lang.9}">./_assets/variables/loops/9.xml</include>
+		<include name="custom" displayName="${lang.custom}">./_assets/variables/loops/custom.xml</include>
+	</subset>
+	
 <!---------- Snaps overlay 16x9 overwrite ---------->
 
 	<include>./_assets/variables/overlay/overlay_${layout.snap.overlay}.xml</include>
@@ -189,7 +208,8 @@ author: Lehcim Cram Trebor
 <!---------- Overwrite skin format ---------->
 
 	<include>./_assets/variables/skins/${frame.skin}_ratio.xml</include>
-	
+
+
 <!---------- Illustrations variables ---------->
 
 	<!-- Left -->
@@ -287,6 +307,8 @@ author: Lehcim Cram Trebor
 
 	</subset>
 
+
+	
 <!----------- Variables Path for General and Specifics Settings ---------->
 	
 	<include>./_assets/variables/general/background_darkening_${general.background.darkening}.xml</include>
@@ -1694,5 +1716,22 @@ author: Lehcim Cram Trebor
 
 	<include>./_assets/_theme_complement/skins_fix/yes.xml</include>
 
+<!---------- Subsets loops fix path ---------->
 
+	<subset name="loops" displayName="${lang.loops}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="1" displayName="${lang.1}">./_assets/_theme_complement/loops/loop.xml</include>
+		<include name="2" displayName="${lang.2}">./_assets/_theme_complement/loops/loop.xml</include>
+		<include name="3" displayName="${lang.3}">./_assets/_theme_complement/loops/loop.xml</include>
+		<include name="4" displayName="${lang.4}">./_assets/_theme_complement/loops/loop.xml</include>
+		<include name="5" displayName="${lang.5}">./_assets/_theme_complement/loops/loop.xml</include>
+		<include name="6" displayName="${lang.6}">./_assets/_theme_complement/loops/loop.xml</include>
+		<include name="7" displayName="${lang.7}">./_assets/_theme_complement/loops/loop.xml</include>
+		<include name="8" displayName="${lang.8}">./_assets/_theme_complement/loops/loop.xml</include>
+		<include name="9" displayName="${lang.9}">./_assets/_theme_complement/loops/loop.xml</include>
+		<include name="9" displayName="${lang.9}">./_assets/_theme_complement/loops/custom.xml</include>
+
+	</subset>
+	
 </theme>
