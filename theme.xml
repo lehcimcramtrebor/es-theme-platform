@@ -33,6 +33,8 @@ author: Lehcim Cram Trebor
 		<lang.colored>custom colors (optional)</lang.colored>
 		<lang.loops>loop background</lang.loops>
 		<lang.preconfigured>pre-configured by theme</lang.preconfigured>
+		<lang.controller>display controller</lang.controller>
+		<lang.covers>display covers on right</lang.covers>
 
 	</variables>
 
@@ -199,6 +201,16 @@ author: Lehcim Cram Trebor
 		<include name="9" displayName="${lang.9}">./_assets/variables/loops/9.xml</include>
 		<include name="custom" displayName="${lang.custom}">./_assets/variables/loops/custom.xml</include>
 	</subset>
+
+
+<!---------- Subsets Animated covers ---------->
+
+	<subset name="covers" displayName="${lang.covers}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="boxes" displayName="${lang.boxes}">./_assets/variables/covers/boxes.xml</include>
+		<include name="marquee" displayName="${lang.marquees}">./_assets/variables/covers/marquees.xml</include>
+	</subset>
 	
 <!---------- Snaps overlay 16x9 overwrite ---------->
 
@@ -297,6 +309,14 @@ author: Lehcim Cram Trebor
 	<include>./${system.theme}_alt/specifics/_SYSTEM_THEME_SETTINGS.xml</include>
 	<include>./_assets/variables/specifics/${system.theme}.xml</include>
 
+<!---------- Subsets loops ---------->
+
+	<subset name="controller" displayName="${lang.controller}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="no" displayName="${lang.no}">./_assets/variables/controller/no.xml</include>
+	</subset>
+		
 <!---------- Subsets skins ---------->
 
 	<subset name="skins" displayName="${lang.skins}" appliesTo="system,basic,detailed,video,grid">
@@ -1697,7 +1717,8 @@ author: Lehcim Cram Trebor
 
 	<include>./_assets/_theme_complement/covers/left/covers_${theme.screen.ratio}_${skin.covers.fix}_${layout.covers_left.visible}.xml</include>
 	<include>./_assets/_theme_complement/covers/right/covers_${theme.screen.ratio}_${skin.covers.fix}_${layout.covers_right.visible}.xml</include>
-	
+
+
 <!---------- Snaps overlay theme complement ---------->
 
 	<include>./_assets/_theme_complement/overlay/overlay_${layout.snap.overlay}.xml</include>
