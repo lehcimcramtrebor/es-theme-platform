@@ -1,4 +1,4 @@
-Here you can place a video named "loop.mp4", you must edit "_ARTWORKS_SETTINGS.xml" and select "yes" at "LOOP video background", this will replace image background
+Here you can place a video named "loop.mp4", you must edit "_LAYOUT_SETTINGS.xml" and select "yes" at "LOOP video background", this will replace image background
 by your loop video background.
  
 Use 16/9 video if you want to use both fullhd and vga modes.
