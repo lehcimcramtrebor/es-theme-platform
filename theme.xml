@@ -5,7 +5,7 @@ version: 1.0
 author: Lehcim Cram Trebor
 -->
 
-<theme defaultView="video">
+<theme defaultView="grid">
 
 	<formatVersion>7</formatVersion>
 
@@ -220,6 +220,100 @@ author: Lehcim Cram Trebor
 	<include name="Tile-Retrogame-03">./_assets/backgrounds/tiles/retrogame_03.xml</include>
 	<include name="Tile-Retrogame-04">./_assets/backgrounds/tiles/retrogame_04.xml</include>
 	<include name="Tile-Retrogame-05">./_assets/backgrounds/tiles/retrogame_05.xml</include>
+
+
+
+
+	<include name="Tile-Mosaic Steamless-01">./_assets/backgrounds/tiles/mosaic_steamless_01.xml</include>
+	<include name="Tile-Mosaic Steamless-02">./_assets/backgrounds/tiles/mosaic_steamless_02.xml</include>
+	<include name="Tile-Mosaic Steamless-03">./_assets/backgrounds/tiles/mosaic_steamless_03.xml</include>
+	<include name="Tile-Mosaic Steamless-04">./_assets/backgrounds/tiles/mosaic_steamless_04.xml</include>
+	<include name="Tile-Mosaic Steamless-05">./_assets/backgrounds/tiles/mosaic_steamless_05.xml</include>
+
+
+
+
+	<include name="Tile-Square blood">./_assets/backgrounds/tiles/square_blood.xml</include>
+	<include name="Tile-Square blue">./_assets/backgrounds/tiles/square_blue.xml</include>
+	<include name="Tile-Square blue grey">./_assets/backgrounds/tiles/square_blue_grey.xml</include>
+	<include name="Tile-Square fade">./_assets/backgrounds/tiles/square_fade.xml</include>
+	<include name="Tile-Square fushia">./_assets/backgrounds/tiles/square_fushia.xml</include>
+	<include name="Tile-Square green">./_assets/backgrounds/tiles/square_green.xml</include>
+	<include name="Tile-Square ocean">./_assets/backgrounds/tiles/square_ocean.xml</include>
+	<include name="Tile-Square orange">./_assets/backgrounds/tiles/square_orange.xml</include>
+	<include name="Tile-Square pink">./_assets/backgrounds/tiles/square_pink.xml</include>
+	<include name="Tile-Square pinked blue">./_assets/backgrounds/tiles/square_pinked_blue.xml</include>
+	<include name="Tile-Square sepia">./_assets/backgrounds/tiles/square_sepia.xml</include>
+	<include name="Tile-Square violet">./_assets/backgrounds/tiles/square_violet.xml</include>
+	<include name="Tile-Square yellow">./_assets/backgrounds/tiles/square_yellow.xml</include>
+
+
+
+
+	<include name="Tile-Gold flowers-01">./_assets/backgrounds/tiles/gold_flowers_01.xml</include>
+	<include name="Tile-Gold flowers-02">./_assets/backgrounds/tiles/gold_flowers_02.xml</include>
+
+
+
+
+	<include name="Tile-Stained_glass-01">./_assets/backgrounds/tiles/stained_glass_01.xml</include>
+	<include name="Tile-Stained_glass-02">./_assets/backgrounds/tiles/stained_glass_02.xml</include>
+	<include name="Tile-Stained_glass-03">./_assets/backgrounds/tiles/stained_glass_03.xml</include>
+	<include name="Tile-Stained_glass-04">./_assets/backgrounds/tiles/stained_glass_04.xml</include>
+	<include name="Tile-Stained_glass-05">./_assets/backgrounds/tiles/stained_glass_05.xml</include>
+	<include name="Tile-Stained_glass-06">./_assets/backgrounds/tiles/stained_glass_06.xml</include>
+	<include name="Tile-Stained_glass-07">./_assets/backgrounds/tiles/stained_glass_07.xml</include>
+	<include name="Tile-Stained_glass-08">./_assets/backgrounds/tiles/stained_glass_08.xml</include>
+	<include name="Tile-Stained_glass-09">./_assets/backgrounds/tiles/stained_glass_09.xml</include>
+	<include name="Tile-Stained_glass-10">./_assets/backgrounds/tiles/stained_glass_10.xml</include>
+
+
+
+
+	<include name="Tile-Steel-01">./_assets/backgrounds/tiles/steel_01.xml</include>
+	<include name="Tile-Steel-02">./_assets/backgrounds/tiles/steel_02.xml</include>
+	<include name="Tile-Steel-03">./_assets/backgrounds/tiles/steel_03.xml</include>
+	<include name="Tile-Steel-04">./_assets/backgrounds/tiles/steel_04.xml</include>
+	<include name="Tile-Steel-05">./_assets/backgrounds/tiles/steel_05.xml</include>
+	<include name="Tile-Steel-06">./_assets/backgrounds/tiles/steel_06.xml</include>
+	<include name="Tile-Steel-07">./_assets/backgrounds/tiles/steel_07.xml</include>
+	<include name="Tile-Steel-08">./_assets/backgrounds/tiles/steel_08.xml</include>
+	<include name="Tile-Steel-09">./_assets/backgrounds/tiles/steel_09.xml</include>
+
+	<include name="Tile-Starfield-blue">./_assets/backgrounds/tiles/starfield_blue.xml</include>
+	<include name="Tile-Starfield-monochrome">./_assets/backgrounds/tiles/starfield_monochrome.xml</include>
+	<include name="Tile-Starfield-orange">./_assets/backgrounds/tiles/starfield_orange.xml</include>
+	<include name="Tile-Starfield-purple">./_assets/backgrounds/tiles/starfield_purple.xml</include>
+	<include name="Tile-Starfield-yellow">./_assets/backgrounds/tiles/starfield_yellow.xml</include>
+
+
+
+
+	<include name="Tile-Stone-01">./_assets/backgrounds/tiles/stone_01.xml</include>
+	<include name="Tile-Stone-02">./_assets/backgrounds/tiles/stone_02.xml</include>
+
+
+
+
+	<include name="Tile-wood-01">./_assets/backgrounds/tiles/wood_01.xml</include>
+	<include name="Tile-wood-02">./_assets/backgrounds/tiles/wood_02.xml</include>
+
+
+
+
+	<include name="Tile-Coated-black">./_assets/backgrounds/tiles/coated_black.xml</include>
+	<include name="Tile-Coated-blue">./_assets/backgrounds/tiles/coated_blue.xml</include>
+	<include name="Tile-Coated-dark grey">./_assets/backgrounds/tiles/coated_dark_grey.xml</include>
+	<include name="Tile-Coated-green">./_assets/backgrounds/tiles/coated_green.xml</include>
+	<include name="Tile-Coated-green yellow">./_assets/backgrounds/tiles/coated_green_yellow.xml</include>
+	<include name="Tile-Coated-grey">./_assets/backgrounds/tiles/coated_grey.xml</include>
+	<include name="Tile-Coated-light grey">./_assets/backgrounds/tiles/coated_light_grey.xml</include>
+	<include name="Tile-Coated-ocean">./_assets/backgrounds/tiles/coated_ocean.xml</include>
+	<include name="Tile-Coated-orange">./_assets/backgrounds/tiles/coated_orange.xml</include>
+	<include name="Tile-Coated-pink">./_assets/backgrounds/tiles/coated_pink.xml</include>
+	<include name="Tile-Coated-purple">./_assets/backgrounds/tiles/coated_purple.xml</include>
+	<include name="Tile-Coated-red">./_assets/backgrounds/tiles/coated_red.xml</include>
+	<include name="Tile-Coated-yellow">./_assets/backgrounds/tiles/coated_yellow.xml</include>
 
 	</subset>
 	
