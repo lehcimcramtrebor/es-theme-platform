@@ -11,8 +11,11 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
+<!-- Loop Audio -->
+<x.loop.audio>false</x.loop.audio> 								<!-- AUDIO :	"true" of "false"
 
-
+<!-- Snap Audio -->
+<x.backgroundvideo.audio>true</x.backgroundvideo.audio> 		<!-- AUDIO :	"true" of "false"
 
 
 <!-- Snaps frame ratio: -->																																								
@@ -31,7 +34,7 @@
 
 
 
-<!-- OVERLAYED FRAME IN GAMELIST for use beautiful 16/9 custom snaps (custom overlay with 4/3 snaps. -->																																								
+<!-- DISPLAY OVERLAY IN WIDE FRAME, for use beautiful 16/9 custom snaps , works too with 16/9 skins but desactived for others.. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <layout.snap.overlay>no</layout.snap.overlay>					<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
@@ -96,7 +99,7 @@
 <layout.loop.background>no</layout.loop.background>				<!-- LOOP: 		"No" (default) or "yes", activate default loop background, you can put your loop.mp4 file in "custom_loop" folder, and your video
 																				will replace it and will affect by the same color variables. -->
 
-<layout.loop.choice>1</layout.loop.choice>						<!-- CHOICE:	"1" to "9" or "custom" for select 9 preinstalled retrowave loops or your custom loop.
+<layout.loop.choice>1</layout.loop.choice>						<!-- CHOICE:	"1" to "9" or "custom" for select 9 preinstalled retrowave loops or your custom loop, "snap" to duplicate custom snap (if exists) in loop background.
 
 <!-- Animated covers (Left side): HIDE LEFT ILLUSTRATIONS IN SYSTEMVIEW BUT NOT IN GAMELIST -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->

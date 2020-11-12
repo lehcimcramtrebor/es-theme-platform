@@ -8,6 +8,8 @@
 	<video name="loop" extra="true">
 		<path>./../../../${system.theme}/${layout.loop.choice}_loop/loop.mp4</path>
 		<path>./../../../${system.theme}_alt/${layout.loop.choice}_loop/loop.mp4</path>	</video>
+		<path>./../../../${system.theme}/${layout.loop.choice}/snap.mp4</path>
+		<path>./../../../${system.theme}_alt/${layout.loop.choice}/snap.mp4</path>	</video>
 	</video>
 	</view>
 		

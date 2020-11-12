@@ -9,8 +9,8 @@
 
 <variables ifSubset="screen ratio:169">
 
-<x.snap.size>0.55 0.535</x.snap.size>
-<x.snapcenter.pos>0.5 0.578</x.snapcenter.pos>
+<x.snap.size>0.55 0.539</x.snap.size>
+<x.snapcenter.pos>0.499 0.578</x.snapcenter.pos>
 
 
 </variables>

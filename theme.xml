@@ -37,6 +37,8 @@ author: Lehcim Cram Trebor
 		<lang.covers>display covers on right</lang.covers>
 		<lang.background>background</lang.background>
 		<lang.backgroundAnimation>scroll background animation</lang.backgroundAnimation>
+		<lang.merge>merge custom snap (individual parameter)</lang.merge>
+		<lang.custom>custom loop (individual parameter)</lang.custom>
 
 	</variables>
 
@@ -177,7 +179,11 @@ author: Lehcim Cram Trebor
 
 		<!---------- Others variables ---------->
 		<x.md_marquee.zindex>14</x.md_marquee.zindex>
-		
+
+		<!---------- Audio variables ---------->
+		<x.loop.audio>false</x.loop.audio>
+		<x.backgroundvideo.audio>true</x.backgroundvideo.audio>
+			
 	</variables>
 
 
@@ -232,6 +238,8 @@ author: Lehcim Cram Trebor
 		<include name="8" displayName="${lang.8}">./_assets/variables/loops/8.xml</include>
 		<include name="9" displayName="${lang.9}">./_assets/variables/loops/9.xml</include>
 		<include name="custom" displayName="${lang.custom}">./_assets/variables/loops/custom.xml</include>
+		<include name="merge" displayName="${lang.merge}">./_assets/variables/loops/merge.xml</include>
+		<include name="no" displayName="${lang.no}">./_assets/variables/loops/no.xml</include>
 	</subset>
 
 
@@ -628,14 +636,14 @@ author: Lehcim Cram Trebor
 		<origin>0.5 0.5</origin>
 		<pos>${x.snapcenter.pos}</pos>
 		<size>${x.snap.size}</size>
-		<delay>0.5</delay>
+		<delay>1.3</delay>
 		<effect>none</effect>		
 		<default>./_assets/noise.mp4</default>
 		<showSnapshotNoVideo>false</showSnapshotNoVideo>
 		<showSnapshotDelay>false</showSnapshotDelay>
 		<color>ffffff</color>
 		<zIndex>19</zIndex>
-	
+		<audio>${x.backgroundvideo.audio}</audio>
     </video>
 
 <!---------- Controllers ---------->
@@ -1198,6 +1206,8 @@ author: Lehcim Cram Trebor
 		<path>./_assets/default_loops/${layout.loop.choice}.mp4</path>
 		<path>./${system.theme}/${layout.loop.choice}_loop/loop.mp4</path>
 		<path>./${system.theme}_alt/${layout.loop.choice}_loop/loop.mp4</path>
+		<path>./${system.theme}/${layout.loop.choice}/snap.mp4</path>
+		<path>./${system.theme}_alt/${layout.loop.choice}/snap.mp4</path>
 		<effect>none</effect>		
 		<origin>0.5 0.5</origin>
 		<pos>0.5 0.5</pos>
@@ -1205,6 +1215,7 @@ author: Lehcim Cram Trebor
 		<color>${x.background.color}</color>
 		<zIndex>1</zIndex>
 		<visible>${x.loop.visible}</visible>
+		<audio>${x.loop.audio}</audio>
 	</video>
 	
 	<image name="frame" extra="true">
@@ -1795,7 +1806,9 @@ author: Lehcim Cram Trebor
 		<include name="7" displayName="${lang.7}">./_assets/_theme_complement/loops/loop.xml</include>
 		<include name="8" displayName="${lang.8}">./_assets/_theme_complement/loops/loop.xml</include>
 		<include name="9" displayName="${lang.9}">./_assets/_theme_complement/loops/loop.xml</include>
-		<include name="9" displayName="${lang.9}">./_assets/_theme_complement/loops/custom.xml</include>
+		<include name="custom" displayName="${lang.custom}">./_assets/_theme_complement/loops/custom.xml</include>
+		<include name="merge" displayName="${lang.merge}">./_assets/_theme_complement/loops/merge.xml</include>
+		<include name="no" displayName="${lang.no}"/>
 
 	</subset>
 

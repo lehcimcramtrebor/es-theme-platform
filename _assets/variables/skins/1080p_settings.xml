@@ -2,8 +2,6 @@
 <formatVersion>7</formatVersion>
 <variables>
 
-<layout.snap.overlay>no</layout.snap.overlay>																				
-<layout.extend.overlay>no</layout.extend.overlay>
 <x.frame.color>ffffff</x.frame.color>
 
 </variables>
@@ -11,7 +9,7 @@
 <variables ifSubset="screen ratio:169">
 
 <x.snap.pos>0.225 0.32</x.snap.pos>
-<x.snap.size>0.548 0.525</x.snap.size>
+<x.snap.size>0.548 0.529</x.snap.size>
 <x.snapcenter.pos>0.501 0.5726</x.snapcenter.pos>
 
 <x.controller.pos>0.81 0.99</x.controller.pos>
