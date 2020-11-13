@@ -31,9 +31,10 @@
 </variables>
 
 <variables ifSubset="screen ratio:43">
+<x.back.size>0.57 0.4</x.back.size>
 
 <x.snap.pos>0.225 0.36</x.snap.pos>
-<x.snap.size>0.548 0.388</x.snap.size>
+<x.snap.size>0.548 0.392</x.snap.size>
 <x.snapcenter.pos>0.5011 0.554</x.snapcenter.pos>
 
 <x.controller.pos>0.81 0.87</x.controller.pos>
