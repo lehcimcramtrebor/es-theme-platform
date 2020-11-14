@@ -11,6 +11,10 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- AUDIO: -->																																									
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
 <!-- Loop Audio -->
 <x.loop.audio>false</x.loop.audio> 								<!-- AUDIO :	"true" of "false"
 
@@ -18,24 +22,25 @@
 <x.backgroundvideo.audio>true</x.backgroundvideo.audio> 		<!-- AUDIO :	"true" of "false"
 
 
-<!-- Snaps frame ratio: -->																																								
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- Snaps frame ratio: -->																																									
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <layout.snap.ratio>4x3</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9" -->																									
 
-
-<!-- Snaps frame color: https://htmlcolorcodes.com  if you want to pick colors. -->																																								
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--SKINS: (check at https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <frame.skin>trinitron2</frame.skin>								<!-- SKIN:		"colored" by default, "gaming", "trinitron", "trinitron2", "tv43", "retro", "1080p", "crt", "amstrad", "philips43", "philips169", "4k", "switch", "naomi", "model2", "model3", "cps", "mame", "fba", "hikaru", "chihiro", "atomis", "gameboy", "gamegear", "lynx", "wonderswan", "wonderswancolor", "psp", "amiga", "amiga2", "commodore",  . -->
 
-<x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
+<x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Affect only "colored" skin, hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
 
 
 
-
-<!-- DISPLAY OVERLAY IN WIDE FRAME, for use beautiful 16/9 custom snaps , works too with 16/9 skins but desactived for others.. -->																																								
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- DISPLAY OVERLAY IN WIDE FRAME, for use beautiful 16/9 custom snaps , works too with 16/9 skins but desactived for others.. -->																																							
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <layout.snap.overlay>no</layout.snap.overlay>				<!-- OVERLAY:		"yes" or "no",	overwrite snaps frame ratio by 16x9	and applies custom overlay with 4/3 snaps. -->																						
@@ -94,6 +99,9 @@
 
 <layout.gamegrid.padding>default</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
 
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- LOOP video background -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
@@ -102,11 +110,17 @@
 
 <layout.loop.choice>1</layout.loop.choice>						<!-- CHOICE:	"1" to "9" or "custom" for select 9 preinstalled retrowave loops or your custom loop, "snap" to duplicate custom snap (if exists) in loop background.
 
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- Animated covers (Left side): HIDE LEFT ILLUSTRATIONS IN SYSTEMVIEW BUT NOT IN GAMELIST -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <layout.covers_left.visible>no</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- Animated covers (Right side): HIDE RIGHT  ILLUSTRATIONS -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
