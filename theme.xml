@@ -179,6 +179,8 @@ author: Lehcim Cram Trebor
 
 		<!---------- Others variables ---------->
 		<x.md_marquee.zindex>14</x.md_marquee.zindex>
+		<x.logostatic.zindex>8</x.logostatic.zindex>
+		<x.logostatic.reflexion>0.2 0</x.logostatic.reflexion>
 
 		<!---------- Audio variables ---------->
 		<x.loop.audio>false</x.loop.audio>
@@ -1010,12 +1012,12 @@ author: Lehcim Cram Trebor
 
     <image name="logostatic, logostatic2" extra="true">
 		<linearSmooth>true</linearSmooth>
-		<reflexion>0.2 0.0</reflexion>	  
+		<reflexion>${x.logostatic.reflexion}</reflexion>	  
 		<origin>0.5 0.5</origin>
 		<pos>${x.logostatic.pos}</pos>
 		<maxSize>${x.logostatic.maxSize}</maxSize>
 		<color>ffffff</color>
-		<zIndex>8</zIndex>
+		<zIndex>${x.logostatic.zindex}</zIndex>
 		<path>./_assets/default_logo.svg</path>
 		<path>./_assets/logos/${system.theme}.png</path>
 		<path>./_assets/logos/${system.theme}.svg</path>
@@ -1466,7 +1468,7 @@ author: Lehcim Cram Trebor
 		<colorEnd>ffffff</colorEnd>
 		<gradientType>horizontal</gradientType>
 		<linearSmooth>true</linearSmooth>
-		<reflexion>0.2 0.0</reflexion>	  		
+		<reflexion>${x.logostatic.reflexion}</reflexion>	  		
 		<origin>0.5 0.5</origin>
 		<maxSize>${x.marquee.maxSize}</maxSize>
 		<pos>${x.marquee.pos}</pos>
