@@ -8,6 +8,7 @@
 <skin.covers.fix>3x2</skin.covers.fix>
 <x.md_marquee.zindex>25</x.md_marquee.zindex>
 <x.logostatic.zindex>25</x.logostatic.zindex>
+<x.logostatic.reflexion>0.1 0</x.logostatic.reflexion>
 
 </variables>
 
@@ -18,10 +19,10 @@
 <x.snapcenter.pos>0.4995 0.5765</x.snapcenter.pos>
 <x.controller.pos>0.77 0.99</x.controller.pos>
 
-<x.logostatic.pos>0.5 0.095</x.logostatic.pos>
+<x.logostatic.pos>0.5 0.12</x.logostatic.pos>
 <x.logostatic.maxSize>0.48 0.13</x.logostatic.maxSize>
 
-<x.marquee.pos>0.5 0.095</x.marquee.pos>
+<x.marquee.pos>0.5 0.12</x.marquee.pos>
 <x.marquee.maxSize>0.48 0.13</x.marquee.maxSize>
 
 <x.backmetadata.pos>1.04 0</x.backmetadata.pos>
@@ -30,7 +31,7 @@
 <x.md_thumbnail.pos>0.881 0.24</x.md_thumbnail.pos>
 <x.md_thumbnail.maxSize>0.22 0.426</x.md_thumbnail.maxSize>
 
-<x.md_name.pos>0.5 0.983</x.md_name.pos>
+<x.md_name.pos>0.5 0.988</x.md_name.pos>
 <x.md_name.size>0.457 0.0.06</x.md_name.size>
 
 <x.md_releasedate.pos>0.881 0.505</x.md_releasedate.pos>
@@ -69,10 +70,10 @@
 <x.snapcenter.pos>0.4995 0.5565</x.snapcenter.pos>
 <x.controller.pos>0.77 0.86</x.controller.pos>
 
-<x.logostatic.pos>0.5 0.2</x.logostatic.pos>
+<x.logostatic.pos>0.5 0.22</x.logostatic.pos>
 <x.logostatic.maxSize>0.48 0.095</x.logostatic.maxSize>
 
-<x.marquee.pos>0.5 0.2</x.marquee.pos>
+<x.marquee.pos>0.5 0.22</x.marquee.pos>
 <x.marquee.maxSize>0.48 0.095</x.marquee.maxSize>
 
 <x.backmetadata.pos>1.04 0</x.backmetadata.pos>
