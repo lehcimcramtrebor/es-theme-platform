@@ -31,10 +31,7 @@
 <!--SKINS: (check at https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>atomis</frame.skin>								<!-- SKIN:		"colored" by default, "gaming", "trinitron", "trinitron2", "tv43", "retro", "1080p", "crt", "amstrad", "philips43",
-															"philips169", "4k", "switch", "naomi", "model2", "model3", "cps", "mame", "fba", "hikaru", "chihiro", "atomis", "gameboy", "gamegear",
-															"lynx", "wonderswan", "wonderswancolor", "psp", "amiga", "amiga2", "commodore", "bartop-white", "bartop-sega", "bartop-green" ,  
-															"bartop-donkey", "bartop-pacman", "bartop-black", "bartop-blue", "bartop-grey", "bartop-mame", "bartop-ocean", "bartop-orange", "bartop-red", "bartop-yellow".  . -->
+<frame.skin>astro-atomis</frame.skin>								<!-- SKIN:      Read the "SKINS.txt" file at root of theme to have list of available skins.  -->
 
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Affect only "colored" skin, hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 

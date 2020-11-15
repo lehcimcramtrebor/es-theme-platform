@@ -181,6 +181,8 @@ author: Lehcim Cram Trebor
 		<x.md_marquee.zindex>14</x.md_marquee.zindex>
 		<x.logostatic.zindex>8</x.logostatic.zindex>
 		<x.logostatic.reflexion>0.2 0</x.logostatic.reflexion>
+		<x.logostatic.rotation>0</x.logostatic.rotation>
+		<x.md_name.zindex>8</x.md_name.zindex>
 
 		<!---------- Audio variables ---------->
 		<x.loop.audio>false</x.loop.audio>
@@ -355,7 +357,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Overwrite skin format ---------->
 
-	<include>./_assets/variables/skins/${frame.skin}_ratio.xml</include>
+	<include>./_assets/frames/${frame.skin}/ratio.xml</include>
 
 
 <!---------- Illustrations variables ---------->
@@ -493,7 +495,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Overwrite skin snap size ---------->
 
-	<include>./_assets/variables/skins/${frame.skin}_settings.xml</include>
+	<include>./_assets/frames/${frame.skin}/settings.xml</include>
 	
 <!---------- Screen effect Subsets ---------->
 
@@ -1017,6 +1019,7 @@ author: Lehcim Cram Trebor
 		<pos>${x.logostatic.pos}</pos>
 		<maxSize>${x.logostatic.maxSize}</maxSize>
 		<color>ffffff</color>
+		<rotation>${x.logostatic.rotation}</rotation>
 		<zIndex>${x.logostatic.zindex}</zIndex>
 		<path>./_assets/default_logo.svg</path>
 		<path>./_assets/logos/${system.theme}.png</path>
@@ -1429,7 +1432,7 @@ author: Lehcim Cram Trebor
 		<glowOffset>1</glowOffset>		
 		<glowSize>1</glowSize>
 		<reflexion>0.20 0</reflexion>
-		<zIndex>8</zIndex>
+		<zIndex>${x.md_name.zindex}</zIndex>
 		<alignment>right</alignment>
 		</text>
 	
@@ -1464,6 +1467,7 @@ author: Lehcim Cram Trebor
 	</image>
 	
     <image name="md_marquee">
+		<rotation>${x.logostatic.rotation}</rotation>
 		<color>ffffff</color>
 		<colorEnd>ffffff</colorEnd>
 		<gradientType>horizontal</gradientType>

@@ -1,0 +1,3 @@
+Here you find all available skins you can use by enter name between these tags ( <frame.skin>name_of_skin</frame.skin> ) in "_LAYOUT_SETTINGS.xml" in each system folder.
+
+

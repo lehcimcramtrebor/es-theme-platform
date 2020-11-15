@@ -374,6 +374,6 @@
 
 	</subset>
 
-	<include>./skins/${frame.skin}.xml</include>
+<include>./../frames/${frame.skin}/storyboard.xml</include>
 	
 </theme>
