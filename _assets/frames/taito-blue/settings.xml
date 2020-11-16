@@ -20,10 +20,10 @@
 
 <x.controller.pos>0.81 0.99</x.controller.pos>
 
-<x.logostatic.pos>0.5 0.235</x.logostatic.pos>
+<x.logostatic.pos>0.5 0.237</x.logostatic.pos>
 <x.logostatic.maxSize>0.33 0.11</x.logostatic.maxSize>
 
-<x.marquee.pos>0.5 0.235</x.marquee.pos>
+<x.marquee.pos>0.5 0.237</x.marquee.pos>
 <x.marquee.maxSize>0.33 0.11</x.marquee.maxSize>
 
 <x.md_name.pos>0.5 0.985</x.md_name.pos>
@@ -41,14 +41,14 @@
 
 <x.snap.pos>0.225 0.36</x.snap.pos>
 <x.snap.size>0.548 0.392</x.snap.size>
-<x.snapcenter.pos>0.5011 0.554</x.snapcenter.pos>
+<x.snapcenter.pos>0.5011 0.552</x.snapcenter.pos>
 
 <x.controller.pos>0.81 0.87</x.controller.pos>
 
-<x.logostatic.pos>0.5 0.305</x.logostatic.pos>
+<x.logostatic.pos>0.5 0.307</x.logostatic.pos>
 <x.logostatic.maxSize>0.33 0.08</x.logostatic.maxSize>
 
-<x.marquee.pos>0.5 0.305</x.marquee.pos>
+<x.marquee.pos>0.5 0.307</x.marquee.pos>
 <x.marquee.maxSize>0.33 0.08</x.marquee.maxSize>
 
 
