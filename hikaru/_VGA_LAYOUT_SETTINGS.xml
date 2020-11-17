@@ -105,8 +105,8 @@
 <!-----------------------LEFT 2--------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--LEFT2 illustration SHIFTING: --DESACTIVED>																																									
-<layout.left2.shift>55</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<!--LEFT2 illustration SHIFTING: -->																																									
+<layout.left2.shift>85</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--LEFT2 illustration LAYOUT: --DESACTIVED>																																									
 <layout.left2.sizepos>square</layout.left2.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
@@ -170,9 +170,9 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.right.y.advanced>no</layout.right.y.advanced>
+	<layout.right.y.advanced>yes</layout.right.y.advanced>
 
-			<x.right.y>0.5</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.right.y>0.32</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
@@ -208,15 +208,15 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.right2.x.advanced>no</layout.right2.x.advanced>			
+	<layout.right2.x.advanced>yes</layout.right2.x.advanced>			
 
-			<x.right2.x>0.5</x.right2.x>						<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.right2.x>0.75</x.right2.x>						<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.right2.y.advanced>no</layout.right2.y.advanced>
+	<layout.right2.y.advanced>yes</layout.right2.y.advanced>
 
-			<x.right2.y>0.5</x.right2.y>						<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.right2.y>0.91</x.right2.y>						<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
@@ -278,8 +278,8 @@
 <!------------------------------------------------------------------------LABEL VGA POSITIONNING------------------------------------------------------------------------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!----DESACTIVED>
-<x.label.x>0.115</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<!---->
+<x.label.x>0.36</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
 <!----DESACTIVED>
 <x.label.y>0.5</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
