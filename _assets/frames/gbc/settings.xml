@@ -16,11 +16,11 @@
 <x.snap.size>0.34 0.52</x.snap.size>
 <x.controller.pos>0.8 0.99</x.controller.pos>
 
-<x.logostatic.pos>0.5 0.115</x.logostatic.pos>
-<x.logostatic.maxSize>0.41 0.21</x.logostatic.maxSize>
+<x.logostatic.pos>0.5 0.105</x.logostatic.pos>
+<x.logostatic.maxSize>0.41 0.19</x.logostatic.maxSize>
 
-<x.marquee.pos>0.5 0.115</x.marquee.pos>
-<x.marquee.maxSize>0.4 0.20</x.marquee.maxSize>
+<x.marquee.pos>0.5 0.105</x.marquee.pos>
+<x.marquee.maxSize>0.4 0.19</x.marquee.maxSize>
 
 <x.backmetadata.pos>1.09 0</x.backmetadata.pos>
 <x.backmetadata.size>0.28 1</x.backmetadata.size>
@@ -67,10 +67,10 @@
 <x.snap.size>0.34 0.4</x.snap.size>
 <x.controller.pos>0.8 0.87</x.controller.pos>
 
-<x.logostatic.pos>0.5 0.17</x.logostatic.pos>
+<x.logostatic.pos>0.5 0.15</x.logostatic.pos>
 <x.logostatic.maxSize>0.41 0.25</x.logostatic.maxSize>
 
-<x.marquee.pos>0.5 0.17</x.marquee.pos>
+<x.marquee.pos>0.5 0.15</x.marquee.pos>
 <x.marquee.maxSize>0.4 0.20</x.marquee.maxSize>
 
 <x.backmetadata.pos>1.09 0</x.backmetadata.pos>
