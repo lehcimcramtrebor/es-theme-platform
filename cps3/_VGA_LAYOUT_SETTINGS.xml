@@ -62,11 +62,11 @@
 <!-----------------------LEFT----------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--LEFT illustration SHIFTING: --DESACTIVED>																																									
+<!--LEFT illustration SHIFTING: -->																																									
 <layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
-<!--LEFT illustration LAYOUT: --DESACTIVED>																																									
-<layout.left.sizepos>square</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<!--LEFT illustration LAYOUT: -->																																									
+<layout.left.sizepos>portrait</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--LEFT illustration INDEX: --DESACTIVED>																																									
 <layout.left.zIndex>behind</layout.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
@@ -83,9 +83,9 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.left.y.advanced>no</layout.left.y.advanced>
+	<layout.left.y.advanced>yes</layout.left.y.advanced>
 
-			<x.left.y>0.5</x.left.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.left.y>0.65</x.left.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
@@ -152,8 +152,8 @@
 <!--RIGHT illustration SHIFTING: --DESACTIVED>																																									
 <layout.right.shift>55</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
-<!--RIGHT illustration LAYOUT: --DESACTIVED>																																									
-<layout.right.sizepos>square</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<!--RIGHT illustration LAYOUT: -->																																									
+<layout.right.sizepos>portrait</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--RIGHT illustration INDEX: --DESACTIVED>																																									
 <layout.right.zIndex>behind</layout.right.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
