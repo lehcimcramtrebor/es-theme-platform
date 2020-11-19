@@ -9,21 +9,21 @@ author: Lehcim Cram Trebor
 
 	<formatVersion>7</formatVersion>
 
-<!---------- Default Language EN ---------->
+<!---------- Language ---------->
 
 	<variables>
-  
+		<!-- EN -->
 		<lang.screenratio>screen format</lang.screenratio>
-		<lang.169>wide screen ( 16:9 )</lang.169>
-		<lang.43>vga screen ( 4:3 )</lang.43>
+		<lang.169>wide screen (16:9)</lang.169>
+		<lang.43>vga screen (4:3)</lang.43>
 		<lang.storyboards>animations</lang.storyboards>
 		<lang.classic>in frame grid</lang.classic>
-		<lang.arcade_boxes>arcade ( boxes )</lang.arcade_boxes>
-		<lang.arcade_marquees>arcade ( marquees )</lang.arcade_marquees>
+		<lang.arcade_boxes>arcade (boxes)</lang.arcade_boxes>
+		<lang.arcade_marquees>arcade (marquees)</lang.arcade_marquees>
 		<lang.screeneffect>static screen effect</lang.screeneffect>
-		<lang.grid_view>grid style ( Only in grid view )</lang.grid_view>
+		<lang.grid_view>grid style (Only in grid view)</lang.grid_view>
 		<lang.screencrt>crt video twinkle effect</lang.screencrt>
-		<lang.focus>focus on elements ( darkens the background )</lang.focus>
+		<lang.focus>focus on elements (darkens the background)</lang.focus>
 		<lang.soft>soft</lang.soft>
 		<lang.strong>strong</lang.strong>
 		<lang.help>display help</lang.help>
@@ -39,7 +39,49 @@ author: Lehcim Cram Trebor
 		<lang.backgroundAnimation>scroll background animation</lang.backgroundAnimation>
 		<lang.merge>merge custom snap (individual parameter)</lang.merge>
 		<lang.custom>custom loop (individual parameter)</lang.custom>
+		<lang.phosphoreplus>phosphore+</lang.phosphoreplus>
+		<lang.marquees>marquees</lang.marquees>
+		<lang.boxes>boxes</lang.boxes>
 
+		<!-- FR -->
+		<lang.screenratio lang="fr">format de l'écran</lang.screenratio>
+		<lang.169 lang="fr">écran large (16:9)</lang.169>
+		<lang.43 lang="fr">écran standard (4:3)</lang.43>
+		<lang.storyboards lang="fr">animations</lang.storyboards>
+		<lang.classic lang="fr">grille classique</lang.classic>
+		<lang.arcade_boxes lang="fr">arcade (boîtes de jeux)</lang.arcade_boxes>
+		<lang.arcade_marquees lang="fr">arcade (logos de jeux)</lang.arcade_marquees>
+		<lang.screeneffect lang="fr">effet d'écran statique</lang.screeneffect>
+		<lang.grid_view lang="fr">style de grille (vue grille requise)</lang.grid_view>
+		<lang.screencrt lang="fr">scintillement crt</lang.screencrt>
+		<lang.focus lang="fr">focus sur les éléments (assombrit le fond d'écran)</lang.focus>
+		<lang.soft lang="fr">léger</lang.soft>
+		<lang.strong lang="fr">fort</lang.strong>
+		<lang.help lang="fr">afficher l'aide</lang.help>
+		<lang.labels lang="fr">afficher les descriptions de console</lang.labels>
+		<lang.skins lang="fr">style de cadre</lang.skins>
+		<lang.themed lang="fr">thémé (par défaut)</lang.themed>
+		<lang.colored lang="fr">couleurs personnalisées (optionnel)</lang.colored>
+		<lang.loops lang="fr">fond d'écran animé</lang.loops>
+		<lang.preconfigured lang="fr">pré-configuré</lang.preconfigured>
+		<lang.controller lang="fr">afficher le contrôleur</lang.controller>
+		<lang.covers lang="fr">afficher les apercus à droite</lang.covers>
+		<lang.background lang="fr">fond d'écran</lang.background>
+		<lang.backgroundAnimation lang="fr">animer le fond d'écran</lang.backgroundAnimation>
+		<lang.merge lang="fr">dupliquer le snap personnalisé en fond d'écran (paramètre individuel)</lang.merge>
+		<lang.custom lang="fr">choix du fond d'écran animé (paramètre individuel)</lang.custom>
+		<lang.no lang="fr">non</lang.no>
+		<lang.yes lang="fr">oui</lang.yes>
+		<lang.scanlines lang="fr">balayage</lang.scanlines>
+		<lang.scanlinesfine lang="fr">balayage fin</lang.scanlinesfine>
+		<lang.scanlinesvertical lang="fr">balayage vertical</lang.scanlinesvertical>
+		<lang.verticalscanlines lang="fr">balayage vertical</lang.verticalscanlines>
+		<lang.verticalscanlinesfine lang="fr">balayage vertical fin</lang.verticalscanlinesfine>
+		<lang.phosphore lang="fr">phosphore</lang.phosphore>
+		<lang.phosphoreplus lang="fr">phosphore plus prononcé</lang.phosphoreplus>
+		<lang.crt lang="fr">effet crt</lang.crt>
+		<lang.marquees lang="fr">logos de jeux</lang.marquees>
+		<lang.boxes lang="fr">boîtes de jeux</lang.boxes>
 	</variables>
 
 <!---------- Screen Variables Subsets ---------->
@@ -507,8 +549,8 @@ author: Lehcim Cram Trebor
 		<include name="vertical scanlines" displayName="${lang.verticalscanlines}">./_assets/variables/screen/vertical_scanlines.xml</include>
 		<include name="vertical scanlines fine" displayName="${lang.verticalscanlinesfine}">./_assets/variables/screen/vertical_scanlines_fine.xml</include>
 		<include name="phosphore" displayName="${lang.phosphore}">./_assets/variables/screen/phosphore.xml</include>
-		<include name="phosphore+" displayName="${lang.phosphore+}">./_assets/variables/screen/phosphore+.xml</include>
-		<include name="crt" displayName="${lang.phosphore+}">./_assets/variables/screen/crt.xml</include>
+		<include name="phosphoreplus" displayName="${lang.phosphoreplus}">./_assets/variables/screen/phosphore+.xml</include>
+		<include name="crt" displayName="${lang.crt}">./_assets/variables/screen/crt.xml</include>
 
 	</subset>	
 
