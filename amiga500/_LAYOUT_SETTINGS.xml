@@ -345,7 +345,7 @@
 
 <x.label>Amiga 500</x.label> 									<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
 
-<x.manufacturer>Commodore</x.manufacturer>							<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
+<x.manufacturer>Commodore International</x.manufacturer>							<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
 
 <x.type>16-BIT Computer</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
 
