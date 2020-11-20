@@ -345,11 +345,19 @@
 
 <!------- Visual limit ------>
 <x.label.text>
-
-Arcade machine
-1996
-
+Capcom Play System III
+Manufacturer: CAPCOM
+Type : Arcade machine
+Released year: 1996
 </x.label.text>
+
+<x.label.text lang="fr">
+Capcom Play System III
+Fabriquant: CAPCOM
+Type: Machine d'arcade
+Sortie: 1996
+</x.label.text>
+
 <!--------------------------->
  
  
