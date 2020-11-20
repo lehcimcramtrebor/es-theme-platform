@@ -345,10 +345,13 @@
 
 <!------- Visual limit ------>
 <x.label.text>
-16-BIT computer
+16-BIT Computer
+Year: 1985
+</x.label.text>
 
-1985
-
+<x.label.text lang="fr">
+Ordinateur 16-BIT
+Année: 1985
 </x.label.text>
 <!--------------------------->
  

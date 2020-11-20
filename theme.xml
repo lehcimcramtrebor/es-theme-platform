@@ -882,7 +882,7 @@ author: Lehcim Cram Trebor
 	</image>
 
 	<text name="label_text" extra="true">
-		<fontPath>./_assets/monicacomic.ttf</fontPath>
+		<fontPath>./_assets/Goldman-Regular.ttf</fontPath>
 		<pos>-1 -1</pos>		
 		<fontSize>0.016</fontSize>
 		<fontColor>101010</fontColor>

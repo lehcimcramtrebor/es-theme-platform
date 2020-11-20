@@ -345,10 +345,13 @@
 
 <!------- Visual limit ------>
 <x.label.text>
+32-BIT Console
+Year: 1993
+</x.label.text>
 
-32-bit console
-1993
-
+<x.label.text lang="fr">
+Console 32-BIT
+Année: 1993
 </x.label.text>
 <!--------------------------->
  

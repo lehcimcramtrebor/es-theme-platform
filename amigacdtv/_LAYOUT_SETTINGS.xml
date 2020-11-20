@@ -347,9 +347,12 @@
 <!------- Visual limit ------>
 <x.label.text>
 16-BIT Console
+Year: 1991
+</x.label.text>
 
-1991 (World)
-
+<x.label.text lang="fr">
+Console 16-BIT
+Année: 1991
 </x.label.text>
 <!--------------------------->
  

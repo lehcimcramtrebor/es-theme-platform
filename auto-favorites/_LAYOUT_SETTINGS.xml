@@ -346,10 +346,13 @@
 
 <!------- Visual limit ------>
 <x.label.text>
-
 Access and play
 all your favorite games.
+</x.label.text>
 
+<x.label.text lang="fr">
+Accédez et jouez à tous
+vos jeux favoris.
 </x.label.text>
 <!--------------------------->
  

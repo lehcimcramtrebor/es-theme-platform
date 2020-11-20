@@ -345,10 +345,13 @@
 
 <!------- Visual limit ------>
 <x.label.text>
-
 Arcade machine
-2003
+Year: 2003
+</x.label.text>
 
+<x.label.text lang="fr">
+Machine d'arcade
+Année: 2003
 </x.label.text>
 <!--------------------------->
  

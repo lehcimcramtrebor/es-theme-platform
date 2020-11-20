@@ -346,9 +346,15 @@
 
 <!------- Visual limit ------>
 <x.label.text>
-8-BIT handled console
-1989 (North America)
-1990 (Japan, Europe)
+8-BIT Handled Console
+Year :1989 (USA)
+Year: 1990 (Japan, Europe)
+</x.label.text>
+
+<x.label.text lang="fr">
+Console portable 8-BIT
+Année :1989 (USA)
+Année: 1990 (Japan, Europe)
 </x.label.text>
 <!--------------------------->
  

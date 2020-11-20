@@ -347,9 +347,12 @@
 <!------- Visual limit ------>
 <x.label.text>
 8-BIT Computer
- 
-1984
+Year: 1984
+</x.label.text>
 
+<x.label.text lang=fr>
+Ordinateur 8-BIT
+Année: 1984
 </x.label.text>
 <!--------------------------->
  
