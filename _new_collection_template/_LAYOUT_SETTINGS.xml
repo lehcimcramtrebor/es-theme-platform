@@ -350,13 +350,17 @@
 
 <x.type>x_BIT_Console_Computer</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
 
-<x.type lang="fr">Console_computer_x_BIT</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE IF YOU DON'T WANT TO PARAMETER FRENCH -->
+<x.type lang="fr">Console_computer_x_BIT</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
 
 <x.year region="us">xxxx</x.year>								<!-- RELEASED YEAR IN US REGION -->
 
 <x.year region="eu">xxxx</x.year>								<!-- RELEASED YEAR IN EU REGION -->
 
 <x.year region="jp">xxxx</x.year>								<!-- RELEASED YEAR IN JP REGION -->
+
+<!-- RELEASED YEAR IN SPECIFIC COUNTRY --DESACTIVED>
+
+<x.year region="eu" lang="fr">1990</x.year>						<!-- RELEASED YEAR IN SPECIFIC COUNTRY, YOU CAN CHANGE COUNTRY (EXAMPLE: lang="es") -->
 
 
 <!-- WRITE WHAT YOU WANT BETWEEN "<x.label.text>" and "</x.label.text>" OR NOT TO USE SYSTEM INFORMATIONS, MAX 34 CHARACTERS ON MAXIMUM 4 OR 5 LINES -->

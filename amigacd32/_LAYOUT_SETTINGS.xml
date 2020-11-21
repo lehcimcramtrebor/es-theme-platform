@@ -351,7 +351,7 @@
 
 <x.type lang="fr">Console 16-BIT</x.type>						<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE IF YOU DON'T WANT TO PARAMETER FRENCH -->
 
-<x.year region="us">Never released in USA</x.year>				<!-- RELEASED YEAR IN US REGION -->
+<x.year region="us">1993 (Europe), 1994 (Japan)</x.year>				<!-- RELEASED YEAR IN US REGION -->
 
 <x.year region="eu">1993</x.year>								<!-- RELEASED YEAR IN EU REGION -->
 

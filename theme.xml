@@ -892,7 +892,7 @@ author: Lehcim Cram Trebor
 	<text name="label_text" extra="true">
 		<fontPath>./_assets/Pepper Sauce.ttf</fontPath>
 		<pos>-1 -1</pos>		
-		<fontSize>0.016</fontSize>
+		<fontSize>0.014</fontSize>
 		<fontColor>101010</fontColor>
 		<glowColor>30303002</glowColor>
 		<glowSize>0</glowSize>

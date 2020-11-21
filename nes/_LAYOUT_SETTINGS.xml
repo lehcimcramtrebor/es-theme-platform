@@ -342,16 +342,46 @@
 <x.label.y>0.2</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
 
 
-<!-- TEXT: Maximum 4 lines, formated like below, 30 characters/line max ------------------------------------------------------------------------------------------------------------------------>
+<!-- ENTER HERE SYSTEM INFORMATIONS -->
 
-<!------- Visual limit ------>
+<x.label>Nintendo Entertainment System</x.label> 							<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
+
+<x.label region="jp">Nintendo Family Computer</x.label> 							<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
+
+<x.manufacturer>Nintendo</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
+
+<x.type>8-BIT Console</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
+
+<x.type lang="fr">Console 8-BIT</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE IF YOU DON'T WANT TO PARAMETER FRENCH -->
+
+<x.year region="us">1985</x.year>								<!-- RELEASED YEAR IN US REGION -->
+
+<x.year region="eu">1987</x.year>								<!-- RELEASED YEAR IN EU REGION -->
+
+<x.year region="jp">1983</x.year>								<!-- RELEASED YEAR IN JP REGION -->
+
+<!-- RELEASED YEAR IN SPECIFIC COUNTRY --DESACTIVED>
+
+<x.year region="eu" lang="fr">1990</x.year>						<!-- RELEASED YEAR IN SPECIFIC COUNTRY, YOU CAN CHANGE COUNTRY (EXAMPLE: lang="es") -->
+
+
+<!-- WRITE WHAT YOU WANT BETWEEN "<x.label.text>" and "</x.label.text>" OR NOT TO USE SYSTEM INFORMATIONS, MAX 34 CHARACTERS ON MAXIMUM 4 OR 5 LINES -->
+
 <x.label.text>
-8-BIT Console
-1983 (Japan)
-1985 (North America)
-1987 (Europe)
+${x.label}
+${label.manufacturer}: ${x.manufacturer}
+${label.type}: ${x.type}
+${label.releasedyear}: ${x.year}
 </x.label.text>
-<!--------------------------->
+
+<!-- SPECIFIC COUNTRY CUSTOM LABEL, YOU CAN CHANGE OR ADD COUNTRY, MODIFY LABELS OR DELETE AND WRITE WHAT YOU WANT --DESACTIVED>
+<x.label.text lang="fr">
+${x.label}
+Fabricant: ${x.manufacturer}
+Type: ${x.type}
+Sortie: ${x.year}
+</x.label.text>
+<!--------- Visual limit --------->
  
  
  

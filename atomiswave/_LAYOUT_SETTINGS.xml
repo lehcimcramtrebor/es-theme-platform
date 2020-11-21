@@ -345,11 +345,11 @@
 
 <x.label>Sammy Atomiswave</x.label> 							<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
 
-<x.manufacturer>Sammy</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
+<x.manufacturer>Sammy Corporation</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
 
-<x.type>Arcade machine (JAMMA)</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
+<x.type>Arcade machine</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
 
-<x.type lang="fr">Machine d'arcade (JAMMA)</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE IF YOU DON'T WANT TO PARAMETER FRENCH -->
+<x.type lang="fr">Machine d'arcade</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE IF YOU DON'T WANT TO PARAMETER FRENCH -->
 
 <x.year region="us">2003</x.year>								<!-- RELEASED YEAR IN US REGION -->
 
