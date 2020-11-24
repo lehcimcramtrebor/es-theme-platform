@@ -31,7 +31,7 @@
 <!--SKINS: (check at https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>bartop-white</frame.skin>								<!-- SKIN:      Read the "SKINS.txt" file at root of theme to have list of available skins.  -->
+<frame.skin>bartop-whitedark</frame.skin>								<!-- SKIN:      Read the "SKINS.txt" file at root of theme to have list of available skins.  -->
 
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Affect only "colored" skin, hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
@@ -347,9 +347,9 @@
 
 <x.manufacturer>manufacturer</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
 
-<x.type>Arcade machine</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
+<x.type>Arcade games</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
 
-<x.type lang="fr">Machine d'arcade</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
+<x.type lang="fr">Jeux d'arcade</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
 
 <x.year region="us">1980</x.year>								<!-- RELEASED YEAR IN US REGION -->
 

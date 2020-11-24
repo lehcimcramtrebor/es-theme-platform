@@ -343,13 +343,13 @@
 
 <!-- ENTER HERE SYSTEM INFORMATIONS -->
 
-<x.label>Banpresto</x.label> 							<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
+<x.label>Banpresto Co., Ltd.</x.label> 							<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
 
 <x.manufacturer>Name_of_manufacturer</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
 
-<x.type>Arcade machine</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
+<x.type>Arcade games</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
 
-<x.type lang="fr">Machine d'arcade</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
+<x.type lang="fr">Jeux d'arcade</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
 
 <x.year region="us">First in 1992</x.year>								<!-- RELEASED YEAR IN US REGION -->
 
