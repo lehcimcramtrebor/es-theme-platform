@@ -237,7 +237,11 @@ author: Lehcim Cram Trebor
 		<!---------- Audio variables ---------->
 		<x.loop.audio>false</x.loop.audio>
 		<x.backgroundvideo.audio>true</x.backgroundvideo.audio>
-			
+
+		<!---------- md_name variable ---------->
+
+		<x.md_name.alignment>right</x.md_name.alignment>
+		
 	</variables>
 
 <!---------- Systems layout---------->
@@ -1483,7 +1487,7 @@ author: Lehcim Cram Trebor
 		<glowSize>1</glowSize>
 		<reflexion>0.20 0</reflexion>
 		<zIndex>${x.md_name.zindex}</zIndex>
-		<alignment>right</alignment>
+		<alignment>${x.md_name.alignment}</alignment>
 		</text>
 	
 	</view>
