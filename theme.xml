@@ -49,6 +49,7 @@ author: Lehcim Cram Trebor
 		<lang.boxesMarquees>boxes left, marquees right</lang.boxesMarquees>
 		<lang.marqueesBoxes>marquees left, boxes right</lang.marqueesBoxes>
 		<lang.noCovers>no covers</lang.noCovers>
+		<lang.forceRandom>force random video snaps</lang.forceRandom>
 		
 		<label.manufacturer>Manufacturer</label.manufacturer>
 		<label.releasedyear>Relased year</label.releasedyear>
@@ -100,6 +101,7 @@ author: Lehcim Cram Trebor
 		<lang.boxesMarquees lang="fr">boîtes à gauche, marquees à droite</lang.boxesMarquees>
 		<lang.marqueesBoxes lang="fr">marquees à gauche, boîtes à droite</lang.marqueesBoxes>
 		<lang.noCovers lang="fr">aucun</lang.noCovers>
+		<lang.forceRandom lang="fr">forcer les snaps videos aléatoires</lang.forceRandom>
 
 		<label.manufacturer lang="fr">Fabriquant</label.manufacturer>
 		<label.releasedyear lang="fr">Sortie</label.releasedyear>
@@ -606,6 +608,16 @@ author: Lehcim Cram Trebor
 
 	</subset>	
 
+<!---------- Force Random Subsets ---------->
+
+	<subset name="forceRandom" displayName="${lang.forceRandom}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="no" displayName="${lang.no}"/>
+		<include name="yes" displayName="${lang.yes}"/>
+
+	</subset>
+
+
 <!---------- Help Subsets ---------->
 
 	<subset name="help" displayName="${lang.help}">
@@ -821,6 +833,9 @@ author: Lehcim Cram Trebor
 		<audio>${x.backgroundvideo.audio}</audio>
     </video>
 
+	<video name="backgroundvideo" ifSubset="forceRandom:yes" extra="true">
+		<path>{random}</path>               		
+    </video>
 <!---------- Controllers ---------->
 
 	<image name="controller" extra="true">
