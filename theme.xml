@@ -784,7 +784,9 @@ author: Lehcim Cram Trebor
 	<video name="backgroundvideo" extra="true">
 		<path>{random}</path>
 		<path>./${system.theme}/snap/snap.mp4</path>                 		
+		<path>./${system.theme}/snap/snap-${lang}.mp4</path>                 		
 		<path>./${system.theme}_alt/snap/snap.mp4</path>                 		
+		<path>./${system.theme}_alt/snap/snap-${lang}.mp4</path>                 		
 		<origin>0.5 0.5</origin>
 		<pos>${x.snapcenter.pos}</pos>
 		<size>${x.snap.size}</size>

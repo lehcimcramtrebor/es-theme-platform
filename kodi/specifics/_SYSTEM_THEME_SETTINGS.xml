@@ -37,8 +37,8 @@
 <!-- DETAILED VIEW SCREENSHOT BEHIND GAMELIST --DESACTIVED>
 <general.md_image.visible>yes</general.md_image.visible>			<!-- "yes" by default, can be turned off by "no" -->
 
-<!-- SCRAPED VIEWS PREFERED HEADER --DESACTIVED>
-<general.svp_header.visible>marquee</general.svp_header.visible>	<!-- "marquee" (by default) or "logo" for game marquee or system logo -->
+<!-- SCRAPED VIEWS PREFERED HEADER -->
+<general.svp_header.visible>logo</general.svp_header.visible>	<!-- "marquee" (by default) or "logo" for game marquee or system logo -->
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------>
 
