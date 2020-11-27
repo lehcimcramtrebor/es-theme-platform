@@ -63,12 +63,12 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <!--LEFT illustration SHIFTING: -->																																									
-<layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.left.shift>75</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--LEFT illustration LAYOUT: --DESACTIVED>																																									
 <layout.left.sizepos>square</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
-<!--LEFT illustration INDEX: --DESACTIVED>																																									
+<!--LEFT illustration INDEX: -->																																									
 <layout.left.zIndex>behind</layout.left.zIndex> 							<!-- INDEX:		"behind", "front", see below. -->																				
 
 

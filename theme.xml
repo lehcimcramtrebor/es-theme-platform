@@ -40,9 +40,16 @@ author: Lehcim Cram Trebor
 		<lang.merge>merge custom snap (individual parameter)</lang.merge>
 		<lang.custom>custom loop (individual parameter)</lang.custom>
 		<lang.phosphoreplus>phosphore+</lang.phosphoreplus>
-		<lang.marquees>marquees</lang.marquees>
-		<lang.boxes>boxes</lang.boxes>
-
+		<lang.boxesLeft>boxes left</lang.boxesLeft>
+		<lang.boxesRight>boxes right</lang.boxesRight>
+		<lang.boxesBoth>boxes both</lang.boxesBoth>
+		<lang.marqueesLeft>marquees left</lang.marqueesLeft>
+		<lang.marqueesRight>marquees right</lang.marqueesRight>
+		<lang.marqueesBoth>marquees both</lang.marqueesBoth>
+		<lang.boxesMarquees>boxes left, marquees right</lang.boxesMarquees>
+		<lang.marqueesBoxes>marquees left, boxes right</lang.marqueesBoxes>
+		<lang.noCovers>no covers</lang.noCovers>
+		
 		<label.manufacturer>Manufacturer</label.manufacturer>
 		<label.releasedyear>Relased year</label.releasedyear>
 		<label.type>Type</label.type>
@@ -69,7 +76,7 @@ author: Lehcim Cram Trebor
 		<lang.loops lang="fr">fond d'écran animé</lang.loops>
 		<lang.preconfigured lang="fr">pré-configuré</lang.preconfigured>
 		<lang.controller lang="fr">afficher le contrôleur</lang.controller>
-		<lang.covers lang="fr">afficher les apercus à droite</lang.covers>
+		<lang.covers lang="fr">afficher les aperçus</lang.covers>
 		<lang.background lang="fr">fond d'écran</lang.background>
 		<lang.backgroundAnimation lang="fr">animer le fond d'écran</lang.backgroundAnimation>
 		<lang.merge lang="fr">dupliquer le snap personnalisé en fond d'écran (paramètre individuel)</lang.merge>
@@ -84,8 +91,15 @@ author: Lehcim Cram Trebor
 		<lang.phosphore lang="fr">phosphore</lang.phosphore>
 		<lang.phosphoreplus lang="fr">phosphore plus prononcé</lang.phosphoreplus>
 		<lang.crt lang="fr">effet crt</lang.crt>
-		<lang.marquees lang="fr">logos de jeux</lang.marquees>
-		<lang.boxes lang="fr">boîtes de jeux</lang.boxes>
+		<lang.boxesLeft lang="fr">boîtes à gauche</lang.boxesLeft>
+		<lang.boxesRight lang="fr">boîtes à droite</lang.boxesRight>
+		<lang.boxesBoth lang="fr">boîtes des deux côtés</lang.boxesBoth>
+		<lang.marqueesLeft lang="fr">marquees à gauche</lang.marqueesLeft>
+		<lang.marqueesRight lang="fr">marquees à droite</lang.marqueesRight>
+		<lang.marqueesBoth lang="fr">marquees des deux côtés</lang.marqueesBoth>
+		<lang.boxesMarquees lang="fr">boîtes à gauche, marquees à droite</lang.boxesMarquees>
+		<lang.marqueesBoxes lang="fr">marquees à gauche, boîtes à droite</lang.marqueesBoxes>
+		<lang.noCovers lang="fr">aucun</lang.noCovers>
 
 		<label.manufacturer lang="fr">Fabriquant</label.manufacturer>
 		<label.releasedyear lang="fr">Sortie</label.releasedyear>
@@ -400,10 +414,17 @@ author: Lehcim Cram Trebor
 	<subset name="covers" displayName="${lang.covers}" appliesTo="system,basic,detailed,video,grid">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
-		<include name="boxes" displayName="${lang.boxes}">./_assets/variables/covers/boxes.xml</include>
-		<include name="marquee" displayName="${lang.marquees}">./_assets/variables/covers/marquees.xml</include>
+		<include name="boxesLeft" displayName="${lang.boxesLeft}">./_assets/variables/covers/boxesLeft.xml</include>
+		<include name="boxesRight" displayName="${lang.boxesRight}">./_assets/variables/covers/boxesRight.xml</include>
+		<include name="boxesBoth" displayName="${lang.boxesBoth}">./_assets/variables/covers/boxesBoth.xml</include>
+		<include name="marqueesLeft" displayName="${lang.marqueesLeft}">./_assets/variables/covers/marqueesLeft.xml</include>
+		<include name="marqueesRight" displayName="${lang.marqueesRight}">./_assets/variables/covers/marqueesRight.xml</include>
+		<include name="marqueesBoth" displayName="${lang.boxesMarquees}">./_assets/variables/covers/marqueesBoth.xml</include>
+		<include name="boxesMarquees" displayName="${lang.boxesMarquees}">./_assets/variables/covers/boxesMarquees.xml</include>
+		<include name="marqueesBoxes" displayName="${lang.marqueesBoxes}">./_assets/variables/covers/marqueesBoxes.xml</include>
+		<include name="noCovers" displayName="${lang.noCovers}">./_assets/variables/covers/noCovers.xml</include>
 	</subset>
-	
+
 <!---------- Snaps overlay 16x9 overwrite ---------->
 
 	<include>./_assets/variables/overlay/overlay_${layout.snap.overlay}.xml</include>

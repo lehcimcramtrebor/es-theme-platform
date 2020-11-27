@@ -143,7 +143,7 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
 <layout.left.zIndex>front</layout.left.zIndex> 					<!-- INDEX:		"behind", "front", see below. -->																				
-<layout.left.sizepos>portrait</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<layout.left.sizepos>max</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.left.shift>75</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left.color>default</layout.left.color>					<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.left.flip>yes</layout.left.flip>							<!-- FLIP:		"yes" or "no", flip image horizontally. -->																																														
@@ -289,10 +289,10 @@
 <!--BACK LEFT illustration: ------------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.back_left.shift>55</layout.back_left.shift>				<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
+<layout.back_left.shift>65</layout.back_left.shift>				<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
 <layout.back_left.color>default</layout.back_left.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
-<layout.back_left.flip>no</layout.back_left.flip>				<!-- FLIP:		"yes" or "no", flip image horizontally. -->
-<animation.back_left.choice>yes</animation.back_left.choice>	<!-- ANIMATION:	"yes" by default, can be turned "off", run non mofifiable animation of background illustrations. -->
+<layout.back_left.flip>yes</layout.back_left.flip>				<!-- FLIP:		"yes" or "no", flip image horizontally. -->
+<animation.back_left.choice>no</animation.back_left.choice>	<!-- ANIMATION:	"yes" by default, can be turned "off", run non mofifiable animation of background illustrations. -->
 
 
 
@@ -336,9 +336,9 @@
 
 <layout.label.direction>down</layout.label.direction>			<!-- DIRECTION: Where the lyrics come from. -->
 
-<x.label.x>0.35</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<x.label.x>0.25</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
-<x.label.y>0.15</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
+<x.label.y>0.12</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
 
 
 <!-- ENTER HERE SYSTEM INFORMATIONS -->
