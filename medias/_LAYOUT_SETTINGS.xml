@@ -26,12 +26,12 @@
 <!-- Snaps frame ratio: -->																																									
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.snap.ratio>4x3</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9" -->																									
+<layout.snap.ratio>16x9</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9" -->																									
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!--SKINS: (check at https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>colored</frame.skin>								<!-- SKIN:      Read the "SKINS.txt" file at root of theme to have list of available skins.  -->
+<frame.skin>4k</frame.skin>								<!-- SKIN:      Read the "SKINS.txt" file at root of theme to have list of available skins.  -->
 
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Affect only "colored" skin, hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
@@ -365,18 +365,12 @@
 <!-- WRITE WHAT YOU WANT BETWEEN "<x.label.text>" and "</x.label.text>" OR NOT TO USE SYSTEM INFORMATIONS, MAX 34 CHARACTERS ON MAXIMUM 4 OR 5 LINES -->
 
 <x.label.text>
-${x.label}
-${label.manufacturer}: ${x.manufacturer}
-${label.type}: ${x.type}
-${label.releasedyear}: ${x.year}
+Access and play all your medias !
 </x.label.text>
 
-<!-- SPECIFIC COUNTRY CUSTOM LABEL, YOU CAN CHANGE OR ADD COUNTRY, MODIFY LABELS OR DELETE AND WRITE WHAT YOU WANT --DESACTIVED>
+<!-- SPECIFIC COUNTRY CUSTOM LABEL, YOU CAN CHANGE OR ADD COUNTRY, MODIFY LABELS OR DELETE AND WRITE WHAT YOU WANT -->
 <x.label.text lang="fr">
-${x.label}
-Fabricant: ${x.manufacturer}
-Type: ${x.type}
-Sortie: ${x.year}
+Accédez et lancez vos médias !
 </x.label.text>
 <!--------- Visual limit --------->
  
