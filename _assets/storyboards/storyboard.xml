@@ -11,6 +11,22 @@
 
 		<view name="system">
 
+    <image name="backHelp, backHelpLine" extra="true">
+		<opacity>0</opacity>
+		<storyboard>
+        		<animation property="opacity" from="0" to="1" begin="450" duration="550" mode="linear"/>
+		</storyboard>
+
+	</image>
+
+    <image name="bezel" extra="true">
+		<opacity>0</opacity>
+		<storyboard>
+        		<animation property="opacity" from="0" to="1" begin="300" duration="600" mode="linear"/>
+		</storyboard>
+
+	</image>
+	
 	<image name="frame_skin" extra="true">
 
 		<storyboard>
@@ -364,6 +380,17 @@
 	  
 		</view>
 
+	<view name="detailed, video, grid">
+
+    <image name="backHelp, backHelpLine" extra="true">
+
+		<storyboard>
+        		<animation property="colorEnd" to="29313300" begin="450" duration="550" mode="linear"/>
+		</storyboard>
+
+	</image>
+		
+	</view>
 <!---------- STORYBOARDS GRID SUBSETS ---------->
 
 	<subset name="grid_view" displayName="${lang.grid_view}">

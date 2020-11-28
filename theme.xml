@@ -241,8 +241,9 @@ author: Lehcim Cram Trebor
 		<x.md_lines.visible>true</x.md_lines.visible>
 
 		<!---------- Help variables ---------->
-		<x.help.color>fef6f3</x.help.color>
-
+		<x.helpicon.color>b3ff47</x.helpicon.color>
+		<x.help.color>b3ff47</x.help.color>
+		
 		<!---------- Others variables ---------->
 		<x.md_marquee.zindex>14</x.md_marquee.zindex>
 		<x.logostatic.zindex>8</x.logostatic.zindex>
@@ -257,6 +258,7 @@ author: Lehcim Cram Trebor
 		<!---------- md_name variable ---------->
 
 		<x.md_name.alignment>right</x.md_name.alignment>
+		<x.md_name.visible>true</x.md_name.visible>
 		
 	</variables>
 
@@ -623,7 +625,13 @@ author: Lehcim Cram Trebor
 	<subset name="help" displayName="${lang.help}">
 
 		<include name="no" displayName="${lang.no}">./_assets/variables/general/help_no.xml</include>
-		<include name="yes" displayName="${lang.yes}"/>
+		<include name="yes" displayName="${lang.yes}">./_assets/variables/general/help_standard.xml</include>
+		<include name="arcade">./_assets/variables/general/help_arcade.xml</include>
+		<include name="snes">./_assets/variables/general/help_snes.xml</include>
+		<include name="snes alt">./_assets/variables/general/help_snesalt.xml</include>
+		<include name="psx">./_assets/variables/general/help_psx.xml</include>
+		<include name="xbox">./_assets/variables/general/help_xbox.xml</include>
+		<include name="xbox one">./_assets/variables/general/help_xboxone.xml</include>
 
 	</subset>	
 	
@@ -634,12 +642,58 @@ author: Lehcim Cram Trebor
 	
 	<helpsystem name="help">
 		<textColor>${x.help.color}</textColor>
-		<iconColor>${x.help.color}</iconColor>
-		<fontSize>0.016</fontSize>
+		<iconColor>${x.helpicon.color}</iconColor>
+		<fontSize>0.01</fontSize>
 		<origin>0 1</origin>
-		<pos>0.009 0.991</pos>
-		<fontPath>./_assets/Adventure.otf</fontPath>
+		<pos>0.004 0.998</pos>
+		<fontPath>./_assets/roundedledboard.ttf</fontPath>
+		<iconUpDown>./../_assets/icons/icon_${x.help.icon}_updown.png</iconUpDown>
+		<iconLeftRight>./../_assets/icons/icon_${x.help.icon}_leftright.png</iconLeftRight>
+		<iconUpDownLeftRight>./../_assets/icons/icon_${x.help.icon}_all.png</iconUpDownLeftRight>
+		<iconA>./_assets/icons/icon_${x.help.icon}_a.png</iconA>
+		<iconB>./_assets/icons/icon_${x.help.icon}_b.png</iconB>
+		<iconX>./_assets/icons/icon_${x.help.icon}_x.png</iconX>
+		<iconY>./_assets/icons/icon_${x.help.icon}_y.png</iconY>
+		<iconL>./_assets/icons/icon_${x.help.icon}_l.png</iconL>
+		<iconR>./_assets/icons/icon_${x.help.icon}_r.png</iconR>
+		<iconStart>./_assets/icons/icon_${x.help.icon}_start.png</iconStart>
+		<iconSelect>./arts/arcade/icons/icon_${x.help.icon}_select.png</iconSelect>
     </helpsystem>	
+
+	<helpsystem name="help" ifSubset="screen ratio:43">
+		<fontSize>0.008</fontSize>
+    </helpsystem>
+	
+	<image name="backHelp" extra="true" ifSubset="help:yes|arcade|snes|snes alt|psx|xbox|xbox one">
+		<path>./_assets/white.png</path>
+		<size>1 0.025</size>
+		<origin>0 1</origin>
+		<pos>0 1</pos>
+		<color>29313380</color>
+		<colorEnd>29313380</colorEnd>
+		<gradientType>horizontal</gradientType>
+		<zIndex>49</zIndex>
+	</image>
+
+	<image name="backHelp" extra="true" ifSubset="help:yes|arcade|snes|snes alt|psx|xbox|xbox one, screen ratio:43">
+		<size>1 0.02</size>
+	</image>
+	
+	<image name="backHelpLine" extra="true" ifSubset="help:yes|arcade|snes|snes alt|psx|xbox|xbox one">
+		<path>./_assets/white.png</path>
+		<size>1 0.001</size>
+		<origin>0 1</origin>
+		<pos>0 0.975</pos>
+		<color>000000</color>
+		<colorEnd>000000</colorEnd>
+		<gradientType>horizontal</gradientType>
+		<zIndex>49</zIndex>
+	</image>	
+
+	<image name="backHelpLine" extra="true" ifSubset="help:yes|arcade|snes|snes alt|psx|xbox|xbox one, screen ratio:43">
+		<pos>0 0.980</pos>
+
+	</image>	
 	
 	</view>
 
@@ -1526,6 +1580,7 @@ author: Lehcim Cram Trebor
 		<reflexion>0.20 0</reflexion>
 		<zIndex>${x.md_name.zindex}</zIndex>
 		<alignment>${x.md_name.alignment}</alignment>
+		<visible>${x.md_name.visible}</visible>
 		</text>
 	
 	</view>

@@ -74,5 +74,5 @@
 <!---------- Label Display ---------->
 
 	<include>./../storyboards/label/label_${display.label}.xml</include>
-		
+
 </theme>

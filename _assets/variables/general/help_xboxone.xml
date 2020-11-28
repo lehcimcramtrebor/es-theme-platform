@@ -1,0 +1,12 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+
+<x.helpicon.color>ffffff</x.helpicon.color>
+<x.help.icon>xboxone</x.help.icon>
+<x.md_name.visible>false</x.md_name.visible>
+<x.help.color>ffffff</x.help.color>
+
+</variables>
+</theme>
