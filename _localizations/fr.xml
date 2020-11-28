@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+<!---------- FR ---------->
+
+	<variables>
+	
+		
+		<lang.screenratio lang="fr">format de l'écran</lang.screenratio><!-- THEME SCREEN RATIO  -->
+		<lang.169 lang="fr">écran large (16:9)</lang.169><!-- WIDE 16X9 SCREEN RATIO  -->
+		<lang.43 lang="fr">écran standard (4:3)</lang.43><!--  VGA 4X3 SCREEN RATIO -->
+		<lang.storyboards lang="fr">animations</lang.storyboards><!-- ANIMATIONS  -->
+		<lang.classic lang="fr">grille classique</lang.classic><!--  CLASSIC GAMEGRID -->
+		<lang.arcade_boxes lang="fr">arcade (boîtes de jeux)</lang.arcade_boxes><!-- ARCADE BOXES GAMEGRID  -->
+		<lang.arcade_marquees lang="fr">arcade (logos de jeux)</lang.arcade_marquees><!--  ARCADE MARQUEES GAMEGRID -->
+		<lang.screeneffect lang="fr">effet d'écran statique</lang.screeneffect><!-- STATIC SCREEN EFFECTS  -->
+		<lang.grid_view lang="fr">style de grille (vue grille requise)</lang.grid_view><!-- GRIDVIEW STYLE (GAMEGRID ONLY)  -->
+		<lang.screencrt lang="fr">scintillement crt</lang.screencrt><!-- CRT TWINCKLE  -->
+		<lang.focus lang="fr">focus sur les éléments (assombrit le fond d'écran)</lang.focus><!--  FOCUS ON ELLEMENTS (DARKENS BACKGROUND) -->
+		<lang.soft lang="fr">léger</lang.soft><!--  LIGHT -->
+		<lang.strong lang="fr">fort</lang.strong><!--  STRONG -->
+		<lang.help lang="fr">afficher l'aide</lang.help><!--  DISPLAY HELP -->
+		<lang.labels lang="fr">afficher les descriptions de console</lang.labels><!-- DISPLAY DESCRIPTIONS  -->
+		<lang.skins lang="fr">style de cadre</lang.skins><!-- FRAME STYLE  -->
+		<lang.themed lang="fr">thémé (par défaut)</lang.themed><!--  THEMED -->
+		<lang.colored lang="fr">couleurs personnalisées (optionnel)</lang.colored><!-- CUSTOM COLORS  -->
+		<lang.loops lang="fr">fond d'écran animé</lang.loops><!--  LOOP BACKGROUNDS -->
+		<lang.preconfigured lang="fr">pré-configuré</lang.preconfigured><!--  PRE-CONFIGURED BY THEME -->
+		<lang.controller lang="fr">afficher le contrôleur</lang.controller><!--  DISPLAY CONTROLLER -->
+		<lang.covers lang="fr">afficher les aperçus</lang.covers><!-- DISPLAY COVERS  -->
+		<lang.background lang="fr">fond d'écran</lang.background><!-- BACKGROUND  -->
+		<lang.backgroundAnimation lang="fr">animer le fond d'écran</lang.backgroundAnimation><!--  SCROLL BACKGROUND ANIMATION -->
+		<lang.merge lang="fr">dupliquer le snap personnalisé en fond d'écran (paramètre individuel)</lang.merge><!--  MERGE CUSTOM SNAP (INDIVIDUAL PARAMETER)-->
+		<lang.custom lang="fr">choix du fond d'écran animé (paramètre individuel)</lang.custom><!-- CUSTOM LOOP (INDIVIDUAL PARAMETER) -->
+		<lang.no lang="fr">non</lang.no><!-- NO  -->
+		<lang.yes lang="fr">oui</lang.yes><!-- YES  -->
+		<lang.scanlines lang="fr">balayage</lang.scanlines><!--  SCANLINES -->
+		<lang.scanlinesfine lang="fr">balayage fin</lang.scanlinesfine><!-- SCANLINES FINE  -->
+		<lang.verticalscanlines lang="fr">balayage vertical</lang.verticalscanlines><!-- VERTICAL SCANLINES  -->
+		<lang.verticalscanlinesfine lang="fr">balayage vertical fin</lang.verticalscanlinesfine><!-- VERTICAL SCANLINES FINE  -->
+		<lang.phosphore lang="fr">phosphore</lang.phosphore><!-- PHOSPHORE  -->
+		<lang.phosphoreplus lang="fr">phosphore plus prononcé</lang.phosphoreplus><!--  PHOSPHORE+ -->
+		<lang.crt lang="fr">effet crt</lang.crt><!--  CRT EFFECT -->
+		<lang.boxesLeft lang="fr">boîtes à gauche</lang.boxesLeft><!-- LEFT SIDE BOXES  -->
+		<lang.boxesRight lang="fr">boîtes à droite</lang.boxesRight><!--  RIGHT SIDE BOXES -->
+		<lang.boxesBoth lang="fr">boîtes des deux côtés</lang.boxesBoth><!--  BOXES BOTH SIDES -->
+		<lang.marqueesLeft lang="fr">marquees à gauche</lang.marqueesLeft><!--  LEFT SIDE MARQUEES-->
+		<lang.marqueesRight lang="fr">marquees à droite</lang.marqueesRight><!-- RIGHT SIDE MARQUEES  -->
+		<lang.marqueesBoth lang="fr">marquees des deux côtés</lang.marqueesBoth><!--  MARQUEES BOTH SIDES -->
+		<lang.boxesMarquees lang="fr">boîtes à gauche, marquees à droite</lang.boxesMarquees><!-- LEFT SIDE BOXES, RIGHT SIDE MARQUEES  -->
+		<lang.marqueesBoxes lang="fr">marquees à gauche, boîtes à droite</lang.marqueesBoxes><!--  LEFT SIDE MARQUEES, RIGHT SIDE BOXES -->
+		<lang.noCovers lang="fr">aucun</lang.noCovers><!-- NOTHING  -->
+		<lang.forceRandom lang="fr">forcer les snaps videos aléatoires</lang.forceRandom><!--  FORCE RANDOM SNAP -->
+		<lang.mainFont lang="fr">police principale</lang.mainFont><!--  MAIN FONT -->
+		<lang.adventure lang="fr">adventure (par défaut)</lang.adventure><!--  ADVENTURE (DEFAULT) -->
+		<label.type lang="fr">type</label.type><!-- TYPE  -->
+		
+		<label.manufacturer lang="fr">fabriquant</label.manufacturer><!--  MANUFACTURER -->
+		<label.releasedyear lang="fr">sortie</label.releasedyear><!--  RELEASED -->
+
+
+	</variables>
+	
+
+</theme>
