@@ -5,7 +5,7 @@
 <layout.snap.overlay>no</layout.snap.overlay>																				
 <layout.extend.overlay>no</layout.extend.overlay>
 <x.frame.color>ffffff</x.frame.color>
-<skin.covers.fix>3x2</skin.covers.fix>
+<skin.covers.fix>16x9</skin.covers.fix>
 
 </variables>
 
