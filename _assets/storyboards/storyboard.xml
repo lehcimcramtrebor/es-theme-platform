@@ -22,7 +22,7 @@
     <image name="bezel" extra="true">
 		<opacity>0</opacity>
 		<storyboard>
-        		<animation property="opacity" from="0" to="1" begin="300" duration="600" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" begin="1500" duration="300" mode="linear"/>
 		</storyboard>
 
 	</image>

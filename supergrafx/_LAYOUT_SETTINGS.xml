@@ -346,7 +346,8 @@
 
 <x.label>NEC SuperGrafx</x.label> 							<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
 
-<x.manufacturer>Nippon Denki</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
+<x.manufacturer>Nippon Denki (NEC)</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
+<x.manufacturer region="jp">Nichiden </x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
 
 <x.type>8-BIT Console</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
 
