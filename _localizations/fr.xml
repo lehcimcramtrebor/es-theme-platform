@@ -57,6 +57,8 @@
 		<lang.mainFont lang="fr">police principale</lang.mainFont><!--  MAIN FONT -->
 		<lang.adventure lang="fr">adventure (par défaut)</lang.adventure><!--  ADVENTURE (DEFAULT) -->
 		<label.type lang="fr">type</label.type><!-- TYPE  -->
+		<lang.force lang="fr">forcer</lang.force>
+		<lang.md_videoVisibility lang="fr">afficher les snaps dans les gamelists</lang.md_videoVisibility>
 		
 		<label.manufacturer lang="fr">fabriquant</label.manufacturer><!--  MANUFACTURER -->
 		<label.releasedyear lang="fr">sortie</label.releasedyear><!--  RELEASED -->

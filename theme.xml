@@ -52,6 +52,8 @@ author: Lehcim Cram Trebor
 		<lang.forceRandom>force random video snaps</lang.forceRandom>
 		<lang.mainFont>main font</lang.mainFont>
 		<lang.adventure>adventure (default)</lang.adventure>
+		<lang.force>force</lang.force>
+		<lang.md_videoVisibility>display gamelist snaps</lang.md_videoVisibility>
 		
 		<label.manufacturer>manufacturer</label.manufacturer>
 		<label.releasedyear>relased year</label.releasedyear>
@@ -205,7 +207,7 @@ author: Lehcim Cram Trebor
 		<x.logostatic.rotation>0</x.logostatic.rotation>
 		<x.md_name.zindex>8</x.md_name.zindex>
 		<x.arcade.md_thumbnail.maxSize>0.08 0.23</x.arcade.md_thumbnail.maxSize>
-
+		<x.md_video.visible>true</x.md_video.visible>
 		<!---------- Audio variables ---------->
 		<x.loop.audio>false</x.loop.audio>
 		<x.backgroundvideo.audio>true</x.backgroundvideo.audio>
@@ -242,6 +244,16 @@ author: Lehcim Cram Trebor
 	<include>./${system.theme}/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
 	<include>./${system.theme}_alt/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
 
+
+<!---------- Subsets md_video visibility ---------->
+
+	<subset name="md_videoVisibility" displayName="${lang.md_videoVisibility}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="no" displayName="${lang.no}">./_assets/variables/md_video/no.xml</include>
+		<include name="force" displayName="${lang.force}">./_assets/variables/md_video/yes.xml</include>
+
+	</subset>
 
 <!---------- Subset backgrounds ---------->
 
@@ -1752,7 +1764,7 @@ author: Lehcim Cram Trebor
 		<showSnapshotDelay>false</showSnapshotDelay>
 		<color>ffffff</color>
 		<zIndex>19</zIndex>
-
+		<visible>${x.md_video.visible}</visible>
 	</video>
 
 	</view>
@@ -2004,8 +2016,7 @@ author: Lehcim Cram Trebor
 	
 <!---------- ADVANCED USERS OVERWRITE SPECIFICS --------->
 
-	<include>./${system.theme}/specifics/${system.theme}_advanced/_ADVANCED_CUSTOM.xml</include>
-	<include>./${system.theme}/specifics/${system.theme}_advanced/_${layout.vga.settings}_ADVANCED_CUSTOM.xml</include>
+	<include>./${system.theme}/specifics/_ADVANCED_CUSTOM.xml</include>
 	<include>./test.xml</include>
 
 <!---------- SKIN LINES FIX ---------->
