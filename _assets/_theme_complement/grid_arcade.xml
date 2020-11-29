@@ -3,6 +3,7 @@
 
 <!---------- Arcade view ---------->
 
+
 	<view name="grid">
 
     <image name="md_marquee">
@@ -63,7 +64,7 @@
 
     <image name="md_thumbnail">
 		<pos>${x.arcade.md_thumbnail.pos}</pos>
-		<maxSize>0.08 0.23</maxSize>
+		<maxSize>${x.arcade.md_thumbnail.maxSize}</maxSize>
 		<origin>1 1</origin>
 		<reflexion>0 0</reflexion>
 		<zIndex>20</zIndex>

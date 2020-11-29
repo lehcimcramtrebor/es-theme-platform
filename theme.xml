@@ -204,6 +204,7 @@ author: Lehcim Cram Trebor
 		<x.logostatic.reflexion>0.2 0</x.logostatic.reflexion>
 		<x.logostatic.rotation>0</x.logostatic.rotation>
 		<x.md_name.zindex>8</x.md_name.zindex>
+		<x.arcade.md_thumbnail.maxSize>0.08 0.23</x.arcade.md_thumbnail.maxSize>
 
 		<!---------- Audio variables ---------->
 		<x.loop.audio>false</x.loop.audio>
@@ -754,7 +755,7 @@ author: Lehcim Cram Trebor
 		<colorEnd>00000000</colorEnd>
 		<gradientType>vertical</gradientType>
 		<logoScale>2.2</logoScale>
-		<logoSize>0.15 0.07</logoSize>
+		<logoSize>0.09 0.07</logoSize>
 		<maxLogoCount>3</maxLogoCount>
 		<systemInfoDelay>0</systemInfoDelay>
 		<defaultTransition>instant</defaultTransition>
