@@ -57,8 +57,14 @@
 		<lang.mainFont lang="fr">police principale</lang.mainFont><!--  MAIN FONT -->
 		<lang.adventure lang="fr">adventure (par défaut)</lang.adventure><!--  ADVENTURE (DEFAULT) -->
 		<label.type lang="fr">type</label.type><!-- TYPE  -->
-		<lang.force lang="fr">forcer</lang.force>
-		<lang.md_videoVisibility lang="fr">afficher les snaps dans les gamelists</lang.md_videoVisibility>
+		<lang.force lang="fr">forcer</lang.force><!-- FORCE (OVERWRITE) -->
+		<lang.md_videoVisibility lang="fr">afficher les snaps dans les gamelists</lang.md_videoVisibility><!-- DISPLAY SNAPS IN GAMELIST -->
+		<lang.backgroundDarkening lang="fr">assombrir le bas du fond d'écran</lang.backgroundDarkening><!-- DARKEN THE BOTTOM OF BACKGROUND -->
+		<lang.logoBacklight lang="fr">éclairer derrière le logo</lang.logoBacklight><!-- LOGO BACKLIGHT -->
+		<lang.backMetadata lang="fr">afficher l'arrière-plan des métadatas et grille arcade</lang.backMetadata><!-- DISPLAY METADATA / ARCADE GRID BACK FRAME -->
+		<lang.gamelistLogo lang="fr">logo d'entête des gamelists</lang.gamelistLogo><!-- GAMELIST HEADER LOGO -->
+		<lang.logo lang="fr">logo du système</lang.logo><!-- SYTEM LOGO -->
+		<lang.marquee lang="fr">logos des jeux</lang.marquee><!-- GAME MARQUEES -->
 		
 		<label.manufacturer lang="fr">fabriquant</label.manufacturer><!--  MANUFACTURER -->
 		<label.releasedyear lang="fr">sortie</label.releasedyear><!--  RELEASED -->

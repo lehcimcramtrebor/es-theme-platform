@@ -54,6 +54,12 @@ author: Lehcim Cram Trebor
 		<lang.adventure>adventure (default)</lang.adventure>
 		<lang.force>force</lang.force>
 		<lang.md_videoVisibility>display gamelist snaps</lang.md_videoVisibility>
+		<lang.backgroundDarkening>darken the bottom of background</lang.backgroundDarkening>
+		<lang.logoBacklight>display logo back light</lang.logoBacklight>
+		<lang.backMetadata>display metadata / arcade grid back frame</lang.backMetadata>
+		<lang.gamelistLogo>prefered header logo in gamelist</lang.gamelistLogo>
+		<lang.logo>system logo</lang.logo>
+		<lang.marquee>game marquees</lang.marquee>
 		
 		<label.manufacturer>manufacturer</label.manufacturer>
 		<label.releasedyear>relased year</label.releasedyear>
@@ -520,6 +526,42 @@ author: Lehcim Cram Trebor
 		<include name="yes" displayName="${lang.yes}">./_assets/variables/background/subset_animation_yes.xml</include>
 	</subset>
 
+<!---------- Subsets background bottom darkening ---------->
+
+	<subset name="backgroundDarkening" displayName="${lang.backgroundDarkening}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="no" displayName="${lang.no}">./_assets/variables/background/subset_darkening_no.xml</include>
+		<include name="yes" displayName="${lang.yes}">./_assets/variables/background/subset_darkening_yes.xml</include>
+	</subset>
+
+<!---------- Subsets logo backlight ---------->
+
+	<subset name="logoBacklight" displayName="${lang.logoBacklight}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="no" displayName="${lang.no}">./_assets/variables/background/subset_backlight_no.xml</include>
+		<include name="yes" displayName="${lang.yes}">./_assets/variables/background/subset_backlight_yes.xml</include>
+	</subset>
+
+<!---------- Subsets back metadata frame ---------->
+
+	<subset name="backMetadata" displayName="${lang.backMetadata}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="no" displayName="${lang.no}">./_assets/variables/backmetadata/no.xml</include>
+		<include name="yes" displayName="${lang.yes}">./_assets/variables/backmetadata/yes.xml</include>
+	</subset>
+
+<!---------- Subsets Gamelist logo/marquee ---------->
+
+	<subset name="gamelistLogo" displayName="${lang.gamelistLogo}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="logo" displayName="${lang.logo}">./_assets/variables/gamelistlogo/logo.xml</include>
+		<include name="marquee" displayName="${lang.marquee}">./_assets/variables/gamelistlogo/marquee.xml</include>
+	</subset>
+	
 <!---------- Subsets loops ---------->
 
 	<subset name="controller" displayName="${lang.controller}" appliesTo="system,basic,detailed,video,grid">
