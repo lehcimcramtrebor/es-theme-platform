@@ -35,7 +35,7 @@
 <!--SKINS: (check at https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>colored</frame.skin>								<!-- SKIN:      Read the "SKINS.txt" file at root of theme to have list of available skins.  -->
+<frame.skin>philips43</frame.skin>								<!-- SKIN:      Read the "SKINS.txt" file at root of theme to have list of available skins.  -->
 
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Affect only "colored" skin, hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
@@ -347,19 +347,21 @@
 
 <!-- ENTER HERE SYSTEM INFORMATIONS -->
 
-<x.label>Full_name_of_system</x.label> 							<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
+<x.label>Satellaview</x.label> 							<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
 
-<x.manufacturer>Name_of_manufacturer</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
+<x.manufacturer>Nintendo</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
 
-<x.type>x_BIT_Console_Computer</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
+<x.type>Super Famicom extension</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
 
-<x.type lang="fr">Console_computer_x_BIT</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
+<x.type lang="fr">Extension Super Famicom</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
 
-<x.year region="us">xxxx</x.year>								<!-- RELEASED YEAR IN US REGION -->
+<x.year region="us">1995 in Japan</x.year>								<!-- RELEASED YEAR IN US REGION -->
 
-<x.year region="eu">xxxx</x.year>								<!-- RELEASED YEAR IN EU REGION -->
+<x.year region="eu">1995 in Japan</x.year>								<!-- RELEASED YEAR IN EU REGION -->
 
-<x.year region="jp">xxxx</x.year>								<!-- RELEASED YEAR IN JP REGION -->
+<x.year lang="fr">1995 au Japon</x.year>								<!-- RELEASED YEAR IN EU REGION -->
+
+<x.year region="jp">1995 in Japan</x.year>								<!-- RELEASED YEAR IN JP REGION -->
 
 <!-- RELEASED YEAR IN SPECIFIC COUNTRY --DESACTIVED>
 
