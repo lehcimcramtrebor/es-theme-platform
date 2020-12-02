@@ -2,7 +2,9 @@
 <formatVersion>7</formatVersion>
 <variables>
 
-<x.controller.visible>false</x.controller.visible>
 
+<frame.skin>colored</frame.skin>
+<x.frame.color>26c4eC</x.frame.color>
 </variables>
+
 </theme>

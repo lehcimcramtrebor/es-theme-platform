@@ -2,7 +2,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 
-<x.controller.visible>false</x.controller.visible>
+<x.controller.visible>true</x.controller.visible>
 
 </variables>
 </theme>

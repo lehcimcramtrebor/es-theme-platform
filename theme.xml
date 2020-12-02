@@ -11,63 +11,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Language ---------->
 
-	<variables>
-		<!-- EN -->
-		<lang.screenratio>screen format</lang.screenratio>
-		<lang.169>wide screen (16:9)</lang.169>
-		<lang.43>vga screen (4:3)</lang.43>
-		<lang.storyboards>animations</lang.storyboards>
-		<lang.classic>in frame grid</lang.classic>
-		<lang.arcade_boxes>arcade (boxes)</lang.arcade_boxes>
-		<lang.arcade_marquees>arcade (marquees)</lang.arcade_marquees>
-		<lang.screeneffect>static screen effect</lang.screeneffect>
-		<lang.grid_view>grid style (Only in grid view)</lang.grid_view>
-		<lang.screencrt>crt video twinkle effect</lang.screencrt>
-		<lang.focus>focus on elements (darkens the background)</lang.focus>
-		<lang.soft>soft</lang.soft>
-		<lang.strong>strong</lang.strong>
-		<lang.help>display help</lang.help>
-		<lang.labels>display descriptions</lang.labels>
-		<lang.skins>skins</lang.skins>
-		<lang.themed>themed (default)</lang.themed>
-		<lang.colored>custom colors (optional)</lang.colored>
-		<lang.loops>loop background</lang.loops>
-		<lang.preconfigured>pre-configured by theme</lang.preconfigured>
-		<lang.controller>display controller</lang.controller>
-		<lang.covers>display covers on right</lang.covers>
-		<lang.background>background</lang.background>
-		<lang.backgroundAnimation>scroll background animation</lang.backgroundAnimation>
-		<lang.merge>merge custom snap (individual parameter)</lang.merge>
-		<lang.custom>custom loop (individual parameter)</lang.custom>
-		<lang.phosphoreplus>phosphore+</lang.phosphoreplus>
-		<lang.boxesLeft>boxes left</lang.boxesLeft>
-		<lang.boxesRight>boxes right</lang.boxesRight>
-		<lang.boxesBoth>boxes both</lang.boxesBoth>
-		<lang.marqueesLeft>marquees left</lang.marqueesLeft>
-		<lang.marqueesRight>marquees right</lang.marqueesRight>
-		<lang.marqueesBoth>marquees both</lang.marqueesBoth>
-		<lang.boxesMarquees>boxes left, marquees right</lang.boxesMarquees>
-		<lang.marqueesBoxes>marquees left, boxes right</lang.marqueesBoxes>
-		<lang.noCovers>no covers</lang.noCovers>
-		<lang.forceRandom>force random video snaps</lang.forceRandom>
-		<lang.mainFont>main font</lang.mainFont>
-		<lang.adventure>adventure (default)</lang.adventure>
-		<lang.force>force</lang.force>
-		<lang.md_videoVisibility>display gamelist snaps</lang.md_videoVisibility>
-		<lang.backgroundDarkening>darken the bottom of background</lang.backgroundDarkening>
-		<lang.logoBacklight>display logo back light</lang.logoBacklight>
-		<lang.backMetadata>display metadata / arcade grid back frame</lang.backMetadata>
-		<lang.gamelistLogo>prefered header logo in gamelist</lang.gamelistLogo>
-		<lang.logo>system logo</lang.logo>
-		<lang.marquee>game marquees</lang.marquee>
-		
-		<label.manufacturer>manufacturer</label.manufacturer>
-		<label.releasedyear>relased year</label.releasedyear>
-		<label.type>type</label.type>
-
-
-	</variables>
-	
+	<include>./_localizations/default_en.xml</include>	
 	<include>./_localizations/${lang}.xml</include>
 	
 <!---------- Screen Variables Subsets ---------->
@@ -214,6 +158,9 @@ author: Lehcim Cram Trebor
 		<x.md_name.zindex>8</x.md_name.zindex>
 		<x.arcade.md_thumbnail.maxSize>0.08 0.23</x.arcade.md_thumbnail.maxSize>
 		<x.md_video.visible>true</x.md_video.visible>
+		<x.scroll.sound>scroll</x.scroll.sound>
+		<x.scroll.game.sound>scroll</x.scroll.game.sound>
+		
 		<!---------- Audio variables ---------->
 		<x.loop.audio>false</x.loop.audio>
 		<x.backgroundvideo.audio>true</x.backgroundvideo.audio>
@@ -228,6 +175,87 @@ author: Lehcim Cram Trebor
 		<x.md_description.lineSpacing>1.33</x.md_description.lineSpacing>		
 	</variables>
 
+<!---------- Scroll sounds subsets ---------->
+
+	<subset name="scroll" displayName="${lang.scroll}">
+
+		<include name="scroll">./_assets/variables/scroll/scroll.xml</include>
+		<include name="custom" displayName="${lang.scroll.main.custom}">./_assets/variables/scroll/main_custom.xml</include>
+		<include name="kouak">./_assets/variables/scroll/kouak.xml</include>
+		<include name="trackpad">./_assets/variables/scroll/trackpad.xml</include>
+		<include name="raspberry">./_assets/variables/scroll/raspberry.xml</include>
+		<include name="shop">./_assets/variables/scroll/shop.xml</include>
+		<include name="notification">./_assets/variables/scroll/notification.xml</include>
+		<include name="blaster">./_assets/variables/scroll/blaster.xml</include>
+		<include name="357">./_assets/variables/scroll/357.xml</include>
+		<include name="reload">./_assets/variables/scroll/reload.xml</include>
+		<include name="9mm-falling">./_assets/variables/scroll/9mm-falling.xml</include>
+		<include name="mouth">./_assets/variables/scroll/mouth.xml</include>
+		<include name="pony-fart">./_assets/variables/scroll/pony-fart.xml</include>
+		<include name="poker">./_assets/variables/scroll/poker.xml</include>
+		<include name="type-machine">./_assets/variables/scroll/type-machine.xml</include>
+		<include name="keyboard">./_assets/variables/scroll/keyboard.xml</include>
+		<include name="oven">./_assets/variables/scroll/oven.xml</include>
+		<include name="toc">./_assets/variables/scroll/toc.xml</include>
+		<include name="water">./_assets/variables/scroll/water.xml</include>
+
+		<include name="credit-donkey-kong">./_assets/variables/scroll/credit-donkey-kong.xml</include>
+		<include name="credit-ace-attacker">./_assets/variables/scroll/credit-ace-attacker.xml</include>
+		<include name="credit-arabian">./_assets/variables/scroll/credit-arabian.xml</include>
+		<include name="credit-street-fighter">./_assets/variables/scroll/credit-street-fighter.xml</include>
+		<include name="credit-golden-axe">./_assets/variables/scroll/credit-golden-axe.xml</include>
+
+		<include name="lucasarts">./_assets/variables/scroll/lucasarts.xml</include>
+
+		<include name="mario-jump">./_assets/variables/scroll/mario-jump.xml</include>
+		<include name="mario-coin">./_assets/variables/scroll/mario-coin.xml</include>
+		<include name="yoshi">./_assets/variables/scroll/yoshi.xml</include>
+		<include name="yoshi-gloups">./_assets/variables/scroll/yoshi-gloups.xml</include>
+
+	</subset>
+	
+	<subset name="scrollGame" displayName="${lang.scrollGame}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="scroll">./_assets/variables/scroll/scroll_game.xml</include>
+		<include name="kouak">./_assets/variables/scroll/kouak_game.xml</include>
+		<include name="trackpad">./_assets/variables/scroll/trackpad_game.xml</include>
+		<include name="raspberry">./_assets/variables/scroll/raspberry_game.xml</include>
+		<include name="shop">./_assets/variables/scroll/shop_game.xml</include>
+		<include name="notification">./_assets/variables/scroll/notification_game.xml</include>
+		<include name="blaster">./_assets/variables/scroll/blaster_game.xml</include>
+		<include name="357">./_assets/variables/scroll/357_game.xml</include>
+		<include name="reload">./_assets/variables/scroll/reload_game.xml</include>
+		<include name="9mm-falling">./_assets/variables/scroll/9mm-falling_game.xml</include>
+		<include name="mouth">./_assets/variables/scroll/mouth_game.xml</include>
+		<include name="pony-fart">./_assets/variables/scroll/pony-fart_game.xml</include>
+		<include name="poker">./_assets/variables/scroll/poker_game.xml</include>
+		<include name="type-machine">./_assets/variables/scroll/type-machine_game.xml</include>
+		<include name="keyboard">./_assets/variables/scroll/keyboard_game.xml</include>
+		<include name="oven">./_assets/variables/scroll/oven_game.xml</include>
+		<include name="toc">./_assets/variables/scroll/toc_game.xml</include>
+		<include name="water">./_assets/variables/scroll/water_game.xml</include>
+
+		<include name="credit-donkey-kong">./_assets/variables/scroll/credit-donkey-kong_game.xml</include>
+		<include name="credit-ace-attacker">./_assets/variables/scroll/credit-ace-attacker_game.xml</include>
+		<include name="credit-arabian">./_assets/variables/scroll/credit-arabian_game.xml</include>
+		<include name="credit-street-fighter">./_assets/variables/scroll/credit-street-fighter_game.xml</include>
+		<include name="credit-golden-axe">./_assets/variables/scroll/credit-golden-axe_game.xml</include>
+
+		<include name="lucasarts">./_assets/variables/scroll/lucasarts_game.xml</include>
+
+		<include name="mario-jump">./_assets/variables/scroll/mario-jump_game.xml</include>
+		<include name="mario-coin">./_assets/variables/scroll/mario-coin_game.xml</include>
+		<include name="yoshi">./_assets/variables/scroll/yoshi_game.xml</include>
+		<include name="yoshi-gloups">./_assets/variables/scroll/yoshi-gloups_game.xml</include>
+
+	</subset>
+	
+	<subset name="scrollCustom" displayName="${lang.scrollCustom}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="yes" displayName="${lang.yes}">./_assets/variables/scroll/custom_game.xml</include>
+		<include name="no" displayName="${lang.no}"/>
+
+	</subset>
 <!---------- Main Font Subsets ---------->
 
 	<subset name="mainFont" displayName="${lang.mainFont}">
@@ -263,10 +291,10 @@ author: Lehcim Cram Trebor
 
 <!---------- Subset backgrounds ---------->
 
-	<subset name="Background" displayName="${lang.background}" appliesTo="system,basic,detailed,video,grid">
-
+	<subset name="background" displayName="${lang.background}" appliesTo="system,basic,detailed,video,grid">
 
 	<include name="preconfigured" displayName="${lang.preconfigured}"/>
+	<include name="custom" displayName="${lang.background.custom}"/>
 	<include name="01A-Full Abstract City">./_assets/backgrounds/full/full_abstract_city.xml</include>
 	<include name="02A-Outrun Landscape">./_assets/backgrounds/full/outrun_landscape.xml</include>
 	<include name="02B-Outrun Mountains">./_assets/backgrounds/full/outrun_mountains.xml</include>
@@ -401,6 +429,8 @@ author: Lehcim Cram Trebor
 		<include name="custom" displayName="${lang.custom}">./_assets/variables/loops/custom.xml</include>
 		<include name="merge" displayName="${lang.merge}">./_assets/variables/loops/merge.xml</include>
 		<include name="no" displayName="${lang.no}">./_assets/variables/loops/no.xml</include>
+		<include name="customUnified" displayName="${lang.custom.loop.unified}">./_assets/variables/loops/custom_unified.xml</include>
+
 	</subset>
 
 
@@ -562,22 +592,142 @@ author: Lehcim Cram Trebor
 		<include name="marquee" displayName="${lang.marquee}">./_assets/variables/gamelistlogo/marquee.xml</include>
 	</subset>
 	
-<!---------- Subsets loops ---------->
 
-	<subset name="controller" displayName="${lang.controller}" appliesTo="system,basic,detailed,video,grid">
+<!---------- Subsets eggs ---------->
 
-		<include name="preconfigured" displayName="${lang.preconfigured}"/>
-		<include name="no" displayName="${lang.no}">./_assets/variables/controller/no.xml</include>
+	<subset name="egg" displayName="${lang.egg}">
+
+		<include name="yes" displayName="${lang.yes}"/>
+		<include name="no" displayName="${lang.no}"/>
+		<include name="customEgg" displayName="${lang.custom.egg}">./_assets/variables/egg/custom.xml</include>
 	</subset>
-
-		
+	
 <!---------- Subsets skins ---------->
 
 	<subset name="skins" displayName="${lang.skins}" appliesTo="system,basic,detailed,video,grid">
 
 		<include name="themed" displayName="${lang.themed}"/>
-		<include name="no" displayName="${lang.no}">./_assets/variables/skins/_no.xml</include>
+		<include name="frame" displayName="${lang.frame}">./_assets/variables/skins/_no.xml</include>
 		<include name="colored" displayName="${lang.colored}">./_assets/variables/skins/_colored.xml</include>
+
+		<include name="blue" displayName="${lang.blue}">./_assets/variables/skins/blue.xml</include>
+		<include name="nightBlue" displayName="${lang.nightBlue}">./_assets/variables/skins/nightBlue.xml</include>
+		<include name="frenchBlue" displayName="${lang.frenchBlue}">./_assets/variables/skins/frenchBlue.xml</include>
+		<include name="skyBlue" displayName="${lang.skyBlue}">./_assets/variables/skins/skyBlue.xml</include>
+		<include name="deepSkyBlue" displayName="${lang.deepSkyBlue}">./_assets/variables/skins/deepSkyBlue.xml</include>
+		<include name="celestBlue" displayName="${lang.celestBlue}">./_assets/variables/skins/celestBlue.xml</include>
+		<include name="duckBlue" displayName="${lang.duckBlue}">./_assets/variables/skins/duckBlue.xml</include>
+		<include name="peacockBlue" displayName="${lang.peacockBlue}">./_assets/variables/skins/peacockBlue.xml</include>
+		<include name="steelBlue" displayName="${lang.steelBlue}">./_assets/variables/skins/steelBlue.xml</include>
+		<include name="cartBlue" displayName="${lang.cartBlue}">./_assets/variables/skins/cartBlue.xml</include>
+		<include name="periwinkleBlue" displayName="${lang.periwinkleBlue}">./_assets/variables/skins/periwinkleBlue.xml</include>
+		<include name="safreBlue" displayName="${lang.safreBlue}">./_assets/variables/skins/safreBlue.xml</include>
+		<include name="persianBlue" displayName="${lang.persianBlue}">./_assets/variables/skins/persianBlue.xml</include>
+		<include name="overseasBlue" displayName="${lang.overseasBlue}">./_assets/variables/skins/overseasBlue.xml</include>
+		<include name="smaltBlue" displayName="${lang.smaltBlue}">./_assets/variables/skins/smaltBlue.xml</include>
+		<include name="smurfBlue" displayName="${lang.smurfBlue}">./_assets/variables/skins/smurfBlue.xml</include>
+		<include name="electricBlue" displayName="${lang.electricBlue}">./_assets/variables/skins/electricBlue.xml</include>
+		<include name="oilBlue" displayName="${lang.oilBlue}">./_assets/variables/skins/oilBlue.xml</include>
+
+		<include name="red" displayName="${lang.red}">./_assets/variables/skins/red.xml</include>
+		<include name="fireRed" displayName="${lang.fireRed}">./_assets/variables/skins/fireRed.xml</include>
+		<include name="englishRed" displayName="${lang.englishRed}">./_assets/variables/skins/englishRed.xml</include>
+		<include name="vermeilRed" displayName="${lang.vermeilRed}">./_assets/variables/skins/vermeilRed.xml</include>
+		<include name="garanceRed" displayName="${lang.garanceRed}">./_assets/variables/skins/garanceRed.xml</include>
+		<include name="scarletRed" displayName="${lang.scarletRed}">./_assets/variables/skins/scarletRed.xml</include>
+		<include name="cherryRed" displayName="${lang.cherryRed}">./_assets/variables/skins/cherryRed.xml</include>
+		<include name="bloodRed" displayName="${lang.bloodRed}">./_assets/variables/skins/bloodRed.xml</include>
+		<include name="grenadineRed" displayName="${lang.grenadineRed}">./_assets/variables/skins/grenadineRed.xml</include>
+		<include name="indianRed" displayName="${lang.indianRed}">./_assets/variables/skins/indianRed.xml</include>
+		<include name="nacaratRed" displayName="${lang.nacaratRed}">./_assets/variables/skins/nacaratRed.xml</include>
+		<include name="crimsonRed" displayName="${lang.crimsonRed}">./_assets/variables/skins/crimsonRed.xml</include>
+		<include name="raspberryRed" displayName="${lang.raspberryRed}">./_assets/variables/skins/raspberryRed.xml</include>
+		<include name="strawberryRed" displayName="${lang.strawberryRed}">./_assets/variables/skins/strawberryRed.xml</include>
+		<include name="currantRed" displayName="${lang.currantRed}">./_assets/variables/skins/currantRed.xml</include>
+		<include name="capucineRed" displayName="${lang.capucineRed}">./_assets/variables/skins/capucineRed.xml</include>
+
+		<include name="yellow" displayName="${lang.yellow}">./_assets/variables/skins/yellow.xml</include>
+		<include name="cobaltYellow" displayName="${lang.cobaltYellow}">./_assets/variables/skins/cobaltYellow.xml</include>
+		<include name="lemonYellow" displayName="${lang.lemonYellow}">./_assets/variables/skins/lemonYellow.xml</include>
+		<include name="mimosaYellow" displayName="${lang.mimosaYellow}">./_assets/variables/skins/mimosaYellow.xml</include>
+		<include name="canaryYellow" displayName="${lang.canaryYellow}">./_assets/variables/skins/canaryYellow.xml</include>
+		<include name="sulfurYellow" displayName="${lang.sulfurYellow}">./_assets/variables/skins/sulfurYellow.xml</include>
+		<include name="imperialYellow" displayName="${lang.imperialYellow}">./_assets/variables/skins/imperialYellow.xml</include>
+		<include name="strawYellow" displayName="${lang.strawYellow}">./_assets/variables/skins/strawYellow.xml</include>
+		<include name="goldButtonYellow" displayName="${lang.goldButtonYellow}">./_assets/variables/skins/goldButtonYellow.xml</include>
+		<include name="goldYellow" displayName="${lang.goldYellow}">./_assets/variables/skins/goldYellow.xml</include>
+		<include name="orpimentYellow" displayName="${lang.orpimentYellow}">./_assets/variables/skins/orpimentYellow.xml</include>
+		<include name="cornYellow" displayName="${lang.cornYellow}">./_assets/variables/skins/cornYellow.xml</include>
+		<include name="amberYellow" displayName="${lang.amberYellow}">./_assets/variables/skins/amberYellow.xml</include>
+		<include name="nankinYellow" displayName="${lang.nankinYellow}">./_assets/variables/skins/nankinYellow.xml</include>
+		<include name="ivoryYellow" displayName="${lang.ivoryYellow}">./_assets/variables/skins/ivoryYellow.xml</include>
+
+		<include name="green" displayName="${lang.green}">./_assets/variables/skins/green.xml</include>
+		<include name="parrotGreen" displayName="${lang.parrotGreen}">./_assets/variables/skins/parrotGreen.xml</include>
+		<include name="chartreuseGreen" displayName="${lang.chartreuseGreen}">./_assets/variables/skins/chartreuseGreen.xml</include>
+		<include name="springGreen" displayName="${lang.springGreen}">./_assets/variables/skins/springGreen.xml</include>
+		<include name="limeGreen" displayName="${lang.limeGreen}">./_assets/variables/skins/limeGreen.xml</include>
+		<include name="yellowGreen" displayName="${lang.yellowGreen}">./_assets/variables/skins/yellowGreen.xml</include>
+		<include name="meadowGreen" displayName="${lang.meadowGreen}">./_assets/variables/skins/meadowGreen.xml</include>
+		<include name="emeraldGreen" displayName="${lang.emeraldGreen}">./_assets/variables/skins/emeraldGreen.xml</include>
+		<include name="appleGreen" displayName="${lang.appleGreen}">./_assets/variables/skins/appleGreen.xml</include>
+		<include name="mintGreen" displayName="${lang.mintGreen}">./_assets/variables/skins/mintGreen.xml</include>
+		<include name="almondGreen" displayName="${lang.almondGreen}">./_assets/variables/skins/almondGreen.xml</include>
+		<include name="prasinGreen" displayName="${lang.prasinGreen}">./_assets/variables/skins/prasinGreen.xml</include>
+		<include name="malachiteGreen" displayName="${lang.malachiteGreen}">./_assets/variables/skins/malachiteGreen.xml</include>
+		<include name="sageGreen" displayName="${lang.sageGreen}">./_assets/variables/skins/sageGreen.xml</include>
+		<include name="sinopleGreen" displayName="${lang.sinopleGreen}">./_assets/variables/skins/sinopleGreen.xml</include>
+		<include name="heinekenGreen" displayName="${lang.heinekenGreen}">./_assets/variables/skins/heinekenGreen.xml</include>
+		<include name="lichenGreen" displayName="${lang.lichenGreen}">./_assets/variables/skins/lichenGreen.xml</include>
+		<include name="chromiumGreen" displayName="${lang.chromiumGreen}">./_assets/variables/skins/chromiumGreen.xml</include>
+		<include name="greyGreen" displayName="${lang.greyGreen}">./_assets/variables/skins/greyGreen.xml</include>
+
+		<include name="orange" displayName="${lang.orange}">./_assets/variables/skins/orange.xml</include>
+		<include name="mandarinOrange" displayName="${lang.mandarinOrange}">./_assets/variables/skins/mandarinOrange.xml</include>
+		<include name="carrotOrange" displayName="${lang.carrotOrange}">./_assets/variables/skins/carrotOrange.xml</include>
+		<include name="apricotOrange" displayName="${lang.apricotOrange}">./_assets/variables/skins/apricotOrange.xml</include>
+		<include name="pumpkinOrange" displayName="${lang.pumpkinOrange}">./_assets/variables/skins/pumpkinOrange.xml</include>
+		<include name="corailOrange" displayName="${lang.corailOrange}">./_assets/variables/skins/corailOrange.xml</include>
+		<include name="burntOrange" displayName="${lang.burntOrange}">./_assets/variables/skins/burntOrange.xml</include>
+
+		<include name="pink" displayName="${lang.pink}">./_assets/variables/skins/pink.xml</include>
+		<include name="rubyPink" displayName="${lang.rubyPink}">./_assets/variables/skins/rubyPink.xml</include>
+		<include name="fuchsiaPink" displayName="${lang.fuchsiaPink}">./_assets/variables/skins/fuchsiaPink.xml</include>
+
+		<include name="purple" displayName="${lang.purple}">./_assets/variables/skins/purple.xml</include>
+		
+		<include name="eggShell" displayName="${lang.eggShell}">./_assets/variables/skins/eggShell.xml</include>
+		<include name="eggplant" displayName="${lang.eggplant}">./_assets/variables/skins/eggplant.xml</include>
+		<include name="indigo" displayName="${lang.indigo}">./_assets/variables/skins/indigo.xml</include>
+		<include name="lavender" displayName="${lang.lavender}">./_assets/variables/skins/lavender.xml</include>
+		<include name="orchid" displayName="${lang.orchid}">./_assets/variables/skins/orchid.xml</include>
+		<include name="cinnamon" displayName="${lang.cinnamon}">./_assets/variables/skins/cinnamon.xml</include>
+		<include name="milkCoffee" displayName="${lang.milkCoffee}">./_assets/variables/skins/milkCoffee.xml</include>
+		<include name="hazelnut" displayName="${lang.hazelnut}">./_assets/variables/skins/hazelnut.xml</include>
+		<include name="cyan" displayName="${lang.cyan}">./_assets/variables/skins/cyan.xml</include>
+		<include name="turquoise" displayName="${lang.turquoise}">./_assets/variables/skins/turquoise.xml</include>
+		<include name="magenta" displayName="${lang.magenta}">./_assets/variables/skins/magenta.xml</include>
+		<include name="mole" displayName="${lang.mole}">./_assets/variables/skins/mole.xml</include>
+		<include name="bitumen" displayName="${lang.bitumen}">./_assets/variables/skins/bitumen.xml</include>
+		<include name="olive" displayName="${lang.olive}">./_assets/variables/skins/olive.xml</include>
+		<include name="kaki" displayName="${lang.kaki}">./_assets/variables/skins/kaki.xml</include>
+		<include name="cahou" displayName="${lang.cahou}">./_assets/variables/skins/cahou.xml</include>
+		<include name="chocolate" displayName="${lang.chocolate}">./_assets/variables/skins/chocolate.xml</include>
+		<include name="mauve" displayName="${lang.mauve}">./_assets/variables/skins/mauve.xml</include>
+		<include name="heliotrope" displayName="${lang.heliotrope}">./_assets/variables/skins/heliotrope.xml</include>
+		<include name="parma" displayName="${lang.parma}">./_assets/variables/skins/parma.xml</include>
+		<include name="copper" displayName="${lang.copper}">./_assets/variables/skins/copper.xml</include>
+		<include name="linen" displayName="${lang.linen}">./_assets/variables/skins/linen.xml</include>
+		<include name="nymphThigh" displayName="${lang.nymphThigh}">./_assets/variables/skins/nymphThigh.xml</include>
+		<include name="sand" displayName="${lang.sand}">./_assets/variables/skins/sand.xml</include>
+
+		<include name="anthracite" displayName="${lang.anthracite}">./_assets/variables/skins/anthracite.xml</include>
+		<include name="webGrey" displayName="${lang.webGrey}">./_assets/variables/skins/webGrey.xml</include>
+		<include name="pearlGrey" displayName="${lang.pearlGrey}">./_assets/variables/skins/pearlGrey.xml</include>
+		<include name="silverGrey" displayName="${lang.silverGrey}">./_assets/variables/skins/silverGrey.xml</include>
+		<include name="steelGrey" displayName="${lang.steelGrey}">./_assets/variables/skins/steelGrey.xml</include>
+
+		<include name="black" displayName="${lang.black}">./_assets/variables/skins/black.xml</include>
 
 	</subset>
 
@@ -602,6 +752,16 @@ author: Lehcim Cram Trebor
 <!---------- Overwrite skin snap size ---------->
 
 	<include>./_assets/frames/${frame.skin}/settings.xml</include>
+
+
+<!---------- Subsets controllers ---------->
+
+	<subset name="controller" displayName="${lang.controller}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="preconfigured" displayName="${lang.preconfigured}"/>
+		<include name="no" displayName="${lang.no}">./_assets/variables/controller/no.xml</include>
+		<include name="force" displayName="${lang.force}">./_assets/variables/controller/yes.xml</include>
+	</subset>
 	
 <!---------- Screen effect Subsets ---------->
 
@@ -814,7 +974,10 @@ author: Lehcim Cram Trebor
 		<systemInfoDelay>0</systemInfoDelay>
 		<defaultTransition>instant</defaultTransition>
 		<zIndex>18</zIndex>
-        <scrollSound>./_assets/scroll.wav</scrollSound>
+        <scrollSound>./_assets/scroll/${x.scroll.sound}.wav</scrollSound>
+        <scrollSound>./${x.scroll.main.custom.sound}.wav</scrollSound>
+        <scrollSound>./${x.scroll.main.custom.sound}.mp3</scrollSound>
+        <scrollSound>./${x.scroll.main.custom.sound}.ogg</scrollSound>
 	</carousel>
 
 <!----------- Logos carousel ---------->
@@ -958,6 +1121,7 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
+		<path>./${x.egg}.png</path>
 		<pos>0.35 2</pos>
 		<maxSize>0.25 0.25</maxSize>
 		<origin>0.5 1</origin>
@@ -968,6 +1132,7 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
+		<path>./${x.egg}.png</path>
 		<pos>-1 0.35</pos>
 		<rotation>90</rotation>
 		<maxSize>0.25 0.25</maxSize>
@@ -979,6 +1144,7 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
+		<path>./${x.egg}.png</path>
 		<flipY>true</flipY>
 		<pos>0.65 -1</pos>
 		<maxSize>0.25 0.25</maxSize>
@@ -990,11 +1156,18 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
+		<path>./${x.egg}.png</path>
 		<pos>2 0.65</pos>
 		<rotation>-90</rotation>
 		<maxSize>0.25 0.25</maxSize>
 		<origin>0.5 0.5</origin>
 		<zIndex>1000</zIndex>
+	</image>
+
+	<image name="easter_egg_right, easter_egg_up, easter_egg_left, easter_egg" extra="true" ifSubset="egg:no">
+
+		<visible>false</visible>
+
 	</image>
 
 	<image name="label" extra="true">
@@ -1474,12 +1647,19 @@ author: Lehcim Cram Trebor
 		<visible>${x.background.visible}</visible>
 	</image>
 
+	<image name="background" extra="true" ifSubset="background:custom">
+
+		<path>./background.jpg</path>
+
+	</image>
+
 	<video name="loop" extra="true">
 		<path>./_assets/default_loops/${layout.loop.choice}.mp4</path>
 		<path>./${system.theme}/${layout.loop.choice}_loop/loop.mp4</path>
 		<path>./${system.theme}_alt/${layout.loop.choice}_loop/loop.mp4</path>
 		<path>./${system.theme}/${layout.loop.choice}/snap.mp4</path>
 		<path>./${system.theme}_alt/${layout.loop.choice}/snap.mp4</path>
+		<path>./${x.loop.unified}.mp4</path>
 		<effect>none</effect>		
 		<origin>0.5 0.5</origin>
 		<pos>0.5 0.5</pos>
@@ -1834,7 +2014,10 @@ author: Lehcim Cram Trebor
         <alignment>center</alignment>
 		<horizontalMargin>0.01</horizontalMargin>
         <forceUppercase>false</forceUppercase>
-        <scrollSound>./_assets/scroll.wav</scrollSound>
+        <scrollSound>./_assets/scroll/${x.scroll.game.sound}.wav</scrollSound>
+        <scrollSound>./${system.theme}/${x.scroll.custom.sound}.wav</scrollSound>
+        <scrollSound>./${system.theme}/${x.scroll.custom.sound}.mp3</scrollSound>
+        <scrollSound>./${system.theme}/${x.scroll.custom.sound}.ogg</scrollSound>
 		<zIndex>18</zIndex>
 		<lines>${x.gamelist.lines}</lines>
     </textlist>	  
@@ -1881,6 +2064,10 @@ author: Lehcim Cram Trebor
 		<padding>${x.gamegrid.padding}</padding>
 		<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
 		<animateSelection>false</animateSelection>
+        <scrollSound>./_assets/scroll/${x.scroll.game.sound}.wav</scrollSound>
+        <scrollSound>./${system.theme}/${x.scroll.custom.sound}.wav</scrollSound>
+        <scrollSound>./${system.theme}/${x.scroll.custom.sound}.mp3</scrollSound>
+        <scrollSound>./${system.theme}/${x.scroll.custom.sound}.ogg</scrollSound>
         <zIndex>18</zIndex>
     </imagegrid>
 
@@ -2082,6 +2269,7 @@ author: Lehcim Cram Trebor
 		<include name="custom" displayName="${lang.custom}">./_assets/_theme_complement/loops/custom.xml</include>
 		<include name="merge" displayName="${lang.merge}">./_assets/_theme_complement/loops/merge.xml</include>
 		<include name="no" displayName="${lang.no}"/>
+		<include name="customUnified" displayName="${lang.custom.loop.unified}">./_assets/variables/loops/custom_unified.xml</include>
 
 	</subset>
 

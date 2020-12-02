@@ -2,7 +2,10 @@
 <formatVersion>7</formatVersion>
 <variables>
 
-<x.controller.visible>false</x.controller.visible>
+<x.scroll.custom.sound>scroll</x.scroll.custom.sound>
 
 </variables>
+
+
+	
 </theme>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+<!---------- EN ---------->
+
+	<variables>
+
+
+		<lang.screenratio>screen format</lang.screenratio>
+		<lang.169>wide screen (16:9)</lang.169>
+		<lang.43>vga screen (4:3)</lang.43>
+		<lang.storyboards>animations</lang.storyboards>
+		<lang.classic>in frame grid</lang.classic>
+		<lang.arcade_boxes>arcade (boxes)</lang.arcade_boxes>
+		<lang.arcade_marquees>arcade (marquees)</lang.arcade_marquees>
+		<lang.screeneffect>static screen effect</lang.screeneffect>
+		<lang.grid_view>grid style (Only in grid view)</lang.grid_view>
+		<lang.screencrt>crt video twinkle effect</lang.screencrt>
+		<lang.focus>focus on elements (darkens the background)</lang.focus>
+		<lang.soft>soft</lang.soft>
+		<lang.strong>strong</lang.strong>
+		<lang.help>display help</lang.help>
+		<lang.labels>display descriptions</lang.labels>
+		<lang.skins>skins</lang.skins>
+		<lang.themed>themed (default)</lang.themed>
+		<lang.colored>custom colors (optional)</lang.colored>
+		<lang.loops>loop background</lang.loops>
+		<lang.preconfigured>pre-configured by theme</lang.preconfigured>
+		<lang.controller>display controller</lang.controller>
+		<lang.covers>display covers on right</lang.covers>
+		<lang.background>background</lang.background>
+		<lang.backgroundAnimation>scroll background animation</lang.backgroundAnimation>
+		<lang.merge>merge custom snap (individual parameter)</lang.merge>
+		<lang.custom>custom loop (individual parameter)</lang.custom>
+		<lang.phosphoreplus>phosphore+</lang.phosphoreplus>
+		<lang.boxesLeft>boxes left</lang.boxesLeft>
+		<lang.boxesRight>boxes right</lang.boxesRight>
+		<lang.boxesBoth>boxes both</lang.boxesBoth>
+		<lang.marqueesLeft>marquees left</lang.marqueesLeft>
+		<lang.marqueesRight>marquees right</lang.marqueesRight>
+		<lang.marqueesBoth>marquees both</lang.marqueesBoth>
+		<lang.boxesMarquees>boxes left, marquees right</lang.boxesMarquees>
+		<lang.marqueesBoxes>marquees left, boxes right</lang.marqueesBoxes>
+		<lang.noCovers>no covers</lang.noCovers>
+		<lang.forceRandom>force random video snaps</lang.forceRandom>
+		<lang.mainFont>main font</lang.mainFont>
+		<lang.adventure>adventure (default)</lang.adventure>
+		<lang.force>force</lang.force>
+		<lang.md_videoVisibility>display gamelist snaps</lang.md_videoVisibility>
+		<lang.backgroundDarkening>darken the bottom of background</lang.backgroundDarkening>
+		<lang.logoBacklight>display logo back light</lang.logoBacklight>
+		<lang.backMetadata>display metadata / arcade grid back frame</lang.backMetadata>
+		<lang.gamelistLogo>prefered header logo in gamelist</lang.gamelistLogo>
+		<lang.logo>system logo</lang.logo>
+		<lang.marquee>game marquees</lang.marquee>
+		<lang.scroll>system default scroll sound</lang.scroll>
+		<lang.scrollGame>games default scroll sound</lang.scrollGame>
+		<lang.custom.sound>custom (if available)</lang.custom.sound>
+		<lang.scrollCustom>use games custom scroll sounds</lang.scrollCustom>
+		<lang.scroll.main.custom>use custom (if available)</lang.scroll.main.custom>
+		<lang.egg>display easter eggs</lang.egg>
+		<lang.background.custom>custom unified background</lang.background.custom>
+		<lang.custom.egg>custom unified egg</lang.custom.egg>
+		<lang.custom.loop.unified>custom unified loop</lang.custom.loop.unified>
+		<lang.frame>no</lang.frame>
+
+		<label.manufacturer>manufacturer</label.manufacturer>
+		<label.releasedyear>relased year</label.releasedyear>
+		<label.type>type</label.type>
+
+
+	</variables>
+	
+
+</theme>

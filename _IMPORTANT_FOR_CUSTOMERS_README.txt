@@ -15,6 +15,31 @@ ADDING CUSTOM ARTWORKS:
 	REGIONS: For custom logos, illustrations and controllers you can use different regions, see Readme.txt in different folders.
 
 
+ADDING ONE CUSTOM BACKGROUND FOR ALL SYSTEMS:
+
+	You can add one custom background for all systems if you want to unify style like forever theme with your own.
+	
+	Just add a file named "background.jpg" at root of theme and select "custom" in background theme configuration menu from systemview.
+
+ADDING ONE EASTER EGG FOR ALL SYSTEMS:
+
+	You can add one custom easter egg for all systems, put "egg.png" file at root of theme ans select "custom" in
+
+	easter egg theme configuration menu.
+
+ADDING ONE CUSTOM LOOP FOR ALL SYSTEMS:
+
+	You can add one custom loop video file for all systems, put "loop.mp4" video file at root of theme and select custom in
+
+	loop background theme configuration menu.
+ 
+ADDING CUSTOM SCROLL SOUNDS:
+
+You can add at root of each system theme a sound file named "scroll.mp3", "scroll.wav" or "scroll.ogg".. this will customize gamelist and gamegrid
+scroll sound for each system.
+
+
+You can also add a sound file named "scroll.mp3", "scroll.wav" or "scroll.ogg" at root of theme to customize carousel scroll sound, juste select custom sound in es menu..
 
 ILLUSTRATIONS:
 

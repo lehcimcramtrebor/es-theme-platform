@@ -26,14 +26,14 @@
 		<lang.labels lang="fr">afficher les descriptions de console</lang.labels><!-- DISPLAY DESCRIPTIONS  -->
 		<lang.skins lang="fr">style de cadre</lang.skins><!-- FRAME STYLE  -->
 		<lang.themed lang="fr">thémé (par défaut)</lang.themed><!--  THEMED -->
-		<lang.colored lang="fr">couleurs personnalisées (optionnel)</lang.colored><!-- CUSTOM COLORS  -->
+		<lang.colored lang="fr">cadre coloré (si préconfiguré)</lang.colored><!-- CUSTOM COLORS  -->
 		<lang.loops lang="fr">fond d'écran animé</lang.loops><!--  LOOP BACKGROUNDS -->
 		<lang.preconfigured lang="fr">pré-configuré</lang.preconfigured><!--  PRE-CONFIGURED BY THEME -->
 		<lang.controller lang="fr">afficher le contrôleur</lang.controller><!--  DISPLAY CONTROLLER -->
 		<lang.covers lang="fr">afficher les aperçus</lang.covers><!-- DISPLAY COVERS  -->
 		<lang.background lang="fr">fond d'écran</lang.background><!-- BACKGROUND  -->
 		<lang.backgroundAnimation lang="fr">animer le fond d'écran</lang.backgroundAnimation><!--  SCROLL BACKGROUND ANIMATION -->
-		<lang.merge lang="fr">dupliquer le snap personnalisé en fond d'écran (paramètre individuel)</lang.merge><!--  MERGE CUSTOM SNAP (INDIVIDUAL PARAMETER)-->
+		<lang.merge lang="fr">dupliquer le snap custom en fond d'écran (paramètre individuel)</lang.merge><!--  MERGE CUSTOM SNAP (INDIVIDUAL PARAMETER)-->
 		<lang.custom lang="fr">choix du fond d'écran animé (paramètre individuel)</lang.custom><!-- CUSTOM LOOP (INDIVIDUAL PARAMETER) -->
 		<lang.no lang="fr">non</lang.no><!-- NO  -->
 		<lang.yes lang="fr">oui</lang.yes><!-- YES  -->
@@ -53,7 +53,7 @@
 		<lang.boxesMarquees lang="fr">boîtes à gauche, marquees à droite</lang.boxesMarquees><!-- LEFT SIDE BOXES, RIGHT SIDE MARQUEES  -->
 		<lang.marqueesBoxes lang="fr">marquees à gauche, boîtes à droite</lang.marqueesBoxes><!--  LEFT SIDE MARQUEES, RIGHT SIDE BOXES -->
 		<lang.noCovers lang="fr">aucun</lang.noCovers><!-- NOTHING  -->
-		<lang.forceRandom lang="fr">forcer les snaps videos aléatoires</lang.forceRandom><!--  FORCE RANDOM SNAP -->
+		<lang.forceRandom lang="fr">forcer les snaps vidéo aléatoires</lang.forceRandom><!--  FORCE RANDOM SNAP -->
 		<lang.mainFont lang="fr">police principale</lang.mainFont><!--  MAIN FONT -->
 		<lang.adventure lang="fr">adventure (par défaut)</lang.adventure><!--  ADVENTURE (DEFAULT) -->
 		<label.type lang="fr">type</label.type><!-- TYPE  -->
@@ -65,6 +65,16 @@
 		<lang.gamelistLogo lang="fr">logo d'entête des gamelists</lang.gamelistLogo><!-- GAMELIST HEADER LOGO -->
 		<lang.logo lang="fr">logo du système</lang.logo><!-- SYTEM LOGO -->
 		<lang.marquee lang="fr">logos des jeux</lang.marquee><!-- GAME MARQUEES -->
+		<lang.scroll lang="fr">son de défilement des systèmes</lang.scroll><!-- SYSTEM DEFAULT SCROLL SOUND -->
+		<lang.scrollGame lang="fr">son de défilement des jeux</lang.scrollGame><!-- GAMES DEFAULT SCROLL SOUND -->
+		<lang.custom.sound lang="fr">custom (si disponible)</lang.custom.sound><!-- CUSTOM (IF AVAILABLE) -->
+		<lang.scrollCustom>utiliser les sons custom pour les gamelists</lang.scrollCustom><!-- USE GAMES CUSTOM SCROLL SOUNDS -->
+		<lang.scroll.main.custom lang="fr">utiliser le son custom</lang.scroll.main.custom><!-- USE CUSTOM (IF AVAILABLE) -->
+		<lang.egg lang="fr">afficher les "easters eggs"</lang.egg><!-- DISPLAY EASTER EGGS -->
+		<lang.background.custom lang="fr">utiliser le custom pour tous les systèmes</lang.background.custom><!-- CUSTOM UNIFIED BACKGROUND -->
+		<lang.custom.egg lang="fr">utiliser le custom pour tous les systèmes</lang.custom.egg><!-- CUSTOM UNIFIED EGG -->
+		<lang.custom.loop.unified lang="fr">utiliser le custom pour tous les systèmes</lang.custom.loop.unified><!-- CUSTOM UNIFIED LOOP -->
+		<lang.frame lang="fr">cadre</lang.frame><!-- FRAME -->
 		
 		<label.manufacturer lang="fr">fabriquant</label.manufacturer><!--  MANUFACTURER -->
 		<label.releasedyear lang="fr">sortie</label.releasedyear><!--  RELEASED -->
