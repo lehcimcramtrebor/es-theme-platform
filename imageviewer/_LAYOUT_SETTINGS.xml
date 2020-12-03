@@ -30,12 +30,12 @@
 <!-- Snaps frame ratio: -->																																									
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.snap.ratio>4x3</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9","2x3" -->																									
+<layout.snap.ratio>16x9</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9","2x3" -->																									
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!--SKINS: (check at https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<frame.skin>colored</frame.skin>								<!-- SKIN:      Read the "SKINS.txt" file at root of theme to have list of available skins.  -->
+<frame.skin>shot169</frame.skin>								<!-- SKIN:      Read the "SKINS.txt" file at root of theme to have list of available skins.  -->
 
 <x.frame.color>00000000</x.frame.color>							<!-- COLOR:		Affect only "colored" skin, hexadecimal Color, "00000000" or empty for default. 6 characters for plain colors, 8 characters to transparency( with original color under layer) -->
 
@@ -119,7 +119,7 @@
 <!-- Animated covers (Left side): HIDE LEFT ILLUSTRATIONS IN SYSTEMVIEW BUT NOT IN GAMELIST -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_left.visible>boxes</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_left.visible>no</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 
 
@@ -127,7 +127,7 @@
 <!-- Animated covers (Right side): HIDE RIGHT  ILLUSTRATIONS -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_right.visible>boxes</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_right.visible>no</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 
 

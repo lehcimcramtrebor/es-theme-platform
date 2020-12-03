@@ -30,7 +30,7 @@
 <!-- Snaps frame ratio: -->																																									
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.snap.ratio>4x3</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9","2x3" -->																									
+<layout.snap.ratio>10x9</layout.snap.ratio>						<!-- RATIO:		"4x3", "16x9", "3x2", "10x9","2x3" -->																									
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!--SKINS: (check at https://htmlcolorcodes.com  if you want to pick colors. -->																																								
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -347,19 +347,19 @@
 
 <!-- ENTER HERE SYSTEM INFORMATIONS -->
 
-<x.label>Full_name_of_system</x.label> 							<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
+<x.label>Pygame</x.label> 							<!-- NAME OF SYSTEM, MAX 34 CHARACTERS -->
 
-<x.manufacturer>Name_of_manufacturer</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
+<x.manufacturer>Pygame team</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
 
-<x.type>x_BIT_Console_Computer</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
+<x.type>Python games</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
 
-<x.type lang="fr">Console_computer_x_BIT</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
+<x.type lang="fr">Jeux écrits en python</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
 
-<x.year region="us">xxxx</x.year>								<!-- RELEASED YEAR IN US REGION -->
+<x.year region="us">2000</x.year>								<!-- RELEASED YEAR IN US REGION -->
 
-<x.year region="eu">xxxx</x.year>								<!-- RELEASED YEAR IN EU REGION -->
+<x.year region="eu">2000</x.year>								<!-- RELEASED YEAR IN EU REGION -->
 
-<x.year region="jp">xxxx</x.year>								<!-- RELEASED YEAR IN JP REGION -->
+<x.year region="jp">2000</x.year>								<!-- RELEASED YEAR IN JP REGION -->
 
 <!-- RELEASED YEAR IN SPECIFIC COUNTRY --DESACTIVED>
 

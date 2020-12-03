@@ -145,6 +145,7 @@ author: Lehcim Cram Trebor
 		<layout.covers_right.visible>boxes</layout.covers_right.visible>
 		<layout.covers_left.visible>boxes</layout.covers_left.visible>
 		<x.md_lines.visible>true</x.md_lines.visible>
+		<x.md_thumbnail.visible>true</x.md_thumbnail.visible>
 
 		<!---------- Help variables ---------->
 		<x.helpicon.color>b3ff47</x.helpicon.color>
@@ -1723,6 +1724,7 @@ author: Lehcim Cram Trebor
 		<maxSize>${x.md_thumbnail.maxSize}</maxSize>
 		<pos>${x.md_thumbnail.pos}</pos>
 		<zIndex>100</zIndex>
+		<visible>${x.md_thumbnail.visible}</visible>
 	</image>
 
     <image name="logostatic, logostatic2" extra="true">
