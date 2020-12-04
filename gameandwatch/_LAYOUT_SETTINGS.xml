@@ -1,4 +1,4 @@
-<theme>
+<theme defaultView="grid"><!-- HERE YOU CAN CHOOSE YOUR DEFAULT VIEW BY SPECIFY: "basic", "detailed", "video" or "grid" -->
 <formatVersion>7</formatVersion>
 <variables> 
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->

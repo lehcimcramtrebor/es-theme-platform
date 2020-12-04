@@ -31,7 +31,7 @@
 <!-- SNAP FRAME CRT EFFECT --DESACTIVED>
 <general.crt_frame.visible>yes</general.crt_frame.visible>			<!-- "yes" by default, can be turned off by "no" -->
 
-<!-- GAMELISTS BACK METADATAS FRAME -->
+<!-- GAMELISTS BACK METADATAS FRAME --DESACTIVED>
 <general.backmetadata.visible>no</general.backmetadata.visible>	<!-- "yes" by default, can be turned off by "no" -->
 
 <!-- DETAILED VIEW SCREENSHOT BEHIND GAMELIST --DESACTIVED>
