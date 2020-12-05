@@ -34,7 +34,7 @@
 		<lang.background lang="fr">fond d'écran</lang.background><!-- BACKGROUND  -->
 		<lang.backgroundAnimation lang="fr">animer le fond d'écran</lang.backgroundAnimation><!--  SCROLL BACKGROUND ANIMATION -->
 		<lang.merge lang="fr">dupliquer le snap custom en fond d'écran (paramètre individuel)</lang.merge><!--  MERGE CUSTOM SNAP (INDIVIDUAL PARAMETER)-->
-		<lang.custom lang="fr">choix du fond d'écran animé (paramètre individuel)</lang.custom><!-- CUSTOM LOOP (INDIVIDUAL PARAMETER) -->
+		<lang.custom lang="fr">fond d'écran animé custom (paramètre individuel)</lang.custom><!-- CUSTOM LOOP (INDIVIDUAL PARAMETER) -->
 		<lang.no lang="fr">non</lang.no><!-- NO  -->
 		<lang.yes lang="fr">oui</lang.yes><!-- YES  -->
 		<lang.scanlines lang="fr">balayage</lang.scanlines><!--  SCANLINES -->
