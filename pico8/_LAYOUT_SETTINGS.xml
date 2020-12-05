@@ -353,9 +353,9 @@
 
 <x.manufacturer>Lexaloffle Games</x.manufacturer>			<!-- NAME OF MANUFACTURER, MAX 21 CHARACTERS -->
 
-<x.type>Fantasy video game console</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
+<x.type>Fantasy computer</x.type>							<!-- MACHINE TYPE IN ENGLISH, MAX 28 CHARACTERS -->
 
-<x.type lang="fr">Console de jeux vidéo fantaisie</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
+<x.type lang="fr">Ordinateur fantaisie</x.type>				<!-- MACHINE TYPE IN FRENCH, MAX 28 CHARACTERS, DELETE THIS LINE OR CHANGE COUNTRY IF YOU DON'T WANT TO PARAMETER FRENCH -->
 
 <x.year region="us">2015</x.year>								<!-- RELEASED YEAR IN US REGION -->
 
