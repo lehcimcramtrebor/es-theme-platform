@@ -1,0 +1,52 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<x.frame.color>ffffff</x.frame.color>
+<x.controller.visible>false</x.controller.visible>
+
+</variables>
+
+<variables ifSubset="screen ratio:169">
+
+
+
+<x.controller.pos>0.81 0.99</x.controller.pos>
+
+<x.arcade.md_thumbnail.pos>0.77 0.8</x.arcade.md_thumbnail.pos>
+
+<x.arcade.md_rating.pos>0.715 0.81</x.arcade.md_rating.pos>
+
+<x.logostatic.pos>0.5 0.08</x.logostatic.pos>
+<x.logostatic.maxSize>0.41 0.14</x.logostatic.maxSize>
+
+<x.marquee.pos>0.5 0.08</x.marquee.pos>
+<x.marquee.maxSize>0.4 0.14</x.marquee.maxSize>
+
+<x.arcade.md_thumbnail.pos>0.6 0.805</x.arcade.md_thumbnail.pos>
+<x.arcade.md_thumbnail.maxSize>0.04 0.115</x.arcade.md_thumbnail.maxSize>
+
+<x.arcade.md_rating.pos>0.5625 0.815</x.arcade.md_rating.pos>
+
+</variables>
+
+<variables ifSubset="screen ratio:43">
+
+
+
+<x.controller.pos>0.81 0.87</x.controller.pos>
+
+<x.logostatic.pos>0.5 0.13</x.logostatic.pos>
+<x.logostatic.maxSize>0.41 0.25</x.logostatic.maxSize>
+
+<x.marquee.pos>0.5 0.13</x.marquee.pos>
+<x.marquee.maxSize>0.4 0.2</x.marquee.maxSize>
+
+<x.arcade.md_thumbnail.pos>0.6 0.725</x.arcade.md_thumbnail.pos>
+<x.arcade.md_thumbnail.maxSize>0.3 0.085</x.arcade.md_thumbnail.maxSize>
+
+<x.arcade.md_rating.pos>0.551 0.73</x.arcade.md_rating.pos>
+
+</variables>
+
+</theme>
