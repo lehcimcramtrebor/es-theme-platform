@@ -66,10 +66,13 @@
 		<lang.custom.egg>custom unified egg</lang.custom.egg>
 		<lang.custom.loop.unified>custom unified loop</lang.custom.loop.unified>
 		<lang.frame>no</lang.frame>
+		<lang.inScreen>on screen</lang.inScreen>
+		<lang.inLabel>on labels</lang.inLabel>
+		<lang.inInfo>on headband</lang.inInfo>
 
-		<label.manufacturer>manufacturer</label.manufacturer>
-		<label.releasedyear>relased year</label.releasedyear>
-		<label.type>type</label.type>
+		<label.manufacturer>Manufacturer</label.manufacturer>
+		<label.releasedyear>Released year</label.releasedyear>
+		<label.type>Type</label.type>
 
 
 	</variables>

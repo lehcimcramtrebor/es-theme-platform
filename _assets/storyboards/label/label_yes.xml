@@ -21,6 +21,7 @@
         		<animation property="opacity" from="0" to="1" begin="2500" duration="300" mode="linear"/>
         		<animation property="opacity" from="1" to="1" begin="2800" duration="4000" mode="linear"/>
         		<animation property="color" to="00000000" begin="6800" duration="300" duration="forever" mode="linear"/>
+        		<animation property="glowColor" to="00000000" begin="6600" duration="300" duration="forever" mode="linear"/>
         		<animation property="x" to="-1" begin="7100" duration="1000" duration="forever" mode="linear"/>
 		</storyboard>
 			</text>

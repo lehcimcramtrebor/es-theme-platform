@@ -1,0 +1,52 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+	<image name="label" extra="true">
+	<visible>false</visible>
+	</image>
+
+	<image name="label_alt" extra="true">
+	<path>./../osd.png</path>
+	<pos>-2 0.77</pos>
+	<size>1 0.15</size>
+	<origin>0.5 0.5</origin>
+	<color>10101099</color>
+	<colorEnd>00000000</colorEnd>
+	<gradientType>horizontal</gradientType>
+	<zIndex>2000</zIndex>
+	<storyboard>
+		<animation property="x" from="-2" to="-2" begin="0" duration="350" mode="linear"/>
+        <animation property="x" from="-2" to="0.5" begin="350" duration="1800" mode="linear"/>
+        <animation property="colorEnd" from="00000000" to="10101099" begin="1400" duration="800" mode="linear"/>
+        <animation property="x" from="0.5" to="2" begin="7400" duration="600" mode="linear"/>
+        <animation property="color" from="10101099" to="00000000" begin="7100" duration="300" mode="linear"/>
+
+	</storyboard>
+	</image>
+
+	<image name="label_alt" extra="true" ifSubset="screen ratio:43">
+	<pos>0.5 0.7845</pos>
+	</image>
+	
+	<text name="label_text" extra="true">
+	<fontSize>0.018</fontSize>
+	<fontPath>./../adventure.otf</fontPath>
+	<color>ffffff</color>
+	<glowColor>000000</glowColor>
+	<glowSize>2</glowSize>
+	<glowOffset>1</glowOffset>		
+	<x>0.15</x>
+	<y>0.785</y>
+	<zIndex>2001</zIndex>
+	</text>
+	
+	<text name="label_text" extra="true" ifSubset="screen ratio:43">
+	<y>0.798</y>
+	</text>
+	
+	</view>
+
+	
+</theme>

@@ -4,6 +4,7 @@
 
 <x.grid.autoLayout>2 2</x.grid.autoLayout>
 
+<x.width.frame>0.22</x.width.frame>
 
 <x.snap.pos>0.39 0.3075</x.snap.pos>
 <x.snap.size>0.22 0.545</x.snap.size>

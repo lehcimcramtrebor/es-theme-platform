@@ -920,8 +920,8 @@ author: Lehcim Cram Trebor
 	</text>
 
 	<text name="systemInfo" ifSubset="screen ratio:169">
-		<glowColor>303030</glowColor>
-		<glowOffset>0</glowOffset>
+		<glowColor>000000</glowColor>
+		<glowOffset>1</glowOffset>
 		<reflexion>0 0</reflexion>
 	</text>
 	
@@ -2104,7 +2104,9 @@ author: Lehcim Cram Trebor
 
 	<subset name="labels" displayName="${lang.labels}">
 
-		<include name="yes" displayName="${lang.yes}"/>
+		<include name="inScreen" displayName="${lang.inScreen}">./_assets/_theme_complement/label_in_screen.xml</include>
+		<include name="inInfo" displayName="${lang.inInfo}">./_assets/_theme_complement/label_in_info.xml</include>
+		<include name="yes" displayName="${lang.inLabel}"/>
 		<include name="no" displayName="${lang.no}">./_assets/_theme_complement/label_no.xml</include>
 
 	</subset>

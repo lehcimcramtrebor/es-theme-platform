@@ -56,7 +56,6 @@
 		<lang.forceRandom lang="fr">forcer les snaps vidéo aléatoires</lang.forceRandom><!--  FORCE RANDOM SNAP -->
 		<lang.mainFont lang="fr">police principale</lang.mainFont><!--  MAIN FONT -->
 		<lang.adventure lang="fr">adventure (par défaut)</lang.adventure><!--  ADVENTURE (DEFAULT) -->
-		<label.type lang="fr">type</label.type><!-- TYPE  -->
 		<lang.force lang="fr">forcer</lang.force><!-- FORCE (OVERWRITE) -->
 		<lang.md_videoVisibility lang="fr">afficher les snaps dans les gamelists</lang.md_videoVisibility><!-- DISPLAY SNAPS IN GAMELIST -->
 		<lang.backgroundDarkening lang="fr">assombrir le bas du fond d'écran</lang.backgroundDarkening><!-- DARKEN THE BOTTOM OF BACKGROUND -->
@@ -75,9 +74,13 @@
 		<lang.custom.egg lang="fr">utiliser le custom pour tous les systèmes</lang.custom.egg><!-- CUSTOM UNIFIED EGG -->
 		<lang.custom.loop.unified lang="fr">utiliser le custom pour tous les systèmes</lang.custom.loop.unified><!-- CUSTOM UNIFIED LOOP -->
 		<lang.frame lang="fr">cadre</lang.frame><!-- FRAME -->
+		<lang.inScreen lang="fr">sur l'écran</lang.inScreen>
+		<lang.inLabel lang="fr">sur les bulles</lang.inLabel>
+		<lang.inInfo lang="fr">sur bandeau</lang.inInfo>
 		
-		<label.manufacturer lang="fr">fabriquant</label.manufacturer><!--  MANUFACTURER -->
-		<label.releasedyear lang="fr">sortie</label.releasedyear><!--  RELEASED -->
+		<label.manufacturer lang="fr">Fabriquant</label.manufacturer><!--  MANUFACTURER -->
+		<label.releasedyear lang="fr">Sortie</label.releasedyear><!--  RELEASED -->
+		<label.type lang="fr">Type</label.type><!-- TYPE  -->
 
 
 	</variables>
