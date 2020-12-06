@@ -39,6 +39,7 @@
 	</text>
 	
 	<text name="label_text" extra="true" ifSubset="screen ratio:43">
+	<fontSize>0.006</fontSize>
 	<y>0.568</y>
 	</text>
 	
