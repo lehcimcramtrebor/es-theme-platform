@@ -311,11 +311,24 @@ author: Lehcim Cram Trebor
 
 
 
+	<include name="Tile-Master-Grid">./_assets/backgrounds/tiles/master_grid.xml</include>
+	<include name="Tile-Genesis-Grid">./_assets/backgrounds/tiles/genesis_grid.xml</include>
+	<include name="Tile-Nes-Grid">./_assets/backgrounds/tiles/nes_grid.xml</include>
+
+
+
+
+	<include name="Tile-Fruit-Machine">./_assets/backgrounds/tiles/fruit_machine.xml</include>
+
+
+
+
 	<include name="Tile-Retrogame-01">./_assets/backgrounds/tiles/retrogame_01.xml</include>
 	<include name="Tile-Retrogame-02">./_assets/backgrounds/tiles/retrogame_02.xml</include>
 	<include name="Tile-Retrogame-03">./_assets/backgrounds/tiles/retrogame_03.xml</include>
 	<include name="Tile-Retrogame-04">./_assets/backgrounds/tiles/retrogame_04.xml</include>
 	<include name="Tile-Retrogame-05">./_assets/backgrounds/tiles/retrogame_05.xml</include>
+	<include name="Tile-Retrogame-06">./_assets/backgrounds/tiles/retrogame_06.xml</include>
 
 
 
