@@ -77,15 +77,15 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.left.x.advanced>no</layout.left.x.advanced>			
+	<layout.left.x.advanced>yes</layout.left.x.advanced>			
 
-			<x.left.x>0.5</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.left.x>0.085</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.left.y.advanced>no</layout.left.y.advanced>
+	<layout.left.y.advanced>yes</layout.left.y.advanced>
 
-			<x.left.y>0.5</x.left.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.left.y>0.24</x.left.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
@@ -120,15 +120,15 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.left2.x.advanced>no</layout.left2.x.advanced>			
+	<layout.left2.x.advanced>yes</layout.left2.x.advanced>			
 
-			<x.left2.x>0.5</x.left2.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.left2.x>0.2</x.left2.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.left2.y.advanced>no</layout.left2.y.advanced>
+	<layout.left2.y.advanced>yes</layout.left2.y.advanced>
 
-			<x.left2.y>0.5</x.left2.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.left2.y>0.85</x.left2.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
@@ -164,21 +164,21 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.right.x.advanced>no</layout.right.x.advanced>			
+	<layout.right.x.advanced>yes</layout.right.x.advanced>			
 
-			<x.right.x>0.5</x.right.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.right.x>0.83</x.right.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.right.y.advanced>no</layout.right.y.advanced>
+	<layout.right.y.advanced>yes</layout.right.y.advanced>
 
-			<x.right.y>0.5</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.right.y>0.8</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.right.size.overwrite>no</layout.right.size.overwrite>
+	<layout.right.size.overwrite>yes</layout.right.size.overwrite>
 	
-			<layout.right.size>7</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.right.size>4</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
 <!-------------------------VISIBLE------------------------------>
 
@@ -278,8 +278,8 @@
 <!------------------------------------------------------------------------LABEL VGA POSITIONNING------------------------------------------------------------------------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!----DESACTIVED>
-<x.label.x>0.115</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<!---->
+<x.label.x>0.25</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
 <!----DESACTIVED>
 <x.label.y>0.5</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
