@@ -1,0 +1,12 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<!-- Loop Audio -->
+<x.loop.audio>false</x.loop.audio>
+
+<!-- Snap Audio -->
+<x.backgroundvideo.audio>false</x.backgroundvideo.audio>
+
+</variables>
+</theme>

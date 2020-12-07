@@ -280,6 +280,17 @@ author: Lehcim Cram Trebor
 	<include>./${system.theme}_alt/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
 
 
+
+<!---------- Cut videos sound ---------->
+
+	<subset name="cutVideoSound" displayName="${lang.cutVideoSound}" appliesTo="system,basic,detailed,video,grid">
+
+		<include name="no" displayName="${lang.no}"/>
+		<include name="yes" displayName="${lang.yes}">./_assets/variables/cut_sound.xml</include>
+
+	</subset>
+	
+	
 <!---------- Subsets md_video visibility ---------->
 
 	<subset name="md_videoVisibility" displayName="${lang.md_videoVisibility}" appliesTo="system,basic,detailed,video,grid">
@@ -609,7 +620,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subsets eggs ---------->
 
-	<subset name="egg" displayName="${lang.egg}">
+	<subset name="egg" displayName="${lang.egg}" appliesTo="system,basic,detailed,video,grid">
 
 		<include name="yes" displayName="${lang.yes}"/>
 		<include name="no" displayName="${lang.no}"/>
@@ -808,6 +819,8 @@ author: Lehcim Cram Trebor
 	<sound name="bgsound">		
 		<path>./${system.theme}/music/music.mp3</path>
 		<path>./${system.theme}/music/music.ogg</path>
+		<path>./${system.theme}_alt/music/music.mp3</path>
+		<path>./${system.theme}_alt/music/music.ogg</path>
 	</sound>
 		
 	<image name="static_background" extra="true">
@@ -1016,6 +1029,7 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
+		<path>./${system.theme}_alt/custom_easter_egg/egg.png</path>
 		<path>./${x.egg}.png</path>
 		<pos>0.35 2</pos>
 		<maxSize>0.25 0.25</maxSize>
@@ -1027,6 +1041,7 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
+		<path>./${system.theme}_alt/custom_easter_egg/egg.png</path>
 		<path>./${x.egg}.png</path>
 		<pos>-1 0.35</pos>
 		<rotation>90</rotation>
@@ -1039,6 +1054,7 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
+		<path>./${system.theme}_alt/custom_easter_egg/egg.png</path>
 		<path>./${x.egg}.png</path>
 		<flipY>true</flipY>
 		<pos>0.65 -1</pos>
@@ -1051,6 +1067,7 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
+		<path>./${system.theme}_alt/custom_easter_egg/egg.png</path>
 		<path>./${x.egg}.png</path>
 		<pos>2 0.65</pos>
 		<rotation>-90</rotation>
@@ -1071,6 +1088,8 @@ author: Lehcim Cram Trebor
 		<path>./_assets/labels/label_${layout.label.style}_${layout.label.direction}.png</path>
 		<path>./${system.theme}/${layout.label.style}_label/label.png</path>
 		<path>./${system.theme}/${layout.label.style}_label/label_${layout.label.direction}.png</path>
+		<path>./${system.theme}_alt/${layout.label.style}_label/label.png</path>
+		<path>./${system.theme}_alt/${layout.label.style}_label/label_${layout.label.direction}.png</path>
 		<pos>-1 -1</pos>
 		<maxSize>99 0.5</maxSize>
 		<origin>0.5 0.5</origin>
@@ -1914,6 +1933,9 @@ author: Lehcim Cram Trebor
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.wav</scrollSound>
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.mp3</scrollSound>
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.ogg</scrollSound>
+        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.wav</scrollSound>
+        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.mp3</scrollSound>
+        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.ogg</scrollSound>
 		<zIndex>18</zIndex>
 		<lines>${x.gamelist.lines}</lines>
     </textlist>	  
@@ -1964,6 +1986,9 @@ author: Lehcim Cram Trebor
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.wav</scrollSound>
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.mp3</scrollSound>
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.ogg</scrollSound>
+        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.wav</scrollSound>
+        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.mp3</scrollSound>
+        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.ogg</scrollSound>
         <zIndex>18</zIndex>
     </imagegrid>
 
@@ -2144,6 +2169,7 @@ author: Lehcim Cram Trebor
 <!---------- ADVANCED USERS OVERWRITE SPECIFICS --------->
 
 	<include>./${system.theme}/specifics/_ADVANCED_CUSTOM.xml</include>
+	<include>./${system.theme}_alt/specifics/_ADVANCED_CUSTOM.xml</include>
 	<include>./test.xml</include>
 
 <!---------- SKIN LINES FIX ---------->

@@ -69,7 +69,8 @@
 		<lang.inScreen>on screen</lang.inScreen>
 		<lang.inLabel>on labels</lang.inLabel>
 		<lang.inInfo>on headband</lang.inInfo>
-
+		<lang.cutVideoSound>cut videos sound</lang.cutVideoSound>
+		
 		<label.manufacturer>Manufacturer</label.manufacturer>
 		<label.releasedyear>Released year</label.releasedyear>
 		<label.type>Type</label.type>

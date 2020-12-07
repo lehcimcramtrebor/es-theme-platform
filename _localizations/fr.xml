@@ -74,9 +74,10 @@
 		<lang.custom.egg lang="fr">utiliser le custom pour tous les systèmes</lang.custom.egg><!-- CUSTOM UNIFIED EGG -->
 		<lang.custom.loop.unified lang="fr">utiliser le custom pour tous les systèmes</lang.custom.loop.unified><!-- CUSTOM UNIFIED LOOP -->
 		<lang.frame lang="fr">cadre</lang.frame><!-- FRAME -->
-		<lang.inScreen lang="fr">sur l'écran</lang.inScreen>
-		<lang.inLabel lang="fr">sur les bulles</lang.inLabel>
-		<lang.inInfo lang="fr">sur bandeau</lang.inInfo>
+		<lang.inScreen lang="fr">sur l'écran</lang.inScreen><!-- ON SCREEN -->
+		<lang.inLabel lang="fr">sur les bulles</lang.inLabel><!-- IN LABELS -->
+		<lang.inInfo lang="fr">sur bandeau</lang.inInfo><!-- IN HEADBAND -->
+		<lang.cutVideoSound lang="fr">couper le son des vidéos</lang.cutVideoSound><!-- CUT VIDEOS SOUND -->
 		
 		<label.manufacturer lang="fr">Fabriquant</label.manufacturer><!--  MANUFACTURER -->
 		<label.releasedyear lang="fr">Sortie</label.releasedyear><!--  RELEASED -->
