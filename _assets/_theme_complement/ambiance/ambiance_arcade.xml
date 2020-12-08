@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+<variables>
+
+<x.scroll.sound>credit-street-fighter</x.scroll.sound>
+<x.scroll.game.sound>credit-golden-axe</x.scroll.game.sound>
+
+</variables>
+	<view name="system">
+
+    <video name="staticBackgroundVideo">
+	
+		<path>./../../ambiance/arcade_room.mp4</path>
+		<pos>2 2</pos>
+		<size>0 0</size>
+		<delay>0</delay>
+	
+	</video>
+	
+	</view>
+	
+	<view name="basic, detailed, video, grid">
+
+    <video name="coin" extra="true">
+	
+		<path>./../../ambiance/mk2_coin.mp4</path>
+		<pos>2 2</pos>
+		<size>0 0</size>
+		<delay>0</delay>
+		<loops>0</loops>
+	
+	</video>
+	
+    <video name="ambiance" extra="true">
+	
+		<path>./../../ambiance/arcade_room.mp4</path>
+		<pos>2 2</pos>
+		<size>0 0</size>
+		<delay>0</delay>
+	
+	</video>
+
+	</view>
+
+</theme>

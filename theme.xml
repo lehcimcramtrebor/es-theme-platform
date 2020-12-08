@@ -199,12 +199,14 @@ author: Lehcim Cram Trebor
 		<include name="oven">./_assets/variables/scroll/oven.xml</include>
 		<include name="toc">./_assets/variables/scroll/toc.xml</include>
 		<include name="water">./_assets/variables/scroll/water.xml</include>
+		<include name="rain-step">./_assets/variables/scroll/rain-step.xml</include>
 
 		<include name="credit-donkey-kong">./_assets/variables/scroll/credit-donkey-kong.xml</include>
 		<include name="credit-ace-attacker">./_assets/variables/scroll/credit-ace-attacker.xml</include>
 		<include name="credit-arabian">./_assets/variables/scroll/credit-arabian.xml</include>
 		<include name="credit-street-fighter">./_assets/variables/scroll/credit-street-fighter.xml</include>
 		<include name="credit-golden-axe">./_assets/variables/scroll/credit-golden-axe.xml</include>
+		<include name="credit-ecofighters">./_assets/variables/scroll/credit-ecofighters.xml</include>
 
 		<include name="lucasarts">./_assets/variables/scroll/lucasarts.xml</include>
 
@@ -212,6 +214,8 @@ author: Lehcim Cram Trebor
 		<include name="mario-coin">./_assets/variables/scroll/mario-coin.xml</include>
 		<include name="yoshi">./_assets/variables/scroll/yoshi.xml</include>
 		<include name="yoshi-gloups">./_assets/variables/scroll/yoshi-gloups.xml</include>
+		<include name="link-sword">./_assets/variables/scroll/link-sword.xml</include>
+		<include name="link-sword2">./_assets/variables/scroll/link-sword2.xml</include>
 
 	</subset>
 	
@@ -235,12 +239,14 @@ author: Lehcim Cram Trebor
 		<include name="oven">./_assets/variables/scroll/oven_game.xml</include>
 		<include name="toc">./_assets/variables/scroll/toc_game.xml</include>
 		<include name="water">./_assets/variables/scroll/water_game.xml</include>
+		<include name="rain-step">./_assets/variables/scroll/rain-step_game.xml</include>
 
 		<include name="credit-donkey-kong">./_assets/variables/scroll/credit-donkey-kong_game.xml</include>
 		<include name="credit-ace-attacker">./_assets/variables/scroll/credit-ace-attacker_game.xml</include>
 		<include name="credit-arabian">./_assets/variables/scroll/credit-arabian_game.xml</include>
 		<include name="credit-street-fighter">./_assets/variables/scroll/credit-street-fighter_game.xml</include>
 		<include name="credit-golden-axe">./_assets/variables/scroll/credit-golden-axe_game.xml</include>
+		<include name="credit-ecofighters">./_assets/variables/scroll/credit-ecofighters_game.xml</include>
 
 		<include name="lucasarts">./_assets/variables/scroll/lucasarts_game.xml</include>
 
@@ -248,6 +254,8 @@ author: Lehcim Cram Trebor
 		<include name="mario-coin">./_assets/variables/scroll/mario-coin_game.xml</include>
 		<include name="yoshi">./_assets/variables/scroll/yoshi_game.xml</include>
 		<include name="yoshi-gloups">./_assets/variables/scroll/yoshi-gloups_game.xml</include>
+		<include name="link-sword">./_assets/variables/scroll/link-sword_game.xml</include>
+		<include name="link-sword2">./_assets/variables/scroll/link-sword2_game.xml</include>
 
 	</subset>
 	
@@ -257,6 +265,20 @@ author: Lehcim Cram Trebor
 		<include name="no" displayName="${lang.no}"/>
 
 	</subset>
+
+<!---------- Ambiance subsets ---------->
+
+	<subset name="ambiance" displayName="${lang.ambiance}">
+
+		<include name="no" displayName="${lang.no}"/>
+		<include name="arcadeRoom" displayName="${lang.ambianceArcadeRoom}">./_assets/_theme_complement/ambiance/ambiance_arcade.xml</include>
+		<include name="underground" displayName="${lang.underground}">./_assets/_theme_complement/ambiance/ambiance_underground.xml</include>
+		<include name="journey" displayName="${lang.journey}">./_assets/_theme_complement/ambiance/ambiance_journey.xml</include>
+		<include name="cave" displayName="${lang.ambianceCave}">./_assets/_theme_complement/ambiance/ambiance_cave.xml</include>
+		<include name="rain" displayName="${lang.rain}">./_assets/_theme_complement/ambiance/ambiance_rain.xml</include>
+
+	</subset>
+	
 <!---------- Main Font Subsets ---------->
 
 	<subset name="mainFont" displayName="${lang.mainFont}">
@@ -2196,6 +2218,7 @@ author: Lehcim Cram Trebor
 		<include name="customUnified" displayName="${lang.custom.loop.unified}">./_assets/variables/loops/custom_unified.xml</include>
 
 	</subset>
+
 
 	
 </theme>
