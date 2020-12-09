@@ -2230,6 +2230,19 @@ author: Lehcim Cram Trebor
 
 	</subset>
 
+<!---------- Subsets screen frame ---------->
 
+	<subset name="screenFrame" displayName="${lang.screenFrame}">
+
+		<include name="no" displayName="${lang.no}"/>
+		<include name="frameOnly" displayName="${lang.frameOnly}">./_assets/_theme_complement/screenframe.xml</include>
+		<include name="screenGlassLight" displayName="${lang.screenGlassLight}">./_assets/_theme_complement/screenframe.xml</include>
+		<include name="screenGlassMedium" displayName="${lang.screenGlassMedium}">./_assets/_theme_complement/screenframe.xml</include>
+		<include name="screenGlassStrong" displayName="${lang.screenGlassStrong}">./_assets/_theme_complement/screenframe.xml</include>
+		<include name="glassLight" displayName="${lang.glassLight}">./_assets/_theme_complement/screenframe.xml</include>
+		<include name="glassMedium" displayName="${lang.glassMedium}">./_assets/_theme_complement/screenframe.xml</include>
+		<include name="glassStrong" displayName="${lang.glassStrong}">./_assets/_theme_complement/screenframe.xml</include>
+
+	</subset>
 	
 </theme>

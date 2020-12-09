@@ -87,6 +87,14 @@
 		<lang.abe lang="fr">odd world</lang.abe>
 		<lang.cave lang="fr">grotte</lang.cave><!--  CAVE -->
 		<lang.rain lang="fr">pluie</lang.rain><!-- RAIN  -->
+		<lang.screenFrame lang="fr">cadre d'écran</lang.screenFrame>
+		<lang.frameOnly lang="fr">cadre seulement</lang.frameOnly>
+		<lang.screenGlassLight lang="fr">cadre légèrement vitré</lang.screenGlassLight>
+		<lang.screenGlassMedium lang="fr">cadre moyennement vitré</lang.screenGlassMedium>
+		<lang.screenGlassStrong lang="fr">cadre fortement vitré</lang.screenGlassStrong>
+		<lang.glassLight lang="fr">vitre seulement (léger)</lang.glassLight>
+		<lang.glassMedium lang="fr">vitre seulement (moyen)</lang.glassMedium>
+		<lang.glassStrong lang="fr">vitre seulement (fort)</lang.glassStrong>
 		
 		<label.manufacturer lang="fr">Fabriquant</label.manufacturer><!--  MANUFACTURER -->
 		<label.releasedyear lang="fr">Sortie</label.releasedyear><!--  RELEASED -->

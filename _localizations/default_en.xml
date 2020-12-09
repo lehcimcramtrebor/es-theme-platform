@@ -79,6 +79,14 @@
 		<lang.abe>odd world</lang.abe>
 		<lang.cave>cave</lang.cave>
 		<lang.rain>rain</lang.rain>
+		<lang.screenFrame>screen frame</lang.screenFrame>
+		<lang.frameOnly>frame only</lang.frameOnly>
+		<lang.screenGlassLight>slightly glazed frame</lang.screenGlassLight>
+		<lang.screenGlassMedium>moderately glazed frame</lang.screenGlassMedium>
+		<lang.screenGlassStrong>heavily glazed frame</lang.screenGlassStrong>
+		<lang.glassLight>only glass (light)</lang.glassLight>
+		<lang.glassMedium>only glass (medium)</lang.glassMedium>
+		<lang.glassStrong>only glass (strong)</lang.glassStrong>
 		
 		<label.manufacturer>Manufacturer</label.manufacturer>
 		<label.releasedyear>Released year</label.releasedyear>

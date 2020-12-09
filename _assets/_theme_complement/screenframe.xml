@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+<!---------- Arcade view ---------->
+
+
+	<view name="screen">
+
+		<image name="screenFrame" extra="true">
+		
+			<path>./../screen.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>ffffff</color>
+			<zIndex>5000</zIndex>
+		
+		</image>
+
+		<image name="screenFrame" extra="true" ifSubset="screenFrame:screenGlassLight">
+		
+			<path>./../screen_glass_light.png</path>
+		
+		</image>
+
+		<image name="screenFrame" extra="true" ifSubset="screenFrame:screenGlassMedium">
+		
+			<path>./../screen_glass_medium.png</path>
+		
+		</image>
+
+		<image name="screenFrame" extra="true" ifSubset="screenFrame:screenGlassStrong">
+		
+			<path>./../screen_glass_strong.png</path>
+		
+		</image>
+
+		<image name="screenFrame" extra="true" ifSubset="screenFrame:glassLight">
+		
+			<path>./../glass_light.png</path>
+		
+		</image>
+
+		<image name="screenFrame" extra="true" ifSubset="screenFrame:glassMedium">
+		
+			<path>./../glass_medium.png</path>
+		
+		</image>
+
+		<image name="screenFrame" extra="true" ifSubset="screenFrame:glassStrong">
+		
+			<path>./../glass_strong.png</path>
+		
+		</image>
+		
+	</view>
+
+	<view name="menu, system, basic, detailed, video, grid">
+	
+	<helpsystem name="help">
+		<pos>0.015 0.978</pos>
+    </helpsystem>	
+	
+	<image name="backHelp" extra="true" ifSubset="help:yes|arcade|snes|snes alt|psx|xbox|xbox one">
+		<size>1 0.045</size>
+	</image>
+
+	<image name="backHelp" extra="true" ifSubset="help:yes|arcade|snes|snes alt|psx|xbox|xbox one, screen ratio:43">
+		<size>1 0.045</size>
+	</image>
+	
+	<image name="backHelpLine" extra="true" ifSubset="help:yes|arcade|snes|snes alt|psx|xbox|xbox one">
+		<pos>0 0.955</pos>
+	</image>	
+
+	<image name="backHelpLine" extra="true" ifSubset="help:yes|arcade|snes|snes alt|psx|xbox|xbox one, screen ratio:43">
+		<pos>0 0.955</pos>
+
+	</image>
+
+	</view>
+</theme>
