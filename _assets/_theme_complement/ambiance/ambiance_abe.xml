@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+<variables>
+
+<x.scroll.sound>abe_splat</x.scroll.sound>
+<x.scroll.game.sound>abe_fart</x.scroll.game.sound>
+
+</variables>
+	<view name="system">
+
+    <video name="staticBackgroundVideo">
+	
+		<path>./../../ambiance/oddworld.mp4</path>
+		<pos>2 2</pos>
+		<size>0 0</size>
+		<delay>0</delay>
+	
+	</video>
+	
+	</view>
+	
+	<view name="basic, detailed, video, grid">
+
+    <video name="coin" extra="true">
+	
+		<path>./../../ambiance/follow_me.mp4</path>
+		<pos>2 2</pos>
+		<size>0 0</size>
+		<delay>0</delay>
+		<loops>0</loops>
+	
+	</video>
+	
+    <video name="ambiance" extra="true">
+
+	
+		<path>./../../ambiance/oddworld.mp4</path>
+		<pos>2 2</pos>
+		<size>0 0</size>
+		<delay>0</delay>
+	
+	</video>
+
+	</view>
+
+</theme>

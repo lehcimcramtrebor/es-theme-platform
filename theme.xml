@@ -192,7 +192,8 @@ author: Lehcim Cram Trebor
 		<include name="reload">./_assets/variables/scroll/reload.xml</include>
 		<include name="9mm-falling">./_assets/variables/scroll/9mm-falling.xml</include>
 		<include name="mouth">./_assets/variables/scroll/mouth.xml</include>
-		<include name="pony-fart">./_assets/variables/scroll/pony-fart.xml</include>
+		<include name="abe-fart">./_assets/variables/scroll/abe-fart.xml</include>
+		<include name="abe-splat">./_assets/variables/scroll/abe-splat.xml</include>
 		<include name="poker">./_assets/variables/scroll/poker.xml</include>
 		<include name="type-machine">./_assets/variables/scroll/type-machine.xml</include>
 		<include name="keyboard">./_assets/variables/scroll/keyboard.xml</include>
@@ -202,6 +203,7 @@ author: Lehcim Cram Trebor
 		<include name="rain-step">./_assets/variables/scroll/rain-step.xml</include>
 		<include name="doom-pistol">./_assets/variables/scroll/doom-pistol.xml</include>
 		<include name="doom-punch">./_assets/variables/scroll/doom-punch.xml</include>
+		<include name="kid_chameleon">./_assets/variables/scroll/kid_chameleon.xml</include>
 		
 		<include name="credit-donkey-kong">./_assets/variables/scroll/credit-donkey-kong.xml</include>
 		<include name="credit-ace-attacker">./_assets/variables/scroll/credit-ace-attacker.xml</include>
@@ -234,7 +236,8 @@ author: Lehcim Cram Trebor
 		<include name="reload">./_assets/variables/scroll/reload_game.xml</include>
 		<include name="9mm-falling">./_assets/variables/scroll/9mm-falling_game.xml</include>
 		<include name="mouth">./_assets/variables/scroll/mouth_game.xml</include>
-		<include name="pony-fart">./_assets/variables/scroll/pony-fart_game.xml</include>
+		<include name="abe-fart">./_assets/variables/scroll/abe-fart_game.xml</include>
+		<include name="abe-splat">./_assets/variables/scroll/abe-splat_game.xml</include>
 		<include name="poker">./_assets/variables/scroll/poker_game.xml</include>
 		<include name="type-machine">./_assets/variables/scroll/type-machine_game.xml</include>
 		<include name="keyboard">./_assets/variables/scroll/keyboard_game.xml</include>
@@ -244,6 +247,7 @@ author: Lehcim Cram Trebor
 		<include name="rain-step">./_assets/variables/scroll/rain-step_game.xml</include>
 		<include name="doom-pistol">./_assets/variables/scroll/doom-pistol_game.xml</include>
 		<include name="doom-punch">./_assets/variables/scroll/doom-punch_game.xml</include>
+		<include name="kid_chameleon">./_assets/variables/scroll/kid_chameleon_game.xml</include>
 
 		<include name="credit-donkey-kong">./_assets/variables/scroll/credit-donkey-kong_game.xml</include>
 		<include name="credit-ace-attacker">./_assets/variables/scroll/credit-ace-attacker_game.xml</include>
@@ -279,6 +283,8 @@ author: Lehcim Cram Trebor
 		<include name="underground" displayName="${lang.underground}">./_assets/_theme_complement/ambiance/ambiance_underground.xml</include>
 		<include name="journey" displayName="${lang.journey}">./_assets/_theme_complement/ambiance/ambiance_journey.xml</include>
 		<include name="doom" displayName="${lang.doom}">./_assets/_theme_complement/ambiance/ambiance_doom.xml</include>
+		<include name="chameleon" displayName="${lang.chameleon}">./_assets/_theme_complement/ambiance/ambiance_chameleon.xml</include>
+		<include name="abe" displayName="${lang.abe}">./_assets/_theme_complement/ambiance/ambiance_abe.xml</include>
 		<include name="cave" displayName="${lang.cave}">./_assets/_theme_complement/ambiance/ambiance_cave.xml</include>
 		<include name="rain" displayName="${lang.rain}">./_assets/_theme_complement/ambiance/ambiance_rain.xml</include>
 

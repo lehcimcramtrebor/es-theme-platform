@@ -80,9 +80,11 @@
 		<lang.cutVideoSound lang="fr">couper le son des vidéos</lang.cutVideoSound><!-- CUT VIDEOS SOUND -->
 		<lang.ambiance lang="fr">ambiance sonore (écrase les scrolls)</lang.ambiance><!-- audio ambiance (overwrite scroll sounds) -->
 		<lang.arcadeRoom lang="fr">salle d'arcade</lang.arcadeRoom><!-- ARCADE ROOM  -->
-		<lang.underground lang="fr">grotte de mario</lang.underground><!--  MARIO UNDERGROUND -->
-		<lang.journey lang="fr">journée de link</lang.journey><!-- ZELDA JOURNEY  -->
+		<lang.underground lang="fr">mario</lang.underground><!--  MARIO UNDERGROUND -->
+		<lang.journey lang="fr">link</lang.journey><!-- ZELDA JOURNEY  -->
 		<lang.doom lang="fr">doom</lang.doom><!--  DOOM -->
+		<lang.chameleon lang="fr">kid chameleon</lang.chameleon>
+		<lang.abe lang="fr">odd world</lang.abe>
 		<lang.cave lang="fr">grotte</lang.cave><!--  CAVE -->
 		<lang.rain lang="fr">pluie</lang.rain><!-- RAIN  -->
 		
