@@ -70,6 +70,13 @@
 		<lang.inLabel>on labels</lang.inLabel>
 		<lang.inInfo>on headband</lang.inInfo>
 		<lang.cutVideoSound>cut videos sound</lang.cutVideoSound>
+		<lang.ambiance>audio ambiance (overwrite scroll sounds)</lang.ambiance>
+		<lang.arcadeRoom>arcade room</lang.arcadeRoom>
+		<lang.underground>mario underground</lang.underground>
+		<lang.journey>zelda journey</lang.journey>
+		<lang.doom>doom</lang.doom>
+		<lang.cave>cave</lang.cave>
+		<lang.rain>rain</lang.rain>
 		
 		<label.manufacturer>Manufacturer</label.manufacturer>
 		<label.releasedyear>Released year</label.releasedyear>

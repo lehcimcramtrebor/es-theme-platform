@@ -200,7 +200,9 @@ author: Lehcim Cram Trebor
 		<include name="toc">./_assets/variables/scroll/toc.xml</include>
 		<include name="water">./_assets/variables/scroll/water.xml</include>
 		<include name="rain-step">./_assets/variables/scroll/rain-step.xml</include>
-
+		<include name="doom-pistol">./_assets/variables/scroll/doom-pistol.xml</include>
+		<include name="doom-punch">./_assets/variables/scroll/doom-punch.xml</include>
+		
 		<include name="credit-donkey-kong">./_assets/variables/scroll/credit-donkey-kong.xml</include>
 		<include name="credit-ace-attacker">./_assets/variables/scroll/credit-ace-attacker.xml</include>
 		<include name="credit-arabian">./_assets/variables/scroll/credit-arabian.xml</include>
@@ -240,6 +242,8 @@ author: Lehcim Cram Trebor
 		<include name="toc">./_assets/variables/scroll/toc_game.xml</include>
 		<include name="water">./_assets/variables/scroll/water_game.xml</include>
 		<include name="rain-step">./_assets/variables/scroll/rain-step_game.xml</include>
+		<include name="doom-pistol">./_assets/variables/scroll/doom-pistol_game.xml</include>
+		<include name="doom-punch">./_assets/variables/scroll/doom-punch_game.xml</include>
 
 		<include name="credit-donkey-kong">./_assets/variables/scroll/credit-donkey-kong_game.xml</include>
 		<include name="credit-ace-attacker">./_assets/variables/scroll/credit-ace-attacker_game.xml</include>
@@ -271,10 +275,11 @@ author: Lehcim Cram Trebor
 	<subset name="ambiance" displayName="${lang.ambiance}">
 
 		<include name="no" displayName="${lang.no}"/>
-		<include name="arcadeRoom" displayName="${lang.ambianceArcadeRoom}">./_assets/_theme_complement/ambiance/ambiance_arcade.xml</include>
+		<include name="arcadeRoom" displayName="${lang.arcadeRoom}">./_assets/_theme_complement/ambiance/ambiance_arcade.xml</include>
 		<include name="underground" displayName="${lang.underground}">./_assets/_theme_complement/ambiance/ambiance_underground.xml</include>
 		<include name="journey" displayName="${lang.journey}">./_assets/_theme_complement/ambiance/ambiance_journey.xml</include>
-		<include name="cave" displayName="${lang.ambianceCave}">./_assets/_theme_complement/ambiance/ambiance_cave.xml</include>
+		<include name="doom" displayName="${lang.doom}">./_assets/_theme_complement/ambiance/ambiance_doom.xml</include>
+		<include name="cave" displayName="${lang.cave}">./_assets/_theme_complement/ambiance/ambiance_cave.xml</include>
 		<include name="rain" displayName="${lang.rain}">./_assets/_theme_complement/ambiance/ambiance_rain.xml</include>
 
 	</subset>
