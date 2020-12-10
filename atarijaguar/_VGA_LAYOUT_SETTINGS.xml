@@ -45,8 +45,8 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 
-<!-- Gamegrid Padding: --DESACTIVED>
-<layout.gamegrid.padding>right+</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
+<!-- Gamegrid Padding: -->
+<layout.gamegrid.padding>right-</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
 
 
 
@@ -278,8 +278,8 @@
 <!------------------------------------------------------------------------LABEL VGA POSITIONNING------------------------------------------------------------------------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!----DESACTIVED>
-<x.label.x>0.115</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<!---->
+<x.label.x>0.33</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
 <!----DESACTIVED>
 <x.label.y>0.5</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
