@@ -150,12 +150,12 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <!--RIGHT illustration SHIFTING: --DESACTIVED>																																									
-<layout.right.shift>55</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.right.shift>65</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
-<!--RIGHT illustration LAYOUT: --DESACTIVED>																																									
-<layout.right.sizepos>square</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<!--RIGHT illustration LAYOUT: -->																																									
+<layout.right.sizepos>max</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
-<!--RIGHT illustration INDEX: --DESACTIVED>																																									
+<!--RIGHT illustration INDEX: -->																																									
 <layout.right.zIndex>behind</layout.right.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
 
 
@@ -278,8 +278,8 @@
 <!------------------------------------------------------------------------LABEL VGA POSITIONNING------------------------------------------------------------------------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!----DESACTIVED>
-<x.label.x>0.115</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<!---->
+<x.label.x>0.4</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
 <!----DESACTIVED>
 <x.label.y>0.5</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
