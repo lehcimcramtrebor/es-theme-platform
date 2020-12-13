@@ -62,8 +62,8 @@
 <!-----------------------LEFT----------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--LEFT illustration SHIFTING: --DESACTIVED>																																									
-<layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<!--LEFT illustration SHIFTING: -->																																									
+<layout.left.shift>45</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--LEFT illustration LAYOUT: --DESACTIVED>																																									
 <layout.left.sizepos>square</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
@@ -126,9 +126,9 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.left2.y.advanced>no</layout.left2.y.advanced>
+	<layout.left2.y.advanced>yes</layout.left2.y.advanced>
 
-			<x.left2.y>0.5</x.left2.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.left2.y>0.93</x.left2.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
