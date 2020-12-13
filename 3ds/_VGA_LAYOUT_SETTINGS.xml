@@ -193,8 +193,8 @@
 <!-----------------------RIGHT 2-------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--RIGHT2 illustration SHIFTING: --DESACTIVED>																																									
-<layout.right2.shift>55</layout.right2.shift>					<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<!--RIGHT2 illustration SHIFTING: -->																																									
+<layout.right2.shift>77</layout.right2.shift>					<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--RIGHT2 illustration LAYOUT: --DESACTIVED>																																									
 <layout.right2.sizepos>square</layout.right2.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
@@ -208,9 +208,9 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.right2.x.advanced>no</layout.right2.x.advanced>			
+	<layout.right2.x.advanced>yes</layout.right2.x.advanced>			
 
-			<x.right2.x>0.5</x.right2.x>						<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.right2.x>0.15</x.right2.x>						<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	

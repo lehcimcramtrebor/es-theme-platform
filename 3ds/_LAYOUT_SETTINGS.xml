@@ -260,11 +260,11 @@
 																																									
 <layout.right2.zIndex>front</layout.right2.zIndex>				<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.right2.sizepos>portrait</layout.right2.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
-<layout.right2.shift>55</layout.right2.shift>					<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.right2.shift>75</layout.right2.shift>					<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.right2.color>default</layout.right2.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.right2.flip>no</layout.right2.flip>						<!-- FLIP:		"yes" or "no", flip image horizontally. -->
-<animation.right2.property>elevator</animation.right2.property>	<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "cd", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
-<animation.right2.origin>down</animation.right2.origin>			<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
+<animation.right2.property>ghost</animation.right2.property>	<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "cd", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
+<animation.right2.origin>side</animation.right2.origin>			<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
 
 
 <!-------------------------------------------------------------->																																														
@@ -273,9 +273,9 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.right2.x.advanced>no</layout.right2.x.advanced>			
+	<layout.right2.x.advanced>yes</layout.right2.x.advanced>			
 
-			<x.right2.x>0.5</x.right2.x>						<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.right2.x>0.15</x.right2.x>						<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
@@ -285,9 +285,9 @@
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.right2.size.overwrite>no</layout.right2.size.overwrite>
+	<layout.right2.size.overwrite>yes</layout.right2.size.overwrite>
 	
-			<layout.right2.size>1</layout.right2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh). -->
+			<layout.right2.size>8</layout.right2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh). -->
 
 
 
