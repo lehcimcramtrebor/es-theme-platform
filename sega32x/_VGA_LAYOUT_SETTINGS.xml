@@ -45,8 +45,8 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 
-<!-- Gamegrid Padding: --DESACTIVED>
-<layout.gamegrid.padding>right+</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
+<!-- Gamegrid Padding: -->
+<layout.gamegrid.padding>right-</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
 
 
 
@@ -77,19 +77,19 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.left.x.advanced>no</layout.left.x.advanced>			
+	<layout.left.x.advanced>yes</layout.left.x.advanced>			
 
-			<x.left.x>0.5</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.left.x>0.15</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.left.y.advanced>no</layout.left.y.advanced>
+	<layout.left.y.advanced>yes</layout.left.y.advanced>
 
-			<x.left.y>0.5</x.left.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.left.y>0.6</x.left.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.left.size.overwrite>no</layout.left.size.overwrite>
+	<layout.left.size.overwrite>yes</layout.left.size.overwrite>
 	
 			<layout.left.size>7</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
