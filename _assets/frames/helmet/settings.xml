@@ -8,6 +8,7 @@
 <skin.covers.fix>16x9</skin.covers.fix>
 <x.md_marquee.zindex>22</x.md_marquee.zindex>
 <x.logostatic.zindex>25</x.logostatic.zindex>
+<x.logo_light.visible>false</x.logo_light.visible>
 </variables>
 
 <variables ifSubset="screen ratio:169">
