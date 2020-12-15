@@ -102,7 +102,7 @@
 <!-- Gamegrid Padding: -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.gamegrid.padding>default</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
+<layout.gamegrid.padding>right-</layout.gamegrid.padding>		<!-- PADDING:	"default", "center-", "center" or "center+", "right-", "right" or "right+",  screen's gamegrid shifting to use when big illustrations mask screen in classic grid view. -->
 
 
 
@@ -121,7 +121,7 @@
 <!-- Animated covers (Left side): HIDE LEFT ILLUSTRATIONS IN SYSTEMVIEW BUT NOT IN GAMELIST -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_left.visible>boxes</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_left.visible>no</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 
 
@@ -129,7 +129,7 @@
 <!-- Animated covers (Right side): HIDE RIGHT  ILLUSTRATIONS -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_right.visible>boxes</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_right.visible>no</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 
 
@@ -150,7 +150,7 @@
 																																									
 <layout.left.zIndex>front</layout.left.zIndex> 					<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.left.sizepos>portrait</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
-<layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.left.shift>65</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left.color>default</layout.left.color>					<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.left.flip>no</layout.left.flip>							<!-- FLIP:		"yes" or "no", flip image horizontally. -->																																														
 <animation.left.property>ghost</animation.left.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "cd", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
