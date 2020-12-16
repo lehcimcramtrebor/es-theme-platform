@@ -340,7 +340,7 @@
 
 <display.label>yes</display.label>								<!-- DISPLAY: "no" by default, can be turned off by "yes" -->
 
-<layout.label.style>rounded</layout.label.style>				<!-- STYLE: "rounded", "comic", "cloud", "circle", "xplose", "electric", "nintendo" . -->
+<layout.label.style>rounded</layout.label.style>				<!-- STYLE: "square" (no direction), "rounded", "comic", "cloud", "circle", "xplose", "electric", "nintendo" . -->
 
 <layout.label.direction>left</layout.label.direction>				<!-- DIRECTION: Where the lyrics come from. -->
 

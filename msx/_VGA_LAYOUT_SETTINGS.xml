@@ -83,9 +83,9 @@
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.left.y.advanced>no</layout.left.y.advanced>
+	<layout.left.y.advanced>yes</layout.left.y.advanced>
 
-			<x.left.y>0.5</x.left.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.left.y>0.2</x.left.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
@@ -105,11 +105,11 @@
 <!-----------------------LEFT 2--------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--LEFT2 illustration SHIFTING: --DESACTIVED>																																									
-<layout.left2.shift>55</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<!--LEFT2 illustration SHIFTING: -->																																									
+<layout.left2.shift>58</layout.left2.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
-<!--LEFT2 illustration LAYOUT: --DESACTIVED>																																									
-<layout.left2.sizepos>square</layout.left2.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<!--LEFT2 illustration LAYOUT: -->																																									
+<layout.left2.sizepos>portrait</layout.left2.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 
 <!--LEFT2 illustration INDEX: --DESACTIVED>																																									
 <layout.left2.zIndex>behind</layout.left2.zIndex> 						<!-- INDEX:		"behind", "front", see below. -->																				
@@ -132,9 +132,9 @@
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.left2.size.overwrite>no</layout.left2.size.overwrite>
+	<layout.left2.size.overwrite>yes</layout.left2.size.overwrite>
 	
-			<layout.left2.size>7</layout.left2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.left2.size>6</layout.left2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
 <!-------------------------VISIBLE------------------------------>
 
@@ -278,8 +278,8 @@
 <!------------------------------------------------------------------------LABEL VGA POSITIONNING------------------------------------------------------------------------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!----DESACTIVED>
-<x.label.x>0.115</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<!---->
+<x.label.x>0.8</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
 <!----DESACTIVED>
 <x.label.y>0.5</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
