@@ -62,7 +62,7 @@
 <!-----------------------LEFT----------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--LEFT illustration SHIFTING: --DESACTIVED>																																									
+<!--LEFT illustration SHIFTING: -->																																									
 <layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--LEFT illustration LAYOUT: --DESACTIVED>																																									
@@ -149,8 +149,8 @@
 <!-----------------------RIGHT---------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--RIGHT illustration SHIFTING: --DESACTIVED>																																									
-<layout.right.shift>55</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<!--RIGHT illustration SHIFTING: -->																																									
+<layout.right.shift>56</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--RIGHT illustration LAYOUT: --DESACTIVED>																																									
 <layout.right.sizepos>square</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
@@ -176,9 +176,9 @@
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.right.size.overwrite>no</layout.right.size.overwrite>
+	<layout.right.size.overwrite>yes</layout.right.size.overwrite>
 	
-			<layout.right.size>7</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.right.size>8</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
 <!-------------------------VISIBLE------------------------------>
 
