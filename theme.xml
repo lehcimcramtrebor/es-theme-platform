@@ -13,7 +13,7 @@ author: Lehcim Cram Trebor
 
 	<include>./_localizations/default_en.xml</include>	
 	<include>./_localizations/${lang}.xml</include>
-    <include region="eu"></include>
+    <include region="eu"/>
 	
 <!---------- Screen Variables Subsets ---------->
 
