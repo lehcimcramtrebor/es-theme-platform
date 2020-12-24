@@ -225,7 +225,7 @@ author: Lehcim Cram Trebor
 
 	</subset>
 	
-	<subset name="scrollGame" displayName="${lang.scrollGame}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="scrollGame" displayName="${lang.scrollGame}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="scroll">./_assets/variables/scroll/scroll_game.xml</include>
 		<include name="kouak">./_assets/variables/scroll/kouak_game.xml</include>
@@ -269,7 +269,7 @@ author: Lehcim Cram Trebor
 
 	</subset>
 	
-	<subset name="scrollCustom" displayName="${lang.scrollCustom}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="scrollCustom" displayName="${lang.scrollCustom}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="yes" displayName="${lang.yes}">./_assets/variables/scroll/custom_game.xml</include>
 		<include name="no" displayName="${lang.no}"/>
@@ -318,7 +318,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Cut videos sound ---------->
 
-	<subset name="cutVideoSound" displayName="${lang.cutVideoSound}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="cutVideoSound" displayName="${lang.cutVideoSound}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="no" displayName="${lang.no}"/>
 		<include name="yes" displayName="${lang.yes}">./_assets/variables/cut_sound.xml</include>
@@ -328,7 +328,7 @@ author: Lehcim Cram Trebor
 	
 <!---------- Subsets md_video visibility ---------->
 
-	<subset name="md_videoVisibility" displayName="${lang.md_videoVisibility}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="md_videoVisibility" displayName="${lang.md_videoVisibility}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="no" displayName="${lang.no}">./_assets/variables/md_video/no.xml</include>
@@ -338,7 +338,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subset backgrounds ---------->
 
-	<subset name="background" displayName="${lang.background}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="background" displayName="${lang.background}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 	<include name="preconfigured" displayName="${lang.preconfigured}"/>
 	<include name="custom" displayName="${lang.background.custom}"/>
@@ -474,7 +474,7 @@ author: Lehcim Cram Trebor
 	
 <!---------- Subsets loops ---------->
 
-	<subset name="loops" displayName="${lang.loops}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="loops" displayName="${lang.loops}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="1" displayName="${lang.1}">./_assets/variables/loops/1.xml</include>
@@ -496,7 +496,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subsets Animated covers ---------->
 
-	<subset name="covers" displayName="${lang.covers}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="covers" displayName="${lang.covers}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="boxesLeft" displayName="${lang.boxesLeft}">./_assets/variables/covers/boxesLeft.xml</include>
@@ -609,7 +609,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subsets background animation ---------->
 
-	<subset name="backgroundAnimation" displayName="${lang.backgroundAnimation}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="backgroundAnimation" displayName="${lang.backgroundAnimation}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="no" displayName="${lang.no}">./_assets/variables/background/subset_animation_no.xml</include>
@@ -618,7 +618,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subsets background bottom darkening ---------->
 
-	<subset name="backgroundDarkening" displayName="${lang.backgroundDarkening}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="backgroundDarkening" displayName="${lang.backgroundDarkening}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="no" displayName="${lang.no}">./_assets/variables/background/subset_darkening_no.xml</include>
@@ -627,7 +627,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subsets logo backlight ---------->
 
-	<subset name="logoBacklight" displayName="${lang.logoBacklight}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="logoBacklight" displayName="${lang.logoBacklight}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="no" displayName="${lang.no}">./_assets/variables/background/subset_backlight_no.xml</include>
@@ -636,7 +636,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subsets back metadata frame ---------->
 
-	<subset name="backMetadata" displayName="${lang.backMetadata}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="backMetadata" displayName="${lang.backMetadata}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="no" displayName="${lang.no}">./_assets/variables/backmetadata/no.xml</include>
@@ -645,7 +645,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subsets Gamelist logo/marquee ---------->
 
-	<subset name="gamelistLogo" displayName="${lang.gamelistLogo}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="gamelistLogo" displayName="${lang.gamelistLogo}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="logo" displayName="${lang.logo}">./_assets/variables/gamelistlogo/logo.xml</include>
@@ -655,7 +655,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subsets eggs ---------->
 
-	<subset name="egg" displayName="${lang.egg}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="egg" displayName="${lang.egg}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="yes" displayName="${lang.yes}"/>
 		<include name="no" displayName="${lang.no}"/>
@@ -664,7 +664,7 @@ author: Lehcim Cram Trebor
 	
 <!---------- Subsets skins ---------->
 
-	<subset name="skins" displayName="${lang.skins}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="skins" displayName="${lang.skins}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="themed" displayName="${lang.themed}"/>
 		<include name="frame" displayName="${lang.frame}">./_assets/variables/skins/_no.xml</include>
@@ -697,7 +697,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subsets controllers ---------->
 
-	<subset name="controller" displayName="${lang.controller}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="controller" displayName="${lang.controller}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="no" displayName="${lang.no}">./_assets/variables/controller/no.xml</include>
@@ -740,7 +740,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Force Random Subsets ---------->
 
-	<subset name="forceRandom" displayName="${lang.forceRandom}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="forceRandom" displayName="${lang.forceRandom}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="no" displayName="${lang.no}"/>
 		<include name="yes" displayName="${lang.yes}"/>
@@ -2262,7 +2262,7 @@ author: Lehcim Cram Trebor
 
 <!---------- Subsets loops fix path ---------->
 
-	<subset name="loops" displayName="${lang.loops}" appliesTo="system,basic,detailed,video,grid, gamecarousel">
+	<subset name="loops" displayName="${lang.loops}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
 		<include name="preconfigured" displayName="${lang.preconfigured}"/>
 		<include name="1" displayName="${lang.1}">./_assets/_theme_complement/loops/loop.xml</include>
