@@ -1,6 +1,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 <variables>
+<x.gamecarousel.size>0.26 1</x.gamecarousel.size>
 
 <layout.snap.overlay>no</layout.snap.overlay>																				
 <layout.extend.overlay>no</layout.extend.overlay>

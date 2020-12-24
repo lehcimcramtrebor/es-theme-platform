@@ -1,6 +1,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 <variables>
+<x.gamecarousel.size>0.28 1</x.gamecarousel.size>
 
 
 <x.frame.color>ffffff</x.frame.color>
