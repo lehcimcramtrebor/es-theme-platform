@@ -53,7 +53,7 @@
 		<lang.backgroundDarkening>darken the bottom of background</lang.backgroundDarkening>
 		<lang.logoBacklight>display logo back light</lang.logoBacklight>
 		<lang.backMetadata>display metadata / arcade grid back frame</lang.backMetadata>
-		<lang.gamelistLogo>prefered header logo in gamelist</lang.gamelistLogo>
+		<lang.gamelistLogo>gamelist header logo(except marquees wheels)</lang.gamelistLogo>
 		<lang.logo>system logo</lang.logo>
 		<lang.marquee>game marquees</lang.marquee>
 		<lang.scroll>system default scroll sound</lang.scroll>

@@ -1,7 +1,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-<view name="basic, detailed, video, grid">
+<view name="basic, detailed, video, grid, gamecarousel">
 <image name="bezel" extra="true">
 <path>./../../default_overlay.png</path>
 <path>./../../../${system.theme}/custom_overlay/overlay.png</path>
@@ -12,7 +12,7 @@
 </image>
 </view>
 
-<view name="video, grid">
+<view name="video, grid, gamecarousel">
 <video name="md_video" extra="true">
 <size>${x.snap.horizontal} ${x.snap.vertical}</size>	
 </video>

@@ -37,7 +37,7 @@
 
 	</view>
 
-	<view name="basic, detailed, video, grid">
+	<view name="basic, detailed, video, grid, gamecarousel">
 
 	<image name="backleftillustration" extra="true">
 

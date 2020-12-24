@@ -1,7 +1,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-	<view name="basic, detailed, video, grid">
+	<view name="basic, detailed, video, grid, gamecarousel">
 
 	<image name="leftillustration_ghost2" extra="true">
 		<visible>true</visible>

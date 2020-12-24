@@ -61,7 +61,7 @@
 		<lang.backgroundDarkening lang="fr">assombrir le bas du fond d'écran</lang.backgroundDarkening><!-- DARKEN THE BOTTOM OF BACKGROUND -->
 		<lang.logoBacklight lang="fr">éclairer derrière le logo</lang.logoBacklight><!-- LOGO BACKLIGHT -->
 		<lang.backMetadata lang="fr">afficher l'arrière-plan des métadatas et grille arcade</lang.backMetadata><!-- DISPLAY METADATA / ARCADE GRID BACK FRAME -->
-		<lang.gamelistLogo lang="fr">logo d'entête des gamelists</lang.gamelistLogo><!-- GAMELIST HEADER LOGO -->
+		<lang.gamelistLogo lang="fr">entête des gamelists (sauf listes marquees)</lang.gamelistLogo><!-- GAMELIST HEADER LOGO -->
 		<lang.logo lang="fr">logo du système</lang.logo><!-- SYTEM LOGO -->
 		<lang.marquee lang="fr">logos des jeux</lang.marquee><!-- GAME MARQUEES -->
 		<lang.scroll lang="fr">son de défilement des systèmes</lang.scroll><!-- SYSTEM DEFAULT SCROLL SOUND -->

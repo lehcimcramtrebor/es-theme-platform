@@ -3,7 +3,7 @@
 
 <!---------- loops fix ---------->
 
-	<view name="basic, detailed, video, grid">
+	<view name="basic, detailed, video, grid, gamecarousel">
 
 	<video name="loop" extra="true">
 		<path>./../../../${system.theme}/${layout.loop.choice}_loop/loop.mp4</path>

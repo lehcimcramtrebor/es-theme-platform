@@ -54,7 +54,7 @@
 		
 	</view>
 
-	<view name="menu, system, basic, detailed, video, grid">
+	<view name="menu, system, basic, detailed, video, grid, gamecarousel">
 	
 	<helpsystem name="help">
 		<pos>0.015 0.978</pos>

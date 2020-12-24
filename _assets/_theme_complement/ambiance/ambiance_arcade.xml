@@ -22,7 +22,7 @@
 	
 	</view>
 	
-	<view name="basic, detailed, video, grid">
+	<view name="basic, detailed, video, grid, gamecarousel">
 
     <video name="coin" extra="true">
 	

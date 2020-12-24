@@ -6,7 +6,7 @@
 	
 <!---------- GRID ANIMATIONS ---------->
 
-		<view name="detailed, video, grid">
+		<view name="detailed, video, grid, gamecarousel">
 		
     <image name="logostatic" extra="true">
 

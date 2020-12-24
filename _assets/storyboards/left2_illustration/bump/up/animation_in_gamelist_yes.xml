@@ -4,7 +4,7 @@
 
 	<formatVersion>7</formatVersion>
 
-		<view name="basic, detailed, video, grid">
+		<view name="basic, detailed, video, grid, gamecarousel">
 		
 	<image name="leftillustration2" extra="true">
 
