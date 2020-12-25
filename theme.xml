@@ -167,6 +167,9 @@ author: Lehcim Cram Trebor
 		<x.gamecarousel.pos>-0.035 0</x.gamecarousel.pos>
 		<x.gamecarousel.logoRotation>-4.5</x.gamecarousel.logoRotation>
 		<x.gamecarousel.logoRotationOrigin>-6 0.5</x.gamecarousel.logoRotationOrigin>
+		<x.back_gamecarousel.color>ffffff</x.back_gamecarousel.color>
+		<x.back_gamecarousel.colorEnd>ffffff</x.back_gamecarousel.colorEnd>
+		<x.back_gamecarousel.pos>0 -0.5</x.back_gamecarousel.pos>
 		
 		<!---------- Audio variables ---------->
 		<x.loop.audio>false</x.loop.audio>
@@ -2107,10 +2110,13 @@ author: Lehcim Cram Trebor
 
     <image name="back_gamecarousel" extra="true">
 		<path>./_assets/gamecarousel.png</path>
-		<size>1 1</size>
-		<pos>0 0</pos>
+		<size>1 2</size>
+		<pos>${x.back_gamecarousel.pos}</pos>
 		<zIndex>13</zIndex>
-	</image>
+		<color>${x.back_gamecarousel.color}</color>
+		<colorEnd>${x.back_gamecarousel.colorEnd}</colorEnd>
+		<gradientType>horizontal</gradientType>
+		</image>
 	
 	</view>
 
