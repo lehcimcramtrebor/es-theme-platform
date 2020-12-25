@@ -1,7 +1,14 @@
 <theme>
 <formatVersion>7</formatVersion>
 <variables>
-<x.gamecarousel.size>0.255 1</x.gamecarousel.size>
+
+<x.gamecarousel.size>0.29 1</x.gamecarousel.size>
+<x.gamecarousel.pos>-0.035 -0.37</x.gamecarousel.pos>
+<x.gamecarousel.logoRotation>-4.5</x.gamecarousel.logoRotation>
+<x.gamecarousel.logoRotationOrigin>-6 0.5</x.gamecarousel.logoRotationOrigin>
+<x.back_gamecarousel.color>ffffff</x.back_gamecarousel.color>
+<x.back_gamecarousel.colorEnd>00000000</x.back_gamecarousel.colorEnd>
+<x.back_gamecarousel.pos>0 -0.87</x.back_gamecarousel.pos>
 
 <x.frame.color>ffffff</x.frame.color>
 <skin.covers.fix>16x9</skin.covers.fix>
@@ -29,7 +36,13 @@
 </variables>
 
 <variables ifSubset="screen ratio:43">
-
+<x.gamecarousel.size>0.3 1</x.gamecarousel.size>
+<x.gamecarousel.pos>-0.015 -0.33</x.gamecarousel.pos>
+<x.gamecarousel.logoRotation>-4.5</x.gamecarousel.logoRotation>
+<x.gamecarousel.logoRotationOrigin>-6 0.5</x.gamecarousel.logoRotationOrigin>
+<x.back_gamecarousel.color>ffffff</x.back_gamecarousel.color>
+<x.back_gamecarousel.colorEnd>00000000</x.back_gamecarousel.colorEnd>
+<x.back_gamecarousel.pos>0 -0.83</x.back_gamecarousel.pos>
 <x.snap.pos>0.225 0.36</x.snap.pos>
 <x.snap.size>0.548 0.39</x.snap.size>
 <x.snapcenter.pos>0.501 0.554</x.snapcenter.pos>
