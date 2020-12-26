@@ -2083,6 +2083,13 @@ author: Lehcim Cram Trebor
 		<maxLogoCount>15</maxLogoCount>
 		<imageSource>${x.gamecarousel.imageSource}</imageSource>
 		<zIndex>48</zIndex>
+        <scrollSound>./_assets/scroll/${x.scroll.game.sound}.wav</scrollSound>
+        <scrollSound>./${system.theme}/${x.scroll.custom.sound}.wav</scrollSound>
+        <scrollSound>./${system.theme}/${x.scroll.custom.sound}.mp3</scrollSound>
+        <scrollSound>./${system.theme}/${x.scroll.custom.sound}.ogg</scrollSound>
+        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.wav</scrollSound>
+        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.mp3</scrollSound>
+        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.ogg</scrollSound>
     </gamecarousel>    
 
     <text name="gamecarouselLogoText">
