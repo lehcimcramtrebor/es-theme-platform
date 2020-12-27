@@ -121,7 +121,7 @@
 <!-- Animated covers (Left side): HIDE LEFT ILLUSTRATIONS IN SYSTEMVIEW BUT NOT IN GAMELIST -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_left.visible>boxes</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_left.visible>no</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 
 
@@ -129,7 +129,7 @@
 <!-- Animated covers (Right side): HIDE RIGHT  ILLUSTRATIONS -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_right.visible>boxes</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_right.visible>no</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 
 
@@ -150,7 +150,7 @@
 																																									
 <layout.left.zIndex>front</layout.left.zIndex> 					<!-- INDEX:		"behind", "front", see below. -->																				
 <layout.left.sizepos>portrait</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
-<layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.left.shift>95</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.left.color>default</layout.left.color>					<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.left.flip>no</layout.left.flip>							<!-- FLIP:		"yes" or "no", flip image horizontally. -->																																														
 <animation.left.property>ghost</animation.left.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "cd", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
@@ -163,9 +163,9 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.left.x.advanced>no</layout.left.x.advanced>			
+	<layout.left.x.advanced>yes</layout.left.x.advanced>			
 
-			<x.left.x>0.5</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.left.x>0.14</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
@@ -221,12 +221,12 @@
 <!--RIGHT illustration: ---------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.right.zIndex>behind</layout.right.zIndex>				<!-- INDEX:		"behind", "front", see below. -->																				
-<layout.right.sizepos>horizontal</layout.right.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
-<layout.right.shift>55</layout.right.shift>						<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<layout.right.zIndex>front</layout.right.zIndex>				<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.right.sizepos>portrait</layout.right.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<layout.right.shift>15</layout.right.shift>						<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.right.color>default</layout.right.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
-<layout.right.flip>no</layout.right.flip>						<!-- FLIP:		"yes" or "no", flip image horizontally. -->
-<animation.right.property>neon</animation.right.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "cd", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
+<layout.right.flip>yes</layout.right.flip>						<!-- FLIP:		"yes" or "no", flip image horizontally. -->
+<animation.right.property>nothing</animation.right.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "cd", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
 <animation.right.origin>side</animation.right.origin>			<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
 
 
@@ -236,21 +236,21 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.right.x.advanced>no</layout.right.x.advanced>			
+	<layout.right.x.advanced>yes</layout.right.x.advanced>			
 
-			<x.right.x>0.5</x.right.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.right.x>0.84</x.right.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.right.y.advanced>no</layout.right.y.advanced>
+	<layout.right.y.advanced>yes</layout.right.y.advanced>
 
-			<x.right.y>0.5</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
+			<x.right.y>0.7</x.right.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.right.size.overwrite>no</layout.right.size.overwrite>
+	<layout.right.size.overwrite>yes</layout.right.size.overwrite>
 	
-			<layout.right.size>1</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh). -->
+			<layout.right.size>6</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh). -->
 
 
 
@@ -296,8 +296,8 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
 <layout.back_left.shift>55</layout.back_left.shift>				<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
-<layout.back_left.color>fade</layout.back_left.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
-<layout.back_left.flip>no</layout.back_left.flip>				<!-- FLIP:		"yes" or "no", flip image horizontally. -->
+<layout.back_left.color>bottom</layout.back_left.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
+<layout.back_left.flip>yes</layout.back_left.flip>				<!-- FLIP:		"yes" or "no", flip image horizontally. -->
 <animation.back_left.choice>yes</animation.back_left.choice>	<!-- ANIMATION:	"yes" by default, can be turned "off", run non mofifiable animation of background illustrations. -->
 
 
@@ -320,8 +320,8 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
 <layout.back_right.shift>55</layout.back_right.shift>			<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
-<layout.back_right.color>fade</layout.back_right.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
-<layout.back_right.flip>yes</layout.back_right.flip>			<!-- FLIP:		"yes" or "no", flip image horizontally. -->
+<layout.back_right.color>bottom</layout.back_right.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
+<layout.back_right.flip>no</layout.back_right.flip>			<!-- FLIP:		"yes" or "no", flip image horizontally. -->
 <animation.back_right.choice>yes</animation.back_right.choice>	<!-- ANIMATION:	"yes" by default, can be turned "off", run non mofifiable animation of background illustrations. -->
 
 
@@ -340,11 +340,11 @@
 
 <layout.label.style>rounded</layout.label.style>				<!-- STYLE: "square" (no direction), "rounded", "comic", "cloud", "circle", "xplose", "electric", "nintendo" . -->
 
-<layout.label.direction>down</layout.label.direction>			<!-- DIRECTION: Where the lyrics come from. -->
+<layout.label.direction>up</layout.label.direction>			<!-- DIRECTION: Where the lyrics come from. -->
 
-<x.label.x>0.3</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<x.label.x>0.1</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
-<x.label.y>0.15</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
+<x.label.y>0.55</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
 
 
 <!-- ENTER HERE SYSTEM INFORMATIONS -->
