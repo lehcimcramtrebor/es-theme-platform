@@ -121,7 +121,7 @@
 <!-- Animated covers (Left side): HIDE LEFT ILLUSTRATIONS IN SYSTEMVIEW BUT NOT IN GAMELIST -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_left.visible>boxes</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_left.visible>no</layout.covers_left.visible>		<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 
 
@@ -129,7 +129,7 @@
 <!-- Animated covers (Right side): HIDE RIGHT  ILLUSTRATIONS -->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<layout.covers_right.visible>boxes</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
+<layout.covers_right.visible>no</layout.covers_right.visible>	<!-- COVERS:	"boxes", "marquees",  "screenshots"  or "no". -->
 
 
 
@@ -221,13 +221,13 @@
 <!--RIGHT illustration: ---------------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
-<layout.right.zIndex>behind</layout.right.zIndex>				<!-- INDEX:		"behind", "front", see below. -->																				
-<layout.right.sizepos>horizontal</layout.right.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
+<layout.right.zIndex>front</layout.right.zIndex>				<!-- INDEX:		"behind", "front", see below. -->																				
+<layout.right.sizepos>portrait</layout.right.sizepos>			<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
 <layout.right.shift>55</layout.right.shift>						<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 <layout.right.color>default</layout.right.color>				<!-- COLOR:		"default", "reflexion", "bottom", "side","side-soft", "transparent", "translucid", "fade", see below. -->			
 <layout.right.flip>no</layout.right.flip>						<!-- FLIP:		"yes" or "no", flip image horizontally. -->
-<animation.right.property>neon</animation.right.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "cd", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
-<animation.right.origin>side</animation.right.origin>			<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
+<animation.right.property>nothing</animation.right.property>		<!-- ANIMATION:	"neon", "ghost", "nothing", "roll", "antiroll", "cd", "elevator", "roundtrip", "cupboard", "strobe", "tilt", "bigtilt", "crazy", "bigcrazy", "shake", "bump", "bigbump", "scale", "rotation" or "cave" for all views. -->
+<animation.right.origin>down</animation.right.origin>			<!-- ORIGIN:	"side", "up" or "down", for systemview only, origin of the illustrations on the screen. -->
 
 
 <!-------------------------------------------------------------->																																														
@@ -296,7 +296,7 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->																																														
 																																									
 <layout.back_left.shift>55</layout.back_left.shift>				<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
-<layout.back_left.color>fade</layout.back_left.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
+<layout.back_left.color>bottom</layout.back_left.color>			<!-- COLOR:		"default", "reflexion", "bottom", "transparent", "translucid", "fade", see below. -->																																																
 <layout.back_left.flip>no</layout.back_left.flip>				<!-- FLIP:		"yes" or "no", flip image horizontally. -->
 <animation.back_left.choice>yes</animation.back_left.choice>	<!-- ANIMATION:	"yes" by default, can be turned "off", run non mofifiable animation of background illustrations. -->
 
