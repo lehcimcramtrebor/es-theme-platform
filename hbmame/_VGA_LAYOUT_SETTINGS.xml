@@ -62,8 +62,8 @@
 <!-----------------------LEFT----------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--LEFT illustration SHIFTING: --DESACTIVED>																																									
-<layout.left.shift>55</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<!--LEFT illustration SHIFTING: -->																																									
+<layout.left.shift>67</layout.left.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--LEFT illustration LAYOUT: --DESACTIVED>																																									
 <layout.left.sizepos>square</layout.left.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
@@ -89,7 +89,7 @@
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.left.size.overwrite>no</layout.left.size.overwrite>
+	<layout.left.size.overwrite>yes</layout.left.size.overwrite>
 	
 			<layout.left.size>7</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
@@ -149,8 +149,8 @@
 <!-----------------------RIGHT---------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--RIGHT illustration SHIFTING: --DESACTIVED>																																									
-<layout.right.shift>55</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<!--RIGHT illustration SHIFTING: -->																																									
+<layout.right.shift>49</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--RIGHT illustration LAYOUT: --DESACTIVED>																																									
 <layout.right.sizepos>square</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
@@ -176,9 +176,9 @@
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.right.size.overwrite>no</layout.right.size.overwrite>
+	<layout.right.size.overwrite>yes</layout.right.size.overwrite>
 	
-			<layout.right.size>7</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.right.size>5</layout.right.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
 <!-------------------------VISIBLE------------------------------>
 
