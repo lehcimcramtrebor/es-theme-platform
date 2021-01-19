@@ -2164,7 +2164,7 @@ author: Lehcim Cram Trebor
 		<color>FFFFFF80</color>
 		<activityColor>A0A0FFC0</activityColor>
 		<hotkeyColor>FFA0A0C0</hotkeyColor>
-		<zIndex>900</zIndex>
+		<zIndex>9000</zIndex>
 	</controllerActivity>
 
 	<batteryIndicator name="batteryIndicator">
@@ -2177,7 +2177,7 @@ author: Lehcim Cram Trebor
 		<at25>./_assets/battery/25.svg</at25>
 		<empty>./_assets/battery/empty.svg</empty>
 		<color>FFFFFFA0</color>
-		<zIndex>900</zIndex>
+		<zIndex>9000</zIndex>
 	</batteryIndicator>
 
 	</view>
