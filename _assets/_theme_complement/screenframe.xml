@@ -52,6 +52,14 @@
 		
 		</image>
 		
+	<controllerActivity name="controllerActivity" ifSubset="screenFrame:screenGlassLight|screenGlassMedium|screenGlassStrong|frameOnly">
+		<pos>0.018 0.023</pos>
+	</controllerActivity>
+
+	<batteryIndicator name="batteryIndicator" ifSubset="screenFrame:screenGlassLight|screenGlassMedium|screenGlassStrong|frameOnly">
+		<pos>0.95 0.023</pos>
+	</batteryIndicator>
+	
 	</view>
 
 	<view name="menu, system, basic, detailed, video, grid, gamecarousel">
