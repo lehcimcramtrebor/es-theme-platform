@@ -4,7 +4,7 @@
 
 <x.gamecarousel.size>0.20 1</x.gamecarousel.size>
 <x.gamecarousel.pos>-0.015 -0.41</x.gamecarousel.pos>
-<x.gamecarousel.logoRotation>-4.5</x.gamecarousel.logoRotation>
+<x.gamecarousel.logoRotation>4.5</x.gamecarousel.logoRotation>
 <x.gamecarousel.logoRotationOrigin>-6 0.5</x.gamecarousel.logoRotationOrigin>
 <x.back_gamecarousel.color>ffffff</x.back_gamecarousel.color>
 <x.back_gamecarousel.colorEnd>00000000</x.back_gamecarousel.colorEnd>
@@ -44,7 +44,7 @@
 <variables ifSubset="screen ratio:43">
 <x.gamecarousel.size>0.3 1</x.gamecarousel.size>
 <x.gamecarousel.pos>-0.015 -0.38</x.gamecarousel.pos>
-<x.gamecarousel.logoRotation>-4.5</x.gamecarousel.logoRotation>
+<x.gamecarousel.logoRotation>4.5</x.gamecarousel.logoRotation>
 <x.gamecarousel.logoRotationOrigin>-6 0.5</x.gamecarousel.logoRotationOrigin>
 <x.back_gamecarousel.color>ffffff</x.back_gamecarousel.color>
 <x.back_gamecarousel.colorEnd>00000000</x.back_gamecarousel.colorEnd>
