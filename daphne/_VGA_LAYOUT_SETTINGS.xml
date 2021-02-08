@@ -89,9 +89,9 @@
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.left.size.overwrite>no</layout.left.size.overwrite>
+	<layout.left.size.overwrite>yes</layout.left.size.overwrite>
 	
-			<layout.left.size>7</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.left.size>8</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
 <!-------------------------VISIBLE------------------------------>
 
@@ -134,7 +134,7 @@
 	
 	<layout.left2.size.overwrite>no</layout.left2.size.overwrite>
 	
-			<layout.left2.size>7</layout.left2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
+			<layout.left2.size>8</layout.left2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
 <!-------------------------VISIBLE------------------------------>
 
@@ -149,8 +149,8 @@
 <!-----------------------RIGHT---------------------------------->
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--RIGHT illustration SHIFTING: --DESACTIVED>																																									
-<layout.right.shift>55</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
+<!--RIGHT illustration SHIFTING: -->																																									
+<layout.right.shift>48</layout.right.shift>						<!-- SHIFTING: 	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below. -->	
 
 <!--RIGHT illustration LAYOUT: --DESACTIVED>																																									
 <layout.right.sizepos>square</layout.right.sizepos>				<!-- LAYOUTS: 	"square", "high", "horizontal", "vertical", "big", "max", "half", "portrait", see below. -->									
@@ -237,8 +237,8 @@
 <!----------------------BACK LEFT------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!--BACK LEFT illustration: --DESACTIVED>																																									
-<layout.back_left.shift>55</layout.back_left.shift>				<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
+<!--BACK LEFT illustration: -->																																									
+<layout.back_left.shift>45</layout.back_left.shift>				<!-- SHIFTING:	2 numbers, only 1-9, first is horizontal shift, second is vertical shift, 55 is default (center), see below.-->	
 
 
 <layout.back_left.visible>yes</layout.back_left.visible>		<!-- VISIBLE: visible by default, you can delete an illustration on VGA Display to save space.
@@ -278,11 +278,11 @@
 <!------------------------------------------------------------------------LABEL VGA POSITIONNING------------------------------------------------------------------------------------------------>
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<!----DESACTIVED>
-<x.label.x>0.115</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
+<!---->
+<x.label.x>0.36</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
-<!----DESACTIVED>
-<x.label.y>0.5</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
+<!---->
+<x.label.y>0.4</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
 
 
 
