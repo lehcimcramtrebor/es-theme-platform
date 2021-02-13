@@ -2,6 +2,8 @@
 <formatVersion>7</formatVersion>
 <variables>
 <x.gamecarousel.size>0.35 1</x.gamecarousel.size>
+<x.grid.autoLayout>2 2</x.grid.autoLayout>
+<x.gamegrid.padding>0.1 0.01 0.1 0.01</x.gamegrid.padding>
 
 <x.frame.color>ffffff</x.frame.color>
 <x.controller.visible>true</x.controller.visible>
