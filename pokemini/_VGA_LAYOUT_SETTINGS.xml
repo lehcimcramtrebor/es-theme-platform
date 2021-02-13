@@ -89,7 +89,7 @@
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.left.size.overwrite>no</layout.left.size.overwrite>
+	<layout.left.size.overwrite>yes</layout.left.size.overwrite>
 	
 			<layout.left.size>7</layout.left.size>				<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
