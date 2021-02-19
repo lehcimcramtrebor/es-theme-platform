@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<include>./_covers.xml</include>
+  <view name="system">
+	<image name="box4, box5, box6" extra="true">
+      <path>{random:marquee}</path>
+	</image>
+    <image name="box4" extra="true">
+      <pos>0.158 0.15</pos>
+    </image>
+    <image name="box5" extra="true">
+      <pos>0.158 0.5</pos>
+    </image>
+    <image name="box6" extra="true">
+      <pos>0.158 0.85</pos>
+    </image>
+	</view>
+</theme>
