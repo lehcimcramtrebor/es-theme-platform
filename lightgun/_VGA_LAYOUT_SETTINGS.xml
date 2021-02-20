@@ -77,13 +77,13 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.left.x.advanced>no</layout.left.x.advanced>			
+	<layout.left.x.advanced>yes</layout.left.x.advanced>			
 
-			<x.left.x>0.5</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.left.x>0.11</x.left.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.left.y.advanced>no</layout.left.y.advanced>
+	<layout.left.y.advanced>yes</layout.left.y.advanced>
 
 			<x.left.y>0.5</x.left.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
@@ -120,19 +120,19 @@
 
 	<!---------------------HORIZONTAL----------------->
 
-	<layout.left2.x.advanced>no</layout.left2.x.advanced>			
+	<layout.left2.x.advanced>yes</layout.left2.x.advanced>			
 
-			<x.left2.x>0.5</x.left2.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
+			<x.left2.x>0.11</x.left2.x>							<!-- X: OVERWRITE POSITION BY <x> FUNCTION. -->
 
 	<!---------------------VERTICAL------------------->
 	
-	<layout.left2.y.advanced>no</layout.left2.y.advanced>
+	<layout.left2.y.advanced>yes</layout.left2.y.advanced>
 
 			<x.left2.y>0.5</x.left2.y>							<!-- Y: OVERWRITE POSITION BY <y> FUNCTION. -->
 
 	<!---------------------SIZE----------------------->
 	
-	<layout.left2.size.overwrite>no</layout.left2.size.overwrite>
+	<layout.left2.size.overwrite>yes</layout.left2.size.overwrite>
 	
 			<layout.left2.size>7</layout.left2.size>			<!-- SIZE OVERWRITE: "1" to "10", OVERWRITE SIZE from "1" (1/10e screen heigh) to "10" (10/10e screen heigh).
 
@@ -281,8 +281,8 @@
 <!----DESACTIVED>
 <x.label.x>0.115</x.label.x>										<!-- X: Horizontal label position on entire screen, from "0" to"1" -->
 
-<!----DESACTIVED>
-<x.label.y>0.5</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
+<!---->
+<x.label.y>0.3</x.label.y>										<!-- Y: Vertical label position on entire screen, from "0" to "1" -->
 
 
 
