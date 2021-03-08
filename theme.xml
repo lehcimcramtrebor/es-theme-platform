@@ -1701,7 +1701,7 @@ author: Lehcim Cram Trebor
     <image name="crt_frame" extra="true">
 		<pos>${x.snapcenter.pos}</pos>
 		<size>${x.back.size}</size>
-		<origin>0.5 0.5.</origin>
+		<origin>0.5 0.5</origin>
 		<path>./_assets/crt.png</path>
 		<color>FFFFFF90</color>
 		<tile>true</tile>
