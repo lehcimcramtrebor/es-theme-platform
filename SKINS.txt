@@ -88,6 +88,7 @@ Here you find all available skins you can use by enter folder name between these
 19/02/2021  21:25    <DIR>          sf1
 19/02/2021  21:25    <DIR>          shot169
 19/02/2021  21:25    <DIR>          shot43
+19/02/2021  21:25    <DIR>          supervision
 19/02/2021  21:25    <DIR>          switch
 19/02/2021  21:25    <DIR>          taito-blue
 19/02/2021  21:25    <DIR>          taito-brown
