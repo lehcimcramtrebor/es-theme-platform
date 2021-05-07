@@ -14,6 +14,15 @@
 		
 	</image>
 
+	<image name="background" extra="true" ifSubset="carousel:wheelLeft">
+
+		<storyboard>
+        		<animation property="opacity" from="1" to="1" begin="0" duration="300" mode="linear"/> 
+        		<animation property="y" to="-0.5" autoreverse="true" repeat="forever" begin="0" duration="30000" mode="easyInOut"/>
+		</storyboard>
+		
+	</image>
+	
 	</view>
 
 	<view name="basic, detailed, video, grid, gamecarousel">

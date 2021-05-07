@@ -2,6 +2,8 @@
 <formatVersion>7</formatVersion>
 <variables>
 
+<x.carouselCharacter.pos>0.62 0.5</x.carouselCharacter.pos>
+
 <x.gamecarousel.size>0.45 1</x.gamecarousel.size>
 
 <x.grid.autoLayout>2 2</x.grid.autoLayout>

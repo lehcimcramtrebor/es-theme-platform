@@ -87,6 +87,9 @@
 		<lang.glassLight>only glass (light)</lang.glassLight>
 		<lang.glassMedium>only glass (medium)</lang.glassMedium>
 		<lang.glassStrong>only glass (strong)</lang.glassStrong>
+		<lang.carousel>carousel</lang.carousel>
+		<lang.wheelLeft>wheel</lang.wheelLeft>
+		<lang.gameEvent>anime gamelist events</lang.gameEvent>
 		
 		<label.manufacturer>Manufacturer</label.manufacturer>
 		<label.releasedyear>Released year</label.releasedyear>

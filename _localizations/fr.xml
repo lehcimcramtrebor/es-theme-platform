@@ -95,6 +95,9 @@
 		<lang.glassLight lang="fr">vitre seulement (léger)</lang.glassLight>
 		<lang.glassMedium lang="fr">vitre seulement (moyen)</lang.glassMedium>
 		<lang.glassStrong lang="fr">vitre seulement (fort)</lang.glassStrong>
+		<lang.carousel>carrousel</lang.carousel>
+		<lang.wheelLeft>roue</lang.wheelLeft>
+		<lang.gameEvent>animer les évènements des gamelists</lang.gameEvent>
 		
 		<label.manufacturer lang="fr">Fabriquant</label.manufacturer><!--  MANUFACTURER -->
 		<label.releasedyear lang="fr">Sortie</label.releasedyear><!--  RELEASED -->
