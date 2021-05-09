@@ -90,6 +90,7 @@
 		<lang.carousel>carousel</lang.carousel>
 		<lang.wheelLeft>wheel</lang.wheelLeft>
 		<lang.gameEvent>anime gamelist events</lang.gameEvent>
+		<lang.gamebar>display game bar</lang.gamebar>
 		
 		<label.manufacturer>Manufacturer</label.manufacturer>
 		<label.releasedyear>Released year</label.releasedyear>

@@ -98,6 +98,7 @@
 		<lang.carousel>carrousel</lang.carousel>
 		<lang.wheelLeft>roue</lang.wheelLeft>
 		<lang.gameEvent>animer les évènements des gamelists</lang.gameEvent>
+		<lang.gamebar>afficher la barre de jeu</lang.gamebar>
 		
 		<label.manufacturer lang="fr">Fabriquant</label.manufacturer><!--  MANUFACTURER -->
 		<label.releasedyear lang="fr">Sortie</label.releasedyear><!--  RELEASED -->
