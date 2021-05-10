@@ -147,16 +147,15 @@
 <control name="md_notkidgame,md_kidgame,md_nosavestate,md_savestate,md_savestateExtra,md_nomanual,md_manual,md_cheevos,md_notcheevos,md_cheevosExtra,md_flag,md_hidden,md_hiddenExtra,md_players,gamebar">
 <storyboard event="open">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-<animation property="offsetY" from="-0.3" duration="200" mode="linear"/>
-<animation property="offsetY" to="-0.3" duration="200" mode="linear" begin="3000"/>
+<animation property="offsetY" to="-0.15" duration="600" mode="easeIn" begin="3000"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-<animation property="offsetY" to="-0.3" duration="200" mode="linear" begin="3000"/>
+<animation property="offsetY" to="-0.15" duration="600" mode="easeIn" begin="3000"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-<animation property="offsetY" to="-0.3" duration="200" mode="linear" begin="3000"/>
+<animation property="offsetY" to="-0.15" duration="600" mode="easeIn" begin="3000"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" to="0" duration="1" mode="easeOut"/>

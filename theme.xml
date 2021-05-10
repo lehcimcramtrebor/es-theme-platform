@@ -2410,7 +2410,7 @@ author: Lehcim Cram Trebor
 
 	<subset name="gamebar" displayName="${lang.gamebar}" appliesTo="system,basic,detailed,video,grid,gamecarousel">
 
-		<include name="yes" displayName="${lang.yes}">./_assets/variables/gamebar.xml</include>
+		<include name="yes" displayName="${lang.yes}">./_assets/_theme_complement/gamebar.xml</include>
 		<include name="no" displayName="${lang.no}"/>
 
 	</subset>
