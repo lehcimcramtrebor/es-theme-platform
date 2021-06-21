@@ -2,11 +2,6 @@ In each system folder, you can customize your theme illustrations and positionni
 
 IMPORTANT: 
 
-You can duplicate a theme folder and add "_alt", for examples: "mame_alt", "snes_alt", "wonderswancolor_alt" etc..
-If an alternative version exists, Emulationstation will use it. So you can modify, test and if you are not satisfied, delete your "_alt" folder.
-If you are satisfied you can delete original folder and rename your or use both.
-
-
 ADDING CUSTOM ARTWORKS:
 
 

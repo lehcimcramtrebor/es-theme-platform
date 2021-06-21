@@ -326,9 +326,7 @@ author: Lehcim Cram Trebor
 <!---------- Systems layout---------->
 
 	<include>./${system.theme}/_LAYOUT_SETTINGS.xml</include>
-	<include>./${system.theme}_alt/_LAYOUT_SETTINGS.xml</include>
 	<include>./${system.theme}/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
-	<include>./${system.theme}_alt/_${layout.vga.settings}_LAYOUT_SETTINGS.xml</include>
 
 
 
@@ -620,7 +618,6 @@ author: Lehcim Cram Trebor
 <!---------- Include specific Settings variables  ---------->
 
 	<include>./${system.theme}/specifics/_SYSTEM_THEME_SETTINGS.xml</include>
-	<include>./${system.theme}_alt/specifics/_SYSTEM_THEME_SETTINGS.xml</include>
 	<include>./_assets/variables/specifics/${system.theme}.xml</include>
 
 <!---------- Subsets background animation ---------->
@@ -878,8 +875,6 @@ author: Lehcim Cram Trebor
 	<sound name="bgsound">		
 		<path>./${system.theme}/music/music.mp3</path>
 		<path>./${system.theme}/music/music.ogg</path>
-		<path>./${system.theme}_alt/music/music.mp3</path>
-		<path>./${system.theme}_alt/music/music.ogg</path>
 	</sound>
 		
 	<image name="static_background" extra="true">
@@ -891,10 +886,6 @@ author: Lehcim Cram Trebor
 		<path>./${system.theme}/custom_logo/logo.svg</path>
 		<path>./${system.theme}/custom_logo/logo-${lang}.png</path>
 		<path>./${system.theme}/custom_logo/logo-${lang}.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo-${lang}.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo-${lang}.svg</path>
 		<tile>false</tile>
 		<origin>0.5 0</origin>
 		<pos>0.5 0</pos>
@@ -911,8 +902,6 @@ author: Lehcim Cram Trebor
 		<path>./_assets/logos/us/${system.theme}.svg</path>
 		<path>./${system.theme}/custom_logo/logo_us.png</path>
 		<path>./${system.theme}/custom_logo/logo_us.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo_us.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo_us.svg</path>
 	</image>
 		
 	<image name="static_background" region="jp" extra="true">
@@ -920,8 +909,6 @@ author: Lehcim Cram Trebor
 		<path>./_assets/logos/jp/${system.theme}.svg</path>
 		<path>./${system.theme}/custom_logo/logo_jp.png</path>
 		<path>./${system.theme}/custom_logo/logo_jp.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo_jp.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo_jp.svg</path>
 	</image>
 	
 <!---------- Carousel --------->
@@ -1010,10 +997,6 @@ author: Lehcim Cram Trebor
 		<path>./${system.theme}/custom_logo/logo.svg</path>
 		<path>./${system.theme}/custom_logo/logo-${lang}.png</path>
 		<path>./${system.theme}/custom_logo/logo-${lang}.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo-${lang}.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo-${lang}.svg</path>
 	</image>
 	
     <image name="logo" region="eu"></image>
@@ -1023,8 +1006,6 @@ author: Lehcim Cram Trebor
 		<path>./_assets/logos/us/${system.theme}.svg</path>
 		<path>./${system.theme}/custom_logo/logo_us.png</path>
 		<path>./${system.theme}/custom_logo/logo_us.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo_us.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo_us.svg</path>
 	</image>
 		
 	<image name="logo" region="jp">
@@ -1032,8 +1013,6 @@ author: Lehcim Cram Trebor
 		<path>./_assets/logos/jp/${system.theme}.svg</path>
 		<path>./${system.theme}/custom_logo/logo_jp.png</path>
 		<path>./${system.theme}/custom_logo/logo_jp.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo_jp.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo_jp.svg</path>
 	</image>
 
 
@@ -1078,9 +1057,7 @@ author: Lehcim Cram Trebor
 	<video name="backgroundvideo" extra="true">
 		<path>{random}</path>
 		<path>./${system.theme}/snap/snap.mp4</path>                 		
-		<path>./${system.theme}/snap/snap-${lang}.mp4</path>                 		
-		<path>./${system.theme}_alt/snap/snap.mp4</path>                 		
-		<path>./${system.theme}_alt/snap/snap-${lang}.mp4</path>                 		
+		<path>./${system.theme}/snap/snap-${lang}.mp4</path>                 		                 		
 		<origin>0.5 0.5</origin>
 		<pos>${x.snapcenter.pos}</pos>
 		<size>${x.snap.size}</size>
@@ -1104,7 +1081,6 @@ author: Lehcim Cram Trebor
 		<path>./_assets/default_controller.png</path>
 		<path>./_assets/controllers/${system.theme}.png</path>
 		<path>./${system.theme}/custom_controller/controller.png</path>
-		<path>./${system.theme}_alt/custom_controller/controller.png</path>
 		<maxSize>0.19 0.33</maxSize>
 		<pos>${x.controller.pos}</pos>
 		<origin>1 1</origin>
@@ -1119,13 +1095,11 @@ author: Lehcim Cram Trebor
 	<image name="controller" extra="true" region="us">
 		<path>./_assets/controllers/us/${system.theme}.png</path>
 		<path>./${system.theme}/custom_controller/controller_us.png</path>
-		<path>./${system.theme}_alt/custom_controller/controller_us.png</path>		
 	</image>
 		
 	<image name="controller" extra="true" region="jp">
 		<path>./_assets/controllers/jp/${system.theme}.png</path>
 		<path>./${system.theme}/custom_controller/controller_jp.png</path>
-		<path>./${system.theme}_alt/custom_controller/controller_jp.png</path>		
 	</image>
 
 
@@ -1138,7 +1112,6 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
-		<path>./${system.theme}_alt/custom_easter_egg/egg.png</path>
 		<path>./${x.egg}.png</path>
 		<pos>0.35 2</pos>
 		<maxSize>0.25 0.25</maxSize>
@@ -1150,7 +1123,6 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
-		<path>./${system.theme}_alt/custom_easter_egg/egg.png</path>
 		<path>./${x.egg}.png</path>
 		<pos>-1 0.35</pos>
 		<rotation>90</rotation>
@@ -1163,7 +1135,6 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
-		<path>./${system.theme}_alt/custom_easter_egg/egg.png</path>
 		<path>./${x.egg}.png</path>
 		<flipY>true</flipY>
 		<pos>0.65 -1</pos>
@@ -1176,7 +1147,6 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>	
 		<path>./_assets/default_egg.png</path>
 		<path>./${system.theme}/custom_easter_egg/egg.png</path>
-		<path>./${system.theme}_alt/custom_easter_egg/egg.png</path>
 		<path>./${x.egg}.png</path>
 		<pos>2 0.65</pos>
 		<rotation>-90</rotation>
@@ -1197,8 +1167,6 @@ author: Lehcim Cram Trebor
 		<path>./_assets/labels/label_${layout.label.style}_${layout.label.direction}.png</path>
 		<path>./${system.theme}/${layout.label.style}_label/label.png</path>
 		<path>./${system.theme}/${layout.label.style}_label/label_${layout.label.direction}.png</path>
-		<path>./${system.theme}_alt/${layout.label.style}_label/label.png</path>
-		<path>./${system.theme}_alt/${layout.label.style}_label/label_${layout.label.direction}.png</path>
 		<pos>-1 -1</pos>
 		<maxSize>99 0.5</maxSize>
 		<origin>0.5 0.5</origin>
@@ -1251,7 +1219,6 @@ author: Lehcim Cram Trebor
 	<image name="rightillustration_ghost2" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/right/art.png</path>
-		<path>./${system.theme}_alt/illustrations/right/art.png</path>
 		<maxSize>${x.right.maxSize}</maxSize>
 		<pos>${x.right.pos}</pos>
 		<origin>${x.right.origin}</origin>
@@ -1267,7 +1234,6 @@ author: Lehcim Cram Trebor
 	<image name="rightillustration_ghost1" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/right/art.png</path>
-		<path>./${system.theme}_alt/illustrations/right/art.png</path>
 		<maxSize>${x.right.maxSize}</maxSize>
 		<pos>${x.right.pos}</pos>
 		<origin>${x.right.origin}</origin>
@@ -1283,7 +1249,6 @@ author: Lehcim Cram Trebor
 	<image name="rightillustration" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/right/art.png</path>
-		<path>./${system.theme}_alt/illustrations/right/art.png</path>
 		<maxSize>${x.right.maxSize}</maxSize>
 		<pos>${x.right.pos}</pos>
 		<origin>${x.right.origin}</origin>
@@ -1300,12 +1265,10 @@ author: Lehcim Cram Trebor
 
     <image name="rightillustration_ghost2, rightillustration_ghost1, rightillustration" region="us" extra="true">
 		<path>./${system.theme}/illustrations/right/art_us.png</path>
-		<path>./${system.theme}_alt/illustrations/right/art_us.png</path>
 	</image>
 
     <image name="rightillustration_ghost2, rightillustration_ghost1, rightillustration" region="jp" extra="true">
 		<path>./${system.theme}/illustrations/right/art_jp.png</path>
-		<path>./${system.theme}_alt/illustrations/right/art_jp.png</path>
 	</image>
 			
 		
@@ -1314,7 +1277,6 @@ author: Lehcim Cram Trebor
 	<image name="rightillustration2_ghost2" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/right2/art.png</path>
-		<path>./${system.theme}_alt/illustrations/right2/art.png</path>
 		<maxSize>${x.right2.maxSize}</maxSize>
 		<pos>${x.right2.pos}</pos>
 		<origin>${x.right2.origin}</origin>
@@ -1330,7 +1292,6 @@ author: Lehcim Cram Trebor
 	<image name="rightillustration2_ghost1" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/right2/art.png</path>
-		<path>./${system.theme}_alt/illustrations/right2/art.png</path>
 		<maxSize>${x.right2.maxSize}</maxSize>
 		<pos>${x.right2.pos}</pos>
 		<origin>${x.right2.origin}</origin>
@@ -1346,7 +1307,6 @@ author: Lehcim Cram Trebor
 	<image name="rightillustration2" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/right2/art.png</path>
-		<path>./${system.theme}_alt/illustrations/right2/art.png</path>
 		<maxSize>${x.right2.maxSize}</maxSize>
 		<pos>${x.right2.pos}</pos>
 		<origin>${x.right2.origin}</origin>
@@ -1363,12 +1323,10 @@ author: Lehcim Cram Trebor
 
     <image name="rightillustration2_ghost2, rightillustration2_ghost1, rightillustration2" region="us" extra="true">
 		<path>./${system.theme}/illustrations/right2/art_us.png</path>
-		<path>./${system.theme}_alt/illustrations/right2/art_us.png</path>
 	</image>
 
     <image name="rightillustration2_ghost2, rightillustration2_ghost1, rightillustration2" region="jp" extra="true">
 		<path>./${system.theme}/illustrations/right2/art_jp.png</path>
-		<path>./${system.theme}_alt/illustrations/right2/art_jp.png</path>
 	</image>
 	
 	</view>
@@ -1398,11 +1356,7 @@ author: Lehcim Cram Trebor
 		<path>./${system.theme}/custom_logo/logo.png</path>
 		<path>./${system.theme}/custom_logo/logo.svg</path>
 		<path>./${system.theme}/custom_logo/logo-${lang}.png</path>
-		<path>./${system.theme}/custom_logo/logo-${lang}.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo-${lang}.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo-${lang}.svg</path>		
+		<path>./${system.theme}/custom_logo/logo-${lang}.svg</path>	
 	</image>
 
 	<image name="logostatic2" extra="true">
@@ -1418,8 +1372,6 @@ author: Lehcim Cram Trebor
 		<path>./_assets/logos/us/${system.theme}.svg</path>
 		<path>./${system.theme}/custom_logo/logo_us.png</path>
 		<path>./${system.theme}/custom_logo/logo_us.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo_us.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo_us.svg</path>
 	</image>
 		
 	<image name="logostatic, logostatic2" extra="true" region="jp">
@@ -1427,8 +1379,6 @@ author: Lehcim Cram Trebor
 		<path>./_assets/logos/jp/${system.theme}.svg</path>
 		<path>./${system.theme}/custom_logo/logo_jp.png</path>
 		<path>./${system.theme}/custom_logo/logo_jp.svg</path>
-		<path>./${system.theme}_alt/custom_logo/logo_jp.png</path>
-		<path>./${system.theme}_alt/custom_logo/logo_jp.svg</path>
 	</image>
 
 
@@ -1438,7 +1388,6 @@ author: Lehcim Cram Trebor
 	<image name="leftillustration_ghost2" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/left/art.png</path>
-		<path>./${system.theme}_alt/illustrations/left/art.png</path>
 		<maxSize>${x.left.maxSize}</maxSize>
 		<pos>${x.left.pos}</pos>
 		<origin>${x.left.origin}</origin>
@@ -1454,7 +1403,6 @@ author: Lehcim Cram Trebor
 	<image name="leftillustration_ghost1" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/left/art.png</path>
-		<path>./${system.theme}_alt/illustrations/left/art.png</path>
 		<maxSize>${x.left.maxSize}</maxSize>
 		<pos>${x.left.pos}</pos>
 		<origin>${x.left.origin}</origin>
@@ -1471,7 +1419,6 @@ author: Lehcim Cram Trebor
 		<linearSmooth>true</linearSmooth>
 		<path>./assets/left_default.png</path>
 		<path>./${system.theme}/illustrations/left/art.png</path>
-		<path>./${system.theme}_alt/illustrations/left/art.png</path>
 		<maxSize>${x.left.maxSize}</maxSize>
 		<pos>${x.left.pos}</pos>
 		<origin>${x.left.origin}</origin>
@@ -1488,12 +1435,10 @@ author: Lehcim Cram Trebor
 
     <image name="leftillustration_ghost2, leftillustration_ghost1, leftillustration" region="us" extra="true">
 		<path>./${system.theme}/illustrations/left/art_us.png</path>
-		<path>./${system.theme}_alt/illustrations/left/art_us.png</path>
 	</image>
 
     <image name="leftillustration_ghost2, leftillustration_ghost1, leftillustration" region="jp" extra="true">
 		<path>./${system.theme}/illustrations/left/art_jp.png</path>
-		<path>./${system.theme}_alt/illustrations/left/art_jp.png</path>
 	</image>
 
 
@@ -1502,7 +1447,6 @@ author: Lehcim Cram Trebor
 	<image name="leftillustration2_ghost2" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/left2/art.png</path>
-		<path>./${system.theme}_alt/illustrations/left2/art.png</path>
 		<maxSize>${x.left2.maxSize}</maxSize>
 		<pos>${x.left2.pos}</pos>
 		<origin>${x.left2.origin}</origin>
@@ -1518,7 +1462,6 @@ author: Lehcim Cram Trebor
 	<image name="leftillustration2_ghost1" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/left2/art.png</path>
-		<path>./${system.theme}_alt/illustrations/left2/art.png</path>
 		<maxSize>${x.left2.maxSize}</maxSize>
 		<pos>${x.left2.pos}</pos>
 		<origin>${x.left2.origin}</origin>
@@ -1534,7 +1477,6 @@ author: Lehcim Cram Trebor
 	<image name="leftillustration2" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/left2/art.png</path>
-		<path>./${system.theme}_alt/illustrations/left2/art.png</path>
 		<maxSize>${x.left2.maxSize}</maxSize>
 		<pos>${x.left2.pos}</pos>
 		<origin>${x.left2.origin}</origin>
@@ -1551,12 +1493,10 @@ author: Lehcim Cram Trebor
 
     <image name="leftillustration2_ghost2, leftillustration2_ghost1, leftillustration2" region="us" extra="true">
 		<path>./${system.theme}/illustrations/left2/art_us.png</path>
-		<path>./${system.theme}_alt/illustrations/left2/art_us.png</path>
 	</image>
 
     <image name="leftillustration2_ghost2, leftillustration2_ghost1, leftillustration2" region="jp" extra="true">
 		<path>./${system.theme}/illustrations/left2/art_jp.png</path>
-		<path>./${system.theme}_alt/illustrations/left2/art_jp.png</path>
 	</image>
 
 	
@@ -1565,7 +1505,6 @@ author: Lehcim Cram Trebor
 	<image name="backleftillustration" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/back_left/art.png</path>
-		<path>./${system.theme}_alt/illustrations/back_left/art.png</path>
 		<maxSize>99 1</maxSize>
 		<pos>0.2 0.5</pos>
 		<zIndex>7</zIndex>
@@ -1582,12 +1521,10 @@ author: Lehcim Cram Trebor
 
     <image name="backleftillustration" region="us" extra="true">
 		<path>./${system.theme}/illustrations/back_left/art_us.png</path>
-		<path>./${system.theme}_alt/illustrations/back_left/art_us.png</path>
 	</image>
 
     <image name="backleftillustration" region="jp" extra="true">
 		<path>./${system.theme}/illustrations/back_left/art_jp.png</path>
-		<path>./${system.theme}_alt/illustrations/back_left/art_jp.png</path>
 	</image>
 
 <!----------- Back Center Illustration ----------->
@@ -1595,7 +1532,6 @@ author: Lehcim Cram Trebor
 	<image name="backcenterillustration" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/back_center/art.png</path>
-		<path>./${system.theme}_alt/illustrations/back_center/art.png</path>
 		<maxSize>99 1</maxSize>
 		<pos>0.5 0.5</pos>
 		<zIndex>5</zIndex>
@@ -1612,12 +1548,10 @@ author: Lehcim Cram Trebor
 
     <image name="backcenterillustration" region="us" extra="true">
 		<path>./${system.theme}/illustrations/back_center/art_us.png</path>
-		<path>./${system.theme}_alt/illustrations/back_center/art_us.png</path>
 	</image>
 
     <image name="backcenterillustration" region="jp" extra="true">
 		<path>./${system.theme}/illustrations/back_center/art_jp.png</path>
-		<path>./${system.theme}_alt/illustrations/back_center/art_jp.png</path>
 	</image>
 
 <!----------- Back Right Illustration ----------->
@@ -1625,7 +1559,6 @@ author: Lehcim Cram Trebor
 	<image name="backrightillustration" extra="true">
 		<linearSmooth>true</linearSmooth>
 		<path>./${system.theme}/illustrations/back_right/art.png</path>
-		<path>./${system.theme}_alt/illustrations/back_right/art.png</path>
 		<maxSize>99 1</maxSize>
 		<pos>0.8 0.5</pos>
 		<zIndex>6</zIndex>
@@ -1643,12 +1576,10 @@ author: Lehcim Cram Trebor
 
     <image name="backrightillustration" region="us" extra="true">
 		<path>./${system.theme}/illustrations/back_right/art_us.png</path>
-		<path>./${system.theme}_alt/illustrations/back_right/art_us.png</path>
 	</image>
 
     <image name="backrightillustration" region="jp" extra="true">
 		<path>./${system.theme}/illustrations/back_right/art_jp.png</path>
-		<path>./${system.theme}_alt/illustrations/back_right/art_jp.png</path>
 	</image>
 
 			
@@ -1656,7 +1587,6 @@ author: Lehcim Cram Trebor
 		<path>./_assets/backgrounds/classic/under_construction.jpg</path>
 		<path>./_assets/backgrounds/classic/${system.theme}.jpg</path>
 		<path>./${system.theme}/custom_background/background.jpg</path>
-		<path>./${system.theme}_alt/custom_background/background.jpg</path>
 		<path>./_assets/backgrounds/full/${extra.background.choice}.jpg</path>
 		<path>./_assets/backgrounds/tiles/${extra.background.choice}.jpg</path>
 		<tile>${x.background.tile}</tile>
@@ -1679,9 +1609,7 @@ author: Lehcim Cram Trebor
 	<video name="loop" extra="true">
 		<path>./_assets/default_loops/${layout.loop.choice}.mp4</path>
 		<path>./${system.theme}/${layout.loop.choice}_loop/loop.mp4</path>
-		<path>./${system.theme}_alt/${layout.loop.choice}_loop/loop.mp4</path>
 		<path>./${system.theme}/${layout.loop.choice}/snap.mp4</path>
-		<path>./${system.theme}_alt/${layout.loop.choice}/snap.mp4</path>
 		<path>./${x.loop.unified}.mp4</path>
 		<effect>none</effect>		
 		<origin>0.5 0.5</origin>
@@ -2042,9 +1970,6 @@ author: Lehcim Cram Trebor
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.wav</scrollSound>
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.mp3</scrollSound>
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.ogg</scrollSound>
-        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.wav</scrollSound>
-        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.mp3</scrollSound>
-        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.ogg</scrollSound>
 		<zIndex>18</zIndex>
 		<lines>${x.gamelist.lines}</lines>
     </textlist>	  
@@ -2095,9 +2020,6 @@ author: Lehcim Cram Trebor
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.wav</scrollSound>
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.mp3</scrollSound>
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.ogg</scrollSound>
-        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.wav</scrollSound>
-        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.mp3</scrollSound>
-        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.ogg</scrollSound>
         <zIndex>18</zIndex>
     </imagegrid>
 
@@ -2153,9 +2075,6 @@ author: Lehcim Cram Trebor
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.wav</scrollSound>
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.mp3</scrollSound>
         <scrollSound>./${system.theme}/${x.scroll.custom.sound}.ogg</scrollSound>
-        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.wav</scrollSound>
-        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.mp3</scrollSound>
-        <scrollSound>./${system.theme}_alt/${x.scroll.custom.sound}.ogg</scrollSound>
     </gamecarousel>    
 
     <text name="gamecarouselLogoText">
@@ -2336,7 +2255,6 @@ author: Lehcim Cram Trebor
 <!---------- ADVANCED USERS OVERWRITE SPECIFICS --------->
 
 	<include>./${system.theme}/specifics/_ADVANCED_CUSTOM.xml</include>
-	<include>./${system.theme}_alt/specifics/_ADVANCED_CUSTOM.xml</include>
 	<include>./test.xml</include>
 
 <!---------- SKIN LINES FIX ---------->
