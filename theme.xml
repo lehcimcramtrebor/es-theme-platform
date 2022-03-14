@@ -8,7 +8,7 @@ author: Lehcim Cram Trebor
 <theme defaultView="grid">
 
 	<formatVersion>7</formatVersion>
-
+<include>./_support/support.xml</include>
 <!---------- Language ---------->
 
 	<include>./_localizations/default_en.xml</include>	
