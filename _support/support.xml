@@ -12,8 +12,14 @@ By Helmic
         <lang.pp.donation>support developers</lang.pp.donation>
         <lang.pp.donation lang="fr">soutenir les développeurs</lang.pp.donation>
 
-		<lang.pp.yes>yes</lang.pp.yes>
-		<lang.pp.yes lang="fr">oui</lang.pp.yes>
+		<lang.pp.themecreator>this theme creator</lang.pp.themecreator>
+		<lang.pp.themecreator lang="fr">le créateur de ce thème</lang.pp.themecreator>
+
+		<lang.pp.retrobat>retrobat</lang.pp.retrobat>
+
+		<lang.pp.batocera>batocera</lang.pp.batocera>
+
+		<lang.pp.amberelec>amberelec</lang.pp.amberelec>
 
 		<lang.pp.no>no</lang.pp.no>
 		<lang.pp.no lang="fr">non</lang.pp.no>
@@ -22,32 +28,28 @@ By Helmic
 
     <subset name="donation" displayName="${lang.pp.donation}">
 		<include name="no" displayName="${lang.pp.no}"/>
-        <include name="yes" displayName="${lang.pp.yes}"/>
+        <include name="retrobat" displayName="${lang.pp.retrobat}"/>
+        <include name="batocera" displayName="${lang.pp.batocera}"/>
+        <include name="amberelec" displayName="${lang.pp.amberelec}"/>
+        <include name="themecreator" displayName="${lang.pp.themecreator}"/>
     </subset>
 
     <view name="system">
 
 
-		<image name="donation" extra="true" ifSubset="donation:yes">
+		<image name="donation" extra="true" ifSubset="donation:retrobat|batocera|amberelec|themecreator">
 			<linearSmooth>true</linearSmooth>
-			<path ifNotArch="windows">./batocera.png</path>
-			<path ifArch="windows">./retrobat.png</path>
+			<path ifSubset="donation:batocera">./batocera.png</path>
+			<path ifSubset="donation:retrobat">./retrobat.png</path>
+			<path ifSubset="donation:amberelec">./amberelec.png</path>
+			<path ifSubset="donation:themecreator">./creator.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<maxSize>0.5 0.7</maxSize>
 			<zIndex>30000</zIndex>
 		</image>
-
-		<image name="donationHelmic" extra="true" ifSubset="donation:yes">
-			<linearSmooth>true</linearSmooth>
-			<path>./creator.png</path>
-			<origin>1 1</origin>
-			<pos>1 0.96</pos>
-			<maxSize>0.15 1</maxSize>
-			<zIndex>30000</zIndex>
-		</image>
   
-		<image name="donationFade" extra="true" ifSubset="donation:yes">
+		<image name="donationFade" extra="true"  ifSubset="donation:retrobat|batocera|amberelec|themecreator">
 			<path>./white.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
