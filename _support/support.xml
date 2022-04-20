@@ -32,9 +32,9 @@ By Helmic
 		<include name="no" displayName="${lang.pp.no}"/>
         <include name="retrobat" displayName="${lang.pp.retrobat}"/>
         <include name="batocera" displayName="${lang.pp.batocera}"/>
-        <include name="emuelec" displayName="${lang.pp.emuelec}"/>
+<!--        <include name="emuelec" displayName="${lang.pp.emuelec}"/>
         <include name="amberelec" displayName="${lang.pp.amberelec}"/>
-        <include name="themecreator" displayName="${lang.pp.themecreator}"/>
+-->        <include name="themecreator" displayName="${lang.pp.themecreator}"/>
     </subset>
 
     <view name="system">
