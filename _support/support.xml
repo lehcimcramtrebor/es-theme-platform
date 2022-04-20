@@ -19,6 +19,8 @@ By Helmic
 
 		<lang.pp.batocera>batocera</lang.pp.batocera>
 
+		<lang.pp.emuelec>emuelec</lang.pp.emuelec>
+
 		<lang.pp.amberelec>amberelec</lang.pp.amberelec>
 
 		<lang.pp.no>no</lang.pp.no>
@@ -30,6 +32,7 @@ By Helmic
 		<include name="no" displayName="${lang.pp.no}"/>
         <include name="retrobat" displayName="${lang.pp.retrobat}"/>
         <include name="batocera" displayName="${lang.pp.batocera}"/>
+        <include name="emuelec" displayName="${lang.pp.emuelec}"/>
         <include name="amberelec" displayName="${lang.pp.amberelec}"/>
         <include name="themecreator" displayName="${lang.pp.themecreator}"/>
     </subset>
@@ -37,10 +40,11 @@ By Helmic
     <view name="system">
 
 
-		<image name="donation" extra="true" ifSubset="donation:retrobat|batocera|amberelec|themecreator">
+		<image name="donation" extra="true" ifSubset="donation:retrobat|batocera|emuelec|amberelec|themecreator">
 			<linearSmooth>true</linearSmooth>
 			<path ifSubset="donation:batocera">./batocera.png</path>
 			<path ifSubset="donation:retrobat">./retrobat.png</path>
+			<path ifSubset="donation:emuelec">./emuelec.png</path>
 			<path ifSubset="donation:amberelec">./amberelec.png</path>
 			<path ifSubset="donation:themecreator">./creator.png</path>
 			<origin>0.5 0.5</origin>
@@ -49,7 +53,7 @@ By Helmic
 			<zIndex>30000</zIndex>
 		</image>
   
-		<image name="donationFade" extra="true"  ifSubset="donation:retrobat|batocera|amberelec|themecreator">
+		<image name="donationFade" extra="true"  ifSubset="donation:retrobat|batocera|emuelec|amberelec|themecreator">
 			<path>./white.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
