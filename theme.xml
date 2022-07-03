@@ -2146,6 +2146,7 @@ author: Lehcim Cram Trebor
 		<size>0.056666667 0.01666667</size>
 		<itemSpacing>0.003</itemSpacing>
 		<imagePath>./_assets/gamepad.svg</imagePath>
+		<gunPath>./_assets/gun.svg</gunPath>
 		<color>FFFFFF80</color>
 		<activityColor>A0A0FFC0</activityColor>
 		<hotkeyColor>FFA0A0C0</hotkeyColor>
