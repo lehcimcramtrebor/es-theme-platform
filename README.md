@@ -1,4 +1,6 @@
 # es-theme-platform
+# no longer maintained
+
 Hyper customizable and storyboarded theme for Retrobat / Batocera
 
 Loops backgrounds video from: https://royaltyfreetube.com/
